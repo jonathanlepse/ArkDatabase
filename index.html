@@ -40,7 +40,7 @@
 
         <script>
             $(document).ready(function() {
-                $.getJSON("municipalities.js", function (data) {
+                $.getJSON("municipalities_newyork_NassauCounty.json", function (data) {
                     var items = [];
                     $.each(data, function (key, val) {
                         items.push(printVal(val));
