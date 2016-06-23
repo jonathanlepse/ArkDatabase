@@ -5,163 +5,97 @@ var nodemailer = require('nodemailer');
 var CronJob = require('cron').CronJob;
 var fs = require('fs');
 var app = express();
+var rp = require('request-promise');
 
 
 app.get('/scrape', function (req, res) {
 
-    var $, scraped_data, url;
-    url = "http://ecode360.com/" + req.query.id;
+    //
+    var options = {
+        guid: req.query.id,
+        url: "http://ecode360.com/",
+        child_nodes: [],
+        content: null,
+        level: 0
+    };
 
+    request_data_for_chapter_at_index(options);
 
-    request(url, function (error, response, html) {
-        if (!error) {
-
-            $ = cheerio.load(html);
-
-
-            var text = [];
-            text.push("<table>");
-
-            $('.chapterTitle').each(function (i, elem) {
-
-                var $this_node = $(this);
-                var chapter_title = $this_node.find(".titleNumber").text();
-                var title_title = $this_node.find(".titleTitle").text();
-                var data_guid = $(this).attr("data-guid");
-
-
-                text.push("<tr>");
-
-                text.push("<td>");
-                text.push(chapter_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push(title_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push("<a href='http://ecode360.com/" + data_guid + "'>" + data_guid + "</a>");
-                text.push("</td>");
-
-                text.push("</tr>");
-            });
-            text.push("</table>");
-            var txtStr = text.join("");
-
-            res.send(txtStr);
-        }
-    });
+    return;
 });
 
-app.get('/scrapeChapter', function (req, res) {
 
-    var $, scraped_data, url;
-    url = "http://ecode360.com/" + req.query.id;
+/*
 
+ var context = {
+ guid:           id of the article
+ url:            base url - ecode
+ child_nodes:    child codes
+ content:        content if leaf
+ };
 
-    request(url, function (error, response, html) {
-        if (!error) {
+ */
 
-            $ = cheerio.load(html);
+function request_data_for_chapter_at_index(options) {
 
+    var url = options.url + options.guid;
+    rp(url).then(function (htmlString) {
+        var $ = cheerio.load(htmlString);
 
-            var text = [];
-            text.push("<table>");
+        // bar title is generic, it can lead to a list or it can have content below it.
+        // the way to differentiate is to check if the next node has content
+        $('.barTitle').each(function (i, elem) {
+            var current = $(this);
+            var next = current.next("div.content");
+            var title_number = current.find(".titleNumber").text();
+            var title_title = current.find(".titleTitle").text();
 
-            $('.sectionTitle').each(function (i, elem) {
+            var space_string = "";
+            for (var i = 0; i < options.level; i++) {
+                space_string += "   ";
+            }
 
-                var $this_node = $(this);
-                var chapter_title = $this_node.find(".titleNumber").text();
-                var title_title = $this_node.find(".titleTitle").text();
-                var data_guid = $(this).attr("data-guid");
+            if (next.length > 0) {
+                // leaf node
+                // console.log("has content");
+                var text = $(next.get(0)).html();
 
+                // copy it in
+                console.log(space_string + " " + title_number + " " + title_title);
+                console.log(space_string + text);
 
-                text.push("<tr>");
-
-                text.push("<td>");
-                text.push(chapter_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push(title_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push("<a href='http://ecode360.com/" + data_guid + "'>" + data_guid + "</a>");
-                text.push("</td>");
-
-                text.push("</tr>");
-            });
-            text.push("</table>");
-            var txtStr = text.join("");
-
-            res.send(txtStr);
-        }
-    });
-});
-
-app.get('/scrapeArticle', function (req, res) {
-
-    var $, scraped_data, url;
-    url = "http://ecode360.com/" + req.query.id;
+            } else {
+                // bar node
+                // bar node can be a link to a leaf node on the same page
+                // check to make sure the URL does not contain an pound sign
+                var link = current.find('.titleLink').get(0);
+                var href = $(link).attr("href");
 
 
-    request(url, function (error, response, html) {
-        if (!error) {
+                if (href.indexOf("#") > -1) {
+                    // ignore
 
-            $ = cheerio.load(html);
+                } else {
 
 
-            var text = [];
-            text.push("<table>");
 
-            $('.sectionTitle').each(function (i, elem) {
+                    // follow
+                    // create context object
+                    console.log(space_string + " " + title_number + " " + title_title);
+                    var new_options = {
+                        guid: href,
+                        url: options.url,
+                        child_nodes: [],
+                        content: null,
+                        level: options.level + 1
+                    };
 
-                var $this_node = $(this);
-                var chapter_title = $this_node.find(".titleNumber").text();
-                var title_title = $this_node.find(".titleTitle").text();
-
-                var id = $(this).attr("id");
-                var data_guid = $(this).attr("data-guid");
-                if(id != data_guid){
-                    console.log("skipping line " + id + " " + data_guid);
-                    return;
+                    request_data_for_chapter_at_index(new_options);
                 }
-
-                var $content_node = $this_node.next(".section_content");
-                var content_text = $content_node.html();
-
-
-                text.push("<tr>");
-
-                text.push("<td>");
-                text.push(chapter_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push(title_title);
-                text.push("</td>");
-
-                text.push("<td>");
-                text.push("<a href='http://ecode360.com/" + data_guid + "'>" + data_guid + "</a>");
-                text.push("</td>");
-
-                text.push("</tr>");
-                text.push("<tr>");
-
-                text.push("<td colspan='3' style='background-color: #d9d9d9'>");
-                text.push(content_text);
-                text.push("</td>");
-
-                text.push("</tr>");
-            });
-            text.push("</table>");
-            var txtStr = text.join("");
-
-            res.send(txtStr);
-        }
+            }
+        });
     });
-});
+}
+
 
 exports = module.exports = app;
