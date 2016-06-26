@@ -1,11 +1,9 @@
 var express = require('express');
 var request = require('request');
-var cheerio = require('cheerio');
-var nodemailer = require('nodemailer');
-var CronJob = require('cron').CronJob;
-var fs = require('fs');
-var app = express();
 var rp = require('request-promise');
+var cheerio = require('cheerio');
+var app = express();
+
 
 
 app.get('/scrape', function (req, res) {
