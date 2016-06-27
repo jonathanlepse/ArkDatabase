@@ -3,6 +3,16 @@ var request = require('request');
 var rp = require('request-promise');
 var cheerio = require('cheerio');
 var app = express();
+var mysql      = require('mysql');
+var connection = mysql.createConnection({
+    host     : '127.0.0.1',
+    user     : 'ross',
+    password : 'ross11',
+    database : 'arkdatasql',
+    port: 3306
+});
+
+connection.connect();
 
 
 
@@ -17,7 +27,7 @@ app.get('/scrape', function (req, res) {
         level: 0
     };
 
-    request_data_for_chapter_at_index(options);
+    // request_data_for_chapter_at_index(options);
 
     return;
 });

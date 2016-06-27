@@ -1,6 +1,8 @@
 =======================================
 RUNNING THE APP
 
+cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/
+
 cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/ |
 DEBUG=optionhouse:* npm start
 
