@@ -7,3 +7,59 @@ cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/ |
 DEBUG=optionhouse:* npm start
 
 might be needed: npm install
+
+
+
+
+CREATE TABLE counties (
+ id NOT NULL AUTO_INCREMENT,
+ name varchar
+)
+
+CREATE TABLE municipalities (
+ id int NOT NULL AUTO_INCREMENT,
+ name varchar,
+ county_id int,
+ url varchar,
+ guid varchar,
+ updated_on datetime,
+ PRIMARY KEY (id),
+ FOREIGN KEY (county_id) REFERENCES counties(id)
+)
+
+INSERT INTO counties (id, name) VALUES
+(1, "Nassau"),
+(2, "Suffolk")
+
+
+INSERT INTO municipalities (id, name, county_id, url, guid) VALUES
+(1, "Village of Atlantic Beach", 1, "http://ecode360.com/", "AT1401"),
+(2, "Village of Baxter Estates", 1, "http://ecode360.com/", "BA1157"),
+(3, "Village of Bayville", 1, "http://ecode360.com/", "BA0509"),
+(4, "Village of Bellerose", 1, "http://ecode360.com/", "BE0584"),
+(5, "Village of Cedarhurst", 1, "http://ecode360.com/", "CE1549"),
+(6, "Village of Centre Island", 1, "http://ecode360.com/", "CE1185"),
+(7, "Village of East Hills", 1, "http://ecode360.com/", "EA0847"),
+(8, "Village of East Rockaway", 1, "http://ecode360.com/", "EA0899"),
+(9, "Village of Farmingdale", 1, "http://ecode360.com/", "FA0311"),
+(10, "Village of Floral Park", 1, "http://ecode360.com/", "FL0046"),
+(11, "Village of Flower Hill", 1, "http://ecode360.com/", "FL0568"),
+(12, "Village of Freeport", 1, "http://ecode360.com/", "FR0651"),
+(13, "Village of Garden City", 1, "http://ecode360.com/", "GA0634"),
+(14, "City of Glen Cove", 1, "http://ecode360.com/", "GL1564"),
+(15, "Village of Great Neck", 1, "http://ecode360.com/", "GR0590"),
+(16, "Village of Great Neck Estates", 1, "http://ecode360.com/", "GR0716"),
+(17, "Village of Great Neck Plaza", 1, "http://ecode360.com/", "GR1040"),
+(18, "Town of Hempstead", 1, "http://ecode360.com/", "HE0207"),
+(19, "Village of Hempstead", 1, "http://ecode360.com/", "HE0909"),
+(20, "Town of Hempstead BZO", 1, "http://ecode360.com/", "HE0972"),
+(21, "Village of Hewlett Bay Park", 1, "http://ecode360.com/", "HE1222"),
+(22, "Village of Hewlett Harbor", 1, "http://ecode360.com/", "HE0942"),
+(23, "Village of Hewlett Neck", 1, "http://ecode360.com/", "HE1652"),
+(24, "Village of Kensington", 1, "http://ecode360.com/", "KE1161"),
+(25, "Village of Kings Point", 1, "http://ecode360.com/", "KI0771"),
+(26, "Village of Lake Success", 1, "http://ecode360.com/", "LA0844"),
+(27, "Village of Lattingtown", 1, "http://ecode360.com/", "LA2687"),
+(28, "Village of Laurel Hollow", 1, "http://ecode360.com/", "LA0693"),
+(29, "Village of Lawrence", 1, "http://ecode360.com/", "LA1034"),
+(30, "City of Long Beach", 1, "http://ecode360.com/", "LO2927")

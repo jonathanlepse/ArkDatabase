@@ -5,16 +5,66 @@ var cheerio = require('cheerio');
 var app = express();
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-    host     : '127.0.0.1',
+    host     : 'localhost',
     user     : 'ross',
-    password : 'ross11',
-    database : 'arkdatasql',
-    port: 3306
+    password : 'ross12',
+    database : 'arkdatasql'
 });
 
 connection.connect();
 
 
+app.get('/scrapeNY', function (req, res) {
+
+    rp("http://www.generalcode.com/ecode360/NY").then(function (htmlString) {
+        var $ = cheerio.load(htmlString);
+
+        var buff = [];
+        var count_of_all = 0;
+        var count_of_nassau = 0;
+        var count_of_suffolk = 0;
+        $('#content li').each(function (i, elem) {
+
+            var link = $(this).find("a").get(0);
+            var href = $(link).attr("href");
+
+            var text  = $(this).text();
+            text += "   " + href;
+
+            if(text.indexOf("(Nassau") > -1){
+                count_of_nassau++;
+                buff.push(text);
+                buff.push("<br/>");
+            }
+
+            if(text.indexOf("(Suffolk") > -1){
+                count_of_suffolk++;
+                buff.push(text);
+                buff.push("<br/>");
+            }
+
+            count_of_all++;
+
+        });
+
+        var str = buff.join("");
+
+        res.send(count_of_all + "  " + count_of_nassau + "  " + count_of_suffolk + "<br/>" + str);
+    });
+
+
+
+});
+
+app.get('/index', function (req, res) {
+    query = connection.query("SELECT * FROM municipalities;");
+    query.on('error', function(err) {
+            console.log( err );
+
+        }).on('result', function( data ) {
+            res.send(data);
+        });
+});
 
 app.get('/scrape', function (req, res) {
 
