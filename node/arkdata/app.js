@@ -14,15 +14,86 @@ var connection = mysql.createConnection({
 connection.connect();
 
 
+
+
+var arkdata = {};
+arkdata.Municipality = function($node){
+    var buff = [];
+    var around_para = $node.text().split("(");
+    var name = around_para[0];
+    var name_components = name.split(",");
+    var name_clean = name_components[0].replace("**", "");
+    buff.push(name_clean);
+    if(name_components.length > 1) {
+        var second_component_clean = name_components[1].replace("**", "");
+        buff.push("," + second_component_clean);
+        buff.push();
+    }
+
+    this.name = buff.join();
+    buff = [];
+
+    var url = $node.find("a").attr("href");
+    this.url = url;
+    this.county_id = null;
+};
+
+arkdata.Municipality.prototype.save = function(){
+    if(!this.url){
+
+        console.log("CAN'T SAVE WITHOUT URL");
+        return;
+    }
+
+    var that = this;
+    connection.query("SELECT * FROM municipalities WHERE url LIKE '" + this.url + "'", function(err, rows) {
+
+        if(rows.length == 1) {
+
+            console.log("MUNICIPALITY FOUND, UPDATING");
+
+
+            var row = rows[0];
+        } else if (rows.length == 0){
+            console.log("MUNICIPALITY NOT FOUND, CREATING NEW");
+            var query_str = "INSERT INTO municipalities (name, url, county_id) VALUES ('" + that.name + "','" + that.url + "'," + that.county_id + ")";
+            console.log(query_str);
+            connection.query(query_str, function(err, rows) {
+                if(err){
+                    console.log(err);
+                }
+            });
+
+
+
+        } else {
+            console.log("ERROR");
+        }
+    });
+};
+
+
+function make_municipality_row(obj){
+    var buff = [];
+    buff.push("<tr>");
+    buff.push("<td>");
+    buff.push(obj.name);
+    buff.push("</td>");
+    buff.push("<td>");
+    buff.push(obj.url);
+    buff.push("</td>");
+    buff.push("</tr>");
+    return buff.join("");
+}
+
 app.get('/scrapeNY', function (req, res) {
 
     rp("http://www.generalcode.com/ecode360/NY").then(function (htmlString) {
         var $ = cheerio.load(htmlString);
 
-        var buff = [];
-        var count_of_all = 0;
-        var count_of_nassau = 0;
-        var count_of_suffolk = 0;
+
+        var Nassau_nodes = [];
+        var Suffolk_nodes = [];
         $('#content li').each(function (i, elem) {
 
             var link = $(this).find("a").get(0);
@@ -32,24 +103,40 @@ app.get('/scrapeNY', function (req, res) {
             text += "   " + href;
 
             if(text.indexOf("(Nassau") > -1){
-                count_of_nassau++;
-                buff.push(text);
-                buff.push("<br/>");
+                Nassau_nodes.push($(this));
             }
 
             if(text.indexOf("(Suffolk") > -1){
-                count_of_suffolk++;
-                buff.push(text);
-                buff.push("<br/>");
+                Suffolk_nodes.push($(this));
             }
-
-            count_of_all++;
-
         });
+
+        var buff = [];
+        buff.push("<h2>Nassau (" + Nassau_nodes.length + ")</h2>");
+        buff.push("<table>");
+        for(var i = 0; i < Nassau_nodes.length; i++){
+            var $curr = Nassau_nodes[i];
+            var obj = new arkdata.Municipality($curr);
+            obj.county_id = 1;
+            obj.save();
+            buff.push(make_municipality_row(obj));
+        }
+        buff.push("</table>");
+
+        buff.push("<h2>Suffolk (" + Suffolk_nodes.length + ")</h2>");
+        buff.push("<table>");
+        for(var i = 0; i < Suffolk_nodes.length; i++){
+            var $curr = Suffolk_nodes[i];
+            var obj = new arkdata.Municipality($curr);
+            obj.county_id = 2;
+            obj.save();
+            buff.push(make_municipality_row(obj));
+        }
+        buff.push("</table>");
 
         var str = buff.join("");
 
-        res.send(count_of_all + "  " + count_of_nassau + "  " + count_of_suffolk + "<br/>" + str);
+        res.send(str);
     });
 
 
