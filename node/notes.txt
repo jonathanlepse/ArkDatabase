@@ -11,16 +11,25 @@ might be needed: npm install
 
 
 
+=======================================
+COUNTIES TABLE
+
+
 CREATE TABLE counties (
  id int NOT NULL AUTO_INCREMENT,
  name varchar(100),
  PRIMARY KEY (id)
-)
+);
 
 
 INSERT INTO counties (id, name) VALUES
 (1, "Nassau"),
 (2, "Suffolk")
+
+
+
+=======================================
+MUNICIPALITY TABLE
 
 
 CREATE TABLE municipalities (

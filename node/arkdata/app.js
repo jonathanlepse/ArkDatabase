@@ -22,11 +22,13 @@ arkdata.Municipality = function($node){
     var around_para = $node.text().split("(");
     var name = around_para[0];
     var name_components = name.split(",");
-    var name_clean = name_components[0].replace("**", "");
+    var name_clean = name_components[0].replace(/\*/g, "");
+    name_clean = name_clean.replace(/(\r\n|\n|\r)/gm,"");
     buff.push(name_clean);
     if(name_components.length > 1) {
-        var second_component_clean = name_components[1].replace("**", "");
-        buff.push("," + second_component_clean);
+        var second_component_clean = name_components[1].replace(/\*/g, "");
+        second_component_clean = second_component_clean.replace(/(\r\n|\n|\r)/gm,"");
+        buff.push(second_component_clean);
         buff.push();
     }
 
@@ -36,6 +38,7 @@ arkdata.Municipality = function($node){
     var url = $node.find("a").attr("href");
     this.url = url;
     this.county_id = null;
+    this.updated_on = null;
 };
 
 arkdata.Municipality.prototype.save = function(){
@@ -49,11 +52,18 @@ arkdata.Municipality.prototype.save = function(){
     connection.query("SELECT * FROM municipalities WHERE url LIKE '" + this.url + "'", function(err, rows) {
 
         if(rows.length == 1) {
-
-            console.log("MUNICIPALITY FOUND, UPDATING");
-
-
             var row = rows[0];
+            console.log("MUNICIPALITY FOUND, UPDATING");
+            console.log(row);
+            console.log(that.name + ", " + that.url + ", " + that.county_id);
+            connection.query("UPDATE municipalities SET name = '" + that.name + "', url = '" + that.url +
+                "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function(err, rows) {
+                if(err){
+                    console.log(err);
+                }
+            });
+
+
         } else if (rows.length == 0){
             console.log("MUNICIPALITY NOT FOUND, CREATING NEW");
             var query_str = "INSERT INTO municipalities (name, url, county_id) VALUES ('" + that.name + "','" + that.url + "'," + that.county_id + ")";
@@ -80,7 +90,17 @@ function make_municipality_row(obj){
     buff.push(obj.name);
     buff.push("</td>");
     buff.push("<td>");
-    buff.push(obj.url);
+    buff.push("<a href='" + obj.url + "' target='_blank'>"+obj.url+"</a>");
+    buff.push("</td>");
+    buff.push("<td style='width: 100px; text-align: center;'>");
+    buff.push("<a href='scrapeNY'>Update</a>");
+    buff.push("</td>");
+    buff.push("<td>");
+    if(obj.updated_on){
+        buff.push(obj.updated_on);
+    } else {
+        buff.push("No Data");
+    }
     buff.push("</td>");
     buff.push("</tr>");
     return buff.join("");
