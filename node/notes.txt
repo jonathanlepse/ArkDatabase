@@ -41,3 +41,19 @@ CREATE TABLE municipalities (
  PRIMARY KEY (id),
  FOREIGN KEY (county_id) REFERENCES counties(id)
 )
+
+=======================================
+SECTION TABLE
+
+
+
+CREATE TABLE sections (
+ id int NOT NULL AUTO_INCREMENT,
+ para varchar(255),
+ title varchar(255),
+ body text,
+ url varchar(255),
+ parent_id int,
+ PRIMARY KEY (id),
+ FOREIGN KEY (parent_id) REFERENCES sections(id)
+)
