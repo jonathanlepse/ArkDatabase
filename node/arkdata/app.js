@@ -178,7 +178,12 @@ arkdata.Section.prototype.save = function(){
     }
 
     var that = this;
+
+
+
     connection.query("SELECT * FROM sections WHERE url LIKE '" + that.url + "'", function(err, rows) {
+
+
 
         if(rows.length == 1) {
             var row = rows[0];
@@ -198,6 +203,9 @@ arkdata.Section.prototype.save = function(){
         } else if (rows.length == 0){
 
             connection.query("SELECT * FROM sections WHERE para LIKE '" + that.full_section_number() + "'", function(err, rows) {
+
+
+
                 if(rows.length == 1) {
                     var row = rows[0];
                     console.log("SECTION FOUND, UPDATING");
@@ -209,10 +217,10 @@ arkdata.Section.prototype.save = function(){
                     var query_str;
                     if(that.url) {
                         query_str = "INSERT INTO sections (para, title, url) VALUES ('" + that.full_section_number() + "','" +
-                            that.title + "','" + that.url + "')";
+                            mysql_real_escape_string(that.title) + "','" + that.url + "')";
                     } else if (that.text){
                         query_str = "INSERT INTO sections (para, title, body) VALUES ('" + that.full_section_number() + "','" +
-                            that.title + "','" + mysql_real_escape_string(that.text) + "')";
+                            mysql_real_escape_string(that.title) + "','" + mysql_real_escape_string(that.text) + "')";
                     } else {
                         console.log("ERROR");
                     }
