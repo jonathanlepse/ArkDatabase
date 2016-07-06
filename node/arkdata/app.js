@@ -68,6 +68,7 @@ arkdata.Municipality = function($node){
 
     var url = $node.find("a").attr("href");
     this.url = url;
+    this.id = null;
     this.county_id = null;
     this.updated_on = null;
 };
@@ -94,6 +95,7 @@ arkdata.Municipality.prototype.save = function(){
             //console.log(that.name + ", " + that.url + ", " + that.county_id);
             connection.query("UPDATE municipalities SET name = '" + that.name + "', url = '" + that.url +
                 "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function(err, rows) {
+                console.log(rows);
                 if(err){
                     console.log(err);
                 }
@@ -105,6 +107,8 @@ arkdata.Municipality.prototype.save = function(){
             var query_str = "INSERT INTO municipalities (name, url, county_id) VALUES ('" + that.name + "','" + that.url + "'," + that.county_id + ")";
             // console.log(query_str);
             connection.query(query_str, function(err, rows) {
+                // console.log(rows.insertId);
+                that.id = rows.insertId;
                 if(err){
                     console.log(err);
                 }
@@ -128,7 +132,8 @@ function make_municipality_row(obj){
     buff.push("<a href='" + obj.url + "' target='_blank'>"+obj.url+"</a>");
     buff.push("</td>");
     buff.push("<td style='width: 100px; text-align: center;'>");
-    buff.push("<a href=\"scrape?id=" + obj.guid() + "\">Update</a>");
+    console.log();
+    buff.push("<a href=\"scrape?id=" + obj.guid() + "&db_id=" + obj.id + ">Update</a>");
     buff.push("</td>");
     buff.push("<td>");
     if(obj.updated_on){
@@ -216,10 +221,10 @@ arkdata.Section.prototype.save = function(){
 
                     var query_str;
                     if(that.url) {
-                        query_str = "INSERT INTO sections (para, title, url) VALUES ('" + that.full_section_number() + "','" +
+                        query_str = "INSERT INTO sections (municipality_id, para, title, url) VALUES ('" + that.full_section_number() + "','" +
                             mysql_real_escape_string(that.title) + "','" + that.url + "')";
                     } else if (that.text){
-                        query_str = "INSERT INTO sections (para, title, body) VALUES ('" + that.full_section_number() + "','" +
+                        query_str = "INSERT INTO sections (municipality_id, para, title, body) VALUES ('" + that.full_section_number() + "','" +
                             mysql_real_escape_string(that.title) + "','" + mysql_real_escape_string(that.text) + "')";
                     } else {
                         console.log("ERROR");
