@@ -3,23 +3,23 @@ var request = require('request');
 var rp = require('request-promise');
 var cheerio = require('cheerio');
 var app = express();
-var mysql      = require('mysql');
+var path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
+var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'ross',
-    password : 'ross12',
-    database : 'arkdatasql'
+    host: 'localhost',
+    user: 'ross',
+    password: 'ross12',
+    database: 'arkdatasql'
 });
 
 connection.connect();
 
 
-
-
 var arkdata = {};
 
 
-function mysql_real_escape_string (str) {
+function mysql_real_escape_string(str) {
     return str.replace(/[\0\x08\x09\x1a\n\r"'\\\%]/g, function (char) {
         switch (char) {
             case "\0":
@@ -38,8 +38,8 @@ function mysql_real_escape_string (str) {
             case "'":
             case "\\":
             case "%":
-                return "\\"+char; // prepends a backslash to backslash, percent,
-                                  // and double/single quotes
+                return "\\" + char; // prepends a backslash to backslash, percent,
+                                    // and double/single quotes
         }
     });
 }
@@ -48,17 +48,17 @@ function mysql_real_escape_string (str) {
 /*                        MUNICIPALITY TABLE                            */
 /************************************************************************/
 
-arkdata.Municipality = function($node){
+arkdata.Municipality = function ($node) {
     var buff = [];
     var around_para = $node.text().split("(");
     var name = around_para[0];
     var name_components = name.split(",");
     var name_clean = name_components[0].replace(/\*/g, "");
-    name_clean = name_clean.replace(/(\r\n|\n|\r)/gm,"");
+    name_clean = name_clean.replace(/(\r\n|\n|\r)/gm, "");
     buff.push(name_clean);
-    if(name_components.length > 1) {
+    if (name_components.length > 1) {
         var second_component_clean = name_components[1].replace(/\*/g, "");
-        second_component_clean = second_component_clean.replace(/(\r\n|\n|\r)/gm,"");
+        second_component_clean = second_component_clean.replace(/(\r\n|\n|\r)/gm, "");
         buff.push(second_component_clean);
         buff.push();
     }
@@ -73,47 +73,53 @@ arkdata.Municipality = function($node){
     this.updated_on = null;
 };
 
-arkdata.Municipality.prototype.guid = function(){
+arkdata.Municipality.prototype.guid = function () {
     var comps = this.url.split("/");
     return comps[comps.length - 1];
 };
 
-arkdata.Municipality.prototype.save = function(){
-    if(!this.url){
+arkdata.Municipality.prototype.save = function () {
+    if (!this.url) {
 
         console.log("CAN'T SAVE WITHOUT URL");
         return;
     }
 
     var that = this;
-    connection.query("SELECT * FROM municipalities WHERE url LIKE '" + this.url + "'", function(err, rows) {
+    connection.query("SELECT * FROM municipalities WHERE url LIKE '" + this.url + "'", function (err, rows) {
 
-        if(rows.length == 1) {
+        if (rows.length == 1) {
             var row = rows[0];
             console.log("MUNICIPALITY FOUND, UPDATING");
             //console.log(row);
             //console.log(that.name + ", " + that.url + ", " + that.county_id);
             connection.query("UPDATE municipalities SET name = '" + that.name + "', url = '" + that.url +
-                "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function(err, rows) {
+                "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function (err, rows) {
                 // console.log(rows);
-                if(err){
+                that.id = row.id;
+
+                if (err) {
                     console.log(err);
+                } else {
+                    console.log("ID " + that.id);
                 }
             });
 
 
-        } else if (rows.length == 0){
+        } else if (rows.length == 0) {
             console.log("MUNICIPALITY NOT FOUND, CREATING NEW");
             var query_str = "INSERT INTO municipalities (name, url, county_id) VALUES ('" + that.name + "','" + that.url + "'," + that.county_id + ")";
             // console.log(query_str);
-            connection.query(query_str, function(err, rows) {
+            connection.query(query_str, function (err, rows) {
                 // console.log(rows.insertId);
                 that.id = rows.insertId;
-                if(err){
+
+                if (err) {
                     console.log(err);
+                } else {
+                    console.log("NEW ID " + that.id);
                 }
             });
-
 
 
         } else {
@@ -122,21 +128,21 @@ arkdata.Municipality.prototype.save = function(){
     });
 };
 
-function make_municipality_row(obj){
+function make_municipality_row(obj) {
     var buff = [];
     buff.push("<tr>");
     buff.push("<td>");
     buff.push(obj.name);
     buff.push("</td>");
     buff.push("<td>");
-    buff.push("<a href='" + obj.url + "' target='_blank'>"+obj.url+"</a>");
+    buff.push("<a href='" + obj.url + "' target='_blank'>" + obj.url + "</a>");
     buff.push("</td>");
     buff.push("<td style='width: 100px; text-align: center;'>");
-    console.log();
-    buff.push("<a href=\"scrape?id=" + obj.guid() + "&db_id=" + obj.id + ">Update</a>");
+    // console.log();
+    buff.push("<a href=\"scrape?id=" + obj.guid() + "&db_id=" + obj.id + "\">Update</a>");
     buff.push("</td>");
     buff.push("<td>");
-    if(obj.updated_on){
+    if (obj.updated_on) {
         buff.push(obj.updated_on);
     } else {
         buff.push("No Data");
@@ -151,22 +157,24 @@ function make_municipality_row(obj){
 /*                           SECTION TABLE                              */
 /************************************************************************/
 
-arkdata.Section = function(para, title, text, url, parent){
+arkdata.Section = function (para, title, text, url, parent, municipality_id) {
     this.para = para;
     this.title = title;
     this.text = text;
     this.url = url;
     this.parent = parent;
+    this.municipality_id = municipality_id;
     this.chidren = [];
+    this.saved = false;
 
     // console.log("INSTATIATING: " + this.full_section_number());
 };
 
-arkdata.Section.prototype.full_section_number = function(){
+arkdata.Section.prototype.full_section_number = function () {
     var p = this;
     var buff = [];
     buff.push(p.para);
-    while(p.parent){
+    while (p.parent) {
         p = p.parent;
         buff.push(p.para);
     }
@@ -175,162 +183,190 @@ arkdata.Section.prototype.full_section_number = function(){
     return str;
 };
 
-arkdata.Section.prototype.save = function(){
-    if(!(this.url || this.text)){
+arkdata.Section.prototype.save = function () {
 
-        console.log("CAN'T SAVE WITHOUT URL OR TEXT");
-        return;
-    }
+
+
+    var queryString = "" +
+        "SELECT * FROM sections " +
+        "WHERE (((url LIKE '" + this.url + "') OR ((para LIKE '" + this.full_section_number() + "') AND (LENGTH(para)" +
+        " >" +
+        " 0))) AND municipality_id = " + this.municipality_id + ")";
 
     var that = this;
+    connection.query(queryString, function(err, rows) {
+        if (err){
+            throw err;
+        } else if(rows.length == 0 ){
+            console.log("0 Section Found - CREATE");
 
+            var query_str;
+            if (that.url) {
+                query_str = "INSERT INTO sections (municipality_id, para, title, url) VALUES ('" +
+                    that.municipality_id + "','" +
+                    that.full_section_number() + "','" +
+                    mysql_real_escape_string(that.title) + "','" +
+                    that.url + "')";
+            } else if (that.text) {
+                query_str = "INSERT INTO sections (municipality_id, para, title, body) VALUES ('" +
+                    that.municipality_id + "','" +
+                    that.full_section_number() + "','" +
+                    mysql_real_escape_string(that.title) + "','" +
+                    mysql_real_escape_string(that.text) + "')";
+            } else {
+                console.log("ERROR");
+            }
 
-
-    connection.query("SELECT * FROM sections WHERE url LIKE '" + that.url + "'", function(err, rows) {
-
-
-
-        if(rows.length == 1) {
-            var row = rows[0];
-            console.log("SECTION FOUND, UPDATING");
-            //console.log(row);
-            //console.log(that.name + ", " + that.url + ", " + that.county_id);
-            /*
-            connection.query("UPDATE sections SET name = '" + that.name + "', url = '" + that.url +
-                "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function(err, rows) {
-                if(err){
+            // console.log(query_str);
+            connection.query(query_str, function (err, rows) {
+                if (err) {
                     console.log(err);
+
+
                 }
-            });
-            */
 
-
-        } else if (rows.length == 0){
-
-            connection.query("SELECT * FROM sections WHERE para LIKE '" + that.full_section_number() + "'", function(err, rows) {
-
-
-
-                if(rows.length == 1) {
-                    var row = rows[0];
-                    console.log("SECTION FOUND, UPDATING");
-
-
-                } else if (rows.length == 0){
-                    console.log("SECTION NOT FOUND, CREATING NEW");
-
-                    var query_str;
-                    if(that.url) {
-                        query_str = "INSERT INTO sections (municipality_id, para, title, url) VALUES ('" + that.full_section_number() + "','" +
-                            mysql_real_escape_string(that.title) + "','" + that.url + "')";
-                    } else if (that.text){
-                        query_str = "INSERT INTO sections (municipality_id, para, title, body) VALUES ('" + that.full_section_number() + "','" +
-                            mysql_real_escape_string(that.title) + "','" + mysql_real_escape_string(that.text) + "')";
-                    } else {
-                        console.log("ERROR");
-                    }
-
-
-                    // console.log(query_str);
-                    connection.query(query_str, function(err, rows) {
-                        if(err){
-                            console.log(err);
-                        }
-                    });
-
-                } else {
-                    console.log("ERROR");
-                }
+                request_count_saved++;
+                log_counts();
             });
 
 
+        } else if(rows.length == 1 ){
+            console.log("1 Section Found - UPDATE");
 
-
-
+            request_count_saved++;
+            log_counts();
 
         } else {
-            console.log("ERROR");
+            console.log("------------------ TOO MANY SECTIONS FOUND-----------------------");
+            console.log("------------------ TOO MANY SECTIONS FOUND-----------------------");
+            console.log("------------------ TOO MANY SECTIONS FOUND-----------------------");
         }
+
+
+
+
+
     });
+
+
+
 };
 
 /************************************************************************/
 /*                          SCRAPING FUNCTIONS                          */
 /************************************************************************/
 
+var Nassau_nodes = [];
+var Suffolk_nodes = [];
+var Nassau_objects = [];
+var Suffolk_objects = [];
 
 app.get('/scrapeNY', function (req, res) {
 
     rp("http://www.generalcode.com/ecode360/NY").then(function (htmlString) {
         var $ = cheerio.load(htmlString);
 
-
-        var Nassau_nodes = [];
-        var Suffolk_nodes = [];
         $('#content li').each(function (i, elem) {
 
             var link = $(this).find("a").get(0);
             var href = $(link).attr("href");
 
-            var text  = $(this).text();
+            var text = $(this).text();
             text += "   " + href;
 
-            if(text.indexOf("(Nassau") > -1){
+            if (text.indexOf("(Nassau") > -1) {
                 Nassau_nodes.push($(this));
             }
 
-            if(text.indexOf("(Suffolk") > -1){
+            if (text.indexOf("(Suffolk") > -1) {
                 Suffolk_nodes.push($(this));
             }
         });
 
-        var buff = [];
-        buff.push("<h2>Nassau (" + Nassau_nodes.length + ")</h2>");
-        buff.push("<table>");
-        for(var i = 0; i < Nassau_nodes.length; i++){
+        for (var i = 0; i < Nassau_nodes.length; i++) {
             var $curr = Nassau_nodes[i];
             var obj = new arkdata.Municipality($curr);
             obj.county_id = 1;
             obj.save();
-            buff.push(make_municipality_row(obj));
+            Nassau_objects.push(obj);
         }
-        buff.push("</table>");
 
-        buff.push("<h2>Suffolk (" + Suffolk_nodes.length + ")</h2>");
-        buff.push("<table>");
-        for(var i = 0; i < Suffolk_nodes.length; i++){
+        for (var i = 0; i < Suffolk_nodes.length; i++) {
             var $curr = Suffolk_nodes[i];
             var obj = new arkdata.Municipality($curr);
             obj.county_id = 2;
             obj.save();
+            Suffolk_objects.push(obj);
+        }
+
+        setTimeout(render, 500);
+    });
+
+    function render() {
+        var buff = [];
+
+        buff.push("<!DOCTYPE html>");
+        buff.push("<html>");
+        buff.push("<head>");
+        buff.push("<link rel=\"stylesheet\" href=\"/stylesheets/style.css\">");
+        buff.push("</head>");
+        buff.push("<body>");
+
+        buff.push("<h2>Nassau (" + Nassau_objects.length + ")</h2>");
+        buff.push("<table class='datatable'>");
+        for (var i = 0; i < Nassau_objects.length; i++) {
+            var obj = Nassau_objects[i];
             buff.push(make_municipality_row(obj));
         }
         buff.push("</table>");
 
+        buff.push("<h2>Suffolk (" + Suffolk_objects.length + ")</h2>");
+        buff.push("<table class='datatable'>");
+        for (var i = 0; i < Suffolk_objects.length; i++) {
+            var obj = Suffolk_objects[i];
+            buff.push(make_municipality_row(obj));
+        }
+
+        buff.push("</table>");
+        buff.push("</body>");
+        buff.push("</html>");
+
         var str = buff.join("");
 
         res.send(str);
-    });
-
-
-
+    }
 });
 
 app.get('/index', function (req, res) {
     query = connection.query("SELECT * FROM municipalities;");
-    query.on('error', function(err) {
-            console.log( err );
+    query.on('error', function (err) {
+        console.log(err);
 
-        }).on('result', function( data ) {
-            res.send(data);
-        });
+    }).on('result', function (data) {
+        res.send(data);
+    });
 });
 
-app.get('/scrape', function (req, res) {
+var scrape_pending = false;
 
+app.get('/scrape', function (req, res) {
+    if (scrape_pending) {
+        console.log("CAN'T SCRAPE, ALREADY IN PROGRESS");
+        return;
+    }
+
+    scrape_pending = true;
+
+    console.log("---------------------------------------------------------------");
+    console.log("---------------------------------------------------------------");
+    console.log("---------------------------------------------------------------");
+    console.log("Scraping Data for Muni: " + req.query.id + " " + req.query.db_id);
+
+    // return;
     //
     var options = {
         guid: req.query.id,
+        db_id: req.query.db_id,
         url: "http://ecode360.com/",
         child_nodes: [],
         content: null,
@@ -356,15 +392,28 @@ app.get('/scrape', function (req, res) {
  */
 
 
+var request_count = 0;
+var request_count_finished = 0;
+var request_count_created = 0;
+var request_count_saved = 0;
+
+function log_counts() {
+    console.log(
+        "request_count   " + request_count +
+        "  request_count_finished  " + request_count_finished +
+        "  request_count_created " + request_count_created +
+        "  request_count_saved " + request_count_saved);
+}
 
 function request_data_for_chapter_at_index(options) {
 
     var url = options.url + options.guid;
 
+    request_count++;
 
     rp(url).then(function (htmlString) {
-
-
+        request_count_finished++;
+        log_counts();
 
         var $ = cheerio.load(htmlString);
 
@@ -391,7 +440,15 @@ function request_data_for_chapter_at_index(options) {
                 //console.log(space_string + text);
 
                 // function(para, title, text, parent){
-                var opt = new arkdata.Section(title_number, title_title, text, null, options.parent);
+                var opt = new arkdata.Section(
+                    title_number,
+                    title_title,
+                    text,
+                    null,
+                    options.parent,
+                    options.db_id);
+                request_count_created++;
+
                 options.child_nodes.push(opt);
                 opt.save();
 
@@ -415,12 +472,21 @@ function request_data_for_chapter_at_index(options) {
                     // create context object
                     // console.log(space_string + " " + title_number + " " + title_title);
                     // function(para, title, text, parent){
-                    var opt = new arkdata.Section(title_number, title_title, null, href, options.parent);
+                    var opt = new arkdata.Section(
+                        title_number,
+                        title_title,
+                        null,
+                        href,
+                        options.parent,
+                        options.db_id);
+                    request_count_created++;
+
                     options.child_nodes.push(opt);
                     opt.save();
 
                     var new_options = {
                         guid: href,
+                        db_id: options.db_id,
                         url: options.url,
                         child_nodes: [],
                         content: null,
@@ -434,6 +500,9 @@ function request_data_for_chapter_at_index(options) {
             }
         });
     }).catch(function (err) {
+        request_count_finished++;
+        log_counts();
+
         console.log("ERROR!!!!  " + url);
     });
 }

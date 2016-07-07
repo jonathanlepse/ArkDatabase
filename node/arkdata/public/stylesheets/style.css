@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+.datatable {
+  min-width: 800px;
+}
+
+.datatable td {
+  border-top: 1px solid #cccccc;
+  padding: 5px;
+}

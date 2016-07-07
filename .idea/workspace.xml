@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b81b9ec1-61a5-4a0c-a90e-7f127825e758" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/arkdata/app.js" afterPath="$PROJECT_DIR$/node/arkdata/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/notes.txt" afterPath="$PROJECT_DIR$/node/notes.txt" />
     </list>
     <ignored path="Data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,6 +163,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,7 +330,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< Updated upstream
       <pane id="Scratches" />
+=======
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,13 +426,19 @@
       <workItem from="1467164436310" duration="7497000" />
       <workItem from="1467315520132" duration="8569000" />
       <workItem from="1467335949342" duration="2557000" />
+<<<<<<< Updated upstream
       <workItem from="1467751209146" duration="3884000" />
       <workItem from="1467774476341" duration="3103000" />
       <workItem from="1467903718621" duration="1522000" />
+=======
+      <workItem from="1467751209146" duration="3946000" />
+      <workItem from="1467863521302" duration="34000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="81875000" />
   </component>
   <component name="ToolWindowManager">
@@ -435,6 +446,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19184223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="77346000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="39" y="23" width="1495" height="1110" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19197324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -810,6 +830,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/node/arkdata/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -819,6 +840,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
+=======
+    <entry file="file://$PROJECT_DIR$/jquery.min.js">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -857,6 +881,14 @@
           <folding>
             <marker date="1467910209000" expanded="true" signature="4008:4041" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/arkdata/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
