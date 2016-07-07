@@ -8,12 +8,8 @@ cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/
 
 might be needed: npm install
 
-
-
-
 =======================================
 COUNTIES TABLE
-
 
 CREATE TABLE counties (
  id int NOT NULL AUTO_INCREMENT,
@@ -21,16 +17,12 @@ CREATE TABLE counties (
  PRIMARY KEY (id)
 );
 
-
 INSERT INTO counties (id, name) VALUES
 (1, "Nassau"),
 (2, "Suffolk")
 
-
-
 =======================================
 MUNICIPALITY TABLE
-
 
 CREATE TABLE municipalities (
  id int NOT NULL AUTO_INCREMENT,
@@ -45,8 +37,6 @@ CREATE TABLE municipalities (
 =======================================
 SECTION TABLE
 
-
-
 CREATE TABLE sections (
  id int NOT NULL AUTO_INCREMENT,
  para varchar(255),
@@ -58,3 +48,17 @@ CREATE TABLE sections (
  PRIMARY KEY (id),
  FOREIGN KEY (parent_id) REFERENCES sections(id)
 )
+
+=======================================
+TRUNCATE TABLES
+
+TRUNCATE TABLE counties;
+TRUNCATE TABLE municipalities;
+TRUNCATE TABLE sections;
+
+=======================================
+DROP TABLES
+
+DROP TABLE counties;
+DROP TABLE municipalities;
+DROP TABLE sections;

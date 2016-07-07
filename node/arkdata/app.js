@@ -95,7 +95,7 @@ arkdata.Municipality.prototype.save = function(){
             //console.log(that.name + ", " + that.url + ", " + that.county_id);
             connection.query("UPDATE municipalities SET name = '" + that.name + "', url = '" + that.url +
                 "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function(err, rows) {
-                console.log(rows);
+                // console.log(rows);
                 if(err){
                     console.log(err);
                 }
