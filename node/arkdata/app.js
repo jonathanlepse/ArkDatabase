@@ -71,6 +71,8 @@ arkdata.Municipality = function ($node) {
     this.id = null;
     this.county_id = null;
     this.updated_on = null;
+    this.sections_count = 0;
+    this.sections_with_text_count = 0;
 };
 
 arkdata.Municipality.prototype.guid = function () {
@@ -97,6 +99,23 @@ arkdata.Municipality.prototype.save = function () {
                 "', county_id = '" + that.county_id + "' WHERE id = " + row.id, function (err, rows) {
                 // console.log(rows);
                 that.id = row.id;
+
+
+
+                var query = "SELECT municipality_id, COUNT(*) FROM sections WHERE municipality_id = " + that.id;
+                //console.log(query);
+                connection.query(query, function (err, rows) {
+                    that.sections_count = rows[0]["COUNT(*)"];
+                    //console.log(that.sections_count);
+                });
+
+                var query_2 = "SELECT municipality_id, COUNT(*) FROM sections WHERE municipality_id = " + that.id + " AND (body IS NOT NULL) AND (CHAR_LENGTH(body) > 0)";
+                //console.log(query);
+                connection.query(query_2, function (err, rows) {
+                    that.sections_with_text_count = rows[0]["COUNT(*)"];
+                    //console.log(that.sections_with_text_count);
+                });
+
 
                 if (err) {
                     console.log(err);
@@ -142,11 +161,12 @@ function make_municipality_row(obj) {
     buff.push("<a href=\"scrape?id=" + obj.guid() + "&db_id=" + obj.id + "\">Update</a>");
     buff.push("</td>");
     buff.push("<td>");
-    if (obj.updated_on) {
-        buff.push(obj.updated_on);
-    } else {
-        buff.push("No Data");
-    }
+    buff.push("</td>");
+    buff.push("<td>");
+    buff.push(obj.sections_count);
+    buff.push("</td>");
+    buff.push("<td>");
+    buff.push(obj.sections_with_text_count);
     buff.push("</td>");
     buff.push("</tr>");
     return buff.join("");
@@ -186,7 +206,6 @@ arkdata.Section.prototype.full_section_number = function () {
 arkdata.Section.prototype.save = function () {
 
 
-
     var queryString = "" +
         "SELECT * FROM sections " +
         "WHERE (((url LIKE '" + this.url + "') OR ((para LIKE '" + this.full_section_number() + "') AND (LENGTH(para)" +
@@ -194,10 +213,10 @@ arkdata.Section.prototype.save = function () {
         " 0))) AND municipality_id = " + this.municipality_id + ")";
 
     var that = this;
-    connection.query(queryString, function(err, rows) {
-        if (err){
+    connection.query(queryString, function (err, rows) {
+        if (err) {
             throw err;
-        } else if(rows.length == 0 ){
+        } else if (rows.length == 0) {
             console.log("0 Section Found - CREATE");
 
             var query_str;
@@ -230,11 +249,38 @@ arkdata.Section.prototype.save = function () {
             });
 
 
-        } else if(rows.length == 1 ){
-            console.log("1 Section Found - UPDATE");
+        } else if (rows.length == 1) {
+            // console.log("1 Section Found - UPDATE");
+            var row = rows[0];
+            var query_str;
 
-            request_count_saved++;
-            log_counts();
+            if (that.url) {
+                query_str = "UPDATE sections " +
+                    "SET para = '" + that.full_section_number() + "'," +
+                    "para = '" + that.full_section_number() + "'," +
+                    "title = '" + mysql_real_escape_string(that.title) + "'," +
+                    "url = '" + that.url + "' " +
+                    "WHERE id = " + row.id;
+            } else {
+                query_str = "UPDATE sections " +
+                    "SET para = '" + that.full_section_number() + "'," +
+                    "para = '" + that.full_section_number() + "'," +
+                    "title = '" + mysql_real_escape_string(that.title) + "'," +
+                    "body = '" + mysql_real_escape_string(that.text) + "' " +
+                    "WHERE id = " + row.id;
+            }
+
+            // console.log(query_str);
+            connection.query(query_str, function (err, rows) {
+                if (err) {
+                    console.log(err);
+
+
+                }
+
+                request_count_saved++;
+                log_counts();
+            });
 
         } else {
             console.log("------------------ TOO MANY SECTIONS FOUND-----------------------");
@@ -243,11 +289,7 @@ arkdata.Section.prototype.save = function () {
         }
 
 
-
-
-
     });
-
 
 
 };
@@ -262,6 +304,11 @@ var Nassau_objects = [];
 var Suffolk_objects = [];
 
 app.get('/scrapeNY', function (req, res) {
+    Nassau_nodes = [];
+    Suffolk_nodes = [];
+    Nassau_objects = [];
+    Suffolk_objects = [];
+
 
     rp("http://www.generalcode.com/ecode360/NY").then(function (htmlString) {
         var $ = cheerio.load(htmlString);
@@ -351,8 +398,8 @@ var scrape_pending = false;
 
 app.get('/scrape', function (req, res) {
     if (scrape_pending) {
-        console.log("CAN'T SCRAPE, ALREADY IN PROGRESS");
-        return;
+        //console.log("CAN'T SCRAPE, ALREADY IN PROGRESS");
+        //return;
     }
 
     scrape_pending = true;
@@ -376,7 +423,7 @@ app.get('/scrape', function (req, res) {
 
     request_data_for_chapter_at_index(options);
 
-    return;
+    res.send("Scraping Data for Muni: " + req.query.id + " " + req.query.db_id);
 });
 
 
@@ -396,13 +443,24 @@ var request_count = 0;
 var request_count_finished = 0;
 var request_count_created = 0;
 var request_count_saved = 0;
+var request_errors = 0;
 
 function log_counts() {
+
+
+
+    if(request_count_saved == request_count_created){
+        console.log("DOWNLOAD COMPLETE, ERRORS: " + request_errors);
+    }
+
+
+    /*
     console.log(
         "request_count   " + request_count +
         "  request_count_finished  " + request_count_finished +
         "  request_count_created " + request_count_created +
         "  request_count_saved " + request_count_saved);
+        */
 }
 
 function request_data_for_chapter_at_index(options) {
@@ -501,6 +559,7 @@ function request_data_for_chapter_at_index(options) {
         });
     }).catch(function (err) {
         request_count_finished++;
+        request_errors++;
         log_counts();
 
         console.log("ERROR!!!!  " + url);
