@@ -1,6 +1,8 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #dcecf5;
 }
 
 a {
@@ -8,10 +10,24 @@ a {
 }
 
 .datatable {
-  min-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 .datatable td {
   border-top: 1px solid #cccccc;
   padding: 5px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.datatable th {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #cccccc;
+  text-align: left;
+  font-weight: normal !important;
+  padding: 10px;
 }

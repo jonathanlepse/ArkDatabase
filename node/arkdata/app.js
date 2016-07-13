@@ -154,6 +154,9 @@ function make_municipality_row(obj) {
     buff.push(obj.name);
     buff.push("</td>");
     buff.push("<td>");
+    buff.push(obj.id);
+    buff.push("</td>");
+    buff.push("<td>");
     buff.push("<a href='" + obj.url + "' target='_blank'>" + obj.url + "</a>");
     buff.push("</td>");
     buff.push("<td style='width: 100px; text-align: center;'>");
@@ -356,11 +359,17 @@ app.get('/scrapeNY', function (req, res) {
         buff.push("<html>");
         buff.push("<head>");
         buff.push("<link rel=\"stylesheet\" href=\"/stylesheets/style.css\">");
+        buff.push("<head>");
+        buff.push("<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet'" +
+            " type='text/css'>");
         buff.push("</head>");
         buff.push("<body>");
-
+        buff.push("<h1>Ark data</h1>");
         buff.push("<h2>Nassau (" + Nassau_objects.length + ")</h2>");
         buff.push("<table class='datatable'>");
+
+        buff.push(generate_table_header());
+
         for (var i = 0; i < Nassau_objects.length; i++) {
             var obj = Nassau_objects[i];
             buff.push(make_municipality_row(obj));
@@ -369,6 +378,9 @@ app.get('/scrapeNY', function (req, res) {
 
         buff.push("<h2>Suffolk (" + Suffolk_objects.length + ")</h2>");
         buff.push("<table class='datatable'>");
+
+        buff.push(generate_table_header());
+
         for (var i = 0; i < Suffolk_objects.length; i++) {
             var obj = Suffolk_objects[i];
             buff.push(make_municipality_row(obj));
@@ -383,6 +395,46 @@ app.get('/scrapeNY', function (req, res) {
         res.send(str);
     }
 });
+
+function generate_table_header(){
+    var buff = [];
+
+    buff.push("<tr>");
+
+    buff.push("<th>");
+    buff.push("Municipality Name");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("Row ID");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("source webpage url");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("Begin Update");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("Update Date");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("All sections");
+    buff.push("</th>");
+
+    buff.push("<th>");
+    buff.push("Content sections");
+    buff.push("</th>");
+
+    buff.push("</tr>");
+
+    var str = buff.join("");
+
+    return str;
+}
 
 app.get('/index', function (req, res) {
     query = connection.query("SELECT * FROM municipalities;");
