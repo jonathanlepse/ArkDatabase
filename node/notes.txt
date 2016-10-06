@@ -1,7 +1,7 @@
 =======================================
 RUNNING THE APP
 
-cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/ |
+cd /Users/emilchoski/Documents/App_Dev/ArkData/node/arkdata/ |
 DEBUG=optionhouse:* npm start
 
 cd /Users/emilchoski/Documents/App_Dev/OptionHouse_Misc/Data/node/arkdata/
@@ -52,6 +52,7 @@ CREATE TABLE sections (
 
 =======================================
 TRUNCATE TABLES
+(deletes rows, but keeps table)
 
 TRUNCATE TABLE counties;
 TRUNCATE TABLE municipalities;
@@ -67,6 +68,7 @@ DROP TABLE sections;
 =======================================
 QUERIES
 
+SELECT * FROM sections;
 SELECT * FROM sections WHERE body like '%setback%';
 
 
