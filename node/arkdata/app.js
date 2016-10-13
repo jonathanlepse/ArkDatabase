@@ -479,6 +479,9 @@ app.get('/scrape', function (req, res) {
 });
 
 
+
+
+
 /*
 
  var context = {
@@ -617,6 +620,131 @@ function request_data_for_chapter_at_index(options) {
         console.log("ERROR!!!!  " + url);
     });
 }
+
+
+var extractContent = function (next, $, table, json) {
+    next.children().each(function (i, elem) {
+        var current_div = $(this);
+        var css_class = current_div.attr("class");
+
+        if (css_class.indexOf("para") > -1) {
+            table += "<div style=' background-color: darksalmon'>";
+            table += current_div.text();
+            table += "</div>";
+        } else if (css_class.indexOf("level") > -1) {
+
+
+            current_div.children().each(function (i, elem) {
+                var current = $(this);
+
+                var title_number = current.children(".litem_number").text();
+
+                table += "<div style='background-color: peachpuff; padding-left: 40px;'>";
+                table += "<span style='font-weight: bold;'>" + title_number + "</span>";
+
+                var next = current.children("div.content");
+                table = extractContent(next, $, table);
+                table += "</div>";
+            });
+
+        } else if (css_class.indexOf("footnotes") > -1) {
+            table += "<div style='background-color: lightgreen'>";
+            table += current_div.text();
+            table += "</div>";
+        }
+
+        //table += css_class;
+        //table += "<br/>";
+    });
+    return table;
+};
+
+app.get('/scrape_east_hills', function (req, res) {
+
+    var url = "http://ecode360.com/15524310";
+
+    rp(url).then(function (htmlString) {
+
+
+        var $ = cheerio.load(htmlString);
+
+        var table = "<table>";
+        var json = [];
+
+        // bar title is generic, it can lead to a list or it can have content below it.
+        // the way to differentiate is to check if the next node has content
+        $('.barTitle').each(function (i, elem) {
+            var current = $(this);
+            var next = current.next("div.content");
+            var title_number = current.find(".titleNumber").text().trim();
+            var title_title = current.find(".titleTitle").text().trim();
+
+
+
+            if (next.length > 0) {
+                // leaf node
+                // console.log("has content");
+                // var text = $(next.get(0)).html();
+
+                // copy it in
+                //console.log(space_string + " " + title_number + " " + title_title);
+                //console.log(space_string + text);
+
+                var para = {};
+                json.push(para);
+                para.number = title_number;
+                para.title = title_title;
+                para.content = [];
+
+
+                table += "<tr>";
+                table += "<td>";
+                table += title_number;
+                table += "</td>";
+                table += "<td>";
+                table += title_title;
+                table += "</td>";
+                table += "<td>";
+                table = extractContent(next, $, table, json);
+
+                table += "</td>";
+                table += "</tr>";
+
+            } else {
+                // bar node
+                // bar node can be a link to a leaf node on the same page
+                // check to make sure the URL does not contain an pound sign
+                var link = current.find('.titleLink').get(0);
+                var href = $(link).attr("href");
+
+
+                if (href.indexOf("#") > -1) {
+                    // ignore
+                    // link to another part of the page
+                } else {
+                    // link to another page
+
+
+
+                }
+            }
+
+
+        });
+
+        table += "</table>";
+        var JSONString = JSON.stringify(json);
+
+        res.send(JSONString);
+
+    }).catch(function (err) {
+
+        res.send("ERROR " + err);
+
+    });
+
+});
+
 
 
 exports = module.exports = app;
