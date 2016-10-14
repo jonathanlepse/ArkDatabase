@@ -11,6 +11,7 @@ app.get('/scrape', function (req, res) {
 
     var id = req.query.id;
     var url = "http://ecode360.com/" + id;
+
     requestArticle(url, res);
 
 });
@@ -47,7 +48,7 @@ function requestArticle(url, res){
                 //console.log(space_string + text);
 
                 var para = {};
-                article.content.push(para);
+                article.paras.push(para);
 
                 para.paragraph = title_number;
                 para.title = title_title;
@@ -73,7 +74,7 @@ function requestArticle(url, res){
             }
         });
 
-        var JSONString = JSON.stringify(article);
+        // var JSONString = JSON.stringify(article);
         res.send(article);
 
     }).catch(function (err) {
