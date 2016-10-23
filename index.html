@@ -1,58 +1,185 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ArkData</title>
 
-        <script src="jquery.min.js"></script>
-        <script type="text/javascript">
-            var printVal = function(val){
-                var innerval = "";
-                if(typeof val["url"] !== "undefined") {
-                    return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
+    <!-- JS: FRAMEWORKS -->
+    <script src="jquery.min.js"></script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border: 1px solid #5f5f5f;
+        }
+
+        table tr {
+            vertical-align: top;
+        }
+
+        table tr th,
+        table td {
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif !important;
+            font-size: 14px !important;
+            border-bottom: 1px solid #9cbad4;
+            text-align: left;
+        }
+
+        table tr th {
+            background-color: #5f5f5f;
+            color: white;
+        }
+
+        .altRow td {
+            background-color: #eee9e4;
+
+        }
+
+        .indexCell {
+            width: 20px;
+            font-weight: bold;
+        }
+
+        .clauseIDCell {
+            width: 200px;
+            white-space: nowrap;
+        }
+
+        .editRuleCell {
+            width: 100px;
+        }
+
+        .currentRuleCell {
+            width: 400px;
+        }
+
+    </style>
+
+</head>
+<body>
+<h1 id="header"></h1>
+<div id="content">
+
+</div>
+
+<script>
+
+    var clause_separator = "@";
+    var index            = 0;
+    var table            = "<table cellspacing='0' cellpadding='0'>";
+    table += "<tr>";
+    table += "<th>index</th>";
+    table += "<th>clauseID</th>";
+    table += "<th>body</th>";
+    table += "<th>edit rule</th>";
+    table += "<th>rule</th>";
+    table += "</tr>";
+
+    var altCell   = false;
+    var extracted = function (root, clauseID) {
+
+        $.each(root, function (key, val) {
+            var newClauseID = clauseID;
+
+            if (val.paragraph) {
+                // console.log(val.paragraph);
+                newClauseID += clause_separator + val.paragraph;
+            } else if (val.number) {
+                // console.log(val.number);
+                newClauseID += clause_separator + val.number;
+            }
+
+            if (val.content) {
+
+                extracted(val.content, newClauseID);
+
+            } else if (val.text) {
+
+                var rowClass = "";
+                if (altCell) {
+                    rowClass = "altRow";
                 }
-                innerval += val.name_full
-                if(typeof val["url"] !== "undefined") {
-                    return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
-                }
+                table += "<tr class='" + rowClass + "'><td class='indexCell'>";
+                table += index;
+                table += "</td><td class='clauseIDCell'>";
+                table += newClauseID;
+                table += "</td><td>";
+                table += val.text;
+                table += "</td><td class='editRuleCell'>";
+                table += "<a href=''>Edit Rules</a>";
+                table += "</td><td class='currentRuleCell'>";
+                table += "";
+                table += "</td></tr>";
 
-                return "<li id='" + "name_full" + "'>" + innerval + "</li>";
+                altCell = !altCell;
+                index++;
+            }
 
-            };
-            var printSubTerm = function(val, term) {
-                var items = [];
-                if (typeof val[term] !== "undefined" && val[term].length > 0) {
-                    items.push("<p>" + term + "</p>");
-                    items.push("<ul>");
-                    $.each(val.villages, function (key, val) {
-                        items.push(printVal(val));
-                    });
-                    items.push("</ul>");
-                }
-                ;
-                return items.join("");
-            };
-        </script>
-    </head>
-    <body>
-        <div id="content"></div>
+        });
+    };
 
-        <script>
-            $(document).ready(function() {
-                $.getJSON("municipalities_newyork_NassauCounty.json", function (data) {
-                    var items = [];
-                    $.each(data, function (key, val) {
-                        items.push(printVal(val));
-                        items.push(printSubTerm(val, "villages"));
-                    });
-                    $("<ul/>", {
-                        "class": "my-new-list",
-                        html: items.join("")
-                    }).appendTo("#content");
-                });
-            });
+    $(document).ready(function () {
 
-        </script>
-    </body>
+        $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
+
+            var root = data.paras;
+            extracted(root, "");
+            table += "</table>";
+            $("#header").html(data.url);
+            $("#content").html(table);
+
+        });
+
+        /*
+
+         var printVal = function(val){
+         var innerval = "";
+         if(typeof val["url"] !== "undefined") {
+         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
+         }
+         innerval += val.name_full
+         if(typeof val["url"] !== "undefined") {
+         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
+         }
+
+         return "<li id='" + "name_full" + "'>" + innerval + "</li>";
+
+         };
+
+         var printSubTerm = function(val, term) {
+         var items = [];
+         if (typeof val[term] !== "undefined" && val[term].length > 0) {
+         items.push("<p>" + term + "</p>");
+         items.push("<ul>");
+         $.each(val.villages, function (key, val) {
+         items.push(printVal(val));
+         });
+         items.push("</ul>");
+         };
+
+         return items.join("");
+         };
+
+
+         $.getJSON("municipalities_newyork_NassauCounty.json", function (data) {
+         var items = [];
+         $.each(data, function (key, val) {
+         items.push(printVal(val));
+         items.push(printSubTerm(val, "villages"));
+         });
+         $("<ul/>", {
+         "class": "my-new-list",
+         html: items.join("")
+         }).appendTo("#content");
+         });
+         */
+    });
+
+</script>
+</body>
 </html>

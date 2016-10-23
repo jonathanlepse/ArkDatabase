@@ -1,13 +1,25 @@
++------------------------------------------------------------------------------+
+|******************************************************************************|
+|****                                                                      ****|
+|****                              READ ME                                 ****|
+|****                                                                      ****|
+|******************************************************************************|
++------------------------------------------------------------------------------+
+
 =======================================
 RUNNING THE APP
 
-cd /Users/emilchoski/Documents/App_Dev/ArkData/node/arkdata/ |
-DEBUG=optionhouse:* npm start
-
 cd /Users/emilchoski/Documents/App_Dev/ArkData/node/arkdata/
+
+DEBUG=optionhouse:* npm start
 
 might be needed: npm install
 
+=======================================
+create a local server
+
+cd /Users/emilchoski/Documents/App_Dev/ArkData/
+python -m SimpleHTTPServer
 
 =======================================
 COUNTIES TABLE
