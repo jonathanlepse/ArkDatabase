@@ -9,9 +9,9 @@
 =======================================
 RUNNING THE APP
 
-cd /Users/emilchoski/Documents/App_Dev/ArkData/node/arkdata/
+cd /Users/emilchoski/Documents/App_Dev/ArkData/node/scraper/
 
-DEBUG=optionhouse:* npm start
+DEBUG=scraper:* npm start
 
 might be needed: npm install
 
