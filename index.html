@@ -58,6 +58,16 @@
             width: 400px;
         }
 
+        .argsTable tr th,
+        .argsTable td {
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif !important;
+            font-size: 14px !important;
+            border-bottom: 1px solid black;
+            text-align: left;
+            background-color: white;
+        }
+
     </style>
 
 </head>
@@ -79,6 +89,25 @@
     table += "<th>edit rule</th>";
     table += "<th>rule</th>";
     table += "</tr>";
+
+
+    var rules = [
+            "MIN_FLOOR_AREA",
+            "MAX_HEIGHT",
+            "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+            "MAX_LOT_COVERAGE",
+
+            "MIN_SETBACK_FOR_FRONT_YARD",
+            "MIN_SETBACK_FOR_SIDE_YARD",
+            "MIN_SETBACK_FOR_BACK_YARD",
+            "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
+            "MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD"
+    ];
+
+    var units = [
+            "FEET",
+            "PERCENTAGE"
+    ];
 
     var altCell   = false;
     var extracted = function (root, clauseID) {
@@ -111,9 +140,68 @@
                 table += "</td><td>";
                 table += val.text;
                 table += "</td><td class='editRuleCell'>";
-                table += "<a href=''>Edit Rules</a>";
+                table += "<a href='#' class='editRulesLink'>Toggle Rules</a>";
                 table += "</td><td class='currentRuleCell'>";
-                table += "";
+
+
+                table += "<div class='rulesDiv' style='display: block'>";
+                table += "No Rules Applied";
+                table += "</div>";
+
+                table += "<table class='argsTable' style='display: none'>";
+                table += "<tr >";
+                table += "<td>";
+                table += "Rule Name";
+                table += "</td>";
+                table += "<td colspan='3'>";
+                table += "<select>";
+
+                table += "<option>";
+                table += "--- NO RULE ---";
+                table += "</option>";
+
+                for(var i = 0; i < rules.length; i++) {
+                    var curr = rules[i];
+                    table += "<option>";
+                    table += curr;
+                    table += "</option>";
+                }
+
+                table += "</select>";
+                table += "</td>";
+                table += "</tr>";
+
+                for(var i = 0; i < 5; i++) {
+                    table += "<tr>";
+                    table += "<td>";
+                    table += "Arg " + (i + 1);
+                    table += "</td>";
+                    table += "<td>";
+                    table += "<input type='text' name='arg" + (i + 1) + "'>";
+                    table += "</td>";
+                    table += "<td>";
+                    table += "<input type='text' name='arg" + (i + 1) + "'>";
+                    table += "</td>";
+                    table += "<td>";
+                    table += "<select>";
+                    for(var j = 0; j < units.length; j++) {
+                        var curr = units[j];
+                        table += "<option>";
+                        table += curr;
+                        table += "</option>";
+                    }
+                    table += "</td>";
+                    table += "</tr>";
+                }
+
+
+
+
+                table += "</table>";
+
+
+
+
                 table += "</td></tr>";
 
                 altCell = !altCell;
@@ -123,7 +211,16 @@
         });
     };
 
-    $(document).ready(function () {
+    $(document).ready(delay);
+
+    function delay(){
+        console.log("SETTING");
+        setTimeout(function () {
+            on_ready_func();
+        }, 1000);
+    }
+    
+    var on_ready_func = function () {
 
         $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
 
@@ -134,6 +231,22 @@
             $("#content").html(table);
 
         });
+
+        console.log("ARE WE EVEN HERE");
+
+        setTimeout(function () {
+            $(".editRulesLink").click(function () {
+
+                //console.log("CLICK");
+                var curr  = $(this);
+                var div = curr.parent().next().find(".rulesDiv");
+                var table = curr.parent().next().find(".argsTable");
+                console.log(table);
+                table.toggle();
+                div.toggle();
+                return false;
+            });
+        }, 200);
 
         /*
 
@@ -178,7 +291,8 @@
          }).appendTo("#content");
          });
          */
-    });
+    };
+
 
 </script>
 </body>
