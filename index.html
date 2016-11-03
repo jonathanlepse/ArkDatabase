@@ -91,23 +91,23 @@
     table += "</tr>";
 
     var null_rule = "NO_RULE";
-    var rules = [
-            "MIN_FLOOR_AREA",
-            "MAX_HEIGHT",
-            "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
-            "MAX_LOT_COVERAGE",
+    var rules     = [
+        "MIN_FLOOR_AREA",
+        "MAX_HEIGHT",
+        "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+        "MAX_LOT_COVERAGE",
 
-            "MIN_SETBACK_FOR_FRONT_YARD",
-            "MIN_SETBACK_FOR_SIDE_YARD",
-            "MIN_SETBACK_FOR_BACK_YARD",
-            "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
-            "MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD"
+        "MIN_SETBACK_FOR_FRONT_YARD",
+        "MIN_SETBACK_FOR_SIDE_YARD",
+        "MIN_SETBACK_FOR_BACK_YARD",
+        "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
+        "MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD"
     ];
 
     var null_units = "NO_UNITS";
-    var units = [
-            "FEET",
-            "PERCENTAGE"
+    var units      = [
+        "FEET",
+        "PERCENTAGE"
     ];
 
     var east_hills_rules = [
@@ -115,15 +115,16 @@
             clauseID: "@§ 271-32@A.",
             rule: "MIN_SETBACK_FOR_FRONT_YARD",
             args: [
-                {key: "minimum",
-                value: 35,
-                units: "FEET"}
+                {
+                    key: "minimum",
+                    value: 35,
+                    units: "FEET"
+                }
             ]
         }
     ];
 
     var loaded_rules = east_hills_rules;
-
 
     var altCell   = false;
     var extracted = function (root, clauseID) {
@@ -147,7 +148,7 @@
 
                 var display_table = false;
                 var selected_rule = null_rule;
-                var rule_obj = null;
+                var rule_obj      = null;
 
                 for (var i = 0; i < loaded_rules.length; i++) {
                     var rule = loaded_rules[i];
@@ -159,7 +160,7 @@
                         // console.log(str_1 + str_2);
                         display_table = true;
                         selected_rule = rule.rule;
-                        rule_obj = rule;
+                        rule_obj      = rule;
                     }
                 }
 
@@ -214,9 +215,9 @@
                 table += "--- UNSPECIFIED ---";
                 table += "</option>";
 
-                for(var i = 0; i < rules.length; i++) {
+                for (var i = 0; i < rules.length; i++) {
                     var curr = rules[i];
-                    if(curr == selected_rule){
+                    if (curr == selected_rule) {
                         table += "<option value='" + curr + "' selected>";
                     } else {
                         table += "<option value='" + curr + "'>";
@@ -230,24 +231,23 @@
                 table += "</td>";
                 table += "</tr>";
 
-                for(var i = 0; i < 5; i++) {
+                for (var i = 0; i < 5; i++) {
                     table += "<tr>";
                     table += "<td>";
                     table += "Arg " + (i + 1);
                     table += "</td>";
                     table += "<td>";
 
-                    if(rule_obj && (i < rule_obj.args.length)){
+                    if (rule_obj && (i < rule_obj.args.length)) {
                         table += "<input type='text' name='argKey" + (i + 1) + "' value='" + rule_obj.args[i].key +
                                 "'>";
                     } else {
                         table += "<input type='text' name='argKey" + (i + 1) + "'>";
                     }
 
-
                     table += "</td>";
                     table += "<td>";
-                    if(rule_obj && (i < rule_obj.args.length)){
+                    if (rule_obj && (i < rule_obj.args.length)) {
                         table += "<input type='text' name='argVal" + (i + 1) + "' value='" + rule_obj.args[i].value +
                                 "'>";
                     } else {
@@ -267,20 +267,17 @@
                     table += "--- UNSPECIFIED ---";
                     table += "</option>";
 
-
-                    for(var j = 0; j < units.length; j++) {
+                    for (var j = 0; j < units.length; j++) {
                         var curr = units[j];
-                        if(rule_obj && (i < rule_obj.args.length)){
-                            if(rule_obj.args[i].units == curr){
-                                table += "<option value='" +curr+ "' selected>";
+                        if (rule_obj && (i < rule_obj.args.length)) {
+                            if (rule_obj.args[i].units == curr) {
+                                table += "<option value='" + curr + "' selected>";
                             } else {
-                                table += "<option value='" +curr+ "'>";
+                                table += "<option value='" + curr + "'>";
                             }
                         } else {
                             table += "<option>";
                         }
-
-
 
                         table += curr;
                         table += "</option>";
@@ -289,13 +286,7 @@
                     table += "</tr>";
                 }
 
-
-
-
                 table += "</table>";
-
-
-
 
                 table += "</td></tr>";
 
@@ -308,13 +299,13 @@
 
     $(document).ready(delay);
 
-    function delay(){
+    function delay() {
         console.log("SETTING");
         setTimeout(function () {
             on_ready_func();
         }, 1000);
     }
-    
+
     var on_ready_func = function () {
 
         $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
@@ -334,7 +325,7 @@
 
                 //console.log("CLICK");
                 var curr  = $(this);
-                var div = curr.parent().next().find(".rulesDiv");
+                var div   = curr.parent().next().find(".rulesDiv");
                 var table = curr.parent().next().find(".argsTable");
                 console.log(table);
                 table.toggle();
