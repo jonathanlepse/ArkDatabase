@@ -356,7 +356,7 @@
                 // console.log(rule_obj);
 
                 var string = JSON.stringify(rules);
-                string = "var encoded_rules = " + string + ";";
+                // string = "var encoded_rules = " + string + ";";
                 $("#jsonOutput").html(string);
             }
 
@@ -372,7 +372,7 @@
             extracted(root, "");
             table += "</table>";
 
-            $("#header").html(data.url +
+            $("#header").html("Transcription Tool: " + data.url +
                     "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
             $("#content").html(table);
 
