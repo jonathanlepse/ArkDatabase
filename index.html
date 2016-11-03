@@ -180,11 +180,11 @@
                 table += "</td><td>";
                 table += val.text;
                 table += "</td><td class='editRuleCell'>";
-                table += "<a href='#' class='editRulesLink'>Toggle Rules</a>";
+                table += "<a href='#' class='editRulesLink'>Show Rules</a>";
                 table += "</td><td class='currentRuleCell'>";
 
                 if (display_table) {
-                    table += "<div class='rulesDiv' style='display: block'>";
+                    table += "<div class='rulesDiv' style='display: none'>";
                 } else {
                     table += "<div class='rulesDiv' style='display: block'>";
                 }
@@ -198,7 +198,7 @@
                 table += "</div>";
 
                 if (display_table) {
-                    table += "<table class='argsTable' style='display: none'>";
+                    table += "<table class='argsTable' style='display: block'>";
                 } else {
                     table += "<table class='argsTable' style='display: none'>";
                 }
