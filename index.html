@@ -8,6 +8,9 @@
     <!-- JS: FRAMEWORKS -->
     <script src="jquery.min.js"></script>
 
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <style type="text/css">
         body {
             font-family: sans-serif;
@@ -68,11 +71,23 @@
             background-color: white;
         }
 
+        #jsonOutput {
+            border: 1px  solid black;
+            height: 50px;
+            padding: 20px;
+            background-color: white;
+            overflow: scroll;
+            background-color: #dcecf5;
+        }
     </style>
 
 </head>
 <body>
 <h1 id="header"></h1>
+<div id="jsonOutput">
+
+
+</div>
 <div id="content">
 
 </div>
@@ -110,21 +125,9 @@
         "PERCENTAGE"
     ];
 
-    var east_hills_rules = [
-        {
-            clauseID: "@§ 271-32@A.",
-            rule: "MIN_SETBACK_FOR_FRONT_YARD",
-            args: [
-                {
-                    key: "minimum",
-                    value: 35,
-                    units: "FEET"
-                }
-            ]
-        }
-    ];
+    var encoded_rules = [{"clauseID":"@§_271-32@A.","rule":"MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD","args":[{"key":"maximum","value":"99","units":"PERCENTAGE"}]}];
 
-    var loaded_rules = east_hills_rules;
+    var loaded_rules = encoded_rules;
 
     var altCell   = false;
     var extracted = function (root, clauseID) {
@@ -154,8 +157,9 @@
                     var rule = loaded_rules[i];
 
                     //
-                    var str_1 = String(rule.clauseID).trim();
-                    var str_2 = String(newClauseID).trim();
+                    var str_1 = String(rule.clauseID).trim().replace(/\s/g,'_');
+                    var str_2 = String(newClauseID).trim().replace(/\s/g,'_');
+                    console.log(str_1, str_2);
                     if (str_1 == str_2) {
                         // console.log(str_1 + str_2);
                         display_table = true;
@@ -169,10 +173,10 @@
                     rowClass = "altRow";
                 }
 
-                table += "<tr class='" + rowClass + "'><td class='indexCell'>";
+                table += "<tr class='dataRow " + rowClass + "'><td class='indexCell'>";
                 table += index;
                 table += "</td><td class='clauseIDCell'>";
-                table += newClauseID;
+                table += str_2;
                 table += "</td><td>";
                 table += val.text;
                 table += "</td><td class='editRuleCell'>";
@@ -204,7 +208,7 @@
                 table += "Rule Name";
                 table += "</td>";
                 table += "<td colspan='3'>";
-                table += "<select>";
+                table += "<select class='ruleSelect'>";
 
                 if (selected_rule == null_rule) {
                     table += "<option value='" + null_rule + "' selected>";
@@ -232,31 +236,33 @@
                 table += "</tr>";
 
                 for (var i = 0; i < 5; i++) {
-                    table += "<tr>";
+                    table += "<tr class='argRow'>";
                     table += "<td>";
                     table += "Arg " + (i + 1);
                     table += "</td>";
                     table += "<td>";
 
                     if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' name='argKey" + (i + 1) + "' value='" + rule_obj.args[i].key +
+                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "' value='" +
+                                rule_obj.args[i].key +
                                 "'>";
                     } else {
-                        table += "<input type='text' name='argKey" + (i + 1) + "'>";
+                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "'>";
                     }
 
                     table += "</td>";
                     table += "<td>";
                     if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' name='argVal" + (i + 1) + "' value='" + rule_obj.args[i].value +
+                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "' value='" +
+                                rule_obj.args[i].value +
                                 "'>";
                     } else {
-                        table += "<input type='text' name='argVal" + (i + 1) + "'>";
+                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "'>";
                     }
 
                     table += "</td>";
                     table += "<td>";
-                    table += "<select>";
+                    table += "<select class='argUnitSelect'>";
 
                     if (rule_obj && rule_obj.units == null_units) {
                         table += "<option value='" + null_units + "' selected>";
@@ -306,33 +312,92 @@
         }, 1000);
     }
 
-    var on_ready_func = function () {
+
+    function export_to_JSON(){
+        // console.log("EXPORTING");
+
+        var rules = [];
+        $(".dataRow").each(function (index, value) {
+            var select = $(this).find(".ruleSelect").get(0);
+            var val = select.value;
+            console.log(val);
+
+            if(val == null_rule){
+
+            } else {
+                console.log(val);
+                var clause = $(this).find(".clauseIDCell").text();
+                console.log(clause);
+                var rule_obj = {
+                    clauseID: clause,
+                    rule: val,
+                    args: []
+                };
+
+                $(this).find(".argRow").each(function (index, value) {
+                    var argrow = $(this);
+                    var argKeyInput = argrow.find(".argKeyInput").get(0);
+                    var argValInput = argrow.find(".argValInput").get(0);
+                    var argUnitSelect = argrow.find(".argUnitSelect").get(0);
+                    var key = argKeyInput.value;
+                    var val = argValInput.value;
+                    var unit = argUnitSelect.value;
+
+                    if((key.length) > 0 && (val.length > 0)){
+                        // console.log(" key "+ key  + " val " + val + " unit " + unit);
+                        var args_obj = {key: key,
+                            value: val,
+                            units: unit};
+                        rule_obj.args.push(args_obj);
+                    }
+                });
+
+                rules.push(rule_obj);
+                // console.log(rule_obj);
+
+                var string = JSON.stringify(rules);
+                string = "var encoded_rules = " + string + ";";
+                $("#jsonOutput").html(string);
+            }
+
+
+        });
+    }
+
+    function on_ready_func() {
 
         $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
 
             var root = data.paras;
             extracted(root, "");
             table += "</table>";
-            $("#header").html(data.url);
+
+            $("#header").html(data.url +
+                    "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
             $("#content").html(table);
+
+            setTimeout(function () {
+                $(".editRulesLink").click(function () {
+
+                    //console.log("CLICK");
+                    var curr  = $(this);
+                    var div   = curr.parent().next().find(".rulesDiv");
+                    var table = curr.parent().next().find(".argsTable");
+                    console.log(table);
+                    table.toggle();
+                    div.toggle();
+                    return false;
+                });
+
+                $("#export-link").click(function () {
+                    export_to_JSON();
+                });
+
+            }, 200);
 
         });
 
         console.log("ARE WE EVEN HERE");
-
-        setTimeout(function () {
-            $(".editRulesLink").click(function () {
-
-                //console.log("CLICK");
-                var curr  = $(this);
-                var div   = curr.parent().next().find(".rulesDiv");
-                var table = curr.parent().next().find(".argsTable");
-                console.log(table);
-                table.toggle();
-                div.toggle();
-                return false;
-            });
-        }, 200);
 
         /*
 
