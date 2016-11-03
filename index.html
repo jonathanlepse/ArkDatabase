@@ -90,7 +90,7 @@
     table += "<th>rule</th>";
     table += "</tr>";
 
-
+    var null_rule = "NO_RULE";
     var rules = [
             "MIN_FLOOR_AREA",
             "MAX_HEIGHT",
@@ -104,10 +104,26 @@
             "MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD"
     ];
 
+    var null_units = "NO_UNITS";
     var units = [
             "FEET",
             "PERCENTAGE"
     ];
+
+    var east_hills_rules = [
+        {
+            clauseID: "@§ 271-32@A.",
+            rule: "MIN_SETBACK_FOR_FRONT_YARD",
+            args: [
+                {key: "minimum",
+                value: 35,
+                units: "FEET"}
+            ]
+        }
+    ];
+
+    var loaded_rules = east_hills_rules;
+
 
     var altCell   = false;
     var extracted = function (root, clauseID) {
@@ -129,10 +145,29 @@
 
             } else if (val.text) {
 
+                var display_table = false;
+                var selected_rule = null_rule;
+                var rule_obj = null;
+
+                for (var i = 0; i < loaded_rules.length; i++) {
+                    var rule = loaded_rules[i];
+
+                    //
+                    var str_1 = String(rule.clauseID).trim();
+                    var str_2 = String(newClauseID).trim();
+                    if (str_1 == str_2) {
+                        // console.log(str_1 + str_2);
+                        display_table = true;
+                        selected_rule = rule.rule;
+                        rule_obj = rule;
+                    }
+                }
+
                 var rowClass = "";
                 if (altCell) {
                     rowClass = "altRow";
                 }
+
                 table += "<tr class='" + rowClass + "'><td class='indexCell'>";
                 table += index;
                 table += "</td><td class='clauseIDCell'>";
@@ -143,12 +178,26 @@
                 table += "<a href='#' class='editRulesLink'>Toggle Rules</a>";
                 table += "</td><td class='currentRuleCell'>";
 
+                if (display_table) {
+                    table += "<div class='rulesDiv' style='display: block'>";
+                } else {
+                    table += "<div class='rulesDiv' style='display: block'>";
+                }
 
-                table += "<div class='rulesDiv' style='display: block'>";
-                table += "No Rules Applied";
+                if (selected_rule == null_rule) {
+                    table += "UNSPECIFIED";
+                } else {
+                    table += selected_rule;
+                }
+
                 table += "</div>";
 
-                table += "<table class='argsTable' style='display: none'>";
+                if (display_table) {
+                    table += "<table class='argsTable' style='display: none'>";
+                } else {
+                    table += "<table class='argsTable' style='display: none'>";
+                }
+
                 table += "<tr >";
                 table += "<td>";
                 table += "Rule Name";
@@ -156,13 +205,23 @@
                 table += "<td colspan='3'>";
                 table += "<select>";
 
-                table += "<option>";
-                table += "--- NO RULE ---";
+                if (selected_rule == null_rule) {
+                    table += "<option value='" + null_rule + "' selected>";
+                } else {
+                    table += "<option value='" + null_rule + "'>";
+                }
+
+                table += "--- UNSPECIFIED ---";
                 table += "</option>";
 
                 for(var i = 0; i < rules.length; i++) {
                     var curr = rules[i];
-                    table += "<option>";
+                    if(curr == selected_rule){
+                        table += "<option value='" + curr + "' selected>";
+                    } else {
+                        table += "<option value='" + curr + "'>";
+                    }
+
                     table += curr;
                     table += "</option>";
                 }
@@ -177,16 +236,52 @@
                     table += "Arg " + (i + 1);
                     table += "</td>";
                     table += "<td>";
-                    table += "<input type='text' name='arg" + (i + 1) + "'>";
+
+                    if(rule_obj && (i < rule_obj.args.length)){
+                        table += "<input type='text' name='argKey" + (i + 1) + "' value='" + rule_obj.args[i].key +
+                                "'>";
+                    } else {
+                        table += "<input type='text' name='argKey" + (i + 1) + "'>";
+                    }
+
+
                     table += "</td>";
                     table += "<td>";
-                    table += "<input type='text' name='arg" + (i + 1) + "'>";
+                    if(rule_obj && (i < rule_obj.args.length)){
+                        table += "<input type='text' name='argVal" + (i + 1) + "' value='" + rule_obj.args[i].value +
+                                "'>";
+                    } else {
+                        table += "<input type='text' name='argVal" + (i + 1) + "'>";
+                    }
+
                     table += "</td>";
                     table += "<td>";
                     table += "<select>";
+
+                    if (rule_obj && rule_obj.units == null_units) {
+                        table += "<option value='" + null_units + "' selected>";
+                    } else {
+                        table += "<option value='" + null_units + "'>";
+                    }
+
+                    table += "--- UNSPECIFIED ---";
+                    table += "</option>";
+
+
                     for(var j = 0; j < units.length; j++) {
                         var curr = units[j];
-                        table += "<option>";
+                        if(rule_obj && (i < rule_obj.args.length)){
+                            if(rule_obj.args[i].units == curr){
+                                table += "<option value='" +curr+ "' selected>";
+                            } else {
+                                table += "<option value='" +curr+ "'>";
+                            }
+                        } else {
+                            table += "<option>";
+                        }
+
+
+
                         table += curr;
                         table += "</option>";
                     }
