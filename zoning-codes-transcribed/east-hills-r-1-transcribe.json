@@ -1,1 +1,1 @@
-[{"clauseID":"@§_271-32@A.","rule":"MAX_SETBACK_AGGREGATE_YARD_SIDE_YARD","args":[{"key":"maximum","value":"99","units":"PERCENTAGE"}]}]
+[{"clauseID":"@§_271-32@A.","rule":"MIN_SETBACK_FOR_FRONT_YARD","args":[{"key":"min","value":"35","units":"FEET"}]}]
