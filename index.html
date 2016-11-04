@@ -72,7 +72,7 @@
         }
 
         #jsonOutput {
-            border: 1px  solid black;
+            border: 1px solid black;
             height: 50px;
             padding: 20px;
             background-color: white;
@@ -126,21 +126,48 @@
         "PERCENTAGE"
     ];
 
-    var encoded_rules = [{"clauseID":"@§_271-28@A.","rule":"MAX_HEIGHT","args":[{"key":"max","value":"31","units":"FEET"}]},
-            {"clauseID":"@§_271-28@B.","rule":"MAX_HEIGHT_FOR_ACCESSORY_BUILDING","args":[{"key":"max","value":"20","units":"FEET"}]},
-            {"clauseID":"@§_271-30","rule":"MAX_LOT_COVERAGE","args":[{"key":"max","value":"25","units":"PERCENTAGE"}]},
-            {"clauseID":"@§_271-31","rule":"MIN_FLOOR_AREA","args":[{"key":"min","value":"1500","units":"FEET_SQUARE"}]},
-            {"clauseID":"@§_271-32@A.","rule":"MIN_SETBACK_FOR_FRONT_YARD","args":[{"key":"min","value":"35","units":"FEET"}]},
-            {"clauseID":"@§_271-32@B.","rule":"MIN_SETBACK_AGGREGATE_SIDE_YARD","args":[{"key":"min","value":"40","units":"FEET"},
-                {"key":"individual_min","value":"15","units":"FEET"}]},
-            {"clauseID":"@§_271-32@C.","rule":"MIN_SETBACK_FOR_BACK_YARD","args":[{"key":"min","value":"30","units":"FEET"}]},
-            {"clauseID":"@§_271-32@D.","rule":"MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT","args":[{"key":"min","value":"30","units":"FEET"}]}]
-;
-
-
-
-
-
+    var encoded_rules = [{
+            "clauseID": "@§_271-28@A.",
+            "rule": "MAX_HEIGHT",
+            "args": [{"key": "max", "value": "31", "units": "FEET"}]
+        },
+            {
+                "clauseID": "@§_271-28@B.",
+                "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+                "args": [{"key": "max", "value": "20", "units": "FEET"}]
+            },
+            {
+                "clauseID": "@§_271-30",
+                "rule": "MAX_LOT_COVERAGE",
+                "args": [{"key": "max", "value": "25", "units": "PERCENTAGE"}]
+            },
+            {
+                "clauseID": "@§_271-31",
+                "rule": "MIN_FLOOR_AREA",
+                "args": [{"key": "min", "value": "1500", "units": "FEET_SQUARE"}]
+            },
+            {
+                "clauseID": "@§_271-32@A.",
+                "rule": "MIN_SETBACK_FOR_FRONT_YARD",
+                "args": [{"key": "min", "value": "35", "units": "FEET"}]
+            },
+            {
+                "clauseID": "@§_271-32@B.",
+                "rule": "MIN_SETBACK_AGGREGATE_SIDE_YARD",
+                "args": [{"key": "min", "value": "40", "units": "FEET"},
+                    {"key": "individual_min", "value": "15", "units": "FEET"}]
+            },
+            {
+                "clauseID": "@§_271-32@C.",
+                "rule": "MIN_SETBACK_FOR_BACK_YARD",
+                "args": [{"key": "min", "value": "30", "units": "FEET"}]
+            },
+            {
+                "clauseID": "@§_271-32@D.",
+                "rule": "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
+                "args": [{"key": "min", "value": "30", "units": "FEET"}]
+            }]
+            ;
 
     var loaded_rules = encoded_rules;
 
@@ -172,8 +199,8 @@
                     var rule = loaded_rules[i];
 
                     //
-                    var str_1 = String(rule.clauseID).trim().replace(/\s/g,'_');
-                    var str_2 = String(newClauseID).trim().replace(/\s/g,'_');
+                    var str_1 = String(rule.clauseID).trim().replace(/\s/g, '_');
+                    var str_2 = String(newClauseID).trim().replace(/\s/g, '_');
                     console.log(str_1, str_2);
                     if (str_1 == str_2) {
                         // console.log(str_1 + str_2);
@@ -327,17 +354,16 @@
         }, 1000);
     }
 
-
-    function export_to_JSON(){
+    function export_to_JSON() {
         // console.log("EXPORTING");
 
         var rules = [];
         $(".dataRow").each(function (index, value) {
             var select = $(this).find(".ruleSelect").get(0);
-            var val = select.value;
+            var val    = select.value;
             console.log(val);
 
-            if(val == null_rule){
+            if (val == null_rule) {
 
             } else {
                 console.log(val);
@@ -350,19 +376,21 @@
                 };
 
                 $(this).find(".argRow").each(function (index, value) {
-                    var argrow = $(this);
-                    var argKeyInput = argrow.find(".argKeyInput").get(0);
-                    var argValInput = argrow.find(".argValInput").get(0);
+                    var argrow        = $(this);
+                    var argKeyInput   = argrow.find(".argKeyInput").get(0);
+                    var argValInput   = argrow.find(".argValInput").get(0);
                     var argUnitSelect = argrow.find(".argUnitSelect").get(0);
-                    var key = argKeyInput.value;
-                    var val = argValInput.value;
-                    var unit = argUnitSelect.value;
+                    var key           = argKeyInput.value;
+                    var val           = argValInput.value;
+                    var unit          = argUnitSelect.value;
 
-                    if((key.length) > 0 && (val.length > 0)){
+                    if ((key.length) > 0 && (val.length > 0)) {
                         // console.log(" key "+ key  + " val " + val + " unit " + unit);
-                        var args_obj = {key: key,
+                        var args_obj = {
+                            key: key,
                             value: val,
-                            units: unit};
+                            units: unit
+                        };
                         rule_obj.args.push(args_obj);
                     }
                 });
@@ -374,7 +402,6 @@
                 // string = "var encoded_rules = " + string + ";";
                 $("#jsonOutput").html(string);
             }
-
 
         });
     }
@@ -457,7 +484,8 @@
          }).appendTo("#content");
          });
          */
-    };
+    }
+    ;
 
 
 </script>
