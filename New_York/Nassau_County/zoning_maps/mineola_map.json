@@ -230,7 +230,7 @@
 				"lng": -73.64732265472412
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -271,7 +271,7 @@
 				"lng": -73.64471286535263
 			}
 		],
-		"zoningType": "R-1 District"
+		"zoningType": "R-1"
 	},
 	{
 		"coords": [
@@ -372,7 +372,7 @@
 				"lng": -73.64401012659073
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -461,7 +461,7 @@
 				"lng": -73.64012897014618
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -534,7 +534,7 @@
 				"lng": -73.63363802433014
 			}
 		],
-		"zoningType": "R-3 District"
+		"zoningType": "R-3"
 	},
 	{
 		"coords": [
@@ -731,7 +731,7 @@
 				"lng": -73.6320447921753
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -772,7 +772,7 @@
 				"lng": -73.62382113933563
 			}
 		],
-		"zoningType": "R-1 District"
+		"zoningType": "R-1"
 	},
 	{
 		"coords": [
@@ -1097,7 +1097,7 @@
 				"lng": -73.62339735031128
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -1118,7 +1118,7 @@
 				"lng": -73.63235592842102
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -1419,7 +1419,7 @@
 				"lng": -73.63475918769836
 			}
 		],
-		"zoningType": "R-3 District"
+		"zoningType": "R-3"
 	},
 	{
 		"coords": [
@@ -1564,7 +1564,7 @@
 				"lng": -73.64147275686264
 			}
 		],
-		"zoningType": "R-3 District"
+		"zoningType": "R-3"
 	},
 	{
 		"coords": [
@@ -1729,7 +1729,7 @@
 				"lng": -73.64509910345078
 			}
 		],
-		"zoningType": "R-3 District"
+		"zoningType": "R-3"
 	},
 	{
 		"coords": [
@@ -1926,7 +1926,7 @@
 				"lng": -73.64571869373322
 			}
 		],
-		"zoningType": "R-1 District"
+		"zoningType": "R-1"
 	},
 	{
 		"coords": [
@@ -2071,7 +2071,7 @@
 				"lng": -73.64914655685425
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	},
 	{
 		"coords": [
@@ -2112,6 +2112,6 @@
 				"lng": -73.64898025989532
 			}
 		],
-		"zoningType": "R-2 District"
+		"zoningType": "R-2"
 	}
 ]
