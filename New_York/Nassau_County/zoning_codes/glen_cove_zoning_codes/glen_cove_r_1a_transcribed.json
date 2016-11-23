@@ -1,0 +1,200 @@
+[
+	{
+		"clauseID": "@§_280-54@A._@(4)_@(c)",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "100",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@A._@(4)_@(d)",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "10",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@A._@(4)_@(e)",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(4)",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "50",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(5)",
+		"rule": "MIN_SETBACK_FOR_BACK_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "50",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(6)",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "25",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(8)",
+		"rule": "MIN_FLOOR_AREA",
+		"args": [
+			{
+				"key": "min",
+				"value": "1200",
+				"units": "FEET_SQUARE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(9)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@B._@(10)",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "10",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@D._@(1)",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@D._@(3)",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "5",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@D._@(5)",
+		"rule": "MIN_SETBACK_FOR_BACK_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "5",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@D._@(6)",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "85",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@D._@(7)",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "5",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@E._@(6)_@(d)",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "50",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@E._@(7)_@(e)",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "100",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@E._@(7)_@(f)",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "4",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_280-54@E._@(7)_@(g)",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	}
+]
