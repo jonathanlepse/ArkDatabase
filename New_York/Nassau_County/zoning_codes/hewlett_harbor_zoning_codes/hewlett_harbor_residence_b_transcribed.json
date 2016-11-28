@@ -1,0 +1,204 @@
+[
+	{
+		"clauseID": "@§_145-10@A._@(1)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "33",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@A._@(2)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "28",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@A._@(3)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "33",
+				"units": "FEET"
+			},
+			{
+				"key": "max",
+				"value": "28",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@A._@(4)",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "18",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@B._@(1)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@B._@(2)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "32",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@B._@(3)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			},
+			{
+				"key": "max",
+				"value": "32",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@B._@(4)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "18",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@C._@(1)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@C._@(2)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@C._@(3)",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			},
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-10@C._@(4)",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "18",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-19.1@A.",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "35",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-19.1@C.",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "15",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-19.1@D.",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "50",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-19.1@E.",
+		"rule": "MIN_SETBACK_FOR_BACK_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "50",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_145-19.1@F.",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "50",
+				"units": "FEET"
+			}
+		]
+	}
+]
