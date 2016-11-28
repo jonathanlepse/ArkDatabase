@@ -1,0 +1,134 @@
+[
+	{
+		"clauseID": "@§_265-47",
+		"rule": "MAX_HEIGHT",
+		"args": [
+			{
+				"key": "max",
+				"value": "30",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-48@A.",
+		"rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+		"args": [
+			{
+				"key": "max",
+				"value": "12",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-48@C.",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "45",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-48@D.",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "4",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-48@E.",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "2",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-49@A.",
+		"rule": "MIN_FLOOR_AREA",
+		"args": [
+			{
+				"key": "min",
+				"value": "800",
+				"units": "FEET_SQUARE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-49@C.",
+		"rule": "MAX_LOT_COVERAGE",
+		"args": [
+			{
+				"key": "max",
+				"value": "30",
+				"units": "PERCENTAGE"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-51",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "25",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-52@A.",
+		"rule": "MIN_SETBACK_AGGREGATE_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "16",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-52@B._@(1)",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "15",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-52@B._@(2)",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "20",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_265-53",
+		"rule": "MIN_SETBACK_FOR_BACK_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "25",
+				"units": "FEET"
+			}
+		]
+	}
+]
