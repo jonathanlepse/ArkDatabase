@@ -56,7 +56,7 @@
 	},
 	{
 		"clauseID": "@§_210-14",
-		"rule": "MIN_FLOOR_AREA",
+		"rule": "MAX_LOT_COVERAGE",
 		"args": [
 			{
 				"key": "min",
