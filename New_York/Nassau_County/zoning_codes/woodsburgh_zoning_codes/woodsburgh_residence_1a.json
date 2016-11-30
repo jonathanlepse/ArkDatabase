@@ -110,31 +110,8 @@
 			"title": "Floor area.",
 			"content": [
 				{
-					"text": "The maximum permitted floor area shall be calculated\nbased upon the following table: The maximum permitted floor area shall be calculated based upon the following table:
-										Lot Size
-										(square feet)
-										Maximum Permitted Floor Area
-										(square feet)
-										0 to 12,000
-										3,000
-										12,001 to 14,000
-										3,000, plus 0.26 times lot area over 12,000
-										14,001 to 16,000
-										3,000, plus 0.25 times lot area over 12,000
-										16,001 to 18,000
-										3,000, plus 0.24 times lot area over 12,000
-										18,001 to 20,000
-										3,000, plus 0.23 times lot area over 12,000
-										20,001 to 22,000
-										3,000, plus 0.22 times lot area over 12,000
-										22,001 to 23,000
-										3,000, plus 0.21 times lot area over 12,000
-										23,001 to 29,000
-										3,000, plus 0.20 times lot area over 12,000
-										29,001 to 30,000
-										3,000, plus 0.19 times lot area over 12,000
-										30,001 and above
-										3,000, plus 0.18 times lot area over 12,000"
+					"text": "The maximum permitted floor area shall be calculated\nbased upon the following table: The maximum permitted floor area shall be calculated based upon the following table:"
+									
 				}
 			]
 		}
