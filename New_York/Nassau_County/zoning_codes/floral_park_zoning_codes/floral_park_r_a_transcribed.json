@@ -1,0 +1,51 @@
+[
+	{
+		"clauseID": "@§_99-21@A._@(1)_@(c)",
+		"rule": "MIN_SETBACK_FOR_FRONT_YARD",
+		"args": [
+			{
+				"key": "max",
+				"value": "20",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_99-21@B.",
+		"rule": "MIN_SETBACK_FOR_SIDE_YARD",
+		"args": [
+			{
+				"key": "max",
+				"value": "25",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_99-21@C.",
+		"rule": "MIN_SETBACK_FOR_BACK_YARD",
+		"args": [
+			{
+				"key": "min",
+				"value": "25",
+				"units": "FEET"
+			},
+			{
+				"key": "min",
+				"value": "20",
+				"units": "FEET"
+			}
+		]
+	},
+	{
+		"clauseID": "@§_99-24@B.",
+		"rule": "MIN_FLOOR_AREA",
+		"args": [
+			{
+				"key": "max",
+				"value": "100",
+				"units": "FEET_SQUARE"
+			}
+		]
+	}
+]
