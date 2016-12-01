@@ -1,7 +1,7 @@
 {
 	"url": "http://ecode360.com/9461947",
 	"paras": [
-	    {
+		{
 			"paragraph": "§ 99-7",
 			"title": "R-1 Districts (one-family residential).",
 			"content": [
@@ -55,7 +55,7 @@
 				}
 			]
 		},
-				{
+		{
 			"paragraph": "§ 99-13",
 			"title": "Fences and buffers.",
 			"content": [
@@ -2621,4 +2621,4 @@
 			]
 		}
 	]
-}	
+}
