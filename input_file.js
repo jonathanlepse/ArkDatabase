@@ -34,8 +34,8 @@ var encoded_rules =
                         "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
                         "args": [
                             {
-                                "key": "max",
-                                "value": "20",
+                                "key": "max_roofline",
+                                "value": "25",
                                 "units": "FEET"
                             }
                         ]
