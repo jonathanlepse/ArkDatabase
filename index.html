@@ -5,8 +5,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ArkData</title>
 
-    <!-- JS: FRAMEWORKS -->
+    <!-- JS -->
     <script src="jquery.min.js"></script>
+    <script src="input_file.js"></script>
+
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -79,6 +81,27 @@
             overflow: scroll;
             background-color: #dcecf5;
         }
+
+        .buttonDiv {
+            overflow: hidden;
+            padding-top: 5px;
+        }
+        .addBoxLink,
+        .deleteBoxLink{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: lightgreen;
+            display: block;
+            float: left;
+            margin-right: 5px;
+            border: 1px solid #1ac11a;
+
+        }
+        .deleteBoxLink {
+            background-color: #ffbaba;
+            border: 1px solid #ff6161;
+        }
+
     </style>
 
 </head>
@@ -101,7 +124,6 @@
     table += "<th>index</th>";
     table += "<th>clauseID</th>";
     table += "<th>body</th>";
-    table += "<th>edit rule</th>";
     table += "<th>rule</th>";
     table += "</tr>";
 
@@ -116,7 +138,8 @@
         "MIN_SETBACK_FOR_SIDE_YARD",
         "MIN_SETBACK_FOR_BACK_YARD",
         "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
-        "MIN_SETBACK_AGGREGATE_SIDE_YARD",
+        "MIN_SETBACK_AGGREGATE_SIDE_YARD"
+
     ];
 
     var null_units = "NO_UNITS";
@@ -126,47 +149,6 @@
         "PERCENTAGE"
     ];
 
-    var encoded_rules = [{
-        "clauseID": "@§_271-28@A.",
-        "rule": "MAX_HEIGHT",
-        "args": [{"key": "max", "value": "31", "units": "FEET"}]
-    },
-        {
-            "clauseID": "@§_271-28@B.",
-            "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
-            "args": [{"key": "max", "value": "20", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-30",
-            "rule": "MAX_LOT_COVERAGE",
-            "args": [{"key": "max", "value": "25", "units": "PERCENTAGE"}]
-        },
-        {
-            "clauseID": "@§_271-31",
-            "rule": "MIN_FLOOR_AREA",
-            "args": [{"key": "min", "value": "1500", "units": "FEET_SQUARE"}]
-        },
-        {
-            "clauseID": "@§_271-32@A.",
-            "rule": "MIN_SETBACK_FOR_FRONT_YARD",
-            "args": [{"key": "min", "value": "35", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@B.",
-            "rule": "MIN_SETBACK_AGGREGATE_SIDE_YARD",
-            "args": [{"key": "min", "value": "40", "units": "FEET"},
-                {"key": "individual_min", "value": "15", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@C.",
-            "rule": "MIN_SETBACK_FOR_BACK_YARD",
-            "args": [{"key": "min", "value": "30", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@D.",
-            "rule": "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
-            "args": [{"key": "min", "value": "30", "units": "FEET"}]
-        }];
 
     var loaded_rules = encoded_rules;
 
@@ -190,9 +172,10 @@
 
             } else if (val.text) {
 
-                var display_table = false;
+                var rule_array = null;
+                var rule_obj   = null;
+
                 var selected_rule = null_rule;
-                var rule_obj      = null;
 
                 for (var i = 0; i < loaded_rules.length; i++) {
                     var rule = loaded_rules[i];
@@ -200,12 +183,19 @@
                     //
                     var str_1 = String(rule.clauseID).trim().replace(/\s/g, '_');
                     var str_2 = String(newClauseID).trim().replace(/\s/g, '_');
-                    console.log(str_1, str_2);
+                    // console.log(str_1, str_2);
                     if (str_1 == str_2) {
                         // console.log(str_1 + str_2);
-                        display_table = true;
-                        selected_rule = rule.rule;
-                        rule_obj      = rule;
+
+                        if (typeof(rule.rule) !== 'undefined') {
+                            rule_obj = rule;
+
+                        }
+
+                        if (typeof(rule.rules) !== 'undefined') {
+                            rule_array = rule.rules;
+                        }
+
                     }
                 }
 
@@ -220,120 +210,31 @@
                 table += str_2;
                 table += "</td><td>";
                 table += val.text;
-                table += "</td><td class='editRuleCell'>";
-                table += "<a href='#' class='editRulesLink'>Show Rules</a>";
                 table += "</td><td class='currentRuleCell'>";
 
-                if (display_table) {
-                    table += "<div class='rulesDiv' style='display: none'>";
-                } else {
-                    table += "<div class='rulesDiv' style='display: block'>";
+                if (rule_array == null) {
+                    rule_array = [rule_obj];
+                    rule_array = [];
                 }
 
-                if (selected_rule == null_rule) {
-                    table += "UNSPECIFIED";
-                } else {
-                    table += selected_rule;
+                if (rule_obj) {
+                    rule_array = [rule_obj];
                 }
 
-                table += "</div>";
+                for (var r = 0; r < rule_array.length; r++) {
+                    rule_obj = rule_array[r];
 
-                if (display_table) {
-                    table += "<table class='argsTable' style='display: block'>";
-                } else {
-                    table += "<table class='argsTable' style='display: none'>";
-                }
-
-                table += "<tr >";
-                table += "<td>";
-                table += "Rule Name";
-                table += "</td>";
-                table += "<td colspan='3'>";
-                table += "<select class='ruleSelect'>";
-
-                if (selected_rule == null_rule) {
-                    table += "<option value='" + null_rule + "' selected>";
-                } else {
-                    table += "<option value='" + null_rule + "'>";
-                }
-
-                table += "--- UNSPECIFIED ---";
-                table += "</option>";
-
-                for (var i = 0; i < rules.length; i++) {
-                    var curr = rules[i];
-                    if (curr == selected_rule) {
-                        table += "<option value='" + curr + "' selected>";
-                    } else {
-                        table += "<option value='" + curr + "'>";
+                    if (rule_obj && (typeof(rule_obj.rule) !== 'undefined')) {
+                        selected_rule = rule_obj.rule;
                     }
 
-                    table += curr;
-                    table += "</option>";
+                    table += makeRuleBox(selected_rule, rule_obj);
                 }
 
-                table += "</select>";
-                table += "</td>";
-                table += "</tr>";
 
-                for (var i = 0; i < 5; i++) {
-                    table += "<tr class='argRow'>";
-                    table += "<td>";
-                    table += "Arg " + (i + 1);
-                    table += "</td>";
-                    table += "<td>";
+                table += "<a href='' class='addBoxLink'>&#43;&nbsp;Add Rule</a>";
+                table += "<a href='' class='deleteBoxLink'>&#8722;&nbsp;Delete Rule</a>";
 
-                    if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "' value='" +
-                                rule_obj.args[i].key +
-                                "'>";
-                    } else {
-                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "'>";
-                    }
-
-                    table += "</td>";
-                    table += "<td>";
-                    if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "' value='" +
-                                rule_obj.args[i].value +
-                                "'>";
-                    } else {
-                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "'>";
-                    }
-
-                    table += "</td>";
-                    table += "<td>";
-                    table += "<select class='argUnitSelect'>";
-
-                    if (rule_obj && rule_obj.units == null_units) {
-                        table += "<option value='" + null_units + "' selected>";
-                    } else {
-                        table += "<option value='" + null_units + "'>";
-                    }
-
-                    table += "--- UNSPECIFIED ---";
-                    table += "</option>";
-
-                    for (var j = 0; j < units.length; j++) {
-                        var curr = units[j];
-                        if (rule_obj && (i < rule_obj.args.length)) {
-                            if (rule_obj.args[i].units == curr) {
-                                table += "<option value='" + curr + "' selected>";
-                            } else {
-                                table += "<option value='" + curr + "'>";
-                            }
-                        } else {
-                            table += "<option>";
-                        }
-
-                        table += curr;
-                        table += "</option>";
-                    }
-                    table += "</td>";
-                    table += "</tr>";
-                }
-
-                table += "</table>";
 
                 table += "</td></tr>";
 
@@ -343,6 +244,103 @@
 
         });
     };
+
+    var makeRuleBox = function (selected_rule, rule_obj) {
+        var table = "";
+        table += "<table class='argsTable' style='display: block'>";
+
+        table += "<tr >";
+        table += "<td>";
+        table += "Rule Name";
+        table += "</td>";
+        table += "<td colspan='3'>";
+        table += "<select class='ruleSelect'>";
+
+        if (selected_rule == null_rule) {
+            table += "<option value='" + null_rule + "' selected>";
+        } else {
+            table += "<option value='" + null_rule + "'>";
+        }
+
+        table += "--- UNSPECIFIED ---";
+        table += "</option>";
+
+        for (var i = 0; i < rules.length; i++) {
+            var curr = rules[i];
+            if (curr == selected_rule) {
+                table += "<option value='" + curr + "' selected>";
+            } else {
+                table += "<option value='" + curr + "'>";
+            }
+
+            table += curr;
+            table += "</option>";
+        }
+
+        table += "</select>";
+        table += "</td>";
+        table += "</tr>";
+
+        for (var i = 0; i < 5; i++) {
+            table += "<tr class='argRow'>";
+            table += "<td>";
+            table += "Arg " + (i + 1);
+            table += "</td>";
+            table += "<td>";
+
+            if (rule_obj && (i < rule_obj.args.length)) {
+                table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "' value='" +
+                    rule_obj.args[i].key +
+                    "'>";
+            } else {
+                table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "'>";
+            }
+
+            table += "</td>";
+            table += "<td>";
+            if (rule_obj && (i < rule_obj.args.length)) {
+                table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "' value='" +
+                    rule_obj.args[i].value +
+                    "'>";
+            } else {
+                table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "'>";
+            }
+
+            table += "</td>";
+            table += "<td>";
+            table += "<select class='argUnitSelect'>";
+
+            if (rule_obj && rule_obj.units == null_units) {
+                table += "<option value='" + null_units + "' selected>";
+            } else {
+                table += "<option value='" + null_units + "'>";
+            }
+
+            table += "--- UNSPECIFIED ---";
+            table += "</option>";
+
+            for (var j = 0; j < units.length; j++) {
+                var curr = units[j];
+                if (rule_obj && (i < rule_obj.args.length)) {
+                    if (rule_obj.args[i].units == curr) {
+                        table += "<option value='" + curr + "' selected>";
+                    } else {
+                        table += "<option value='" + curr + "'>";
+                    }
+                } else {
+                    table += "<option>";
+                }
+
+                table += curr;
+                table += "</option>";
+            }
+            table += "</td>";
+            table += "</tr>";
+        }
+
+        table += "</table>";
+        return table;
+    }
 
     $(document).ready(delay);
 
@@ -358,63 +356,84 @@
 
         var rules = [];
         $(".dataRow").each(function (index, value) {
-            var select = $(this).find(".ruleSelect").get(0);
-            var val    = select.value;
-            console.log(val);
+            var $dataRow = $(this);
 
-            if (val == null_rule) {
+            var clause    = $dataRow.find(".clauseIDCell").text();
+            var rules_obj = {
+                clauseID: clause,
+                rules: []
 
-            } else {
-                console.log(val);
-                var clause = $(this).find(".clauseIDCell").text();
-                console.log(clause);
-                var rule_obj = {
-                    clauseID: clause,
-                    rule: val,
-                    args: []
-                };
+            };
 
-                $(this).find(".argRow").each(function (index, value) {
-                    var argrow        = $(this);
-                    var argKeyInput   = argrow.find(".argKeyInput").get(0);
-                    var argValInput   = argrow.find(".argValInput").get(0);
-                    var argUnitSelect = argrow.find(".argUnitSelect").get(0);
-                    var key           = argKeyInput.value;
-                    var val           = argValInput.value;
-                    var unit          = argUnitSelect.value;
+            $(this).find(".argsTable").each(function (index, value) {
+                var select = $(this).find(".ruleSelect").get(0);
+                if (!select) {
+                    return;
+                }
 
-                    if ((key.length) > 0 && (val.length > 0)) {
-                        // console.log(" key "+ key  + " val " + val + " unit " + unit);
-                        var args_obj = {
-                            key: key,
-                            value: val,
-                            units: unit
-                        };
-                        rule_obj.args.push(args_obj);
-                    }
-                });
+                var val = select.value;
+                // console.log(val);
 
-                rules.push(rule_obj);
-                // console.log(rule_obj);
+                if (val == null_rule) {
 
-                var string = JSON.stringify(rules);
-                // string = "var encoded_rules = " + string + ";";
-                $("#jsonOutput").html(string);
+                } else {
+                    // console.log(val);
+
+                    // console.log(clause);
+                    var rule_obj = {
+
+                        rule: val,
+                        args: []
+                    };
+
+                    $(this).find(".argRow").each(function (index, value) {
+                        var argrow        = $(this);
+                        var argKeyInput   = argrow.find(".argKeyInput").get(0);
+                        var argValInput   = argrow.find(".argValInput").get(0);
+                        var argUnitSelect = argrow.find(".argUnitSelect").get(0);
+                        var key           = argKeyInput.value;
+                        var val           = argValInput.value;
+                        var unit          = argUnitSelect.value;
+
+                        if ((key.length) > 0 && (val.length > 0)) {
+                            // console.log(" key "+ key  + " val " + val + " unit " + unit);
+                            var args_obj = {
+                                key: key,
+                                value: val,
+                                units: unit
+                            };
+                            rule_obj.args.push(args_obj);
+
+                        }
+                    });
+
+                    rules_obj.rules.push(rule_obj);
+
+                }
+            });
+
+            if(rules_obj.rules.length > 0) {
+                rules.push(rules_obj);
             }
+            // console.log(rule_obj);
+
+            var string = JSON.stringify(rules);
+            // string = "var encoded_rules = " + string + ";";
+            $("#jsonOutput").html(string);
 
         });
     }
 
     function on_ready_func() {
 
-        $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
+        $.getJSON("New_York/Nassau_County/zoning_codes/east_hills_zoning_codes/east_hills_r_1.json", function (data) {
 
             var root = data.paras;
             extracted(root, "");
             table += "</table>";
 
             $("#header").html("Transcription Tool: " + data.url +
-                    "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
+                "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
             $("#content").html(table);
 
             setTimeout(function () {
@@ -430,6 +449,41 @@
                     return false;
                 });
 
+                $(".addBoxLink").click(function () {
+                    var curr = $(this);
+
+                    var tbl = makeRuleBox(null_rule, null);
+                    // console.log(curr.prev().length + " LENGTH" );
+                    if(curr.prev().length > 0){
+                        console.log("Previous Element Exists");
+                        curr.prev().append(tbl);
+                    } else {
+                        console.log("Previous Element Does Not Exist");
+                        // curr.parent().append(tbl);
+
+                        $(tbl).insertBefore(curr);
+                    }
+
+
+                    return false;
+
+                });
+
+                $(".deleteBoxLink").click(function () {
+                    var curr = $(this);
+
+
+                    if(curr.prev().prev().length > 0){
+                        curr.prev().prev().remove();
+                    } else {
+                        alert("nothing to remove");
+                    };
+
+
+                    return false;
+
+                });
+
                 $("#export-link").click(function () {
                     export_to_JSON();
                 });
@@ -437,55 +491,7 @@
             }, 200);
 
         });
-
-        console.log("ARE WE EVEN HERE");
-
-        /*
-
-         var printVal = function(val){
-         var innerval = "";
-         if(typeof val["url"] !== "undefined") {
-         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
-         }
-         innerval += val.name_full
-         if(typeof val["url"] !== "undefined") {
-         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
-         }
-
-         return "<li id='" + "name_full" + "'>" + innerval + "</li>";
-
-         };
-
-         var printSubTerm = function(val, term) {
-         var items = [];
-         if (typeof val[term] !== "undefined" && val[term].length > 0) {
-         items.push("<p>" + term + "</p>");
-         items.push("<ul>");
-         $.each(val.villages, function (key, val) {
-         items.push(printVal(val));
-         });
-         items.push("</ul>");
-         };
-
-         return items.join("");
-         };
-
-
-         $.getJSON("municipalities_newyork_NassauCounty.json", function (data) {
-         var items = [];
-         $.each(data, function (key, val) {
-         items.push(printVal(val));
-         items.push(printSubTerm(val, "villages"));
-         });
-         $("<ul/>", {
-         "class": "my-new-list",
-         html: items.join("")
-         }).appendTo("#content");
-         });
-         */
     }
-    ;
-
 
 </script>
 </body>
