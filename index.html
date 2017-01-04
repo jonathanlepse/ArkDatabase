@@ -101,7 +101,6 @@
     table += "<th>index</th>";
     table += "<th>clauseID</th>";
     table += "<th>body</th>";
-    table += "<th>edit rule</th>";
     table += "<th>rule</th>";
     table += "</tr>";
 
@@ -133,8 +132,14 @@
     },
         {
             "clauseID": "@§_271-28@B.",
-            "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
-            "args": [{"key": "max", "value": "20", "units": "FEET"}]
+            "rules": [{
+                "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+                "args": [{"key": "max", "value": "20", "units": "FEET"}]
+            },
+                {
+                    "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
+                    "args": [{"key": "max", "value": "20", "units": "FEET"}]
+                }]
         },
         {
             "clauseID": "@§_271-30",
@@ -190,9 +195,13 @@
 
             } else if (val.text) {
 
-                var display_table = false;
-                var selected_rule = null_rule;
+
+
+                var rule_array = null;
                 var rule_obj      = null;
+
+                var selected_rule = null_rule;
+
 
                 for (var i = 0; i < loaded_rules.length; i++) {
                     var rule = loaded_rules[i];
@@ -200,12 +209,21 @@
                     //
                     var str_1 = String(rule.clauseID).trim().replace(/\s/g, '_');
                     var str_2 = String(newClauseID).trim().replace(/\s/g, '_');
-                    console.log(str_1, str_2);
+                    // console.log(str_1, str_2);
                     if (str_1 == str_2) {
                         // console.log(str_1 + str_2);
-                        display_table = true;
-                        selected_rule = rule.rule;
-                        rule_obj      = rule;
+
+
+                        if(typeof(rule.rule) !== 'undefined') {
+                            rule_obj = rule;
+
+                        }
+
+                        if(typeof(rule.rules) !== 'undefined') {
+                            rule_array = rule.rules;
+                        }
+
+
                     }
                 }
 
@@ -220,120 +238,34 @@
                 table += str_2;
                 table += "</td><td>";
                 table += val.text;
-                table += "</td><td class='editRuleCell'>";
-                table += "<a href='#' class='editRulesLink'>Show Rules</a>";
                 table += "</td><td class='currentRuleCell'>";
 
-                if (display_table) {
-                    table += "<div class='rulesDiv' style='display: none'>";
-                } else {
-                    table += "<div class='rulesDiv' style='display: block'>";
+
+
+
+
+                if(rule_array == null){
+                    rule_array = [rule_obj];
+                    rule_array = [];
                 }
 
-                if (selected_rule == null_rule) {
-                    table += "UNSPECIFIED";
-                } else {
-                    table += selected_rule;
+                if(rule_obj){
+                    rule_array = [rule_obj];
                 }
 
-                table += "</div>";
 
-                if (display_table) {
-                    table += "<table class='argsTable' style='display: block'>";
-                } else {
-                    table += "<table class='argsTable' style='display: none'>";
-                }
 
-                table += "<tr >";
-                table += "<td>";
-                table += "Rule Name";
-                table += "</td>";
-                table += "<td colspan='3'>";
-                table += "<select class='ruleSelect'>";
+                for(var r = 0; r < rule_array.length; r++) {
+                    rule_obj = rule_array[r];
 
-                if (selected_rule == null_rule) {
-                    table += "<option value='" + null_rule + "' selected>";
-                } else {
-                    table += "<option value='" + null_rule + "'>";
-                }
-
-                table += "--- UNSPECIFIED ---";
-                table += "</option>";
-
-                for (var i = 0; i < rules.length; i++) {
-                    var curr = rules[i];
-                    if (curr == selected_rule) {
-                        table += "<option value='" + curr + "' selected>";
-                    } else {
-                        table += "<option value='" + curr + "'>";
+                    if(rule_obj && (typeof(rule_obj.rule) !== 'undefined')) {
+                        selected_rule = rule_obj.rule;
                     }
 
-                    table += curr;
-                    table += "</option>";
+                    table += makeRuleBox(selected_rule, rule_obj);
                 }
 
-                table += "</select>";
-                table += "</td>";
-                table += "</tr>";
-
-                for (var i = 0; i < 5; i++) {
-                    table += "<tr class='argRow'>";
-                    table += "<td>";
-                    table += "Arg " + (i + 1);
-                    table += "</td>";
-                    table += "<td>";
-
-                    if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "' value='" +
-                                rule_obj.args[i].key +
-                                "'>";
-                    } else {
-                        table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "'>";
-                    }
-
-                    table += "</td>";
-                    table += "<td>";
-                    if (rule_obj && (i < rule_obj.args.length)) {
-                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "' value='" +
-                                rule_obj.args[i].value +
-                                "'>";
-                    } else {
-                        table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "'>";
-                    }
-
-                    table += "</td>";
-                    table += "<td>";
-                    table += "<select class='argUnitSelect'>";
-
-                    if (rule_obj && rule_obj.units == null_units) {
-                        table += "<option value='" + null_units + "' selected>";
-                    } else {
-                        table += "<option value='" + null_units + "'>";
-                    }
-
-                    table += "--- UNSPECIFIED ---";
-                    table += "</option>";
-
-                    for (var j = 0; j < units.length; j++) {
-                        var curr = units[j];
-                        if (rule_obj && (i < rule_obj.args.length)) {
-                            if (rule_obj.args[i].units == curr) {
-                                table += "<option value='" + curr + "' selected>";
-                            } else {
-                                table += "<option value='" + curr + "'>";
-                            }
-                        } else {
-                            table += "<option>";
-                        }
-
-                        table += curr;
-                        table += "</option>";
-                    }
-                    table += "</td>";
-                    table += "</tr>";
-                }
-
-                table += "</table>";
+                table += "<a href='' class='addBoxLink'>Add Rule</a>";
 
                 table += "</td></tr>";
 
@@ -343,6 +275,104 @@
 
         });
     };
+
+    var makeRuleBox = function(selected_rule, rule_obj){
+        var table = "";
+        table += "<table class='argsTable' style='display: block'>";
+
+        table += "<tr >";
+        table += "<td>";
+        table += "Rule Name";
+        table += "</td>";
+        table += "<td colspan='3'>";
+        table += "<select class='ruleSelect'>";
+
+        if (selected_rule == null_rule) {
+            table += "<option value='" + null_rule + "' selected>";
+        } else {
+            table += "<option value='" + null_rule + "'>";
+        }
+
+        table += "--- UNSPECIFIED ---";
+        table += "</option>";
+
+        for (var i = 0; i < rules.length; i++) {
+            var curr = rules[i];
+            if (curr == selected_rule) {
+                table += "<option value='" + curr + "' selected>";
+            } else {
+                table += "<option value='" + curr + "'>";
+            }
+
+            table += curr;
+            table += "</option>";
+        }
+
+        table += "</select>";
+        table += "</td>";
+        table += "</tr>";
+
+        for (var i = 0; i < 5; i++) {
+            table += "<tr class='argRow'>";
+            table += "<td>";
+            table += "Arg " + (i + 1);
+            table += "</td>";
+            table += "<td>";
+
+            if (rule_obj && (i < rule_obj.args.length)) {
+                table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "' value='" +
+                    rule_obj.args[i].key +
+                    "'>";
+            } else {
+                table += "<input type='text' class='argKeyInput' name='argKey" + (i + 1) + "'>";
+            }
+
+            table += "</td>";
+            table += "<td>";
+            if (rule_obj && (i < rule_obj.args.length)) {
+                table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "' value='" +
+                    rule_obj.args[i].value +
+                    "'>";
+            } else {
+                table += "<input type='text' class='argValInput' name='argVal" + (i + 1) + "'>";
+            }
+
+            table += "</td>";
+            table += "<td>";
+            table += "<select class='argUnitSelect'>";
+
+            if (rule_obj && rule_obj.units == null_units) {
+                table += "<option value='" + null_units + "' selected>";
+            } else {
+                table += "<option value='" + null_units + "'>";
+            }
+
+            table += "--- UNSPECIFIED ---";
+            table += "</option>";
+
+            for (var j = 0; j < units.length; j++) {
+                var curr = units[j];
+                if (rule_obj && (i < rule_obj.args.length)) {
+                    if (rule_obj.args[i].units == curr) {
+                        table += "<option value='" + curr + "' selected>";
+                    } else {
+                        table += "<option value='" + curr + "'>";
+                    }
+                } else {
+                    table += "<option>";
+                }
+
+                table += curr;
+                table += "</option>";
+            }
+            table += "</td>";
+            table += "</tr>";
+        }
+
+        table += "</table>";
+        return table;
+    }
+
 
     $(document).ready(delay);
 
@@ -358,56 +388,79 @@
 
         var rules = [];
         $(".dataRow").each(function (index, value) {
-            var select = $(this).find(".ruleSelect").get(0);
-            var val    = select.value;
-            console.log(val);
+            var $dataRow = $(this);
 
-            if (val == null_rule) {
+            var clause = $dataRow.find(".clauseIDCell").text();
+            var rules_obj = {
+                clauseID: clause,
+                rules: []
 
-            } else {
-                console.log(val);
-                var clause = $(this).find(".clauseIDCell").text();
-                console.log(clause);
-                var rule_obj = {
-                    clauseID: clause,
-                    rule: val,
-                    args: []
-                };
+            };
 
-                $(this).find(".argRow").each(function (index, value) {
-                    var argrow        = $(this);
-                    var argKeyInput   = argrow.find(".argKeyInput").get(0);
-                    var argValInput   = argrow.find(".argValInput").get(0);
-                    var argUnitSelect = argrow.find(".argUnitSelect").get(0);
-                    var key           = argKeyInput.value;
-                    var val           = argValInput.value;
-                    var unit          = argUnitSelect.value;
+            $(this).find(".argsTable").each(function (index, value) {
+                var select = $(this).find(".ruleSelect").get(0);
+                if(!select){
+                    return;
+                }
 
-                    if ((key.length) > 0 && (val.length > 0)) {
-                        // console.log(" key "+ key  + " val " + val + " unit " + unit);
-                        var args_obj = {
-                            key: key,
-                            value: val,
-                            units: unit
-                        };
-                        rule_obj.args.push(args_obj);
-                    }
-                });
+                var val    = select.value;
+                // console.log(val);
 
-                rules.push(rule_obj);
-                // console.log(rule_obj);
+                if (val == null_rule) {
 
-                var string = JSON.stringify(rules);
-                // string = "var encoded_rules = " + string + ";";
-                $("#jsonOutput").html(string);
-            }
+                } else {
+                    // console.log(val);
+
+                    // console.log(clause);
+                    var rule_obj = {
+
+                        rule: val,
+                        args: []
+                    };
+
+                    $(this).find(".argRow").each(function (index, value) {
+                        var argrow        = $(this);
+                        var argKeyInput   = argrow.find(".argKeyInput").get(0);
+                        var argValInput   = argrow.find(".argValInput").get(0);
+                        var argUnitSelect = argrow.find(".argUnitSelect").get(0);
+                        var key           = argKeyInput.value;
+                        var val           = argValInput.value;
+                        var unit          = argUnitSelect.value;
+
+                        if ((key.length) > 0 && (val.length > 0)) {
+                            // console.log(" key "+ key  + " val " + val + " unit " + unit);
+                            var args_obj = {
+                                key: key,
+                                value: val,
+                                units: unit
+                            };
+                            rule_obj.args.push(args_obj);
+
+                        }
+                    });
+
+                    rules_obj.rules.push(rule_obj);
+
+
+                }
+            });
+
+            rules.push(rules_obj);
+            // console.log(rule_obj);
+
+            var string = JSON.stringify(rules);
+            // string = "var encoded_rules = " + string + ";";
+            $("#jsonOutput").html(string);
+
+
+
 
         });
     }
 
     function on_ready_func() {
 
-        $.getJSON("zoning-codes/east-hills-r-1.json", function (data) {
+        $.getJSON("New_York/Nassau_County/zoning_codes/east_hills_zoning_codes/east_hills_r_1.json", function (data) {
 
             var root = data.paras;
             extracted(root, "");
@@ -430,6 +483,16 @@
                     return false;
                 });
 
+                $(".addBoxLink").click(function () {
+                    var curr  = $(this);
+
+                    var tbl = makeRuleBox(null_rule, null);
+                    curr.parent().prepend(tbl);
+                    return false;
+
+                });
+
+
                 $("#export-link").click(function () {
                     export_to_JSON();
                 });
@@ -438,7 +501,7 @@
 
         });
 
-        console.log("ARE WE EVEN HERE");
+        // console.log("ARE WE EVEN HERE");
 
         /*
 
