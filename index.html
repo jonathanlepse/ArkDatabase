@@ -79,6 +79,27 @@
             overflow: scroll;
             background-color: #dcecf5;
         }
+
+        .buttonDiv {
+            overflow: hidden;
+            padding-top: 5px;
+        }
+        .addBoxLink,
+        .deleteBoxLink{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: lightgreen;
+            display: block;
+            float: left;
+            margin-right: 5px;
+            border: 1px solid #1ac11a;
+
+        }
+        .deleteBoxLink {
+            background-color: #ffbaba;
+            border: 1px solid #ff6161;
+        }
+
     </style>
 
 </head>
@@ -125,53 +146,8 @@
         "PERCENTAGE"
     ];
 
-    var encoded_rules = [{
-        "clauseID": "@§_271-28@A.",
-        "rule": "MAX_HEIGHT",
-        "args": [{"key": "max", "value": "31", "units": "FEET"}]
-    },
-        {
-            "clauseID": "@§_271-28@B.",
-            "rules": [{
-                "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
-                "args": [{"key": "max", "value": "20", "units": "FEET"}]
-            },
-                {
-                    "rule": "MAX_HEIGHT_FOR_ACCESSORY_BUILDING",
-                    "args": [{"key": "max", "value": "20", "units": "FEET"}]
-                }]
-        },
-        {
-            "clauseID": "@§_271-30",
-            "rule": "MAX_LOT_COVERAGE",
-            "args": [{"key": "max", "value": "25", "units": "PERCENTAGE"}]
-        },
-        {
-            "clauseID": "@§_271-31",
-            "rule": "MIN_FLOOR_AREA",
-            "args": [{"key": "min", "value": "1500", "units": "FEET_SQUARE"}]
-        },
-        {
-            "clauseID": "@§_271-32@A.",
-            "rule": "MIN_SETBACK_FOR_FRONT_YARD",
-            "args": [{"key": "min", "value": "35", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@B.",
-            "rule": "MIN_SETBACK_AGGREGATE_SIDE_YARD",
-            "args": [{"key": "min", "value": "40", "units": "FEET"},
-                {"key": "individual_min", "value": "15", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@C.",
-            "rule": "MIN_SETBACK_FOR_BACK_YARD",
-            "args": [{"key": "min", "value": "30", "units": "FEET"}]
-        },
-        {
-            "clauseID": "@§_271-32@D.",
-            "rule": "MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT",
-            "args": [{"key": "min", "value": "30", "units": "FEET"}]
-        }];
+    var encoded_rules =
+            [{"clauseID":"@§_271-28@A.","rules":[{"rule":"MAX_HEIGHT","args":[{"key":"max","value":"31","units":"FEET"}]}]},{"clauseID":"@§_271-28@B.","rules":[{"rule":"MAX_HEIGHT_FOR_ACCESSORY_BUILDING","args":[{"key":"max","value":"20","units":"FEET"}]},{"rule":"MAX_HEIGHT_FOR_ACCESSORY_BUILDING","args":[{"key":"max","value":"20","units":"FEET"}]}]},{"clauseID":"@§_271-30","rules":[{"rule":"MAX_LOT_COVERAGE","args":[{"key":"max","value":"25","units":"PERCENTAGE"}]}]},{"clauseID":"@§_271-31","rules":[{"rule":"MIN_FLOOR_AREA","args":[{"key":"min","value":"1500","units":"FEET_SQUARE"}]}]},{"clauseID":"@§_271-32@A.","rules":[{"rule":"MIN_SETBACK_FOR_FRONT_YARD","args":[{"key":"min","value":"35","units":"FEET"}]}]},{"clauseID":"@§_271-32@B.","rules":[{"rule":"MIN_SETBACK_AGGREGATE_SIDE_YARD","args":[{"key":"min","value":"40","units":"FEET"},{"key":"individual_min","value":"15","units":"FEET"}]}]},{"clauseID":"@§_271-32@C.","rules":[{"rule":"MIN_SETBACK_FOR_BACK_YARD","args":[{"key":"min","value":"30","units":"FEET"}]}]},{"clauseID":"@§_271-32@D.","rules":[{"rule":"MIN_SETBACK_FOR_YARD_FROM_STREETLINE_IF_CORNER_LOT","args":[{"key":"min","value":"30","units":"FEET"}]}]}];
 
     var loaded_rules = encoded_rules;
 
@@ -195,13 +171,10 @@
 
             } else if (val.text) {
 
-
-
                 var rule_array = null;
-                var rule_obj      = null;
+                var rule_obj   = null;
 
                 var selected_rule = null_rule;
-
 
                 for (var i = 0; i < loaded_rules.length; i++) {
                     var rule = loaded_rules[i];
@@ -213,16 +186,14 @@
                     if (str_1 == str_2) {
                         // console.log(str_1 + str_2);
 
-
-                        if(typeof(rule.rule) !== 'undefined') {
+                        if (typeof(rule.rule) !== 'undefined') {
                             rule_obj = rule;
 
                         }
 
-                        if(typeof(rule.rules) !== 'undefined') {
+                        if (typeof(rule.rules) !== 'undefined') {
                             rule_array = rule.rules;
                         }
-
 
                     }
                 }
@@ -240,32 +211,29 @@
                 table += val.text;
                 table += "</td><td class='currentRuleCell'>";
 
-
-
-
-
-                if(rule_array == null){
+                if (rule_array == null) {
                     rule_array = [rule_obj];
                     rule_array = [];
                 }
 
-                if(rule_obj){
+                if (rule_obj) {
                     rule_array = [rule_obj];
                 }
 
-
-
-                for(var r = 0; r < rule_array.length; r++) {
+                for (var r = 0; r < rule_array.length; r++) {
                     rule_obj = rule_array[r];
 
-                    if(rule_obj && (typeof(rule_obj.rule) !== 'undefined')) {
+                    if (rule_obj && (typeof(rule_obj.rule) !== 'undefined')) {
                         selected_rule = rule_obj.rule;
                     }
 
                     table += makeRuleBox(selected_rule, rule_obj);
                 }
 
-                table += "<a href='' class='addBoxLink'>Add Rule</a>";
+
+                table += "<a href='' class='addBoxLink'>&#43;&nbsp;Add Rule</a>";
+                table += "<a href='' class='deleteBoxLink'>&#8722;&nbsp;Delete Rule</a>";
+
 
                 table += "</td></tr>";
 
@@ -276,7 +244,7 @@
         });
     };
 
-    var makeRuleBox = function(selected_rule, rule_obj){
+    var makeRuleBox = function (selected_rule, rule_obj) {
         var table = "";
         table += "<table class='argsTable' style='display: block'>";
 
@@ -373,7 +341,6 @@
         return table;
     }
 
-
     $(document).ready(delay);
 
     function delay() {
@@ -390,7 +357,7 @@
         $(".dataRow").each(function (index, value) {
             var $dataRow = $(this);
 
-            var clause = $dataRow.find(".clauseIDCell").text();
+            var clause    = $dataRow.find(".clauseIDCell").text();
             var rules_obj = {
                 clauseID: clause,
                 rules: []
@@ -399,11 +366,11 @@
 
             $(this).find(".argsTable").each(function (index, value) {
                 var select = $(this).find(".ruleSelect").get(0);
-                if(!select){
+                if (!select) {
                     return;
                 }
 
-                var val    = select.value;
+                var val = select.value;
                 // console.log(val);
 
                 if (val == null_rule) {
@@ -441,19 +408,17 @@
 
                     rules_obj.rules.push(rule_obj);
 
-
                 }
             });
 
-            rules.push(rules_obj);
+            if(rules_obj.rules.length > 0) {
+                rules.push(rules_obj);
+            }
             // console.log(rule_obj);
 
             var string = JSON.stringify(rules);
             // string = "var encoded_rules = " + string + ";";
             $("#jsonOutput").html(string);
-
-
-
 
         });
     }
@@ -467,7 +432,7 @@
             table += "</table>";
 
             $("#header").html("Transcription Tool: " + data.url +
-                    "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
+                "<a id='export-link' href='#' style='float:right; font-weight: 100; text-decoration: underline;'><i class='material-icons'>subject</i>Export JSON</a>");
             $("#content").html(table);
 
             setTimeout(function () {
@@ -484,14 +449,39 @@
                 });
 
                 $(".addBoxLink").click(function () {
-                    var curr  = $(this);
+                    var curr = $(this);
 
                     var tbl = makeRuleBox(null_rule, null);
-                    curr.parent().prepend(tbl);
+                    // console.log(curr.prev().length + " LENGTH" );
+                    if(curr.prev().length > 0){
+                        console.log("Previous Element Exists");
+                        curr.prev().append(tbl);
+                    } else {
+                        console.log("Previous Element Does Not Exist");
+                        // curr.parent().append(tbl);
+
+                        $(tbl).insertBefore(curr);
+                    }
+
+
                     return false;
 
                 });
 
+                $(".deleteBoxLink").click(function () {
+                    var curr = $(this);
+
+
+                    if(curr.prev().prev().length > 0){
+                        curr.prev().prev().remove();
+                    } else {
+                        alert("nothing to remove");
+                    };
+
+
+                    return false;
+
+                });
 
                 $("#export-link").click(function () {
                     export_to_JSON();
@@ -500,55 +490,7 @@
             }, 200);
 
         });
-
-        // console.log("ARE WE EVEN HERE");
-
-        /*
-
-         var printVal = function(val){
-         var innerval = "";
-         if(typeof val["url"] !== "undefined") {
-         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
-         }
-         innerval += val.name_full
-         if(typeof val["url"] !== "undefined") {
-         return "<li id='" + "name_full" + "'>" + "<a target='_blank' href='" + val.url +"'>" + val.name_full + "</a>" +  "</li>";
-         }
-
-         return "<li id='" + "name_full" + "'>" + innerval + "</li>";
-
-         };
-
-         var printSubTerm = function(val, term) {
-         var items = [];
-         if (typeof val[term] !== "undefined" && val[term].length > 0) {
-         items.push("<p>" + term + "</p>");
-         items.push("<ul>");
-         $.each(val.villages, function (key, val) {
-         items.push(printVal(val));
-         });
-         items.push("</ul>");
-         };
-
-         return items.join("");
-         };
-
-
-         $.getJSON("municipalities_newyork_NassauCounty.json", function (data) {
-         var items = [];
-         $.each(data, function (key, val) {
-         items.push(printVal(val));
-         items.push(printSubTerm(val, "villages"));
-         });
-         $("<ul/>", {
-         "class": "my-new-list",
-         html: items.join("")
-         }).appendTo("#content");
-         });
-         */
     }
-    ;
-
 
 </script>
 </body>
