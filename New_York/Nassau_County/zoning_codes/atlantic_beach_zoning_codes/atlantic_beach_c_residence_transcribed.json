@@ -288,16 +288,6 @@
     "clauseID": "@§250-43",
     "rules": [
       {
-        "rule": "FLOOR_AREA",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "6000",
-            "units": "FEET_SQUARE"
-          }
-        ]
-      },
-      {
         "rule": "LOT_WIDTH",
         "args": [
           {
