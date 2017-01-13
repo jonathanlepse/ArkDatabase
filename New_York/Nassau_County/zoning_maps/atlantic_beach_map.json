@@ -46,7 +46,7 @@
 				"lng": -73.72376561164856
 			}
 		],
-		"zoningType": "C Residence District"
+		"zoningType": "C Residence"
 	},
 	{
 		"coords": [
@@ -67,7 +67,7 @@
 				"lng": -73.73594284057617
 			}
 		],
-		"zoningType": "CA Residence District"
+		"zoningType": "CA Residence"
 	},
 	{
 		"coords": [
@@ -112,6 +112,6 @@
 				"lng": -73.7413501739502
 			}
 		],
-		"zoningType": "A Residence District"
+		"zoningType": "A Residence"
 	}
 ]
