@@ -1,5 +1,5 @@
 {
-	"url": "http://ecode360.com/14447521",
+	"url": "http://ecode360.com/14447355",
 	"paras": [
 		{
 			"paragraph": "§ 600-84",
@@ -89,6 +89,824 @@
 			"content": [
 				{
 					"text": "No building shall be greater than 2 1/2 stories or 35 feet in height, except that no multifamily dwelling hereafter erected or any building hereafter converted to a multifamily dwelling shall be higher than that which is permitted pursuant to the provisions of Article IV of this chapter."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-202",
+			"title": "Reduction of lot area; use of open spaces for more than one building.",
+			"content": [
+				{
+					"text": "No lot area shall be reduced or diminished so\nthat the yards or other open spaces shall be smaller than prescribed\nby this chapter. No yard, court or other open space provided for any\nbuilding for the purpose of complying with the provisions of this\nchapter shall again be used as a yard, court or other open space for\nanother building."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-203",
+			"title": "Yards on corner lots.",
+			"content": [
+				{
+					"text": "In the case of a corner lot, the yards and areas\nadjacent to the two street frontages shall be deemed front yards and,\nexcept as herein otherwise provided, shall conform to the front yard\nrequirements of the district in which it is situated. The owner shall\ndesignate which street is to be considered the front of his lot at\nthe time he files a building application required by this chapter."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-204",
+			"title": "Existing nonconforming lots.",
+			"content": [
+				{
+					"text": "Any lot smaller in area than herein required,\nwhich was in single and separate ownership from any other adjoining\nlot at the time of the enactment of this chapter and continuously\nthereafter, may be improved with buildings which shall comply so far\nas practicable with the provisions of this chapter."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-204.1",
+			"title": "Prohibited structures and appurtenances.\n                                                                                          [1]",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "No\nbuilding or structure commonly known as a \"Quonset hut\" shall be moved\ninto our erected within any residence or business district in the\nVillage of Farmingdale, nor used as a part of any building or structure\nwithin any of said districts."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "No\nbarrier device shall be installed in front of or behind a door, window\nor other opening used for the purpose of securing premises by preventing\naccess or blocking passage to the interior of the premises facing\nor fronting on a public road or highway located within any business\nzoning district."
+								}
+							]
+						}
+					]
+				},
+				{
+					"footnote": "[1]\nEditor's Note: Added at time of adoption of Code (see Ch. 1, General Provisions, Art. I).\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-205",
+			"title": "Accessory buildings.",
+			"content": [
+				{
+					"text": "In any residence district, no accessory building\nshall be nearer the front street line than 60 feet and, if on a corner\nplot, shall not be nearer the side street line than the street wall\nof the main building. Accessory buildings in residence districts may\noccupy not more than 40% of the required area of the rear yard and\nshall not be more than 18 feet in height. No part of such accessory\nbuilding shall be nearer the rear or side lot lines than three feet,\nexcept where such accessory building is built as one unit with an\naccessory building on an adjoining lot with a party wall between."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-206",
+			"title": "Accessory garages; open projections; yard areas occupied by accessory buildings.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Accessory garages in residence districts shall occupy\nnot more than 12% of the area of the lot and shall be at least 10\nfeet from any residence except when constructed as part of a residence."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "A one-story open porch or other open projection from\na building may extend not more than two feet six inches into the side\nyard and may occupy not more than 20% of the side yard area."
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "The yard area occupied by an accessory building shall\nbe included in computing the maximum percentage of the lot area which\nmay be built upon in any district."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-207",
+			"title": "Exclusion of certain buildings and structures from height restrictions.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "The height provisions of this chapter shall not apply\nto the erection of church spires, belfries or towers designed exclusively\nfor ornamental purposes nor to municipal water tanks or those not\nexceeding 12 feet in height above the roof on which they are located."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Nothing in this chapter shall prevent the erection\nabove the height limit of a parapet wall or cornice extending above\nsuch height limit not more than three feet, nor prohibit the projection\nof a cornice beyond the street wall to an extent not more than two\nfeet."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-208",
+			"title": "Dwellings to rear of other buildings.",
+			"content": [
+				{
+					"text": "No building used for dwelling purposes shall\nbe located in back of or to the rear of buildings on the front of\nthe lot."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-209",
+			"title": "Triangular lots.",
+			"content": [
+				{
+					"text": "In the case of a triangular lot where one side\nof the lot coincides with the street line, the rear lot line shall\nbe considered to be a line parallel to the street line passing through\nthe intersection of the two side lines, if such intersection is less\nthan 200 feet from the center line of the street in front of the property\nmeasured as heretofore described. Where the intersection is more than\n200 feet from the center line of the street in front of the property,\nthe rear lot line shall be considered to be a line parallel to the\nstreet line and 200 feet from it. Where two sides of a triangular\nlot each front upon a street, the remaining side shall be considered\nthe rear lot line. In such case, no side yard is required."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-210",
+			"title": "Parking areas for hotels.",
+			"content": [
+				{
+					"text": "There shall be provided on the same plot with\nevery hotel having more than 16 sleeping rooms, a graveled or paved\nparking area sufficient in size to accommodate one car for each room.\nSuch parking area shall be upon the same plot with the hotel and shall\nnot be leased to the public but shall be for the sole use of the patrons\nof such hotel and visitors thereto."
+				},
+				{
+					"footnote": "[1]\nEditor's Note: Amended at time of adoption of Code (see Ch. 1, General Provisions, Art. I).\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-211",
+			"title": "Residential buildings in business or industrial districts.",
+			"content": [
+				{
+					"text": "Any building hereafter erected for residential\npurposes within a business or industrial district within the Village\nof Farmingdale, or hereafter converted to residential use within any\nof such districts, shall, in addition to any other requirements contained\nin this chapter or in the Building Code[1] of the Village of Farmingdale or statutes or ordinances\napplicable thereto, comply with the regulations regarding building\narea, front yards, rear yards, side yards, lot area and height applicable\nto residential buildings of similar character erected in a Residence\nC District; provided, however, that if any building shall hereafter\nbe erected or converted for or to a multifamily dwelling in any business\nor industrial district within the Village of Farmingdale, then the\nsame shall, in addition to any other requirements contained in this\nchapter or in the Building Code of the Village of Farmingdale or statutes\nor ordinances applicable thereto, comply with the regulations regarding\nbuilding area, front yards, rear yards, side yards, lot area and height\napplicable to residential buildings of similar character erected in\na Residence BB District."
+				},
+				{
+					"footnote": "[1]\nEditor's Note: See Ch. 259, Construction Codes, Uniform.\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-212",
+			"title": "Minimum lot requirements for two-family detached dwellings.",
+			"content": [
+				{
+					"text": "No two-family detached house shall hereafter\nbe erected, nor shall any building be hereafter altered to a two-family\ndetached dwelling, within any zoning district of the Village of Farmingdale,\nupon a lot having a street frontage of less than 100 feet and a lot\narea of less than 10,000 square feet. In addition to the foregoing\narea requirements, there shall be two side yards, one on each side\nof the main building, extending the full depth of the lot. The total\nof both side yards shall be not less than 20 feet in width, and no\nside yard shall be less than eight feet in width."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-213",
+			"title": "Maintenance of required areas and installations.",
+			"content": [
+				{
+					"text": "Whenever under the provisions of this chapter,\nor as a condition for the issuance or granting of a building permit,\ncertificate of occupancy, special use or variance, an owner or occupant\nof any land or building, or an applicant for such building permit,\ncertificate of occupancy, special use or variance, is required or\nhas heretofore been required to install off-street drainage, off-street\nparking or paving, landscaping, screening, recreational areas, fencing,\nutility areas, garbage collection areas, lighting, water disposal\nsystems or other areas or installations required by this chapter or\nimposed as a condition for the granting or issuance of any building\npermit, certificate of occupancy, special use or variance by any Board\nor officer of the Incorporated Village of Farmingdale or other municipal\nboard or officer having jurisdiction thereof, the owner and occupant\nof said premises shall maintain all of said areas and installations\nin a safe, proper, clean and efficient manner and in good repair without\npermitting the same to deteriorate or to become in disrepair or fail\nto function in a proper, clean or efficient manner, and the failure\nof the owner and occupant to maintain such area and/or installation\nin the manner hereinabove provided shall be a violation of the certificate\nof occupancy issued to said owner and/or occupant for the building\nand premises and shall be deemed a violation of this chapter."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-214",
+			"title": "Floor area ratio (FAR).",
+			"content": [
+				{
+					"text": "In the residential zones of the Village, the\nfloor area ratio (FAR) requirements applicable to a particular building\nplot or parcel shall be as set forth and prescribed under the following\nschedule; provided, however, that in no case shall the FAR be interpreted\nand applied so as to require a dwelling to be constructed with less\ngross floor area than the maximum gross floor area permitted on any\nsmaller lot under such schedule:"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-215",
+			"title": "Outdoor dining.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Purpose and intent. This section is designed to permit outdoor dining\nin areas where it is appropriate and to promote and protect the public\nhealth, safety and general welfare. The specific purposes of this\nsection are:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "To ensure adequate space for pedestrians on the sidewalk adjacent\nto outdoor dining areas."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "To preserve and enhance the character of the neighborhoods where\nsuch outdoor dining is permitted in the Village and to protect the\nadjacent areas."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "To promote the most desirable use of land."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Permit required; fee."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "No outdoor dining shall be allowed unless a permit has first\nbeen obtained from the Village Clerk."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "The fee for such permit shall be in such amount as is determined\nfrom time to time by resolution of the Board of Trustees."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Eligible establishments."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Only commercial establishments with a proper certificate of\noccupancy for a restaurant use, which has heretofore been duly issued\nby the Village which take orders and maintain table service within\ntheir establishments, may take orders and serve food and beverages\nin such outdoor dining areas."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Other commercial establishments that are not restaurants referred to in Subsection C(1) above, which sell food, may apply for an outdoor dining permit but may not take orders or serve food and beverages at such outdoor dining areas."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Other commercial establishments, with the permission of the\nBoard of Trustees, are eligible."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Application for permit."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Any application for outdoor dining shall be made to the Village\nClerk in writing on a form prescribed by the Village Clerk's\noffice."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Such application shall contain the following information:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "The name, address and telephone number of the applicant."
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "The name, address and telephone number of the establishment\nto be the subject of the application and the name, address and telephone\nnumber of the owner and/or operator of the establishment or designated\nresponsible representative."
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Whether alcoholic beverages are to be served; if so, a copy\nof the appropriate liquor license issued by the State of New York\nis to be appended to the application."
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "A survey of the subject property also indicating the adjacent\nproperty which is Village owned."
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "A plan showing the complete sidewalk area, including trees,\nreceptacles, fire hydrants and all other features with the location\nof all furniture and fixtures to be used, including a fully dimensioned\nseating plan and the location of entrances and exits."
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Descriptive material showing all furniture and fixtures to be\nused and how such furniture and fixtures shall be stored or secured\nduring non-operational hours."
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "A representation that no live or mechanically reproduced music\nis to be played outside."
+																}
+															]
+														},
+														{
+															"number": "(h) ",
+															"content": [
+																{
+																	"text": "Any other information that the Village Clerk may find reasonably\nnecessary to determine whether a permit should be issued."
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Standards for issuance of permit. The following standards shall apply:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The proposed outdoor dining will not interfere with pedestrian\ntraffic or use of the Village-owned portion of the property adjacent\nto the establishment."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "The applicant is in compliance with and has met all other applicable\nprovisions in this chapter and those in the New York Building and\nVillage Zoning Codes."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "No live or mechanically reproduced music is to be played outside."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Effect of permit."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The consumption of alcoholic beverages of any and all types\nand kinds in such outdoor dining areas is prohibited unless served\nby the licensed premises and accompanied by the service and consumption\nof food. It is the responsibility of the owner and/or operator of\nthe premises who has obtained a permit hereunder for outdoor dining\nto ensure compliance with this provision."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "A permit holder shall be bound by all applicable rules, regulations,\nordinances, local laws and statutes. The Board of Trustees may, by\nresolution, adopt, from time to time, any additional rules and regulations\npertaining to such permits. The permit may be conditioned on modifications\nor restrictions intended to ensure compliance with all applicable\nrules, regulations, ordinances, local laws and statutes and the general\nprotection of health, safety and welfare."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "No other activities of any nature conducted now or hereafter\nby any commercial establishment, enterprise, business, venture or\nshop in the Village, otherwise prohibited by all applicable rules,\nregulations, ordinances, local laws or statutes are changed, amended,\nsuspended or altered in any respect because of this chapter."
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Such outdoor dining activities shall be limited to areas directly\nto the front or rear of each store or merchant's establishment.\nThere shall be a minimum of four feet total sidewalk width clearance\nto provide adequate and unobstructed pedestrian movement, such width\nto be measured from the outermost point of the outdoor dining area\nto brick work."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Liability of permit holder. The person or persons to whom a permit\nfor outdoor dining has been issued shall be liable and shall indemnify\nthe Village for any loss, damage, or injury or expense sustained by\nthe Village arising out of any claim or cause of action instituted\nor commence by any person or persons arising out of the issuance of\nsuch permit or as a direct or indirect result of the operation of\nsuch outdoor dining area."
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Insurance. Prior to the issuance of a permit, the applicant for a\npermit shall present to the Village a certificate of insurance for\ncomprehensive general liability, naming the Incorporated Village of\nFarmingdale, its agents, representatives, officers, and employees\nas additional insureds, for combined single limits of no less than\n$1,000,000 per occurrence and $2,000,000 general aggregate and additional\numbrella limits of $1,000,000."
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Revocation or suspension of permit. The Village Clerk shall have\nthe authority to revoke or suspend a permit, when, in the Clerk's\nsole discretion, the Clerk finds a violation of any applicable rule,\nregulation, ordinance, local law or statute, or that a continuation\nof said permit would constitute a hazard or nuisance, or upon good\ncause shown."
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Appeal from denial, revocation or issuance of permit. Appeals from\nthe issuance, denial, revocation or other condition of a permit may\nbe taken to the Village of Farmingdale Board of Zoning Appeals by\nany aggrieved person within 30 days from the date of the issuance,\ndenial or revocation, by filing a written notice of appeal with the\nVillage Clerk."
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Maintenance of premises. The outdoor dining area and adjacent areas\nshall be periodically cleaned and kept refuse-free. The outdoor dining\narea and adjacent areas shall be swept and washed down each night\njust prior to closing and at other times as needed. Sufficient containers\nfor trash shall be placed in the outdoor dining area."
+								}
+							]
+						},
+						{
+							"number": "L. ",
+							"content": [
+								{
+									"text": "Lighting and outdoor cooking. Lighting shall be minimal and shall\nbe installed so that direct or indirect illumination from the source\nlight shall not cause illumination in excess of 0.5 foot candles on\nany abutting property. No outdoor cooking of any type is permitted."
+								}
+							]
+						},
+						{
+							"number": "M. ",
+							"content": [
+								{
+									"text": "Furniture fixtures and signage. All furniture and fixtures used in\nconjunction with outdoor dining must be of a temporary nature, and\nmust be brought in at closing time. No signage shall be permitted\nto be affixed to any temporary structures unless approved by the Board\nof Trustees following the recommendation of the Planning Board. All\nfurniture and fixtures shall be approved by the Village Clerk in conformity\nwith guidelines established by the Architectural Design Review Board."
+								}
+							]
+						},
+						{
+							"number": "N. ",
+							"content": [
+								{
+									"text": "Permit; term; renewals."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Permits shall be issued on or after January 1 of each calendar\nyear. All permits, regardless of when issued, shall expire on December\n31 of each year."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Applications for renewal of permits shall be made in the same\nmanner as original applications. Permits are not assignable."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "O. ",
+							"content": [
+								{
+									"text": "Severability. If any section, paragraph, subdivision, clause or provision\nof this chapter shall be adjudged invalid, such adjudication shall\napply only to the section, paragraph, subdivision, clause or provision\nso adjudged, and the remainder of this chapter shall be deemed valid\nand effective."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 600-216",
+			"title": "Massage establishments.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Legislative intent; purpose. The Mayor and the Board of Trustees\nfind it necessary to protect the public from establishments which\nare unlicensed from performing massages on unsuspecting persons and\nfrom establishments operating under the guise of being a massage establishment,\nwhen actually engaging in illegal activities and subjecting the public\nto exposure of unclean, unhealthy and possibly contaminated conditions.\nThese illegal activities have a deleterious effect on the public health,\nsafety and welfare of the Village, its residents and the public at\nlarge. It is, therefore, the intent of the Mayor and the Board of\nTrustees to regulate establishments that perform massages and to eliminate\nthose enterprises which jeopardize the public health, safety, and\nwelfare."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Definitions. As used in this chapter, the following terms shall have\nthe meanings indicated:"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Special use permit required. No massage establishment may be open,\noperate, exist or be occupied without first obtaining a special use\npermit after a public hearing from the Board of Trustees. A property\nowner or landlord shall not permit a tenant or subtenant to open or\noperate a massage establishment within the Village unless a special\nuse permit has been obtained for such massage establishment."
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "License required. No massage establishment may be open, operate,\nexist or be occupied within the Village, unless a license shall first\nhave been obtained for such establishment from the Village Clerk.\nA property owner or landlord shall not permit a tenant or subtenant\nto open or operate a massage establishment within the Village unless\na license has been obtained from the Village. The owner of the building\nwhere the business is proposed to be located shall be a co-applicant\non the license application. Upon change in ownership or change in\noperation of the massage establishment, a new license shall be required."
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Parties responsible. The tenant, subtenant, and owner of a building\nor the permittee shall be required to comply with the regulations\nset forth in this chapter. The owner of the building or the permittee\nshall prohibit any tenant, subtenant or other person from operating\nin violation of this chapter."
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Supplemental regulations. The following regulations shall be applicable\nto all massage establishments and massage activities:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The hours of operation shall be limited to 8:00 a.m. to 9:00\np.m."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "There shall be no outdoor activity associated with the massage\nactivity or establishment."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "All refuse, garbage, waste, solid or otherwise, shall be properly\ndisposed of; laundry shall be changed after each massage/client; laundry\nshall be cleaned on a daily basis during the days the establishment\nis in operation; all rooms, tables, etc., shall be sanitized daily;\nand all massage practitioners shall sanitize their hands prior to\nperforming a massage."
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "All massages shall be therapeutic and health-related. No massages\nshall be provided which are unlawful, illicit or involve sexual acts\nor relations or are sexually oriented or explicit, nor shall any advertisements\nfor the premises or massage establishment suggest that such unlawful,\nillicit or sexual oriented or explicit services are provided (including\nbut not limited to print advertisement and Internet advertisement)."
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "No massage services shall be provided to persons under the age\nof 18 unless the parent or guardian of said minor is physically present\nwhen such services are provided or such parent or guardian has provided\nwritten authorization, properly notarized, for such services."
+												}
+											]
+										},
+										{
+											"number": "(6) ",
+											"content": [
+												{
+													"text": "The massage establishment, any massage practitioner working\nin or any person practicing or providing massage services or any person\noccupying the establishment shall obtain, and maintain in effect all\nlicenses and permits required by any and all applicable state and\nlocal governmental authorities for the provision of massage services,\nincluding those required pursuant to Article 155 of the New York State\nEducation Law. Anyone providing massage services shall have a degree\ndemonstrating graduation from a recognized school for massage."
+												}
+											]
+										},
+										{
+											"number": "(7) ",
+											"content": [
+												{
+													"text": "All persons providing massage services shall obtain and keep\ncurrent photo identification from the New York State Department of\nEducation (DOE), the New York State Department of State (DOS) or other\nappropriate New York State licensing department establishing that\nsaid person is licensed to provide massage services. The current New\nYork State license, registration and photo I.D. shall be posted in\na prominent location within the premises establishing that all persons\nproviding massage services are properly licensed and registered. This\nrequirement shall not apply to the extent that a provision of state\nlaw (such as Article 155 of the New York State Education Law) exempts\na person who provides massage services from the requirement to be\nlicensed and/or registered. Upon request by either a customer or a\nrepresentative of the Village, the original of such documents shall\nbe produced for inspection. The names and addresses of all persons\nwho are providing massage services, along with copies of their permits\nand licenses, shall be provided to the Village before any such person\nmay be permitted to provide massage services."
+												}
+											]
+										},
+										{
+											"number": "(8) ",
+											"content": [
+												{
+													"text": "The property owner, landlord or license holder shall provide\nVillage representatives and/or the police access to the premises in\norder to allow them to ascertain which persons are providing massage\nservices on the premises and to confirm whether such persons are in\nfact properly licensed and/or registered."
+												}
+											]
+										},
+										{
+											"number": "(9) ",
+											"content": [
+												{
+													"text": "Within five days after receipt of same, the operator of a massage\nestablishment shall provide to the Village copies of any summonses\nor violations issued with respect to the operation of the massage\nestablishment."
+												}
+											]
+										},
+										{
+											"number": "(10) ",
+											"content": [
+												{
+													"text": "The massage establishment shall not be conducted in a disorderly\nmanner or in a manner that constitutes a public nuisance."
+												}
+											]
+										},
+										{
+											"number": "(11) ",
+											"content": [
+												{
+													"text": "Alcoholic beverages shall not be sold or consumed on any premises\nwhere massage services are provided."
+												}
+											]
+										},
+										{
+											"number": "(12) ",
+											"content": [
+												{
+													"text": "The special use permit and license shall be immediately revoked\nif, subsequent to the issuance of the special use permit or license,\nany person providing massage services on the premises has been criminally\nconvicted of a charge involving prostitution or illegal drug use or\nthe unauthorized or unlicensed provision of massage services. Under\nsuch circumstances no massage activities will be permitted prior to\nthe issuance of a new special use permit and license."
+												}
+											]
+										},
+										{
+											"number": "(13) ",
+											"content": [
+												{
+													"text": "No license or permit shall be issued unless there is evidence\nof insurance in amounts (and form) which are satisfactory to the Board\nof Trustees. The Board of Trustees shall set from time to time, by\nresolution, the required amounts and form of insurance."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Exemptions. The following shall be exempt from the requirements of\nthis chapter:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The practice of massage therapy by any person who is authorized\nto practice medicine, nursing, osteopathy, physiotherapy, chiropractic,\nor podiatry by the State of New York or any other state within the\nUnited States of America. This exception shall only apply to the person\nwho is so authorized and not one employed by, agent of, or assisting\nsuch authorized person."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "The practice of facial or neck massage which is customarily\ngiven in barber shops or beauty parlors for the purpose of beautification\nby any licensed barber or beauty culturist."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "The practice of massage therapy by any person:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Employed in a medical institution licensed or chartered by the\nState of New York, provided that such person is under the on-site\nsupervision of a person licensed to practice massage therapy or authorized\nto practice massage therapy in conjunction with the practice of medicine,\nnursing, osteopathy, physiotherapy, chiropractic, or podiatry."
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Enrolled in a program of a recognized school or institute of\nmassage therapy, provided that such person is under the on-site supervision\nof a person licensed to practice massage therapy or authorized to\npractice massage therapy in conjunction with the practice of medicine,\nnursing, osteopathy, physiotherapy, chiropractic, or podiatry."
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Employed as a trainer by a professional athletic association,\nclub or team, or as a member of the physical education department\nof an accredited university, college or high school."
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Enforcement; penalties for offenses. The building inspector shall\nbe charged with the enforcement of this chapter. Anyone violating\nthis chapter shall, upon conviction, be subject to a fine of up to\n$2,500 and 15 days' imprisonment or both. Each day that a violation\ncontinues shall be deemed a separate offense. Anyone operating a massage\nestablishment, or otherwise providing massage, in violation of the\nZoning Code of the Village of Farmingdale, and any owner, tenant,\nor permittee of the premises where such violations are committed,\nshall also be subject to the fines and penalties set forth in this\nsection."
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Conflicts; severability. Wherever the requirements of this chapter\nare at variance with other articles, sections or chapters of the Code\nof the Village of Farmingdale, or any other lawfully adopted rule,\nregulation, local law or other enactment, the most restrictive or\nthat imposing the highest standards shall govern unless a contrary\nintent is expressly stated. If any section, paragraph, subdivision,\nclause or provision of this chapter shall be adjudged illegal or invalid,\nsuch adjudication shall apply only to the section, paragraph, clause\nor provision so adjudged, and the section, paragraph, clause or provision\nso adjudged shall be severed and the remainder of this chapter shall\nremain valid and effective."
+								}
+							]
+						}
+					]
 				}
 			]
 		}
