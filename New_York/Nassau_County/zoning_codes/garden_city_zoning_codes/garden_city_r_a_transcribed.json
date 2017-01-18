@@ -1,15 +1,21 @@
 [
   {
-    "clauseID": "@§200-47@A@1",
+    "clauseID": "@§200-49",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "REAR_AND_SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
   {
-    "clauseID": "@§200-47@A@2",
+    "clauseID": "@§200-51",
     "rules": [
       {
         "rule": "CODE_CANNOT_BE_TRANSCRIBED",
