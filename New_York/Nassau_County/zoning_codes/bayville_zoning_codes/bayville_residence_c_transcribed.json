@@ -30,6 +30,21 @@
     ]
   },
   {
+    "clauseID": "@§80-20@A@3",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "7500",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§80-20@B",
     "rules": [
       {
