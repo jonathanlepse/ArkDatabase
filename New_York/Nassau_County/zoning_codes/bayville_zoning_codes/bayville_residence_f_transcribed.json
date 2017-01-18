@@ -36,7 +36,7 @@
         "rule": "LOT_AREA",
         "args": [
           {
-            "key": "MAX",
+            "key": "NO_KEY",
             "value": "40000",
             "units": "FEET_SQUARE"
           }
