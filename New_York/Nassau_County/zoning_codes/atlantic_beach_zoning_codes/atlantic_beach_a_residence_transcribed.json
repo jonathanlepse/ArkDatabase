@@ -330,6 +330,16 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "6000",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   }
