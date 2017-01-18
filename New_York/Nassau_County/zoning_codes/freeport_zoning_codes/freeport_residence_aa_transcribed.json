@@ -3,8 +3,24 @@
     "clauseID": "@§210-31@A",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "3",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },
@@ -18,6 +34,16 @@
             "key": "MIN",
             "value": "75",
             "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "7500",
+            "units": "FEET_SQUARE"
           }
         ]
       }
