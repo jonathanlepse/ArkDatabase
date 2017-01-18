@@ -1,5 +1,20 @@
 [
   {
+    "clauseID": "@§210-8",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "6000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§210-9@A",
     "rules": [
       {
