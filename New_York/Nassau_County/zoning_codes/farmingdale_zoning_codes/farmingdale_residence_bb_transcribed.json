@@ -111,6 +111,16 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "5000",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
