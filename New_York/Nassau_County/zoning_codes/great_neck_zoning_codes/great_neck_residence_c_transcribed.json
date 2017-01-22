@@ -71,6 +71,10 @@
             "units": "FEET_SQUARE"
           }
         ]
+      },
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
       }
     ]
   },

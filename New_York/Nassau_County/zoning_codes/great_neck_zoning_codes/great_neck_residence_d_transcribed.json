@@ -31,6 +31,21 @@
             "units": "FEET_SQUARE"
           }
         ]
+      },
+      {
+        "rule": "FRONTAGE",
+        "args": [
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "40",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
