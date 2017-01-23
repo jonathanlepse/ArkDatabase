@@ -21,6 +21,10 @@
             "units": "NO_UNITS"
           }
         ]
+      },
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
       }
     ]
   },
