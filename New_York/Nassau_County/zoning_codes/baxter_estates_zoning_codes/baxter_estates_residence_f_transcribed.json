@@ -64,8 +64,13 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
-            "value": "900",
+            "value": "1800",
             "units": "FEET_SQUARE"
           }
         ]
