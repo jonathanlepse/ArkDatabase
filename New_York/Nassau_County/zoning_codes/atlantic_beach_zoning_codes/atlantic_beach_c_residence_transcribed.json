@@ -150,15 +150,6 @@
     ]
   },
   {
-    "clauseID": "@§250-38@B",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
     "clauseID": "@§250-39",
     "rules": [
       {
