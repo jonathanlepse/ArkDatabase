@@ -208,6 +208,21 @@
         ]
       },
       {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "10000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
         "rule": "SIDE_YARD_AGGREGATE_SETBACK",
         "args": [
           {
