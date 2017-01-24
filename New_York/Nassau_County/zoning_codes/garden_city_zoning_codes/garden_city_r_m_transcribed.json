@@ -40,24 +40,6 @@
     ]
   },
   {
-    "clauseID": "@§200-47@A@1",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§200-47@A@2",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
     "clauseID": "@§200-49",
     "rules": [
       {
