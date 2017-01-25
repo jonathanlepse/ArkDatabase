@@ -125,7 +125,7 @@
           {
             "key": "MIN",
             "value": "1000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           }
         ]
       }
@@ -161,61 +161,6 @@
       {
         "rule": "CODE_CANNOT_BE_TRANSCRIBED",
         "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§575-99@C",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "CORNER_LOT",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MULTI_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MIN",
-            "value": "20",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§575-99@D",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MULTI_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MIN",
-            "value": "20",
-            "units": "FEET"
-          }
-        ]
       }
     ]
   },
