@@ -1208,25 +1208,25 @@
 					"text": "The Residence Districts Table of Dimensional Regulations is included at the end of this chapter."
 				},
 				{
-				    "text": "The following regulations apply all properties in a CR-200 district:"				
+				    "text": "The following regulations apply all properties in an R-20 district:"				
 				},
 				{
-				    "text": "Lot Area, minimum(square feet): 200,000"
+				    "text": "Lot Area, minimum(square feet): 20,000"
 				},
 				{
-				    "text": "Lot Coverage, maximum main and accessory buildings(percent): 5"
+				    "text": "Lot Coverage, maximum main and accessory buildings(percent): 20"
 				},
 				{
-				    "text": "Lot Width, minimum(feet): 200"
+				    "text": "Lot Width, minimum(feet): 120"
 				},
 				{
 				    "text": "Height, maximum Stories: 2, Feet: 32"
 				},
 				{
-				    "text": "Yards, principal building minimum(feet) Front: 100, Side: 50, Side total for both interior lot: 125, Side corner lot: 100, Rear: 100"
+				    "text": "Yards, principal building minimum(feet) Front: 40, Side: 20, Side, total for both interior lot: 45, Side, corner lot: 40, Rear: 60"
 				},
 				{
-				    "text": "Yards, accessory building minimum(feet) Distance from street: 110, Distance from side and rear lot lines: 50"
+				    "text": "Yards, accessory building minimum(feet) Distance from street: 50, Distance from side and rear lot lines: 10"
 				}
 			]
 		},
