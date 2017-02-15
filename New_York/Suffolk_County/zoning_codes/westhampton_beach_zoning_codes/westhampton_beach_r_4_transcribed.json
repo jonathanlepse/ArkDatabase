@@ -122,7 +122,7 @@
           },
           {
             "key": "MIN",
-            "value": "20",
+            "value": "15",
             "units": "FEET"
           }
         ]
