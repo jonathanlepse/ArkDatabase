@@ -2,6 +2,21 @@
 	"url": "http://ecode360.com/5130985",
 	"paras": [
 		{
+			"paragraph": "§ 116c ",
+			"title": "RESIDENCE DISTRICTS – TABLE OF DIMENSIONAL REGULATIONS",
+			"content": [
+				{
+					"text": "Lot area Minimum (square feet): 20,000"
+				},
+				{
+					"text": "Lot width, minimum (feet): 100"
+				},
+				{
+					"text": "Height, maximum(Stories): 2 1/2"
+				}
+			]
+		},
+		{
 			"paragraph": "§ 116-9",
 			"title": "Placement of accessory buildings and uses.",
 			"content": [
@@ -1456,6 +1471,30 @@
 							"content": [
 								{
 									"text": "Except as otherwise hereinafter provided, the minimum\nyard dimensional regulations (including front, side and rear yard\nrequirements for a principal building and distance from street, side\nlot line and rear lot line requirements for accessory buildings and\nstructures) within all one-family residence districts (the R-120,\nR-80, R-60, R-40, R-20, R-12.5 and R-7.5 Residence Districts) and\nthe MF-20 Multifamily Residence District shall be based on the lot\narea of the lot and shall be as set forth in the following table:"
+								},
+								{
+									"text": "The following dimensions apply to a lot with a square footage of 20,000 or Greater, but Less Than 40,000:"
+								},
+								{
+									"text": "Yards, principal building, minimum (feet) Front: 40"
+								},
+								{
+									"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 20"
+								},
+								{
+									"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 45"
+								},
+								{
+									"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 40"
+								},
+								{
+									"text": "Yards, principal building, minimum (feet) Rear: 60"
+								},
+								{
+									"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 50"
+								},
+								{
+									"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 15"
 								}
 							]
 						},
@@ -1956,6 +1995,15 @@
 											"content": [
 												{
 													"text": "Except as otherwise hereinafter provided, the maximum height in feet\nfor all structures within all one-family residence districts (the\nR-120, R-80, R-60, R-40, R-20, R-12.5 and R-7.5 Residence Districts)\nand the MF-20 Multifamily Residence District shall be based on the\nlot area of the lot and shall be as set forth in the following table:"
+												},
+												{
+													"text": "Lot Area Less than 20,000(square feet): Maximum Height: 30(feet)"
+												},
+												{
+													"text": "Lot Area 20,000 or greater but less than 40,000(square feet): Maximum Height: 33(feet)"
+												},
+												{
+													"text": "Lot Area 40,000 or greater(square feet): Maximum Height: 35(feet)"
 												}
 											]
 										},
