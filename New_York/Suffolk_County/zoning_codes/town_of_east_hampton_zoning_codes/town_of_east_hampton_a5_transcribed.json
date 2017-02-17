@@ -1,0 +1,202 @@
+[
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "200000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "30",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "250",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "2.5",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "32",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "70",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "REAR_AND_SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "40",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "80",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "REAR_AND_SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-10",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "20000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-20@A",
+    "rules": [
+      {
+        "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "5",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§255-11-23",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "600",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  }
+]
