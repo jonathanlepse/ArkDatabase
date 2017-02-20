@@ -1,6 +1,6 @@
 [
   {
-    "clauseID": "@§300-43",
+    "clauseID": "@§300-43@A",
     "rules": [
       {
         "rule": "LOT_AREA",
@@ -11,7 +11,12 @@
             "units": "FEET_SQUARE"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@B",
+    "rules": [
       {
         "rule": "LOT_COVERAGE",
         "args": [
@@ -21,7 +26,12 @@
             "units": "PERCENTAGE"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@C",
+    "rules": [
       {
         "rule": "LOT_WIDTH",
         "args": [
@@ -31,7 +41,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@D",
+    "rules": [
       {
         "rule": "STORIES",
         "args": [
@@ -51,7 +66,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@E",
+    "rules": [
       {
         "rule": "FRONT_YARD_SETBACK",
         "args": [
@@ -61,7 +81,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@F",
+    "rules": [
       {
         "rule": "SIDE_YARD_SETBACK",
         "args": [
@@ -71,7 +96,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@G",
+    "rules": [
       {
         "rule": "SIDE_YARD_AGGREGATE_SETBACK",
         "args": [
@@ -81,7 +111,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@H",
+    "rules": [
       {
         "rule": "REAR_YARD_SETBACK",
         "args": [
@@ -91,7 +126,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@I",
+    "rules": [
       {
         "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
@@ -106,7 +146,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@J",
+    "rules": [
       {
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
         "args": [
@@ -121,7 +166,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@K",
+    "rules": [
       {
         "rule": "STORIES",
         "args": [
@@ -151,7 +201,12 @@
             "units": "FEET"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§300-43@L",
+    "rules": [
       {
         "rule": "REAR_YARD_COVERAGE",
         "args": [
