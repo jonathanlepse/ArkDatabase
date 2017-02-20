@@ -9,37 +9,96 @@
 					"text": "The Use Table and Dimensional Table (either\nof which may consist of one or more constituent tables) are included\nin this section, but, if necessary, may be located at the end of this\nchapter.[1] The tables taken together shall constitute the fundamental\nsystem of land use regulation for the Town of East Hampton, and, except\nas otherwise indicated in specific provisions of this chapter to the\ncontrary, such tables shall at all times be complied with by all buildings,\nstructures, lots and uses located in all districts. The following regulations apply in an A5 district:"
 				},
 				{
-					"text": "Lot area Minimum(square feet): 200,000"
-				},
-				{
-					"text": "Total lot coverage maximum(percent): 30"
-				},
-				{
-					"text": "Lot width minimum at the building line(feet): 250"
-				},
-				{
-					"text": "Height(stories): 2 1/2"
-				},
-				{
-					"text": "Height(feet): 32"
-				},
-				{
-					"text": "Setbacks, Principal building or structure, minimum yards (feet) Front: 70"
-				},
-				{
-					"text": "Setbacks, Principal building or structure, minimum yards (feet) Each side and rear: 40"
-				},
-				{
-					"text": "Setbacks Accessory building or structures, minimum yards (feet) Front: 80"
-				},
-				{
-					"text": "Setbacks Accessory building or structures, minimum yards (feet) Each side and rear: 30"
-				},
-				{
-					"text": "Gross floor area maximum(square feet): 20,000"
-				},
-				{
-					"footnote": "[1]\nEditor's Note: Said tables are located as\nattachments to this chapter.\n"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot area Minimum(square feet): 200,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Total lot coverage maximum(percent): 30"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot width minimum at the building line(feet): 250"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Height(stories): 2 1/2"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height(feet): 32"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Setbacks, Principal building or structure, minimum yards (feet) Front: 70"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Setbacks, Principal building or structure, minimum yards (feet) Each side and rear: 40"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Setbacks Accessory building or structures, minimum yards (feet) Front: 80"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Setbacks Accessory building or structures, minimum yards (feet) Each side and rear: 30"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Gross floor area maximum(square feet): 20,000"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"footnote": "[1]\nEditor's Note: Said tables are located as\nattachments to this chapter.\n"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
