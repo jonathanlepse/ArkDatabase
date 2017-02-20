@@ -204,7 +204,21 @@
       }
     ]
   },
-  
+  {
+    "clauseID": "@§116-112",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "30",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
   {
     "clauseID": "@§116-12@F@1",
     "rules": [
