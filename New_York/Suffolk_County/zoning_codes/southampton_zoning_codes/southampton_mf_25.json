@@ -2,44 +2,111 @@
 	"url": "http://ecode360.com/5130985",
 	"paras": [
 		{
-			"paragraph": "§ 116c ",
+			"paragraph": "§ 116",
 			"title": "RESIDENCE DISTRICTS – TABLE OF DIMENSIONAL REGULATIONS",
 			"content": [
 				{
-					"text": "Lot area Minimum (square feet): 25,000"
+					"text": "The following dimensions apply in an MF-25 district:"
 				},
 				{
-					"text": "Lot coverage, maximum: 20%"
-				},
-				{
-					"text": "Lot width, minimum (feet): 100"
-				},
-				{
-					"text": "Height, maximum(Stories): 2 1/2"
-				},
-				{
-					"text": "Height, maximum(feet): 35"
-				},
-				{
-					"text": "Yards, principal building, minimum (feet) Front: 100"
-				},
-				{
-					"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
-				},
-				{
-					"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 60"
-				},
-				{
-					"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 50"
-				},
-				{
-					"text": "Yards, principal building, minimum (feet) Rear: 50"
-				},
-				{
-					"text": "Yards, structures and accessory buildings,minimum (feet) Distance from street: 100"
-				},
-				{
-					"text": "Yards, structures and accessory buildings,minimum (feet) Distance from side and rear lot lines: 20"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot area Minimum (square feet): 25,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot coverage, maximum: 20%"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot width, minimum (feet): 100"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Height, maximum(Stories): 2 1/2"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height, maximum(feet): 35"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Yards, principal building, minimum (feet) Front: 100"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 60"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 50"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Yards, principal building, minimum (feet) Rear: 50"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Yards, structures and accessory buildings,minimum (feet) Distance from street: 100"
+								}
+							]
+						},
+						{
+							"number": "L. ",
+							"content": [
+								{
+									"text": "Yards, structures and accessory buildings,minimum (feet) Distance from side and rear lot lines: 20"
+								}
+							]
+						}
+					]
 				}
 			]
 		},

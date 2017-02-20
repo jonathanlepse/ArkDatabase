@@ -2,17 +2,39 @@
 	"url": "http://ecode360.com/5130985",
 	"paras": [
 		{
-			"paragraph": "§ 116c ",
+			"paragraph": "§ 116",
 			"title": "RESIDENCE DISTRICTS – TABLE OF DIMENSIONAL REGULATIONS",
 			"content": [
 				{
-					"text": "Lot area Minimum (square feet): 80,000"
+					"text": "The following dimensions apply in an R-80 district:"
 				},
 				{
-					"text": "Lot width, minimum (feet): 200"
-				},
-				{
-					"text": "Height, maximum(Stories): 2 1/2"
+							"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot area Minimum (square feet): 80,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot width, minimum (feet): 200"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Height, maximum(Stories): 2 1/2"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1473,28 +1495,72 @@
 									"text": "Except as otherwise hereinafter provided, the minimum\nyard dimensional regulations (including front, side and rear yard\nrequirements for a principal building and distance from street, side\nlot line and rear lot line requirements for accessory buildings and\nstructures) within all one-family residence districts (the R-120,\nR-80, R-60, R-40, R-20, R-12.5 and R-7.5 Residence Districts) and\nthe MF-20 Multifamily Residence District shall be based on the lot\narea of the lot and shall be as set forth in the following table:"
 								},
 								{
-									"text": "The following dimensions apply to a lot with a square footage of 80,000 or Greater:"
-								},
-								{
-									"text": "Yards, principal building, minimum (feet) Front: 80"
-								},
-								{
-									"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
-								},
-								{
-									"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 80"
-								},
-								{
-									"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 80"
-								},
-								{
-									"text": "Yards, principal building, minimum (feet) Rear: 100"
-								},
-								{
-									"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 90"
-								},
-								{
-									"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 35"
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The following dimensions apply to a lot with a square footage of 80,000 or Greater:"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Yards, principal building, minimum (feet) Front: 80"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 80"
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 80"
+												}
+											]
+										},
+										{
+											"number": "(6) ",
+											"content": [
+												{
+													"text": "Yards, principal building, minimum (feet) Rear: 100"
+												}
+											]
+										},
+										{
+											"number": "(7) ",
+											"content": [
+												{
+													"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 90"
+												}
+											]
+										},
+										{
+											"number": "(8) ",
+											"content": [
+												{
+													"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 35"
+												}
+											]
+										}
+									]
 								}
 							]
 						},
