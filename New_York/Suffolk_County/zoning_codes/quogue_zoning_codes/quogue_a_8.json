@@ -9,43 +9,112 @@
 					"text": "The following regulations apply in an A-8 district:"
 				},
 				{
-					"text": "Lot Area(square feet) minimum: 87,000"
-				},
-				{
-					"text": "Lot coverage maximum by main and accessory buildings and structures: 15%"
-				},
-				{
-					"text": "Lot Width minimum(feet): 200"
-				},
-				{
-					"text": "Street Frontage minimum(feet): 200"
-				},
-				{
-					"text": "Height maximum(feet): 32"
-				},
-				{
-					"text": "Yards, prinicpal building minimum(feet), Front: 75"
-				},
-				{
-					"text": "Yards, prinicpal building minimum(feet). Side, mimimum for one: 35"
-				},
-				{
-					"text": "Yards, prinicpal building minimum(feet), Side, total for both on interior lot: 80"
-				},
-				{
-					"text": "Yards, prinicpal building minimum(feet), Side, abutting side street on corner lot: 75"
-				},
-				{
-					"text": "Yards, prinicpal building minimum(feet), Rear: 100"
-				},
-				{
-					"text": "Yards, accessory buildings and structures, Minimum distance from street(feet): 100"
-				},
-				{
-					"text": "Yards, accessory buildings and structures, Minimum distance from side and rear lot lines(feet): 35"
-				},
-				{
-					"text": "Yards, accessory buildings and structures, Minimum living quarters space(square feet of floor area): 1600"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area(square feet) minimum: 87,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot coverage maximum by main and accessory buildings and structures: 15%"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot Width minimum(feet): 200"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Street Frontage minimum(feet): 200"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height maximum(feet): 32"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Yards, prinicpal building minimum(feet), Front: 75"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Yards, prinicpal building minimum(feet). Side, mimimum for one: 35"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Yards, prinicpal building minimum(feet), Side, total for both on interior lot: 80"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Yards, prinicpal building minimum(feet), Side, abutting side street on corner lot: 75"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Yards, prinicpal building minimum(feet), Rear: 100"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Yards, accessory buildings and structures, Minimum distance from street(feet): 100"
+								}
+							]
+						},
+						{
+							"number": "L. ",
+							"content": [
+								{
+									"text": "Yards, accessory buildings and structures, Minimum distance from side and rear lot lines(feet): 35"
+								}
+							]
+						},
+						{
+							"number": "M. ",
+							"content": [
+								{
+									"text": "Yards, accessory buildings and structures, Minimum living quarters space(square feet of floor area): 1600"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
