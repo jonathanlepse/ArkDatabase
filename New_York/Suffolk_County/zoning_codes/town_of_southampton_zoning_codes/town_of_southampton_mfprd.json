@@ -1205,28 +1205,51 @@
 			"title": "Residence Districts Table of Dimensional Regulations.",
 			"content": [
 				{
-					"text": "The Residence Districts Table of Dimensional Regulations is included at the end of this chapter."
+					"text": "The Residence Districts Table of Dimensional Regulations is included at the end of this chapter. The following regulations apply all properties in an MFPRD district:"
 				},
 				{
-				    "text": "The following regulations apply all properties in an MFPRD district:"				
-				},
-				{
-				    "text": "Lot Area, minimum(square feet): 220,000"
-				},
-				{
-				    "text": "Lot Coverage, maximum main and accessory buildings(percent): 20"
-				},
-				{
-				    "text": "Lot Width, minimum(feet): --"
-				},
-				{
-				    "text": "Height, maximum Stories: 2, Feet: 32"
-				},
-				{
-				    "text": "Yards, principal building minimum(feet) Front: 50, Side: 50, Side, total for both interior lot: 100, Side, corner lot: 50, Rear: 50"
-				},
-				{
-				    "text": "Yards, accessory building minimum(feet) Distance from street: 60, Distance from side and rear lot lines: 50"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area, minimum(square feet): 220,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Coverage, maximum main and accessory buildings(percent): 20"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Height, maximum Stories: 2, Feet: 32"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Yards, principal building minimum(feet) Front: 50, Side: 50, Side, total for both interior lot: 100, Side, corner lot: 50, Rear: 50"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Yards, accessory building minimum(feet) Distance from street: 60, Distance from side and rear lot lines: 50"
+								}
+							]
+						}	
+					]
 				}
 			]
 		},

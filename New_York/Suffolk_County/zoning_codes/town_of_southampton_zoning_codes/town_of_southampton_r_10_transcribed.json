@@ -1,6 +1,6 @@
 [
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@A",
     "rules": [
       {
         "rule": "LOT_AREA",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@B",
     "rules": [
       {
         "rule": "LOT_COVERAGE",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@C",
     "rules": [
       {
         "rule": "LOT_WIDTH",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@D",
     "rules": [
       {
         "rule": "STORIES",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@E",
     "rules": [
       {
         "rule": "FRONT_YARD_SETBACK",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "clauseID": "@§330-11",
+    "clauseID": "@§330-11@F",
     "rules": [
       {
         "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",

@@ -1205,28 +1205,59 @@
 			"title": "Residence Districts Table of Dimensional Regulations.",
 			"content": [
 				{
-					"text": "The Residence Districts Table of Dimensional Regulations is included at the end of this chapter."
+					"text": "The Residence Districts Table of Dimensional Regulations is included at the end of this chapter. The following regulations apply all properties in a CR-40 district:"
 				},
 				{
-				    "text": "The following regulations apply all properties in a CR-40 district:"				
-				},
-				{
-				    "text": "Lot Area, minimum(square feet): 40,000"
-				},
-				{
-				    "text": "Lot Coverage, maximum main and accessory buildings(percent): 20"
-				},
-				{
-				    "text": "Lot Width, minimum(feet): 150"
-				},
-				{
-				    "text": "Height, maximum Stories: 2, Feet: 32"
-				},
-				{
-				    "text": "Yards, principal building minimum(feet) Front: 60, Side: 20, Side, total for both interior lot: 60, Side, corner lot: 60, Rear: 70"
-				},
-				{
-				    "text": "Yards, accessory building minimum(feet) Distance from street: 70, Distance from side and rear lot lines: 20"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area, minimum(square feet): 40,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Coverage, maximum main and accessory buildings(percent): 20"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot Width, minimum(feet): 150"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Height, maximum Stories: 2, Feet: 32"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Yards, principal building minimum(feet) Front: 60, Side: 20, Side, total for both interior lot: 60, Side, corner lot: 60, Rear: 70"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Yards, accessory building minimum(feet) Distance from street: 70, Distance from side and rear lot lines: 20"
+								}
+							]
+						}	
+					]
 				}
 			]
 		},
