@@ -1,6 +1,142 @@
 {
 	"url": "http://ecode360.com/9148416",
 	"paras": [
+		{
+			"paragraph": "§ 200a",
+			"title": "Schedule of Regulations.",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-M District:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Minimum Plot Area: 6000 square feet"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Minimum Plot Width: 1-family: 60 feet Multifamily: 100 feet"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage of Plot: 25%"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Height of Building: 2.5 stories, 35 feet"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback: 1-Family: 25, but need not exceed 25% of depth of plot, providedthat on a corner plot not exceeding 110 feet in depth, the rear yard need not exceed 15 feet in depth. Multifamily: 25 but not more than 25% of plot depth"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Minimum Floor Area: 1-family: 1400 square feet. Multifamily: subject to § 200-17B "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-7",
+			"title": "Uses.",
+			"content": [
+				{
+					"text": "No building or structure shall hereafter be erected and no existing building or structure shall be altered or enlarged, nor shall any land, building or structure be used, for any purpose other than one which is included among the uses listed in Article V as permitted in the district in which such building, structure or land is located, nor in any manner contrary to any of the requirements specified in Article V."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-8",
+			"title": "Height and bulk.",
+			"content": [
+				{
+					"text": "No building or structure shall hereafter be erected, reconstructed or altered to exceed the maximum FAR or the height limit designated in the Schedule of Regulations contained in Article V for the district in which such building is located."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-9",
+			"title": "Area and open space.",
+			"content": [
+				{
+					"text": "No building or structure shall hereafter be erected, nor shall any existing building or structure be altered, nor shall any open space contiguous to any building be encroached upon or reduced in any manner, except in conformity with the yard, plot width and area, percentage of plot coverage by building area, off-street parking space, off-street loading space and other space and area regulations designated in Articles V and VIII and in said schedule for the district in which such building or space is located and designated on the Setback Map which is a part of this chapter,[1] provided that the minimum plot width and plot area regulations\nshall not apply to any plot having less than the required width or\narea at the time of the adoption of this chapter or of any amendment\nthereof increasing the width or area required for such plot and held\nat that time and continuously thereafter in separate ownership from\nthat of adjoining land, but such plot shall not be reduced in width\nor area and all other regulations prescribed in this chapter for the\ndistrict in which such plot is situated shall apply thereto."
+				},
+				{
+					"footnote": "[1]\nEditor's Note: The Setback Map is included at the end of this chapter.\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-10",
+			"title": "Off-street parking and loading.",
+			"content": [
+				{
+					"text": "Off-street parking space and off-street loading space shall be provided as specified in Articles V through X, and such spaces shall be provided with necessary passageways and driveways appurtenant thereto and giving access thereto, and all such space, together with such passageways and driveways, shall be deemed to be required space on the plot on which the same is situated and shall not thereafter be encroached upon or reduced in any manner except as otherwise provided in § 200-61."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-11",
+			"title": "Reduction of plot area.",
+			"content": [
+				{
+					"text": "No plot area shall be reduced or diminished\nso that the FAR prescribed in this chapter shall be exceeded or the\nminimum land area per dwelling unit, yards or other open spaces thereon\nshall be smaller than as prescribed by this chapter."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-12",
+			"title": "Determination of plot area in C-R District.",
+			"content": [
+				{
+					"text": "In computing the plot area to determine the\nFAR in the C-R District, no private street or roadway which gives\naccess to the plot or over which other property owners in the general\narea have rights-of-way shall be included in the plot area."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-13",
+			"title": "Yard limitations.",
+			"content": [
+				{
+					"text": "No yard or other open space provided on one\nplot for the purpose of complying with the provisions of this chapter\nshall be considered as providing a yard or open space required on\nany other plot."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 200-14",
+			"title": "Prior construction.",
+			"content": [
+				{
+					"text": "Nothing contained in this chapter shall require\nany change in the plans, construction or designated use of a building\nor structure, a substantial portion of which was lawfully constructed\nat the date this chapter or any amendment thereof affecting the same\ntakes effect and which construction is completed within one year after\nsuch date."
+				}
+			]
+		},
 	    {
 			"paragraph": "§ 200-17",
 			"title": "Residence R-M Districts.",
@@ -114,81 +250,6 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-7",
-			"title": "Uses.",
-			"content": [
-				{
-					"text": "No building or structure shall hereafter be erected and no existing building or structure shall be altered or enlarged, nor shall any land, building or structure be used, for any purpose other than one which is included among the uses listed in Article V as permitted in the district in which such building, structure or land is located, nor in any manner contrary to any of the requirements specified in Article V."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-8",
-			"title": "Height and bulk.",
-			"content": [
-				{
-					"text": "No building or structure shall hereafter be erected, reconstructed or altered to exceed the maximum FAR or the height limit designated in the Schedule of Regulations contained in Article V for the district in which such building is located."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-9",
-			"title": "Area and open space.",
-			"content": [
-				{
-					"text": "No building or structure shall hereafter be erected, nor shall any existing building or structure be altered, nor shall any open space contiguous to any building be encroached upon or reduced in any manner, except in conformity with the yard, plot width and area, percentage of plot coverage by building area, off-street parking space, off-street loading space and other space and area regulations designated in Articles V and VIII and in said schedule for the district in which such building or space is located and designated on the Setback Map which is a part of this chapter,[1] provided that the minimum plot width and plot area regulations\nshall not apply to any plot having less than the required width or\narea at the time of the adoption of this chapter or of any amendment\nthereof increasing the width or area required for such plot and held\nat that time and continuously thereafter in separate ownership from\nthat of adjoining land, but such plot shall not be reduced in width\nor area and all other regulations prescribed in this chapter for the\ndistrict in which such plot is situated shall apply thereto."
-				},
-				{
-					"footnote": "[1]\nEditor's Note: The Setback Map is included at the end of this chapter.\n"
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-10",
-			"title": "Off-street parking and loading.",
-			"content": [
-				{
-					"text": "Off-street parking space and off-street loading space shall be provided as specified in Articles V through X, and such spaces shall be provided with necessary passageways and driveways appurtenant thereto and giving access thereto, and all such space, together with such passageways and driveways, shall be deemed to be required space on the plot on which the same is situated and shall not thereafter be encroached upon or reduced in any manner except as otherwise provided in § 200-61."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-11",
-			"title": "Reduction of plot area.",
-			"content": [
-				{
-					"text": "No plot area shall be reduced or diminished\nso that the FAR prescribed in this chapter shall be exceeded or the\nminimum land area per dwelling unit, yards or other open spaces thereon\nshall be smaller than as prescribed by this chapter."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-12",
-			"title": "Determination of plot area in C-R District.",
-			"content": [
-				{
-					"text": "In computing the plot area to determine the\nFAR in the C-R District, no private street or roadway which gives\naccess to the plot or over which other property owners in the general\narea have rights-of-way shall be included in the plot area."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-13",
-			"title": "Yard limitations.",
-			"content": [
-				{
-					"text": "No yard or other open space provided on one\nplot for the purpose of complying with the provisions of this chapter\nshall be considered as providing a yard or open space required on\nany other plot."
-				}
-			]
-		},
-		{
-			"paragraph": "§ 200-14",
-			"title": "Prior construction.",
-			"content": [
-				{
-					"text": "Nothing contained in this chapter shall require\nany change in the plans, construction or designated use of a building\nor structure, a substantial portion of which was lawfully constructed\nat the date this chapter or any amendment thereof affecting the same\ntakes effect and which construction is completed within one year after\nsuch date."
 				}
 			]
 		},

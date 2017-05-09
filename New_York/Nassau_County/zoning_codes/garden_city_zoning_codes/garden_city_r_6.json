@@ -1,7 +1,68 @@
 {
 	"url": "http://ecode360.com/9148416",
 	"paras": [
-	    {
+		{
+			"paragraph": "§ 200a",
+			"title": "Schedule of Regulations.",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-6 District:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Minimum Plot Area: 6000 square feet"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Minimum Plot Width: 60 feet"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage of Plot: 25%"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Height of Building: 2.5 stories, 30 feet"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback: 25, but need not exceed 25% of depth of plot, provided that on a corner plot not exceeding 110 feet in depth, the rear yard need not exceed 15 feet in depth"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Minimum Floor Area: 1400 square feet"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 200-16",
 			"title": "Residence R-40, R-20, R-12, R-8 and R-6 Districts.",
 			"content": [
