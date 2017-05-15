@@ -34,6 +34,115 @@
 			]
 		},
 		{
+			"paragraph": "§ 470a",
+			"title": "Schedule of Area, Yard and Building Requirements",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-WD district:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area (square feet): 2000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Width (feet): 20"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Yards"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Front (See § 470-11) "
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Rear (See § 470-11) "
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "One Side (See § 470-11) "
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Both Sides (See § 470-11) "
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Coverage: 50%"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Feet: 40"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Stories: 3"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 470-11",
 			"title": "R-WD Waterfront Residential District.",
 			"content": [

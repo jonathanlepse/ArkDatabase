@@ -34,6 +34,115 @@
 			]
 		},
 		{
+			"paragraph": "§ 470a",
+			"title": "Schedule of Area, Yard and Building Requirements",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-3 district:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area (square feet): 5000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Width (feet): 50"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Yards"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Front 20"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Rear 20"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "One Side 5"
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Both Sides 13"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Coverage: 70%"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Feet: 35"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Stories: 2.5"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 470-8",
 			"title": "R-3 One-Family Residential District.",
 			"content": [

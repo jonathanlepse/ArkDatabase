@@ -34,6 +34,115 @@
 			]
 		},
 		{
+			"paragraph": "§ 470a",
+			"title": "Schedule of Area, Yard and Building Requirements",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-MF district:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area (square feet): 30,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Width (feet): 200"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Yards"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Front: 50 feet"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Rear: 50 feet"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "One Side: 50 feet"
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Both Sides: 100 feet"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Coverage: 60%"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Height"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Feet: 40"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Stories: 3"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 470-10",
 			"title": "R-MF Multifamily Residential District.",
 			"content": [
