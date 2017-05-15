@@ -70,7 +70,7 @@
 											"number": "(1) ",
 											"content": [
 												{
-													"text": "Front 20"
+													"text": "Front: 20 feet"
 												}
 											]
 										},
@@ -78,7 +78,7 @@
 											"number": "(2) ",
 											"content": [
 												{
-													"text": "Rear 20"
+													"text": "Rear: 25 feet"
 												}
 											]
 										},
@@ -86,7 +86,7 @@
 											"number": "(3) ",
 											"content": [
 												{
-													"text": "One Side 5"
+													"text": "One Side: 5 feet"
 												}
 											]
 										},
@@ -94,7 +94,7 @@
 											"number": "(4) ",
 											"content": [
 												{
-													"text": "Both Sides 13"
+													"text": "Both Sides: 13 feet"
 												}
 											]
 										}
