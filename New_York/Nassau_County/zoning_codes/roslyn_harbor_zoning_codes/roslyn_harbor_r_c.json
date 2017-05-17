@@ -2,6 +2,195 @@
 	"url": "http://ecode360.com/12729101",
 	"paras": [
 		{
+			"paragraph": "§ 275",
+			"title": "Schedule of Dimensional Regulations",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-C District :"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "PRINCIPAL USES Minimum Requirements:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Lot area (square feet): 8,000"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Lot width (feet): 80"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Lot depth (feet): 100"
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Front yard (feet): 25"
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "Side yard: one (feet): 10"
+												}
+											]
+										},
+										{
+											"number": "(6) ",
+											"content": [
+												{
+													"text": "Side yard: both (feet): 25"
+												}
+											]
+										},
+										{
+											"number": "(7) ",
+											"content": [
+												{
+													"text": "Rear yard (feet): 25"
+												}
+											]
+										},
+										{
+											"number": "(8) ",
+											"content": [
+												{
+													"text": "Lot frontage (feet) 70"
+												}
+											]
+										},
+										{
+											"number": "(9) ",
+											"content": [
+												{
+													"text": "Habitable floor area (square feet): 1,200"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "PRINCIPAL USES Maximum Requirements:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Height (stories/feet): 2.5/30"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Lot coverage (%): 35"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "ACCESSORY USES Minimum Requirements:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Rear yard setback (feet): 3"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Side yard setback (feet): 5"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Distance from principal building (feet): 15"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "ACCESSORY USES Maximum Requirements:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Height (feet): 20"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Coverage of rear yard (%): 20"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 275-10",
 			"title": "Tables.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t[1]",
 			"content": [
