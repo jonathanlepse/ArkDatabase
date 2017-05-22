@@ -1,6 +1,91 @@
 {
 	"url": "http://ecode360.com/15353408",
 	"paras": [
+		{
+			"paragraph": "§ 550",
+			"title": "Schedule of Regulations, Schedule I & II",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-3 district:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Front Yard Setback (feet): 25"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Side Yard Setback (feet): Minimum of 6 on any one side; a total of 14 for both sides"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback (feet): 20"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Building Height: 2 stories, 32 feet"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Minimum Gross Floor Area for Dwellings (square feet): (1 story/1-family: 850) (2 stories /1-family: 1,200) (2 stories /2-family: 1,700)"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Minimum Lot Area (square feet): 1-family: 5,000 / 2-family: 7,500"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Minimum Lot Width (feet): 1-family: 50 / 2-family: 75"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage of Lot: 40%"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Minimum Depth of Lot (feet): 100"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 	    {
 			"paragraph": "§ 550-9",
 			"title": "R-3 Districts (Two-Family Residential).",

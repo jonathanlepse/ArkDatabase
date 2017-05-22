@@ -1,6 +1,91 @@
 {
 	"url": "http://ecode360.com/15353408",
 	"paras": [
+		{
+			"paragraph": "§ 550",
+			"title": "Schedule of Regulations, Schedule I & II",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-2 district:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Front Yard Setback (feet): 25"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Side Yard Setback (feet): Minimum of 6 on any one side; a total of 14 for both sides"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback (feet): 20"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Building Height: 2 stories, 32 feet"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Minimum Gross Floor Area for Dwellings (square feet): 1 story: 850 / 2 stories: 1,200"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Minimum Lot Area (square feet): 5,000"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Minimum Lot Width (feet): 50"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage of Lot: 40%"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Minimum Depth of Lot (feet): 100"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 	    {
 			"paragraph": "§ 550-8",
 			"title": "R-2 Districts (One-Family Residential).",
