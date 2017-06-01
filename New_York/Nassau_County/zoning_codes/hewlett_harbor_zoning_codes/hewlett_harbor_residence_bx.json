@@ -669,6 +669,226 @@
 			"content": [
 				{
 					"text": "The following are the specific requirements for the several residence districts referred to in § 145-8:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Uses: Uses specified in § 145-9"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Height: Height specified in § 145-10"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Size of lot (square feet): 18,000"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Building area (percentage):"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Total: 25%"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Accessory: 7%"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Front yards (feet): 30"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Side yards (feet): "
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Total: 35"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Each: 15"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Rear yards (feet): 25"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Street frontage (feet): 100"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Depth (feet): 100"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Floor area (square feet):"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Alternative A: "
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Total: 2,700"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Ground Story: 1,800"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Alternative B: "
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Total: 2,400"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Ground Story: 2,400"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Alternative C: "
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Total: 2,400"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Ground Story: 1,200"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Second Story: 1,200"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
