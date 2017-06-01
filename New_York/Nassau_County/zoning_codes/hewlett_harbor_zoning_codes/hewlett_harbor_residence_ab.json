@@ -1,5 +1,5 @@
 {
-	"url": "http://ecode360.com/10999375",
+	"url": "http://ecode360.com/10999329",
 	"paras": [
 		{
 			"paragraph": "§ 145-8",
@@ -790,6 +790,301 @@
 							"content": [
 								{
 									"text": "Noise: All reasonable steps shall be taken to confine\nnoise, music and sound within the building so as not to adversely\naffect adjacent properties."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-20",
+			"title": "Existing buildings and uses.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Any building or premises or any use lawfully existing\nin any building or premises at the time of the passage of this chapter\nand not conforming to the regulations of the building zone district\nin which it is maintained may be continued therein, but the building\nor buildings, structures or premises involved shall not be altered\nor enlarged except in compliance with the provisions of this chapter."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "A building or lot or any part thereof which, at the\ntime of passage of this chapter or at a later time, is used for any\nof the purposes herein provided as permitted in the zone in which\nsaid building or lot is situated shall never thereafter be used for\nany purpose not permitted by the provisions of this chapter."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-21",
+			"title": "Lot transferred between districts; conformity to requirements.",
+			"content": [
+				{
+					"text": "Any lot in an area heretofore or hereafter transferred\nfrom one district to another district, of which the ownership at the\ntime of such transfer differed from that of the premises adjacent\nthereto, which fails to conform with the minimum area or minimum street\nfrontage or minimum depth regulations of the district to which it\nis transferred, but which conformed with the regulations of the district\nin which it was situated immediately prior to such transfer, may be\nimproved and a building erected, altered or enlarged thereon, provided\nthat such building conforms with the regulations of the district to\nwhich it has been transferred except as to minimum area or minimum\nstreet frontage or minimum depth as the case may be, and further provided\nthat, in respect to such minimum area or minimum street frontage or\nminimum depth, it conforms with the regulations of the district from\nwhich it was transferred."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-22",
+			"title": "Restoration of nonconforming uses.",
+			"content": [
+				{
+					"text": "Nothing in this chapter shall prevent the restoration,\nwithin one year and in such manner as not to violate any provision\nof this chapter to any greater extent or in any other way than at\nthe present time, of a nonconforming building or structure destroyed\nby fire, explosion, act of God or act of the public enemy to an extent\nof not more than 60% of its value or prevent the continuance of the\nuse of such building or part thereof, but any building destroyed in\nthe manner aforesaid, to an extent exceeding 60% of its value at the\ntime of such destruction, may be reconstructed and thereafter used\nonly in such a manner as to conform to all the provisions of this\nchapter. Nothing in this chapter shall prevent the restoration of\na wall declared unsafe."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-23",
+			"title": "Computing building area.",
+			"content": [
+				{
+					"text": "The area occupied by accessory buildings shall\nbe included in computing the maximum portion of the lot area which\nmay be built upon in any given zone."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-24",
+			"title": "Computing lot size.",
+			"content": [
+				{
+					"text": "In case of an irregular parcel of land, the\nBoard of Trustees shall have power to determine and designate what\nportion thereof shall be deemed to be used in connection with the\nproposed building or use and what, if any, portion thereof is not\nproperly to be deemed used in connection therewith. For the purpose\nof computing the size of the lot, only that portion of the parcel\nof land which the Board of Trustees deems to be used in connection\nwith the proposed building or use shall be included."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-25",
+			"title": "Accessory buildings.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Accessory buildings and uses may be located only in\nthe rear or side yards and shall not be nearer to any property line\nthan 20 feet in the Residence A District, Residence AA District or\nResidence AB District, or 15 feet in the Residence B or Residence\nBX District."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Accessory buildings or structures consisting of air-conditioning\nequipment, swimming pool, heating and filtration equipment, emergency\ngenerators, electrical panels either freestanding or attached to a\nbuilding and similar types of equipment shall be provided with suitable\nscreening by hedges, shrubs, trellises, latticework, fencing or the\nlike, or any combination of the same, of sufficient height and location\nso as to shield such uses and equipment from view from adjacent streets\nand adjacent properties."
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Sheds not exceeding 80 square feet and eight feet above surrounding grade level and located per § 145-25A do not require building permit.[Added 9-9-2004 by L.L. No. 5-2004]"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-26",
+			"title": "Proximity of principal buildings to waterfront.\n                                                                                          [1]",
+			"content": [
+				{
+					"text": "No principal building or establishment or part\nthereof shall be erected or maintained nearer to Macy Channel, Hewlett\nBay, Thixton Creek or Georges Creek than 50 feet in the Residence\nA District, Residence AA District or Residence AB District, or 40\nfeet in the Residence B District or Residence BX District. For the\npurpose of this subsection, the unnamed estuary of Hewlett Bay situated\nsouth of the bridge at Seawane Drive shall be deemed part of Hewlett\nBay, but the portions of said estuary north of said bridge shall not\nbe deemed part of Hewlett Bay."
+				},
+				{
+					"footnote": "[1]\nEditor's Note: For related provisions, see Ch. 65, Freshwater Wetlands, and Ch. 75, Art. II, Flood Damage Prevention.\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-27",
+			"title": "Docks, boathouses and bathhouses.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "There may be constructed adjacent to and abutting\nthe waterline of any waterfront property a dock, boathouse, or bathhouse\nnot used for dwelling purposes or for the storage of automobiles,\nmotorcycles, or any other motorized boats or vehicles. The exception\nto this subsection is the storage of jet skis. The boathouse or bathhouse\nmay occupy not more than 10% of the waterfront of such property and\nmust be placed across the median of the property closest to the water\non either end of the property while complying with side-yard requirements\nand the provisions applicable to accessory building or uses. A chain-link\nor cyclone fence must be constructed along the property line of that\nportion of Albon Road between Seawane Drive and Everit Avenue for\nall waterfront property. The fence must be exactly four feet high\nand maintained in good order and repair. The chain link must be coated\nin a green vinyl or green latex permanent factory coating. Any gate\nmust be securely locked as per New York State guidelines for fences\nsurrounding pools. No trees, shrubs, hedges, accessory structures,\nor any flora may be placed in such a manner so as to block the view\nof the water from the road. The dock and/or boathouse/bathhouse may\nnot be rented without the express written consent of the Village Board\nof Trustees.[Amended 3-8-1973; 4-8-2010 by L.L. No. 1-2010]"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Such dock or boathouse shall be used exclusively by\nthe owner or occupant of the property to which it is accessory for\nany number of boats owned by him, except that he may permit such dock\nto be used by transient boats for periods of not more than 10 days\nduring the boating season, or by not more than one boat without limitation\nof time owned by another resident of the Village on condition that\nno fee, charge or remuneration is paid or received."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-28",
+			"title": "Swimming pools on waterfront properties.\n                                                                                          [1]",
+			"content": [
+				{
+					"text": "As an exception to the requirement of § 145-9F that accessory uses must be located on the same lot as the principal use to which they are accessory, there may be constructed upon a lot adjoining Macy Channel, Hewlett Bay, Thixton Creek or Georges Creek a swimming pool with accessory equipment and structures which complies with all of the requirements for a swimming pool as set forth in Art. VII of this chapter and which is accessory to a one-family dwelling in the same ownership located elsewhere in the Village, within 300 feet of the swimming pool, subject to the following additional conditions:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "That the swimming pool be so located on the lot that\na one-family dwelling may be constructed upon the lot between the\nswimming pool and the adjacent street in conformity with all of the\nrequirements of applicable ordinances and that, in the event such\ndwelling is constructed, the swimming pool shall become accessory\nto such dwelling."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "That there be planted and maintained between the swimming\npool and the adjoining street or streets trees and/or shrubbery, approved\nby the Board of Trustees, sufficient in the opinion of the Board of\nTrustees to provide reasonable concealment of the swimming pool from\nthe street."
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "That the application for a building permit shall show\nconformity with these conditions and that the foregoing approval of\nthe Board of Trustees be obtained before the building permit is issued."
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "That in case the lot containing the swimming pool\nand the lot containing the principal use should come into separate\nownership, the use of the swimming pool shall cease forthwith and\nthe swimming pool and appurtenances thereto shall be removed within\none year thereafter, unless within that period of time the swimming\npool becomes a permitted accessory use under other provisions of this\nchapter."
+								}
+							]
+						}
+					]
+				},
+				{
+					"footnote": "[1]\nEditor's Note: For related provisions, see\nArt. VII.\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-29",
+			"title": "Corner lots.",
+			"content": [
+				{
+					"text": "In the case of a corner lot, a building shall\nbe required to comply with the front yard restrictions on both streets."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-30",
+			"title": "Lots fronting on two or more streets.",
+			"content": [
+				{
+					"text": "In the case of a lot, other than a corner lot,\nadjoining two or more streets, a front yard is required on each street."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-31",
+			"title": "Lots in more than one district.",
+			"content": [
+				{
+					"text": "In the case of a lot situated partly in two\ndistricts, no principal building, use or establishment shall be constructed,\naltered or maintained thereon except in conformity with the regulations\napplying to the most highly restricted district in which such building,\nuse or establishment or any part thereof is situated, and no accessory\nbuilding, use or establishment shall be constructed, altered or maintained\nunless the principal building, use or establishment to which it is\naccessory is one permitted in the district in which such accessory\nbuilding, use or establishment is situated."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-32",
+			"title": "District boundaries; streets and waterways in districts.",
+			"content": [
+				{
+					"text": "Building zone districts include all public or\nprivate streets, ponds, streams and waterways adjacent thereto, whether\nor not so designated upon the Building Zone Map, including land under\nwater and land hereafter formed by filling, accretion, emergence,\navulsion or otherwise. In case a public or private street, pond, stream\nor waterway as shown on said map forms the boundary between two or\nmore districts of the same class, the district shall be considered\nas continuous. In case a public or private street, pond, stream or\nwaterway as shown on said map forms the boundary between two or more\ndistricts of different classes, each district shall be deemed to extend\nto the center of the pond or the thread of the stream or waterway\nas the case may be. A description by metes and bounds of the building\nzone boundaries is on file with the Village records, to which reference\nmay be made to determine the intention of the Board of Trustees in\ncase of any uncertainty as to the precise location of any building\nzone boundary."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-33",
+			"title": "Streets on official map or master plan.",
+			"content": [
+				{
+					"text": "For the purpose of computing the building area,\nthe size of the lot, the front yard, the side yards, the rear yard,\nthe street frontage and the minimum depth of lot, a Village parkway\nand any proposed street or streets shown on any official map or master\nplan of the Village, or any amendment or modification thereof now\nor hereafter duly adopted by the Planning Board or by the Board of\nTrustees, shall be considered a public street with the same force\nand effect as if the same had been duly opened and improved and made\navailable for public use."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-34",
+			"title": "Streets and waterways excluded from lot yard areas.\n                                                                                          [1]",
+			"content": [
+				{
+					"text": "Except as provided in § 145-33, for the purpose of computing the building area, the size of the lot, the rear yards, front yards and side yards, the land lying in the bed of any public or private street adjacent thereto and the land lying below the highwater mark of any pond, stream or waterway adjacent thereto shall be excluded, unless the application for a building permit shall also provide for the bulkheading or filling in of a portion of such pond, stream or waterway, in which case the land lying below the high-water line as so relocated shall be excluded."
+				},
+				{
+					"footnote": "[1]\nEditor's Note: For related provisions, see § 145-66.\n"
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-35",
+			"title": "Poles and overhead wires.",
+			"content": [
+				{
+					"text": "No telephone poles or poles for electric light\nor power, and no overhead wires, shall be permitted within the Village\nexcept as follows: Properties adjoining East Rockaway Road may bring\nin overhead wires to buildings erected or to be erected thereon for\na distance of not more than 100 feet from East Rockaway Road and,\nfor such purpose, may erect and maintain, within 100 feet of East\nRockaway Road, not more than one pole on each such building plot."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-35.1",
+			"title": "Driveways.",
+			"content": [
+				{
+					"text": "No pebble or gravel driveways may be constructed.\nResidents who already have a certificate of occupancy or certificate\nof completion prior to enactment of this section are exempt from this\nrequirement."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-36",
+			"title": "Street frontage must extend for depth of yard.",
+			"content": [
+				{
+					"text": "Where a street frontage of a specified minimum\nlength is required, it is not enough if such minimum is provided at\nthe street line, but such minimum must be provided throughout the\ndepth of the required front or other yard abutting the street where\nthe minimum street frontage is provided."
+				}
+			]
+		},
+		{
+			"paragraph": "§ 145-36.1",
+			"title": "Boats and trailers.",
+			"content": [
+				{
+					"text": "No trailer of any kind and no boat of any kind\nshall be stored in any front, side or rear yard or on any other property\nin the Village, except that:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "A boat that is afloat may be moored at a legally permitted\ndock, bulkhead, pier or other mooring facility."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "A boat trailer or a boat under 18 feet in length may\nonly be stored in a rear yard when wholly enclosed within a building\nwhich complies in all respects to the laws and regulations of the\nVillage."
 								}
 							]
 						}
