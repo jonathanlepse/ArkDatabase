@@ -817,55 +817,148 @@
 					"text": "R-1A requirements are as follows:"
 				},
 				{
-					"text": "Lot Area: 1 Acre"
-				},
-				{
-					"text": "Street Frontage: 50 ft"
-				},
-				{
-					"text": "Street frontage on circumference of cul-de-sac: 50 ft"
-				},
-				{
-					"text": "Lot Width(a): 125 ft "
-				},
-				{
-					"text": "Lot Depth: 200 ft"
-				},
-				{
-					"text": "Front yard setback, principal and accessory building(b), (d): 50 ft"
-				},
-				{
-					"text": "Side yard setback, principal and accessory buildings(f): 30 ft"
-				},
-				{
-					"text": "Rear yard setback, principal and accessory buildings(f): 50 ft"
-				},
-				{
-					"text": "Maximum Height Principal Building Pitched Roof: 35 ft"
-				},
-				{
-					"text": "Maximum Height Principal Building Flat Roof: 25 ft"
-				},
-				{
-					"text": "Maximum Height Accessory Building & Other Structures: 25 ft"
-				},
-				{
-					"text": "Maximum Number of Stories Principal Building: 2 1/2 "
-				},
-				{
-					"text": "Maximum Number of Stories Accessory Building: 1 1/2 "
-				},
-				{
-					"text": "Maximum gross floor area per principal building: 4500 sq ft"
-				},
-				{
-					"text": "Maximum gross floor area of principal building: 1800 sq ft"
-				},
-				{
-					"text": "Maximum gross floor area for each accessory building: 500 sq ft"
-				},
-				{
-					"text": "Maximum total building area (includes principal and accessory buildings, and all improved surfaces including but not limited to driveways): 30%"
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area: 1 Acre"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Street Frontage: 50 ft"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Street frontage on circumference of cul-de-sac: 50 ft"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Width: 125 ft"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Lot Depth: 200 ft"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Front yard setback, principal and accessory building: 50 ft"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Side yard setback, principal and accessory buildings(f): 30 ft"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Rear yard setback, principal and accessory buildings(f): 50 ft"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Maximum Height: "
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Principal Building Pitched Roof: 35 ft"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Principal Building Flat Roof: 25 ft"
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "Accessory Building & Other Structures: 25 ft"
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "Maximum Number of Stories Principal Building: 2 1/2"
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "Maximum Number of Stories Accessory Building: 1 1/2"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Maximum gross floor area of principal building: 1800 sq ft"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Maximum gross floor area for each accessory building: 500 sq ft"
+								}
+							]
+						},
+						{
+							"number": "L. ",
+							"content": [
+								{
+									"text": "Maximum total building area (includes principal and accessory buildings, and all improved surfaces including but not limited to driveways): 30%"
+								}
+							]
+						}
+					]
 				},
 				{
 					"text": "Standards shown are minimum requirements unless otherwise indicated.\nDimensions are in feet unless otherwise indicated. See Notes (a),\n(b), (c), (d), (e), (f), (g), (h) and (i) for further restrictions\nas indicated. Lot Area: R-15 15,000sq.ft., R-1A 1 acre, R-2A 2 acres, R-4A 4 acres. Maximum gross floor area per principal building*: R-15 3,000sqft., R-1A 4500sqft., R-2A 6000sqft, R-4A 9000sqft.Minimum gross floor area of principal building: R-15 1500sqft, R-1A 1800sqft, R-2A 2200sqft, R-4 A2200sqft. Maximum gross floor area for each accessory building: R-15 250sqft, R-1A 500sqft, R-2A 750sqft, R-4A 1000 sqft. Maximum total building area (includes principal and accessory buildings, and all improved surfaces including but not limited to driveways): R-15 35%, R-1A 30%, R-2A 25%, R-4A 20%. (a)Within any Residence District, no part of any dwelling or other structure housing a main use, and no part of any residence structure, shall be erected on that part of a lot where the lot width is less than the minimum requirement for the district in which it is located. No part of a lot having a width less than 1/2 the minimum required width for the district may be counted as a part of the required minimum lot area.(b)Left blank intentionally.(c)Except chimneys not exceeding three feet defined in building height.(d)All accessory buildings and accessory structures shall be located a minimum of 100 feet from any street line, except that a garage may be set back the same distance as a main residential building but, in no event, less than the minimum front yard setback required in the district in which it is located.(e)For all buildings having a roof with a pitch of less than four on 12, the maximum height shall be 25 feet and two stories.(f)In the R-15 District, accessory buildings not larger than 100 square feet in gross floor area may be set back 1/2 the minimum distance required for the rear and side yard setbacks.(g)In the R-4A District, the front, side and rear yard setbacks for a principal building shall increase by 2% for every 1% by which the principal building exceeds 9,000 square feet of gross floor area.(h)Air-conditioning condensing units shall be permitted to project no more than eight feet into any required side yard or rear yard setback, provided they comply with the front yard setback, are fully screened from view from the street and view of neighboring properties, and comply with the Village's Noise Ordinance and do not create unreasonable noise at a point 10 feet beyond the property line of the property on which the unit is located.(i)Generators shall be permitted to project no more than eight feet into any required side yard or rear yard setback, provided they comply with the front yard setback, are fully screened from view from the street and view of' neighboring properties, and comply with the Village's Noise Ordinance and do not create unreasonable noise at a point 10 feet beyond the property line of the property on which the generator is located.*As increased or decreased using the following formula:1)Up to and including 1.0 acre of lot area: Maximum gross floor area = lot area minus 43,560, the difference of which is then multiplied by 0.052521 and the product is then subtracted from 4,500.2)More than 1.0 acre of lot area, up to and including 4.0 acres of lot area: Maximum gross floor area = lot area minus 174,240, the sum of which is then multiplied by 0.034435 and the product is then subtracted from 9,000.3)Over 4.0 acres of lot area: Maximum gross floor area = lot area minus 174,240, the difference of which is then multiplied by 0.022957 and the product is then added to 9,000."
