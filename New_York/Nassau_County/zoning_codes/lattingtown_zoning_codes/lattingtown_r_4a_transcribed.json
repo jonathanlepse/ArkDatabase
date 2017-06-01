@@ -1,6 +1,6 @@
 [
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@A",
     "rules": [
       {
         "rule": "LOT_AREA",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@B",
     "rules": [
       {
         "rule": "FRONTAGE",
@@ -30,7 +30,27 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@C",
+    "rules": [
+      {
+        "rule": "FRONTAGE",
+        "args": [
+          {
+            "key": "CUL_DE_SAC_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "100",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§315-18@D",
     "rules": [
       {
         "rule": "LOT_WIDTH",
@@ -45,7 +65,22 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@E",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "300",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§315-18@F",
     "rules": [
       {
         "rule": "FRONT_YARD_SETBACK",
@@ -75,7 +110,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@G",
     "rules": [
       {
         "rule": "SIDE_YARD_SETBACK",
@@ -105,7 +140,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@H",
     "rules": [
       {
         "rule": "REAR_YARD_SETBACK",
@@ -135,11 +170,16 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@I@1",
     "rules": [
       {
         "rule": "HEIGHT",
         "args": [
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MAX",
             "value": "35",
@@ -150,7 +190,27 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@I@2",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "FLAT_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§315-18@I@3",
     "rules": [
       {
         "rule": "HEIGHT",
@@ -170,7 +230,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@I@4",
     "rules": [
       {
         "rule": "STORIES",
@@ -185,7 +245,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@I@5",
     "rules": [
       {
         "rule": "STORIES",
@@ -196,7 +256,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MAX",
+            "key": "MIN",
             "value": "1.5",
             "units": "NO_UNITS"
           }
@@ -205,7 +265,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@J",
     "rules": [
       {
         "rule": "FLOOR_AREA",
@@ -220,7 +280,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@K",
     "rules": [
       {
         "rule": "FLOOR_AREA",
@@ -240,7 +300,7 @@
     ]
   },
   {
-    "clauseID": "@§315-18",
+    "clauseID": "@§315-18@L",
     "rules": [
       {
         "rule": "LOT_COVERAGE",
