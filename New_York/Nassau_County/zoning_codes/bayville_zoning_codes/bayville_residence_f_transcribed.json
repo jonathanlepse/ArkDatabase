@@ -36,7 +36,7 @@
         "rule": "LOT_AREA",
         "args": [
           {
-            "key": "NO_KEY",
+            "key": "MIN",
             "value": "40000",
             "units": "FEET_SQUARE"
           }
@@ -138,8 +138,14 @@
     "clauseID": "@§80-40@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "20",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },

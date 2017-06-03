@@ -36,7 +36,7 @@
         "rule": "LOT_AREA",
         "args": [
           {
-            "key": "NO_KEY",
+            "key": "MIN",
             "value": "5000",
             "units": "FEET_SQUARE"
           }
@@ -143,8 +143,14 @@
     "clauseID": "@§80-16@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "25",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },
@@ -154,6 +160,11 @@
       {
         "rule": "FLOOR_AREA",
         "args": [
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MIN",
             "value": "900",
