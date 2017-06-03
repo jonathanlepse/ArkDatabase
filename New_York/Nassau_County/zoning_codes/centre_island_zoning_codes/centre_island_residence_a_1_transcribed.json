@@ -18,7 +18,7 @@
     "clauseID": "@§122-7@C",
     "rules": [
       {
-        "rule": "FLOOR_AREA",
+        "rule": "LOT_COVERAGE",
         "args": [
           {
             "key": "MAX",
@@ -61,15 +61,26 @@
             "units": "FEET"
           }
         ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§122-8@B",
-    "rules": [
+      },
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "75",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "REAR_AND_SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "50",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -80,8 +91,28 @@
         "rule": "HEIGHT",
         "args": [
           {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MAX",
             "value": "37",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "FLAT_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "25",
             "units": "FEET"
           }
         ]
@@ -92,8 +123,14 @@
     "clauseID": "@§122-10@B@1",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "7500",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
