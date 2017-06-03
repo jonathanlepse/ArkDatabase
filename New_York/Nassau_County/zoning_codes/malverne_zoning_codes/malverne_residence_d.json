@@ -206,6 +206,27 @@
 					]
 				}
 			]
-		}
+		},
+		{
+        	"paragraph": "§ 49-1.2.",
+        	"title": "Definitions",
+        	"content": [
+        		{
+        			"text": "For the purpose of this Chapter certain words, terms and phrases shall be interpreted or defined as set forth in this Section. "
+        		},
+        		{
+        			"content": [
+        				{
+        					"number": "B. ",
+        					"content": [
+        						{
+        							"text": "Accessory Building or Structure: A building or structure subordinate and incidental to the main building or structure on the same lot and used for purposes customarily incidental to those of the main building or structure. For purposes of this Chapter, an Accessory Building or Structure shall not occupy more than forty percent (40%) of the rear yard. No part of an Accessory Building or Structure shall be less than four (4) feet from the rear or side lot lines, except that a detached garage shall be no less than two (2) feet from the rear or side lot lines. Accessory Use: A use on the same lot which is customarily incidental and subordinate to, the principal use."
+        						}
+        					]
+        				}
+        			]
+        		}
+        	]
+        }
 	]
 }
