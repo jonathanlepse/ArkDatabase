@@ -60,36 +60,6 @@
     ]
   },
   {
-    "clauseID": "@§195-19@A@2",
-    "rules": [
-      {
-        "rule": "LOT_AREA",
-        "args": [
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MIN",
-            "value": "4000",
-            "units": "FEET_SQUARE"
-          }
-        ]
-      },
-      {
-        "rule": "LOT_WIDTH",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "40",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§195-20@E",
     "rules": [
       {
