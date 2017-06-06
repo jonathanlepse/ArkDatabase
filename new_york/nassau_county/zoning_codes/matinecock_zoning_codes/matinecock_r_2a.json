@@ -1,0 +1,263 @@
+{
+	"url": "http://www.matinecockvillage.org/Codebook2015V2.pdf",
+	"paras": [
+		{
+			"paragraph": "§ 195-14 ",
+			"title": "Schedule of area, yard and other dimensional standards.",
+			"content": [
+				{
+					"text": "The following regulations shall apply in an R-2A district: Standards shown are minimum requirements unless otherwise indicated. Dimensions are in feet unless otherwise indicated."
+				},
+				{
+					"content": [
+						{
+							"number": "1. ",
+							"content": [
+								{
+									"text": "Lot area: 87120 square feet"
+								}
+							]
+						},
+						{
+							"number": "2. ",
+							"content": [
+								{
+									"text": "Street frontage: 50 feet"
+								}
+							]
+						},
+						{
+							"number": "3. ",
+							"content": [
+								{
+									"text": "Street frontage on circumference of cul-de-sac: 90 feet"
+								}
+							]
+						},
+						{
+							"number": "4. ",
+							"content": [
+								{
+									"text": "Lot width: 200 feet"
+								}
+							]
+						},
+						{
+							"number": "5. ",
+							"content": [
+								{
+									"text": "Lot depth: 250 feet"
+								}
+							]
+						},
+						{
+							"number": "6. ",
+							"content": [
+								{
+									"text": "Front yard: 50 feet"
+								}
+								
+							]
+						},
+						{
+							"number": "7. ",
+							"content": [
+								{
+									"text": "Side yard: "
+								},
+								{
+									"content": [
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "Principal or accessory building: 50 feet"
+												}
+											]
+										},
+										{
+											"number": "(b) ",
+											"content": [
+												{
+													"text": "Driveway: 15 feet"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "8. ",
+							"content": [
+								{
+									"text": "Rear yard:"
+								},
+								{
+									"content": [
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "Principal or accessory building: 50 feet"
+												}
+											]
+										},
+										{
+											"number": "(b) ",
+											"content": [
+												{
+													"text": "Driveway: 15 feet"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "9. ",
+							"content": [
+								{
+									"text": "Maximum height: "
+								},
+								{
+									"content": [
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "Main building: 35 feet"
+												}
+											]
+										},
+										{
+											"number": "(b) ",
+											"content": [
+												{
+													"text": "Accessory building: 15 feet"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "10. ",
+							"content": [
+								{
+									"text": "Floor area per dwelling unit (squarefeet) : "
+								},
+								{
+									"content": [
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "1 Story, Principal:"
+												},
+												{
+													"content": [
+														{
+															"number": "(1) ",
+															"content": [
+																{
+																	"text": "Minimum: 1600 square feet"
+																}
+															]
+														},
+														{
+															"number": "(2) ",
+															"content": [
+																{
+																	"text": "Maximum: 5000 square feet"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "1.5 Story, Principal:"
+												},
+												{
+													"content": [
+														{
+															"number": "(1) ",
+															"content": [
+																{
+																	"text": "Minimum: 1900 square feet"
+																}
+															]
+														},
+														{
+															"number": "(2) ",
+															"content": [
+																{
+																	"text": "Maximum: 7000 square feet"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(a) ",
+											"content": [
+												{
+													"text": "2 Story, Principal:"
+												},
+												{
+													"content": [
+														{
+															"number": "(1) ",
+															"content": [
+																{
+																	"text": "Minimum: 2200 square feet"
+																}
+															]
+														},
+														{
+															"number": "(2) ",
+															"content": [
+																{
+																	"text": "Maximum: 9000 square feet"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(d) ",
+											"content": [
+												{
+													"text": "Accessory dwelling maximum: 2000 square feet"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "11. ",
+							"content": [
+								{
+									"text": "Maximum building coverage (all buildings): 15%"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
