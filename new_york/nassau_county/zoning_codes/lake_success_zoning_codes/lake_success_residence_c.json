@@ -132,19 +132,48 @@
 									"text": "No single-family residence shall hereafter be erected\nunless it complies with the following floor area requirements:"
 								},
 								{
-									"text": "Residence AA: minimum 2500 (square feet)"
-								},
-								{
-									"text": "Residence A: minimum 1800 (square feet)"
-								},
-								{
-									"text": "Residence B1: minimum 1400 (square feet)"	
-								},
-								{
-									"text": "Residence B2: minimum 1400 (square feet)"	
-								},
-								{
-									"text": "Residence C: minimum 1200 (square feet)"	
+									"content": [
+										{
+											"number": "1. ",
+											"content": [
+												{
+													"text": "Residence AA: minimum 2500 (square feet)"
+												}
+											]
+										},
+										{
+											"number": "2. ",
+											"content": [
+												{
+													"text": "Residence A: minimum 1800 (square feet)"
+												}
+											]
+										},
+										{
+											"number": "3. ",
+											"content": [
+												{
+													"text": "Residence B1: minimum 1400 (square feet)"
+												}
+											]
+										},
+										{
+											"number": "4. ",
+											"content": [
+												{
+													"text": "Residence B2: minimum 1400 (square feet)"
+												}
+											]
+										},
+										{
+											"number": "5. ",
+											"content": [
+												{
+													"text": "Residence C: minimum 1200 (square feet)"
+												}
+											]
+										}
+									]
 								}
 							]
 						},
