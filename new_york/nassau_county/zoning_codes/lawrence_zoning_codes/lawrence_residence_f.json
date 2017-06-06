@@ -1,6 +1,59 @@
 {
-	"url": "http://ecode360.com/11021250",
+	"url": "http://ecode360.com/11021032",
 	"paras": [
+		{
+			"paragraph": "§ 212-12.1",
+			"title": "Schedule of Dimensional Regulations",
+			"content": [
+				{
+					"text": "One- and Two-Family Dwellings and All Uses in Residence AA, A, BB, B, C-1, C-2 and D Districts Village of Lawrence, New York [Amended 3-10-1999 by L.L. No. 3-1999; 10-13-1999 by L.L. No. 6-1999; 12-12-2001 by L.L. No. 4-2001; 1-13-2004 by L.L. No. 3-2004]"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Maximum Permitted Building Area Coverage: 13%"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Front Yard: 20 feet"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "One Side: 5 feet"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Aggregate of Two Sides: 13 feet"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Rear: 20 feet"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 	    {
 			"paragraph": "§ 212-22",
 			"title": "Residence F District.",
@@ -86,6 +139,169 @@
 							"content": [
 								{
 									"text": "No building shall be erected on any lot having a street\nfrontage of less than 60 feet."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 212-24",
+			"title": "Regulations for accessory buildings and uses.",
+			"content": [
+				{
+					"text": "The following additional provisions shall apply\nto accessory buildings and uses:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "The accessory building or use must be located on the\nsame lot as the principal building or use to which it is accessory\nor on a lot immediately adjoining it. If it is located on a lot immediately\nadjoining the lot on which the principal building or use is located\nand the lots are severed, the accessory use shall cease."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "The accessory use shall not be carried on by any person\nother than the occupant of the principal building or, in case of vacant\nproperty, by the owner or lessee of the lot."
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "The area occupied by accessory buildings shall be\nincluded in computing the maximum portion of the lot area which may\nbe built upon in any given district. The area occupied by accessory\nbuildings shall not exceed 8% of the area of the lot."
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Except as otherwise indicated in this chapter, the\nfollowing shall be the minimum distances, by district, between any\naccessory structure or garage and the side and rear property lines\nof the lot on which the accessory structure or garage is situated:[Amended 9-13-2004 by L.L. No. 7-2004]"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "No accessory building shall be permitted in the Business\nK District.[Added 9-13-2004 by L.L. No. 7-2004]"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 212-24.1",
+			"title": "Professional offices.",
+			"content": [
+				{
+					"text": "Where a lot or premises in a residence district\nis permitted to be used in part as the office of a professional person,\nthe following additional regulations and conditions shall apply:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Such\nuse is limited to the office of not more than one practitioner of\nmedicine, osteopathy, physiotherapy, dentistry, podiatry, optometry,\npsychology or chiropractic duly licensed under the Education Law of\nthe State of New York, and the building in which such office is located\nshall be the primary residence of such practitioner and the immediate\nfamily of such practitioner."
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Not\nmore than one assistant or associate licensed practitioner and not\nmore than one nurse or assistant or associate worker may be employed\nin such office."
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "No display\nof advertising and no sign shall be permitted except the name of the\nprofessional person or persons and letters or abbreviations indicating\nthe nature of his profession. No such sign shall be illuminated except\nby reflector buttons. No such signs shall exceed two feet in length\nor six inches in height."
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Such\noffice must be located in and as part of the principal dwelling of\nthe practitioner and the immediate family of such practitioner and\nmay not be housed in a separate building."
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "In no\ncase may the practice of a profession be permitted as a principal\nuse."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"paragraph": "§ 212-25",
+			"title": "Private garages.",
+			"content": [
+				{
+					"text": "A private garage is permitted only as an accessory\nuse and is subject to the following conditions:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "No private garage shall be permitted within a side\nyard or within a rear yard, except under the following conditions:"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "When used as accessory to a dwelling for one family\nonly or for not more than two families, a private garage may be constructed\nin a side yard or a rear yard, provided that no part thereof is nearer\nthan 15 feet, in a Residence AA District; 10 feet, in a Residence\nA District; eight feet, in a Residence BB or B District; or four feet,\nin any other residence district, to the nearest property line.[Amended 6-14-2000 by L.L. No. 4-2000]"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "In a business district, such garage shall accommodate\nnot more than five motor vehicles, and no part of the building shall\nbe nearer than four feet to the side or rear property line; provided,\nhowever, that, in the case of a corner lot, a garage may not be nearer\nto the street line of the street on which the lot has the greater\nfrontage than the front building line established for that street."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "When used as accessory to a building other than a\ndwelling for not over one family or for not over two families, such\ngarage shall be permitted if authorized as a special exception by\nthe Board of Appeals under such conditions as it may impose."
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "In the case of a corner lot, a garage may not be nearer\nto the street line of the street on which the lot has the greater\nfrontage than the front building line established for that street."
+												}
+											]
+										}
+									]
 								}
 							]
 						}
