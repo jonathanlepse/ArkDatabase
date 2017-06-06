@@ -1,14 +1,5 @@
 [
   {
-    "clauseID": "@§146-9@C@3",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
     "clauseID": "@§146-9@C@3-a",
     "rules": [
       {
@@ -76,7 +67,52 @@
         "args": [
           {
             "key": "MIN",
+            "value": "2625",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
             "value": "3000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§146-15@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "TWO_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "1750",
             "units": "FEET_SQUARE"
           }
         ]
