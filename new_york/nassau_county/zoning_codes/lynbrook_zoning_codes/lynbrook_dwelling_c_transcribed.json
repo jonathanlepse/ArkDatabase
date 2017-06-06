@@ -68,8 +68,39 @@
     "clauseID": "@§252-22@B@2@a",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "ONE_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "12",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "350",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
@@ -77,8 +108,39 @@
     "clauseID": "@§252-22@B@2@b",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "TWO_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "14",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "TWO_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "450",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
@@ -86,8 +148,39 @@
     "clauseID": "@§252-22@B@2@c",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "THREE_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "14",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "THREE_CAR_GARAGE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "600",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
