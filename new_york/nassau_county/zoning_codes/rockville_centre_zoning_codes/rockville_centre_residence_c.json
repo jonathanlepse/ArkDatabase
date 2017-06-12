@@ -1,5 +1,5 @@
 {
-	"url": "http://ecode360.com/7728170",
+	"url": "http://ecode360.com/7728006",
 	"paras": [
 		{
 			"paragraph": "§ 340-22",
@@ -77,7 +77,13 @@
 							"content": [
 								{
 									"text": "Upon premises used for professional medical buildings\nor hospitals, parking spaces shall be maintained upon the same plot."
-								},
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 								{
 									"paragraph": "§ 340-119",
 									"title": "Garages and accessory buildings on lots developed with residence buildings.",
@@ -552,11 +558,5 @@
 										}
 									]
 								}
-							]
-						}
-					]
-				}
-			]
-		}
 	]
 }
