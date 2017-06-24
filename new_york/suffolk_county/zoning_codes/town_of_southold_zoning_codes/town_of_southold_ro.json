@@ -2,6 +2,107 @@
 	"url": "http://ecode360.com/5161767",
 	"paras": [
 		{
+			"paragraph": "§ 280",
+			"title": "Bulk Schedule for Residential Districts.",
+			"content": [
+				{
+					"text": "The following regulations shall apply in RO:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot size (square feet): 40,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot width (feet): 150"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot depth (feet): 175"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Front yard (feet): 50"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Side yard (feet): 15"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Both side yards (feet): 35"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Rear yard (feet): 50"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Livable floor area (square feet per dwelling unit): 850"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Lot coverage (percent): 20"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Building height (feet): 35"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Number of stories: 2.5"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 280-37",
 			"title": "Purpose.",
 			"content": [
@@ -183,6 +284,34 @@
 											"content": [
 												{
 													"text": "Accessory uses as set forth in and regulated by § 280-13C(1) through (7) of the Agricultural-Conservation District and subject to the conditions set forth in § 280-15 thereof."
+												},
+												{
+													"content": [
+														{
+															"number": "A. ",
+															"content": [
+																{
+																	"text": "For Lot Size of: 20,000- 39,999. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 20 feet"
+																}
+															]
+														},
+														{
+															"number": "B. ",
+															"content": [
+																{
+																	"text": "For Lot Size of: 40,000- 59,999. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 15 feet"
+																}
+															]
+														},
+														{
+															"number": "C. ",
+															"content": [
+																{
+																	"text": "For Lot Size of: 80,000 & over. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 25 feet"
+																}
+															]
+														}
+													]
 												}
 											]
 										},

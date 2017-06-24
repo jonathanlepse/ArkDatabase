@@ -2,6 +2,107 @@
 	"url": "http://ecode360.com/5161767",
 	"paras": [
 		{
+			"paragraph": "§ 280",
+			"title": "Bulk Schedule for Residential Districts.",
+			"content": [
+				{
+					"text": "The following regulations shall apply in R-80:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot size (square feet): 80,000"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot width (feet): 175"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot depth (feet): 250"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Front yard (feet): 60"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Side yard (feet): 20"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Both side yards (feet): 45"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Rear yard (feet): 75"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Livable floor area (square feet per dwelling unit): 850"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Lot coverage (percent): 20"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Building height (feet): 35"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Number of stories: 2.5"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 280-12",
 			"title": "Purpose.",
 			"content": [
@@ -1393,6 +1494,34 @@
 							"content": [
 								{
 									"text": "Buildings with a sloping roof shall be subject to\nthe following height and setback limitations:"
+								},
+								{
+									"content": [
+										{
+											"number": "1. ",
+											"content": [
+												{
+													"text": "For Lot Size of: 20,000- 39,999. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 20 feet"
+												}
+											]
+										},
+										{
+											"number": "2. ",
+											"content": [
+												{
+													"text": "For Lot Size of: 40,000- 59,999. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 15 feet"
+												}
+											]
+										},
+										{
+											"number": "3. ",
+											"content": [
+												{
+													"text": "For Lot Size of: 80,000 & over. Maximum Height: 22 feet, Minimum Setback for Side and/or Rear Yard: 25 feet"
+												}
+											]
+										}
+									]
 								}
 							]
 						},
