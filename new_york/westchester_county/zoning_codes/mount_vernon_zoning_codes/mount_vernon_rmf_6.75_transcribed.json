@@ -142,7 +142,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "1",
+            "value": "18",
             "units": "FEET"
           }
         ]
