@@ -2276,7 +2276,7 @@
                                 			"number": "1. ",
                                 			"content": [
                                 				{
-                                					"text": "Floor Area Ratio: "
+                                					"text": "Floor Area Ratio: 0.3"
                                 				}
                                 			]
                                 		},
@@ -2284,7 +2284,7 @@
                                 			"number": "2. ",
                                 			"content": [
                                 				{
-                                					"text": "Building Height (stories/feet): "
+                                					"text": "Building Height (stories/feet): 3/30"
                                 				}
                                 			]
                                 		},
@@ -2292,7 +2292,7 @@
                                 			"number": "3. ",
                                 			"content": [
                                 				{
-                                					"text": "Coverage, Buildings(%): "
+                                					"text": "Coverage, Buildings(%): 25"
                                 				}
                                 			]
                                 		},
@@ -2300,7 +2300,7 @@
                                 			"number": "4. ",
                                 			"content": [
                                 				{
-                                					"text": "Lot Area (square feet): "
+                                					"text": "Lot Area (square feet): 10,000"
                                 				}
                                 			]
                                 		},
@@ -2308,7 +2308,7 @@
                                 			"number": "5. ",
                                 			"content": [
                                 				{
-                                					"text": "Floor Area Per Dwelling Unit (square feet): "
+                                					"text": "Floor Area Per Dwelling Unit (square feet): 1-story:1,600 2-story:1,800"
                                 				}
                                 			]
                                 		},
@@ -2316,7 +2316,7 @@
                                 			"number": "6. ",
                                 			"content": [
                                 				{
-                                					"text": "Lot Width(feet): "
+                                					"text": "Lot Width(feet): 100"
                                 				}
                                 			]
                                 		},
@@ -2324,7 +2324,7 @@
                                 			"number": "7. ",
                                 			"content": [
                                 				{
-                                					"text": "Front Yard(feet): "
+                                					"text": "Front Yard(feet): 30"
                                 				}
                                 			]
                                 		},
@@ -2332,7 +2332,7 @@
                                 			"number": "8. ",
                                 			"content": [
                                 				{
-                                					"text": "Side Yard Use Each Side/Combined (feet): "
+                                					"text": "Side Yard Use Each Side/Combined (feet): 12/27"
                                 				}
                                 			]
                                 		},
@@ -2340,7 +2340,7 @@
                                 			"number": "9. ",
                                 			"content": [
                                 				{
-                                					"text": "Rear Yard(feet): "
+                                					"text": "Rear Yard(feet): 30"
                                 				}
                                 			]
                                 		}
