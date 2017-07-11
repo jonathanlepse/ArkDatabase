@@ -1,0 +1,27 @@
+[
+  {
+    "clauseID": "@§575-43@F@3@a",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "3",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "38",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  }
+]
