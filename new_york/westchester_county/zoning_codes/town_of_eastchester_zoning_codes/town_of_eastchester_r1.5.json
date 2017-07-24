@@ -1,0 +1,90 @@
+{
+	"url": "http://www.eastchester.org/departments/planning_and_building/docs/Schedule_of_Residential_District_Regulations_03_19_13.pdf",
+	"paras": [
+        {
+        	"paragraph": "§ 1",
+        	"title": "SCHEDULE OF RESIDENTIAL DISTRICT REGULATIONS",
+        	"content": [
+        		{
+        			"text": "The following regulations shall apply in an R 1.5 district:"
+        		},
+        		{
+        			"content": [
+        				{
+        					"number": "2. ",
+        					"content": [
+        						{
+        							"text": "Lot Size(square feet): 1,500"
+        						}
+        					]
+        				},
+        				{
+        					"number": "3. ",
+        					"content": [
+        						{
+        							"text": "Frontage(feet): 15"
+        						}
+        					]
+        				},
+        				{
+        					"number": "5. ",
+        					"content": [
+        						{
+        							"text": "Minimum Size of Yards in feet Front: 10"
+        						}
+        					]
+        				},
+        				{
+        					"number": "8. ",
+        					"content": [
+        						{
+        							"text": "Minimum Size of Yards in feet Rear: 10"
+        						}
+        					]
+        				},
+        				{
+        					"number": "9. ",
+        					"content": [
+        						{
+        							"text": "Minimum Size of Yards, in feet to Side Yard Adjoining a Street (corner lot): 14"
+        						}
+        					]
+        				},
+        				{
+        					"number": "12. ",
+        					"content": [
+        						{
+        							"text": "Accessory Building Minimum Distance, in feet to rear lot line: 10"
+        						}
+        					]
+        				},
+        				{
+        					"number": "13. ",
+        					"content": [
+        						{
+        							"text": "Maximum Building Coverage, Principal(%): 75"
+        						}
+        					]
+        				},
+        				{
+        					"number": "15. ",
+        					"content": [
+        						{
+        							"text": "Maximum Building Height(stories): 2.5"
+        						}
+        					]
+        				},
+        				{
+        					"number": "21. ",
+        					"content": [
+        						{
+        							"text": "Accessory Building Maximum Height(feet): 15"
+        						}
+        					]
+        				}
+        			]
+        		}
+        	]
+        }
+    ]
+}
