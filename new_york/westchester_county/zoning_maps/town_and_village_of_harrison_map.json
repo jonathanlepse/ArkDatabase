@@ -1512,7 +1512,7 @@
         "lng": -73.71059060096741
       }
     ],
-    "zoningType": "R-One-Third"
+    "zoningType": "R-Third"
   },
   {
     "coords": [
@@ -1605,7 +1605,7 @@
         "lng": -73.7293553352356
       }
     ],
-    "zoningType": "R-One-Half"
+    "zoningType": "R-Half"
   },
   {
     "coords": [
@@ -2399,7 +2399,7 @@
         "lng": -73.69017362594604
       }
     ],
-    "zoningType": "R-One-Third"
+    "zoningType": "R-Third"
   },
   {
     "coords": [
@@ -3782,7 +3782,7 @@
         "lng": -73.73703718185425
       }
     ],
-    "zoningType": "R-One-Half"
+    "zoningType": "R-Half"
   },
   {
     "coords": [
@@ -3851,7 +3851,7 @@
         "lng": -73.7369030714035
       }
     ],
-    "zoningType": "R-One-Half"
+    "zoningType": "R-Half"
   },
   {
     "coords": [
@@ -4044,7 +4044,7 @@
         "lng": -73.74468684196472
       }
     ],
-    "zoningType": "R-One-Third"
+    "zoningType": "R-Third"
   },
   {
     "coords": [
