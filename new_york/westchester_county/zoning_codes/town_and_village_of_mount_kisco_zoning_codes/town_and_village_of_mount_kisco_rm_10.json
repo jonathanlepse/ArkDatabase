@@ -1,5 +1,5 @@
 {
-	"url": "http://ecode360.com/10863108",
+	"url": "http://ecode360.com/10863078",
 	"paras": [
 		{
 			"paragraph": "§ 110-8",
@@ -1944,6 +1944,74 @@
 											"content": [
 												{
 													"text": "Detached one- and two-family dwellings shall be arranged\nand comply with the following development standards:[Amended 11-18-2008 by L.L. No. 3-2008]"
+												},
+												{
+													"content": [
+														{
+															"number": "A. ",
+															"content": [
+																{
+																	"text": "Minimum net lot area: One-Family Dwellings: 6,250sqft Two_Family Dwellings: 10,000sqft"
+																}
+															]
+														},
+														{
+															"number": "B. ",
+															"content": [
+																{
+																	"text": "Maximum development coverage: One-Family Dwellings: 40% Two_Family Dwellings: 50%"
+																}
+															]
+														},
+														{
+															"number": "C. ",
+															"content": [
+																{
+																	"text": "Minimum lot width: One-Family Dwellings: 50ft Two_Family Dwellings: 50ft"
+																}
+															]
+														},
+														{
+															"number": "D. ",
+															"content": [
+																{
+																	"text": "Minimum lot depth: One-Family Dwellings: 100ft Two_Family Dwellings: 100ft"
+																}
+															]
+														},
+														{
+															"number": "E. ",
+															"content": [
+																{
+																	"text": "Minimum building setback: Front: One-Family Dwellings: 25ft"
+																}
+															]
+														},
+														{
+															"number": "F. ",
+															"content": [
+																{
+																	"text": "Minimum building setback: Side One-Family Dwellings: 6 feet for one side yard, with a total of 16 feet for both side yards"
+																}
+															]
+														},
+														{
+															"number": "G. ",
+															"content": [
+																{
+																	"text": "Minimum building setback: Rear One-Family Dwellings: 30 feet for lots with a depth of 125 feet or greater; for lots with a depth of less than 125 feet, 30 feet minus one foot for every 2 1/2 feet that the lot depth is less than 125 feet, but in no case less than 20 feet"
+																}
+															]
+														},
+														{
+															"number": "H. ",
+															"content": [
+																{
+																	"text": "Maximum height of principal structure: One-Family Dwellings: 2 1/2 stories or 35 feet, whichever is less"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
