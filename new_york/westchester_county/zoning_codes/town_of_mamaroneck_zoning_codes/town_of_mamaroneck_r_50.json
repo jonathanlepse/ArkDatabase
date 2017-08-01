@@ -2398,6 +2398,664 @@
 					]
 				}
 			]
+		},
+		{
+			"paragraph": "§ 240-59.1",
+			"title": "Maximum size of one- or two-family homes.",
+			"content": [
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Definitions. As used in this section, the following\nterms shall have the meanings indicated:"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Maximum permitted total square footage and floor area\nratio."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "The maximum permitted total square footage of\nall of the buildings on a lot shall be the greater of:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "The maximum total square footage allowed for a lot when applying the maximum floor area ratio for that lot plus any additional square footage to which the lot may be entitled under Subsection B(3) of this section; or"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "The average."
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "The maximum floor area ratio for a lot shall\nbe determined by the following chart:"
+												},
+												{
+													"content": [
+														{
+															"number": "1. ",
+															"content": [
+																{
+																	"text": "Lot Size: 1,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 550.00"
+																}
+															]
+														},
+														{
+															"number": "2. ",
+															"content": [
+																{
+																	"text": "Lot Size: 2,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 1100.00"
+																}
+															]
+														},
+														{
+															"number": "3. ",
+															"content": [
+																{
+																	"text": "Lot Size: 3,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 1650.00"
+																}
+															]
+														},
+														{
+															"number": "4. ",
+															"content": [
+																{
+																	"text": "Lot Size: 4,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 2200.00"
+																}
+															]
+														},
+														{
+															"number": "5. ",
+															"content": [
+																{
+																	"text": "Lot Size: 5,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 2750.00"
+																}
+															]
+														},
+														{
+															"number": "6. ",
+															"content": [
+																{
+																	"text": "Lot Size: 6,000  Maximum Floor Area Ratio: .55000  Aggregate Floor Area of all of the Buildings on the lot: 3300.00"
+																}
+															]
+														},
+														{
+															"number": "7. ",
+															"content": [
+																{
+																	"text": "Lot Size: 7,000  Maximum Floor Area Ratio: .52000  Aggregate Floor Area of all of the Buildings on the lot: 3640.00"
+																}
+															]
+														},
+														{
+															"number": "8. ",
+															"content": [
+																{
+																	"text": "Lot Size: 8,000  Maximum Floor Area Ratio: .49000  Aggregate Floor Area of all of the Buildings on the lot: 3920.00"
+																}
+															]
+														},
+														{
+															"number": "9. ",
+															"content": [
+																{
+																	"text": "Lot Size: 9,000  Maximum Floor Area Ratio: .46000  Aggregate Floor Area of all of the Buildings on the lot: 4140.00"
+																}
+															]
+														},
+														{
+															"number": "10. ",
+															"content": [
+																{
+																	"text": "Lot Size: 10,000  Maximum Floor Area Ratio: .43000  Aggregate Floor Area of all of the Buildings on the lot: 4340.00"
+																}
+															]
+														},
+														{
+															"number": "11. ",
+															"content": [
+																{
+																	"text": "Lot Size: 11,000  Maximum Floor Area Ratio: .41000  Aggregate Floor Area of all of the Buildings on the lot: 4510.00"
+																}
+															]
+														},
+														{
+															"number": "12. ",
+															"content": [
+																{
+																	"text": "Lot Size: 12,000  Maximum Floor Area Ratio: .39000  Aggregate Floor Area of all of the Buildings on the lot: 4680.00"
+																}
+															]
+														},
+														{
+															"number": "13. ",
+															"content": [
+																{
+																	"text": "Lot Size: 13,000  Maximum Floor Area Ratio: .36900  Aggregate Floor Area of all of the Buildings on the lot: 4797.00"
+																}
+															]
+														},
+														{
+															"number": "14. ",
+															"content": [
+																{
+																	"text": "Lot Size: 14,000  Maximum Floor Area Ratio: .35000  Aggregate Floor Area of all of the Buildings on the lot: 4900.00"
+																}
+															]
+														},
+														{
+															"number": "15. ",
+															"content": [
+																{
+																	"text": "Lot Size: 15,000  Maximum Floor Area Ratio: .33400  Aggregate Floor Area of all of the Buildings on the lot: 5110.00"
+																}
+															]
+														},
+														{
+															"number": "16. ",
+															"content": [
+																{
+																	"text": "Lot Size: 16,000  Maximum Floor Area Ratio: .32000  Aggregate Floor Area of all of the Buildings on the lot: 5120.00"
+																}
+															]
+														},
+														{
+															"number": "17. ",
+															"content": [
+																{
+																	"text": "Lot Size: 17,000  Maximum Floor Area Ratio: .31000  Aggregate Floor Area of all of the Buildings on the lot: 5270.00"
+																}
+															]
+														},
+														{
+															"number": "18. ",
+															"content": [
+																{
+																	"text": "Lot Size: 18,000  Maximum Floor Area Ratio: .30000  Aggregate Floor Area of all of the Buildings on the lot: 5400.00"
+																}
+															]
+														},
+														{
+															"number": "19. ",
+															"content": [
+																{
+																	"text": "Lot Size: 19,000  Maximum Floor Area Ratio: .29000  Aggregate Floor Area of all of the Buildings on the lot: 5510.00"
+																}
+															]
+														},
+														{
+															"number": "20. ",
+															"content": [
+																{
+																	"text": "Lot Size: 20,000  Maximum Floor Area Ratio: .28100  Aggregate Floor Area of all of the Buildings on the lot: 5620.00"
+																}
+															]
+														},
+														{
+															"number": "21. ",
+															"content": [
+																{
+																	"text": "Lot Size: 21,000  Maximum Floor Area Ratio: .27250  Aggregate Floor Area of all of the Buildings on the lot: 5722.50"
+																}
+															]
+														},
+														{
+															"number": "22. ",
+															"content": [
+																{
+																	"text": "Lot Size: 22,000  Maximum Floor Area Ratio: .26500  Aggregate Floor Area of all of the Buildings on the lot: 5830.00"
+																}
+															]
+														},
+														{
+															"number": "23. ",
+															"content": [
+																{
+																	"text": "Lot Size: 23,000  Maximum Floor Area Ratio: .25820  Aggregate Floor Area of all of the Buildings on the lot: 5938.60"
+																}
+															]
+														},
+														{
+															"number": "24. ",
+															"content": [
+																{
+																	"text": "Lot Size: 24,000  Maximum Floor Area Ratio: .25200  Aggregate Floor Area of all of the Buildings on the lot: 6048.00"
+																}
+															]
+														},
+														{
+															"number": "25. ",
+															"content": [
+																{
+																	"text": "Lot Size: 25,000  Maximum Floor Area Ratio: .24600  Aggregate Floor Area of all of the Buildings on the lot: 6150.00"
+																}
+															]
+														},
+														{
+															"number": "26. ",
+															"content": [
+																{
+																	"text": "Lot Size: 26,000  Maximum Floor Area Ratio: .24070  Aggregate Floor Area of all of the Buildings on the lot: 6279.00"
+																}
+															]
+														},
+														{
+															"number": "27. ",
+															"content": [
+																{
+																	"text": "Lot Size: 27,000  Maximum Floor Area Ratio: .23200  Aggregate Floor Area of all of the Buildings on the lot: 6264.00"
+																}
+															]
+														},
+														{
+															"number": "28. ",
+															"content": [
+																{
+																	"text": "Lot Size: 28,000  Maximum Floor Area Ratio: .22760  Aggregate Floor Area of all of the Buildings on the lot: 6372.80"
+																}
+															]
+														},
+														{
+															"number": "29. ",
+															"content": [
+																{
+																	"text": "Lot Size: 29,000  Maximum Floor Area Ratio: .22350  Aggregate Floor Area of all of the Buildings on the lot: 6481.50"
+																}
+															]
+														},
+														{
+															"number": "30. ",
+															"content": [
+																{
+																	"text": "Lot Size: 30,000  Maximum Floor Area Ratio: .21960  Aggregate Floor Area of all of the Buildings on the lot: 6588.00"
+																}
+															]
+														},
+														{
+															"number": "31. ",
+															"content": [
+																{
+																	"text": "Lot Size: 31,000  Maximum Floor Area Ratio: .21600  Aggregate Floor Area of all of the Buildings on the lot: 6696.00"
+																}
+															]
+														},
+														{
+															"number": "32. ",
+															"content": [
+																{
+																	"text": "Lot Size: 32,000  Maximum Floor Area Ratio: .21250  Aggregate Floor Area of all of the Buildings on the lot: 6800.00"
+																}
+															]
+														},
+														{
+															"number": "33. ",
+															"content": [
+																{
+																	"text": "Lot Size: 33,000  Maximum Floor Area Ratio: .21000  Aggregate Floor Area of all of the Buildings on the lot: 6930.00"
+																}
+															]
+														},
+														{
+															"number": "34. ",
+															"content": [
+																{
+																	"text": "Lot Size: 34,000  Maximum Floor Area Ratio: .20750  Aggregate Floor Area of all of the Buildings on the lot: 7055.00"
+																}
+															]
+														},
+														{
+															"number": "35. ",
+															"content": [
+																{
+																	"text": "Lot Size: 35,000  Maximum Floor Area Ratio: .20500  Aggregate Floor Area of all of the Buildings on the lot: 7175.00"
+																}
+															]
+														},
+														{
+															"number": "36. ",
+															"content": [
+																{
+																	"text": "Lot Size: 36,000  Maximum Floor Area Ratio: .20375  Aggregate Floor Area of all of the Buildings on the lot: 7335.00"
+																}
+															]
+														},
+														{
+															"number": "37. ",
+															"content": [
+																{
+																	"text": "Lot Size: 37,000  Maximum Floor Area Ratio: .20250  Aggregate Floor Area of all of the Buildings on the lot: 7492.50"
+																}
+															]
+														},
+														{
+															"number": "38. ",
+															"content": [
+																{
+																	"text": "Lot Size: 38,000  Maximum Floor Area Ratio: .20125  Aggregate Floor Area of all of the Buildings on the lot: 7647.50"
+																}
+															]
+														},
+														{
+															"number": "39. ",
+															"content": [
+																{
+																	"text": "Lot Size: 39,000  Maximum Floor Area Ratio: .20000  Aggregate Floor Area of all of the Buildings on the lot: 7800.00"
+																}
+															]
+														},
+														{
+															"number": "40. ",
+															"content": [
+																{
+																	"text": "Lot Size: 40,000  Maximum Floor Area Ratio: .19875  Aggregate Floor Area of all of the Buildings on the lot: 7950.00"
+																}
+															]
+														},
+														{
+															"number": "41. ",
+															"content": [
+																{
+																	"text": "Lot Size: 41,000  Maximum Floor Area Ratio: .19815  Aggregate Floor Area of all of the Buildings on the lot: 8124.15"
+																}
+															]
+														},
+														{
+															"number": "42. ",
+															"content": [
+																{
+																	"text": "Lot Size: 42,000  Maximum Floor Area Ratio: .19755 Aggregate Floor Area of all of the Buildings on the lot: 8297.10"
+																}
+															]
+														},
+														{
+															"number": "43. ",
+															"content": [
+																{
+																	"text": "Lot Size: 43,000  Maximum Floor Area Ratio: .19695  Aggregate Floor Area of all of the Buildings on the lot: 8968.85"
+																}
+															]
+														},
+														{
+															"number": "44. ",
+															"content": [
+																{
+																	"text": "Lot Size: 44,000  Maximum Floor Area Ratio: .19635  Aggregate Floor Area of all of the Buildings on the lot: 8639.40"
+																}
+															]
+														},
+														{
+															"number": "45. ",
+															"content": [
+																{
+																	"text": "Lot Size: 45,000  Maximum Floor Area Ratio: .19575  Aggregate Floor Area of all of the Buildings on the lot: 8808.75"
+																}
+															]
+														},
+														{
+															"number": "46. ",
+															"content": [
+																{
+																	"text": "Lot Size: 46,000  Maximum Floor Area Ratio: .19545  Aggregate Floor Area of all of the Buildings on the lot: 8990.70"
+																}
+															]
+														},
+														{
+															"number": "47. ",
+															"content": [
+																{
+																	"text": "Lot Size: 47,000  Maximum Floor Area Ratio: .19485  Aggregate Floor Area of all of the Buildings on the lot: 9352.80"
+																}
+															]
+														},
+														{
+															"number": "48. ",
+															"content": [
+																{
+																	"text": "Lot Size: 48,000  Maximum Floor Area Ratio: .19485  Aggregate Floor Area of all of the Buildings on the lot: 9352.80" 
+																}
+															]
+														},
+														{
+															"number": "49. ",
+															"content": [
+																{
+																	"text": "Lot Size: 49,000  Maximum Floor Area Ratio: .19455  Aggregate Floor Area of all of the Buildings on the lot: 9532.95"
+																}
+															]
+														},
+														{
+															"number": "50. ",
+															"content": [
+																{
+																	"text": "Lot Size: 50,000  Maximum Floor Area Ratio: .19425  Aggregate Floor Area of all of the Buildings on the lot: 9712.50"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "The maximum permitted total square footage for a lot whose size lies between the lot sizes shown in Column 2 of any two adjacent rows on the chart contained in Subsection B(2) of this section shall be equal to:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "The maximum total square footage set forth in\nColumn 4 of that chart for the lot referred to in Column 2 of the\nlower numbered row; plus"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Ten square feet for each 100 square feet (or\npart thereof) by which the lot exceeds the size of the lot referred\nto in Column 2 of the lower numbered row."
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "The maximum permitted total square footage for\nany lot whose size is greater than 50,000 square feet shall be 9,712.50\nsquare feet plus 10 square feet for each 100 square feet (or part\nthereof) by which the size of such lot exceeds 50,000 square feet.\nUnder no circumstances, however, shall the maximum permitted total\nsquare footage for any lot exceed 15,000 square feet."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "The average."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "If an applicant wishes to obtain a building\npermit which will result in the subject property having buildings\nwhose aggregate total square footage exceeds the maximum permitted\ntotal square footage allowed for the subject property, the applicant\ncan compute the average."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "To determine the average, the applicant shall\nidentify all of the comparison parcels by measuring the comparison\ndistance from each of the lot lines of the subject property using\nthe scale on the tax assessment map of the Town; compute the total\nsquare footage of all of the buildings on each of the Comparison Parcels\nby using the records of the Town's Building Department (If the records\nof the Town's Building Department do not contain sufficient information\nto determine the total square footage of all of the buildings on any\ncomparison parcel, the applicant shall use the records of the Town's\nAssessor in order to make that determination); add the total square\nfootage of all the buildings on all of the comparison parcels and\ndivide that sum by the number of comparison parcels."
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "The applicant's computation of the average shall\nbe given to the Town's Building Department. It shall be in writing\nand shall consist of a list of all of the comparison parcels identified\nby their street addresses and their tax block and lot designations\non the Town's tax assessment map; the number of buildings on each\ncomparison parcel; the total square footage of all of the buildings\non each comparison parcel, the sum of the total square footage of\nall of the buildings on all of the comparison parcels; and the average.\nThe applicant's architect or engineer shall certify the accuracy of\nthe computation of the average. If there is no architect or engineer,\nthe accuracy of the computation of the average shall be verified under\noath by the applicant."
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "If the average is a figure that exceeds what the maximum permitted total square footage for all of the buildings on the Subject Property would be when applying Subsection B of this section, the Applicant shall be entitled to a building permit for construction which, when completed, will result in the total square footage of all of the buildings on the subject property being greater than what Subsection B of this section would allow but not greater than the average."
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "Nothing in this section shall relieve the applicant\nfrom satisfying all of the other requirements of this chapter and\nall of the requirements of every other law that must be satisfied\nbefore the Town's Building Department may issue a building permit."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Applicability of this section."
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "This section shall apply only to a lot whose\nprincipal use is a one- or a two-family dwelling."
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Exceptions."
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "A lot shall not be in violation of this section\nif the total square footage of all of the buildings on that lot will\nbe greater than the maximum permitted total square footage allowed\nfor that lot because of construction done or to be done pursuant to\na building permit issued prior to the effective date of this section."
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Assuming that there is compliance with all other\nrequirements for the issuance of a building permit, a building permit\nshall be issued during the first 90 days after this section goes into\neffect for construction based upon building plans that shall have\nbeen filed with the Building Department before the effective date\nof this section even though no building permit shall have been issued\nbefore the effective date of this section and, upon completion of\nsuch construction, the total square footage of all of the buildings\non that lot will be greater than the maximum permitted total square\nfootage allowed for that lot. Starting on the 91st day after the effective\ndate of this section, building plans filed with the Building Department\nprior to the effective date of this section shall no longer be exempt\nfrom the application of this section."
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(3) ",
+											"content": [
+												{
+													"text": "This section shall not apply to any lot for\nwhich:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "An application for a variance shall have been\nfiled prior to the effective date of this section; provided that such\napplication either shall have appeared on the agenda of a meeting\nof the Board of Appeals held prior to the effective date of this section\nor is scheduled to appear on the agenda for the first meeting of the\nBoard of Appeals after the effective date of this section; or"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "An application for an approval and/or a permit\nfrom the Planning Board shall have been filed prior to the effective\ndate of this section; provided such application either shall have\nappeared on the agenda of a meeting of the Planning Board held prior\nto the effective date of this section or is scheduled to appear on\nthe agenda for the first meeting of the Planning Board after the effective\ndate of this section."
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "(4) ",
+											"content": [
+												{
+													"text": "This section shall apply to any lot for which\nan interpretation of the Zoning Ordinance is being requested from\nthe Board of Appeals."
+												}
+											]
+										},
+										{
+											"number": "(5) ",
+											"content": [
+												{
+													"text": "An attic which exists on the effective date\nof this section and is not legally permitted to be used as habitable\nspace (as that term is defined in the New York State Building Code\nin effect on January 1, 2003) can be converted to habitable space\neven though, upon completion of the conversion, the maximum permitted\ntotal square footage for all of the buildings on the subject property\nwill exceed the maximum permitted total square footage allowed for\nthat lot so long as after the conversion, the exterior walls of the\nbuilding in which such attic is located remain in the same position\nand the sum of the horizontal length of all of the alterations in\nthe roof line on a side of the building is no longer than 1/4 of the\nhorizontal length of the wall beneath such roof on that side of the\nbuilding."
+												}
+											]
+										},
+										{
+											"number": "(6) ",
+											"content": [
+												{
+													"text": "A seasonal porch may be permanently enclosed\neven though upon completion of that work, the maximum total square\nfootage for all of the buildings on the subject property will exceed\nthe maximum permitted total square footage allowed for that lot so\nlong as neither the exterior of the seasonal porch nor the exterior\nwalls of the dwelling to which the seasonal porch is attached are\nrelocated closer to the lot lines of the subject property after the\npermanent enclosure is completed."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
