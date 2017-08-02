@@ -1,0 +1,317 @@
+[
+  {
+    "clauseID": "@§60-410@A@A",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "11,250",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@B",
+    "rules": [
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "75",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@C",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "100",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@D",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "40",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@E",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "10",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@F",
+    "rules": [
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@G",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "2",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@H",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "2",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-410@A@I",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "1,000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@A",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_10,890_AND_12,100",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3,158",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_12,100_AND_13,310",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3,340",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@C",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_13,300_AND_14,520",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3,522",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@D",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_14,520_AND_15,730",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3,704",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@E",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_15,730_AND_16,940",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3,886",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@F",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_BETWEEN_16,940_AND_18,150",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "4,068",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§60-420@A@8@b@[1]@G",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS_OVER_18,150",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "4,100",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  }
+]
