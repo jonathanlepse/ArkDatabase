@@ -181,8 +181,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_10,890_AND_12,100",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "10890,12100",
             "units": "FLAG"
           },
           {
@@ -201,8 +201,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_12,100_AND_13,310",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "12100,13310",
             "units": "FLAG"
           },
           {
@@ -221,8 +221,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_13,300_AND_14,520",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "13310,14520",
             "units": "FLAG"
           },
           {
@@ -241,8 +241,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_14,520_AND_15,730",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "14520,15730",
             "units": "FLAG"
           },
           {
@@ -261,8 +261,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_15,730_AND_16,940",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "15730,16940",
             "units": "FLAG"
           },
           {
@@ -281,8 +281,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_16,940_AND_18,150",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "16940,18150",
             "units": "FLAG"
           },
           {
@@ -301,8 +301,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_OVER_18,150",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "18150,inf",
             "units": "FLAG"
           },
           {

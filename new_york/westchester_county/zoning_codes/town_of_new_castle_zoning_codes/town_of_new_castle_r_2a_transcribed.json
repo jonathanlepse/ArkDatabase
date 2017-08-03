@@ -171,8 +171,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_87,120_AND_98,010",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "87120,98010",
             "units": "FLAG"
           },
           {
@@ -191,8 +191,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_98,010_AND_108,900",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "98010,108900",
             "units": "FLAG"
           },
           {
@@ -211,8 +211,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_108,900_AND_113,256",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "108900,113256",
             "units": "FLAG"
           },
           {
@@ -231,8 +231,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_113,256_AND_196,020",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "113256,196020",
             "units": "FLAG"
           },
           {

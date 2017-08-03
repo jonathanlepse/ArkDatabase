@@ -181,8 +181,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_21,780_AND_24,200",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "21780,24200",
             "units": "FLAG"
           },
           {
@@ -201,8 +201,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_24,200_AND_26,620",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "24200,26620",
             "units": "FLAG"
           },
           {
@@ -221,8 +221,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_26,620_AND_29,040",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "26620,29040",
             "units": "FLAG"
           },
           {
@@ -241,8 +241,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_29,040_AND_31,460",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "29040,31460",
             "units": "FLAG"
           },
           {
@@ -261,8 +261,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_31,460_AND_33,880",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "31460,33880",
             "units": "FLAG"
           },
           {
@@ -281,8 +281,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_33,880_AND_36,300",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "33880,36300",
             "units": "FLAG"
           },
           {
@@ -301,8 +301,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_BETWEEN_36,300_AND_38,720",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "36300,38720",
             "units": "FLAG"
           },
           {
@@ -321,8 +321,8 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_OVER_38,720",
-            "value": "TRUE",
+            "key": "IF_LOT_AREA_IS",
+            "value": "38720,inf",
             "units": "FLAG"
           },
           {
