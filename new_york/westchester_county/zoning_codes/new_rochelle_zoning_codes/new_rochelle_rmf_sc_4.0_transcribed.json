@@ -53,7 +53,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "20,000",
+            "value": "20000",
             "units": "FEET_SQUARE"
           }
         ]
