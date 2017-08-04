@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "5,000",
+            "value": "5000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -122,7 +122,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "1,200",
+            "value": "1200",
             "units": "FEET_SQUARE"
           }
         ]
