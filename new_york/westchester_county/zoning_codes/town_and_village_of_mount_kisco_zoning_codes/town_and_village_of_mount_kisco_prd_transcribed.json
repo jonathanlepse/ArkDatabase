@@ -22,7 +22,7 @@
           },
           {
             "key": "MIN",
-            "value": "22,500",
+            "value": "22500",
             "units": "FEET_SQUARE"
           }
         ]
@@ -317,7 +317,7 @@
           },
           {
             "key": "MIN",
-            "value": "87,120",
+            "value": "87120",
             "units": "FEET_SQUARE"
           }
         ]
