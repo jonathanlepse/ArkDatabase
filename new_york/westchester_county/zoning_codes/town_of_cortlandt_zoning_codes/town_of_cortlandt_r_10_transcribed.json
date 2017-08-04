@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "10,000",
+            "value": "10000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -806,7 +806,7 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "IF_LOT_AREA_IS_38,000",
+            "key": "IF_LOT_AREA_IS",
             "value": "38000,38000",
             "units": "FLAG"
           },

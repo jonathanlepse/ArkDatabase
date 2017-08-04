@@ -27,7 +27,7 @@
           },
           {
             "key": "MIN",
-            "value": "10,000",
+            "value": "10000",
             "units": "FEET_SQUARE"
           }
         ]
