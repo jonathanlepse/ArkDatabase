@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "11,250",
+            "value": "11250",
             "units": "FEET_SQUARE"
           }
         ]
@@ -167,7 +167,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "1,000",
+            "value": "1000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -187,7 +187,7 @@
           },
           {
             "key": "MAX",
-            "value": "3,158",
+            "value": "3158",
             "units": "FEET_SQUARE"
           }
         ]
@@ -207,7 +207,7 @@
           },
           {
             "key": "MAX",
-            "value": "3,340",
+            "value": "3340",
             "units": "FEET_SQUARE"
           }
         ]
@@ -227,7 +227,7 @@
           },
           {
             "key": "MAX",
-            "value": "3,522",
+            "value": "3522",
             "units": "FEET_SQUARE"
           }
         ]
@@ -247,7 +247,7 @@
           },
           {
             "key": "MAX",
-            "value": "3,704",
+            "value": "3704",
             "units": "FEET_SQUARE"
           }
         ]
@@ -267,7 +267,7 @@
           },
           {
             "key": "MAX",
-            "value": "3,886",
+            "value": "3886",
             "units": "FEET_SQUARE"
           }
         ]
@@ -287,7 +287,7 @@
           },
           {
             "key": "MAX",
-            "value": "4,068",
+            "value": "4068",
             "units": "FEET_SQUARE"
           }
         ]
@@ -307,7 +307,7 @@
           },
           {
             "key": "MAX",
-            "value": "4,100",
+            "value": "4100",
             "units": "FEET_SQUARE"
           }
         ]

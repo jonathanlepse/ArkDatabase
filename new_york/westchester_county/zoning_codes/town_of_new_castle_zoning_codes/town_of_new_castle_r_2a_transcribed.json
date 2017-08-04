@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "87,120",
+            "value": "87120",
             "units": "FEET_SQUARE"
           }
         ]
@@ -157,7 +157,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "1,500",
+            "value": "1500",
             "units": "FEET_SQUARE"
           }
         ]
@@ -177,7 +177,7 @@
           },
           {
             "key": "MAX",
-            "value": "7,841",
+            "value": "7841",
             "units": "FEET_SQUARE"
           }
         ]
@@ -197,7 +197,7 @@
           },
           {
             "key": "MAX",
-            "value": "8,821",
+            "value": "8821",
             "units": "FEET_SQUARE"
           }
         ]
@@ -217,7 +217,7 @@
           },
           {
             "key": "MAX",
-            "value": "9,801",
+            "value": "9801",
             "units": "FEET_SQUARE"
           }
         ]
@@ -237,7 +237,7 @@
           },
           {
             "key": "MAX",
-            "value": "10,193",
+            "value": "10193",
             "units": "FEET_SQUARE"
           }
         ]
