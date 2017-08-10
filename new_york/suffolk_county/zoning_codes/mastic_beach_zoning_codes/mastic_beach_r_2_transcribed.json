@@ -1,6 +1,6 @@
 [
   {
-    "clauseID": "@§530-3-12@B",
+    "clauseID": "@§530-3-12-R-2@B",
     "rules": [
       {
         "rule": "HEIGHT",
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@C",
+    "clauseID": "@§530-3-12-R-2@C",
     "rules": [
       {
         "rule": "LOT_AREA",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@D",
+    "clauseID": "@§530-3-12-R-2@D",
     "rules": [
       {
         "rule": "FRONT_YARD_SETBACK",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@G",
+    "clauseID": "@§530-3-12-R-2@G",
     "rules": [
       {
         "rule": "SIDE_YARD_AGGREGATE_SETBACK",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@H",
+    "clauseID": "@§530-3-12-R-2@H",
     "rules": [
       {
         "rule": "REAR_YARD_SETBACK",
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@I",
+    "clauseID": "@§530-3-12-R-2@I",
     "rules": [
       {
         "rule": "LOT_COVERAGE",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@1",
+    "clauseID": "@§530-3-12-R-2@J@1",
     "rules": [
       {
         "rule": "REAR_YARD_COVERAGE",
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@6",
+    "clauseID": "@§530-3-12-R-2@J@6",
     "rules": [
       {
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@7",
+    "clauseID": "@§530-3-12-R-2@J@7",
     "rules": [
       {
         "rule": "FLOOR_AREA",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@8",
+    "clauseID": "@§530-3-12-R-2@J@8",
     "rules": [
       {
         "rule": "HEIGHT",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@9",
+    "clauseID": "@§530-3-12-R-2@J@9",
     "rules": [
       {
         "rule": "FLOOR_AREA",
@@ -250,7 +250,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@12",
+    "clauseID": "@§530-3-12-R-2@J@12",
     "rules": [
       {
         "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "clauseID": "@§530-3-12@J@13",
+    "clauseID": "@§530-3-12-R-2@J@13",
     "rules": [
       {
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
