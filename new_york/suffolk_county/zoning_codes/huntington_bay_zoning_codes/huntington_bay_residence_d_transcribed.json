@@ -30,6 +30,21 @@
     ]
   },
   {
+    "clauseID": "@§91-9@C@7",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": ".18",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§91-9@D@7",
     "rules": [
       {
