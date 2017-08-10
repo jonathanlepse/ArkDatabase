@@ -200,26 +200,6 @@
     ]
   },
   {
-    "clauseID": "@§163-31@A@1",
-    "rules": [
-      {
-        "rule": "HEIGHT",
-        "args": [
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
-            "value": "15",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§163-31@A@3",
     "rules": [
       {
@@ -245,6 +225,26 @@
       {
         "rule": "HEIGHT",
         "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "GARAGE",
             "value": "TRUE",
