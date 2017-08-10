@@ -167,7 +167,7 @@
           },
           {
             "key": "MIN",
-            "value": "0",
+            "value": "60",
             "units": "FEET"
           }
         ]
