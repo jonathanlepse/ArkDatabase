@@ -199,7 +199,15 @@
       }
     ]
   },
-  
+  {
+    "clauseID": "@§245-33@B@1",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
   {
     "clauseID": "@§245-34@C",
     "rules": [
