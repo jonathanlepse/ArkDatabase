@@ -313,7 +313,7 @@
     "clauseID": "@§278-3@A@5@a@A",
     "rules": [
       {
-        "rule": "STREET_LINE_SETBACK",
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
@@ -338,7 +338,7 @@
     "clauseID": "@§278-3@A@5@a@B",
     "rules": [
       {
-        "rule": "STREET_LINE_SETBACK",
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
@@ -363,7 +363,7 @@
     "clauseID": "@§278-3@A@5@a@C",
     "rules": [
       {
-        "rule": "STREET_LINE_SETBACK",
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
@@ -388,7 +388,7 @@
     "clauseID": "@§278-3@A@5@a@D",
     "rules": [
       {
-        "rule": "STREET_LINE_SETBACK",
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
@@ -413,7 +413,7 @@
     "clauseID": "@§278-3@A@5@a@E",
     "rules": [
       {
-        "rule": "STREET_LINE_SETBACK",
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
