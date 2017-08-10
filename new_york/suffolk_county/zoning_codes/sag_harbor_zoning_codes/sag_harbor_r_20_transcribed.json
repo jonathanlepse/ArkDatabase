@@ -256,7 +256,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "600",
             "units": "FEET_SQUARE"
           }
