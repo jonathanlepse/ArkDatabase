@@ -47,7 +47,7 @@
         "args": [
           {
             "key": "MAX",
-            "value": "21,780",
+            "value": "21780",
             "units": "FEET_SQUARE"
           }
         ]
@@ -306,7 +306,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "800",
             "units": "FEET_SQUARE"
           }
