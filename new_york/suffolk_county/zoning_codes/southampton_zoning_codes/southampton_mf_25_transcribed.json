@@ -195,6 +195,31 @@
     ]
   },
   {
+    "clauseID": "@§116-9@A@1@b@[1]",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,20000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "520",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§116-9@A@1@b@[2]",
     "rules": [
       {
@@ -203,6 +228,11 @@
           {
             "key": "ACCESSORY_BUILDING",
             "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "20000,inf",
             "units": "FLAG"
           },
           {
