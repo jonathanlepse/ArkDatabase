@@ -1500,7 +1500,67 @@
 											"number": "(1) ",
 											"content": [
 												{
-													"text": "The following dimensions apply to a lot with a square footage of 80,000 or Greater:"
+													"text": "Lot Area(square feet): Less Than 12,500"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 25"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 10"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 20"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 25"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear 25"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 35"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 10"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1508,7 +1568,67 @@
 											"number": "(2) ",
 											"content": [
 												{
-													"text": "Yards, principal building, minimum (feet) Front: 80"
+													"text": "Lot Area(square feet): 12,500 or Greater, but Less Than 20,000"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 30"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 15"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 40"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 30"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear: 35"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 40"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 10"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1516,7 +1636,67 @@
 											"number": "(3) ",
 											"content": [
 												{
-													"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
+													"text": "Lot Area(square feet): 20,000 or Greater, but Less Than 40,000"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 40"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 20"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 45"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 40"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear: 60"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 50"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 15"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1524,7 +1704,67 @@
 											"number": "(4) ",
 											"content": [
 												{
-													"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 80"
+													"text": "Lot Area(square feet): 40,000 or Greater, but Less Than 60,000"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 60"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 20"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 60"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 60"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear: 70"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 70"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 20"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1532,7 +1772,67 @@
 											"number": "(5) ",
 											"content": [
 												{
-													"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 80"
+													"text": "Lot Area(square feet): 60,000 or Greater, but Less Than 80,000"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 80"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 25"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 65"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 80"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear: 100"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 90"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 30"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1540,23 +1840,67 @@
 											"number": "(6) ",
 											"content": [
 												{
-													"text": "Yards, principal building, minimum (feet) Rear: 100"
-												}
-											]
-										},
-										{
-											"number": "(7) ",
-											"content": [
+													"text": "Lot Area(square feet): 80,000 or Greater"
+												},
 												{
-													"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 90"
-												}
-											]
-										},
-										{
-											"number": "(8) ",
-											"content": [
-												{
-													"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 35"
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Front: 80"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, minimum for 1: 30"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, total for both on interior lot: 80"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Side, abutting side street on corner lot: 80"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Yards, principal building, minimum (feet) Rear: 100"
+																}
+															]
+														},
+														{
+															"number": "(f) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from street: 90"
+																}
+															]
+														},
+														{
+															"number": "(g) ",
+															"content": [
+																{
+																	"text": "Yards, accessory buildings and structures, minimum (feet) Distance from side and rear lot lines: 35"
+																}
+															]
+														}
+													]
 												}
 											]
 										}
@@ -1577,6 +1921,18 @@
 											"content": [
 												{
 													"text": "The minimum front yard requirement for a principal\nbuilding within each of the following residence districts shall not\nbe less than the dimension set forth in the following schedule for\nthe district within which the lot is situated:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "District: R-120 Minimum front yard requirement(feet): 80"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -1605,6 +1961,18 @@
 											"content": [
 												{
 													"text": "The minimum distance from street requirement\nfor accessory buildings and structures within each of the following\nresidence districts shall not be less than the dimension set forth\nin the following schedule for the district within which the lot is\nsituated:"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "District: R-120  Minimum distance from street(feet): 90"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -2063,13 +2431,32 @@
 													"text": "Except as otherwise hereinafter provided, the maximum height in feet\nfor all structures within all one-family residence districts (the\nR-120, R-80, R-60, R-40, R-20, R-12.5 and R-7.5 Residence Districts)\nand the MF-20 Multifamily Residence District shall be based on the\nlot area of the lot and shall be as set forth in the following table:"
 												},
 												{
-													"text": "Lot Area Less than 20,000(square feet): Maximum Height: 30(feet)"
-												},
-												{
-													"text": "Lot Area 20,000 or greater but less than 40,000(square feet): Maximum Height: 33(feet)"
-												},
-												{
-													"text": "Lot Area 40,000 or greater(square feet): Maximum Height: 35(feet)"
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Lot Area Less than 20,000(square feet): Maximum Height: 30(feet)"
+																}
+															]
+														},
+														{
+															"number": "(B) ",
+															"content": [
+																{
+																	"text": "Lot Area 20,000 or greater but less than 40,000(square feet): Maximum Height: 33(feet)"
+																}
+															]
+														},
+														{
+															"number": "(C) ",
+															"content": [
+																{
+																	"text": "Lot Area 40,000 or greater(square feet): Maximum Height: 35(feet)"
+																}
+															]
+														}
+													]
 												}
 											]
 										},
@@ -4372,7 +4759,123 @@
 											"number": "(1) ",
 											"content": [
 												{
-													"text": "One-family and two-family detached dwellings."
+													"text": "One-family and two-family detached dwellings. "
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 10,000 or less"
+																},
+																{
+																	"content": [
+																		{
+																			"number": "(1) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1-Story Building or First Floor: 800"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(2) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1 1/2-or-More-Story Building First Floor: 800  Other Floors: 400"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 10,001 to 20,000"
+																},
+																{
+																	"content": [
+																		{
+																			"number": "(1) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1-Story Building or First Floor: 1000"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(2) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1 1/2-or-More-Story Building First Floor: 900  Other Floors: 500"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): Over 20,000 to 40,000"
+																},
+																{
+																	"content": [
+																		{
+																			"number": "(1) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1-Story Building or First Floor: 1500"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(2) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1 1/2-or-More-Story Building First Floor: 1250 Other Floors: 750"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): Over 40,000"
+																},
+																{
+																	"content": [
+																		{
+																			"number": "(1) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1-Story Building or First Floor: 2000"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(2) ",
+																			"content": [
+																				{
+																					"text": "Minimum Floor Area(square feet): 1 1/2-or-More-Story Building First Floor: 1500 Other Floors: 900"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
 												}
 											]
 										},
