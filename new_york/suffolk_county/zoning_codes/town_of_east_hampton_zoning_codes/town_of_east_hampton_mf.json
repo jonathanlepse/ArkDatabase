@@ -22,7 +22,7 @@
 							"number": "B. ",
 							"content": [
 								{
-									"text": "Total lot coverage maximum(percent): 75"
+									"text": "Building coverage maximum (percent): 20"
 								}
 							]
 						},
@@ -38,7 +38,7 @@
 							"number": "D. ",
 							"content": [
 								{
-									"text": "Height(feet): 30"
+									"text": "Height(feet flat roof/gabled roof): 25/30"
 								}
 							]
 						},

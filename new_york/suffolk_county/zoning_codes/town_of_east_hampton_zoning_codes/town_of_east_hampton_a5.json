@@ -22,7 +22,7 @@
 							"number": "B. ",
 							"content": [
 								{
-									"text": "Total lot coverage maximum(percent): 30"
+									"text": "Building coverage maximum (percent): 7"
 								}
 							]
 						},
@@ -46,7 +46,7 @@
 							"number": "E. ",
 							"content": [
 								{
-									"text": "Height(feet): 32"
+									"text": "Height(feet flat roof/gabled roof): 25/32"
 								}
 							]
 						},
@@ -86,7 +86,7 @@
 							"number": "J. ",
 							"content": [
 								{
-									"text": "Gross floor area maximum(square feet): 20,000"
+									"text": "Gross floor area maximum(square feet): 10% of lot area plus 1,000 or 20,000, whichever is less"
 								}
 							]
 						},

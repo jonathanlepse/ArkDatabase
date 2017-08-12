@@ -22,7 +22,7 @@
         "args": [
           {
             "key": "MAX",
-            "value": "40",
+            "value": "15",
             "units": "PERCENTAGE"
           }
         ]
@@ -65,6 +65,26 @@
       {
         "rule": "HEIGHT",
         "args": [
+          {
+            "key": "FLAT_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MAX",
             "value": "32",
@@ -148,14 +168,8 @@
     "clauseID": "@§255-11-10@J",
     "rules": [
       {
-        "rule": "FLOOR_AREA",
-        "args": [
-          {
-            "key": "MAX",
-            "value": "6400",
-            "units": "FEET_SQUARE"
-          }
-        ]
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
       }
     ]
   },
