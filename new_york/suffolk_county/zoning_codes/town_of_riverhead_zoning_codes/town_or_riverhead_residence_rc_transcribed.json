@@ -111,6 +111,11 @@
         "rule": "SIDE_YARD_SETBACK_EXTERIOR_SIDE",
         "args": [
           {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "25",
             "units": "FEET"
