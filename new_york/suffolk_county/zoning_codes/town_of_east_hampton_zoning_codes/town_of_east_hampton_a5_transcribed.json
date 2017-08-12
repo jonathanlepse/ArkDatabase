@@ -165,17 +165,11 @@
     ]
   },
   {
-    "clauseID": "@§255-11-10@",
+    "clauseID": "@§255-11-10@J",
     "rules": [
       {
-        "rule": "FLOOR_AREA",
-        "args": [
-          {
-            "key": "MAX",
-            "value": "20000",
-            "units": "FEET_SQUARE"
-          }
-        ]
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
       }
     ]
   },
@@ -203,8 +197,19 @@
     "clauseID": "@§255-11-23",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "600",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   }
