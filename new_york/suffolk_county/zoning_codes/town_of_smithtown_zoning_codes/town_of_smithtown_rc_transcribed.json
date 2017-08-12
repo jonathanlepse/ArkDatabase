@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "435,600",
+            "value": "435600",
             "units": "FEET_SQUARE"
           }
         ]
@@ -120,26 +120,6 @@
     ]
   },
   {
-    "clauseID": "@§322-9@B@8@A",
-    "rules": [
-      {
-        "rule": "REAR_YARD_COVERAGE",
-        "args": [
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
-            "value": "0",
-            "units": "PERCENTAGE"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§322-9@B@8@B",
     "rules": [
       {
@@ -202,7 +182,7 @@
         "args": [
           {
             "key": "MAX",
-            "value": "",
+            "value": "25",
             "units": "PERCENTAGE"
           }
         ]

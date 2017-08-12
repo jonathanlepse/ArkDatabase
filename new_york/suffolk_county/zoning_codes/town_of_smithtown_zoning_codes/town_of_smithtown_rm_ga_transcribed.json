@@ -7,7 +7,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "87,120",
+            "value": "87120",
             "units": "FEET_SQUARE"
           }
         ]
@@ -114,26 +114,6 @@
             "key": "MAX",
             "value": "2.5",
             "units": "NO_UNITS"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§322-9@B@8@A",
-    "rules": [
-      {
-        "rule": "REAR_YARD_COVERAGE",
-        "args": [
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
-            "value": "0",
-            "units": "PERCENTAGE"
           }
         ]
       }
