@@ -14,7 +14,7 @@
 							"number": "A. ",
 							"content": [
 								{
-									"text": "Lot size (square feet): 80,000"
+									"text": "Lot size (square feet): 80,000  Two-Family Detached Dwelling: 160,000"
 								}
 							]
 						},
@@ -22,7 +22,7 @@
 							"number": "B. ",
 							"content": [
 								{
-									"text": "Lot width (feet): 175"
+									"text": "Lot width (feet): 175  Two-Family Detached Dwelling: 270"
 								}
 							]
 						},
@@ -30,7 +30,7 @@
 							"number": "C. ",
 							"content": [
 								{
-									"text": "Lot depth (feet): 250"
+									"text": "Lot depth (feet): 250  Two-Family Detached Dwelling:400"
 								}
 							]
 						},
@@ -38,7 +38,7 @@
 							"number": "D. ",
 							"content": [
 								{
-									"text": "Front yard (feet): 60"
+									"text": "Front yard (feet): 60  Two-Family Detached Dwelling: 60"
 								}
 							]
 						},
@@ -46,7 +46,7 @@
 							"number": "E. ",
 							"content": [
 								{
-									"text": "Side yard (feet): 20"
+									"text": "Side yard (feet): 20  Two-Family Detached Dwelling: 30"
 								}
 							]
 						},
@@ -54,7 +54,7 @@
 							"number": "F. ",
 							"content": [
 								{
-									"text": "Both side yards (feet): 45"
+									"text": "Both side yards (feet): 45  Two-Family Detached Dwelling: 60"
 								}
 							]
 						},
@@ -62,7 +62,7 @@
 							"number": "G. ",
 							"content": [
 								{
-									"text": "Rear yard (feet): 75"
+									"text": "Rear yard (feet): 75  Two-Family Detached Dwelling: 85"
 								}
 							]
 						},
@@ -70,7 +70,7 @@
 							"number": "H. ",
 							"content": [
 								{
-									"text": "Livable floor area (square feet per dwelling unit): 850"
+									"text": "Livable floor area (square feet per dwelling unit): 850  Two-Family Detached Dwelling: 850"
 								}
 							]
 						},
@@ -78,7 +78,7 @@
 							"number": "I. ",
 							"content": [
 								{
-									"text": "Lot coverage (percent): 20"
+									"text": "Lot coverage (percent): 20  Two-Family Detached Dwelling: 10"
 								}
 							]
 						},
@@ -86,7 +86,7 @@
 							"number": "J. ",
 							"content": [
 								{
-									"text": "Building height (feet): 35"
+									"text": "Building height (feet): 35  Two-Family Detached Dwelling: 35"
 								}
 							]
 						},
@@ -94,7 +94,7 @@
 							"number": "K. ",
 							"content": [
 								{
-									"text": "Number of stories: 2.5"
+									"text": "Number of stories: 2.5  Two-Family Detached Dwelling: 2.5"
 								}
 							]
 						}

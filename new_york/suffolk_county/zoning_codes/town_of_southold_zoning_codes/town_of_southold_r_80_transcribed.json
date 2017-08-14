@@ -7,7 +7,27 @@
         "args": [
           {
             "key": "MIN",
-            "value": "80,000",
+            "value": "80000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "160000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -26,6 +46,26 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "270",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -41,6 +81,26 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "400",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -50,6 +110,26 @@
       {
         "rule": "FRONT_YARD_SETBACK",
         "args": [
+          {
+            "key": "MIN",
+            "value": "60",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MIN",
             "value": "60",
@@ -71,6 +151,26 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -83,6 +183,26 @@
           {
             "key": "MIN",
             "value": "45",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "60",
             "units": "FEET"
           }
         ]
@@ -101,6 +221,26 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "85",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -110,6 +250,26 @@
       {
         "rule": "FLOOR_AREA",
         "args": [
+          {
+            "key": "MIN",
+            "value": "850",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MIN",
             "value": "850",
@@ -131,6 +291,26 @@
             "units": "PERCENTAGE"
           }
         ]
+      },
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "10",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },
@@ -146,6 +326,26 @@
             "units": "FEET"
           }
         ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -155,6 +355,26 @@
       {
         "rule": "STORIES",
         "args": [
+          {
+            "key": "MAX",
+            "value": "2.5",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MAX",
             "value": "2.5",
