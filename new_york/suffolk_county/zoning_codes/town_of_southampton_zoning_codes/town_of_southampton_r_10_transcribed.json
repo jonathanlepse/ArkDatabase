@@ -103,7 +103,7 @@
         ]
       },
       {
-        "rule": "SIDE_YARD_SETBACK",
+        "rule": "SIDE_YARD_SETBACK_EXTERIOR_SIDE",
         "args": [
           {
             "key": "CORNER_LOT",
