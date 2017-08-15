@@ -45,6 +45,26 @@
     ]
   },
   {
+    "clauseID": "@§80-26@B",
+    "rules": [
+      {
+        "rule": "FRONTAGE",
+        "args": [
+          {
+            "key": "CUL_DE_SAC_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "60",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§80-27@A@1",
     "rules": [
       {
@@ -154,6 +174,21 @@
             "key": "MAX",
             "value": "20",
             "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§80-28@C",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": ".35",
+            "units": "NO_UNITS"
           }
         ]
       }

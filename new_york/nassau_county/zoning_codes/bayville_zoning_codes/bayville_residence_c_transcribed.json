@@ -48,8 +48,19 @@
     "clauseID": "@§80-20@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FRONTAGE",
+        "args": [
+          {
+            "key": "CUL_DE_SAC_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "50",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -163,6 +174,21 @@
             "key": "MAX",
             "value": "25",
             "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "clauseID": "@§80-22@C",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": ".40",
+            "units": "NO_UNITS"
           }
         ]
       }
