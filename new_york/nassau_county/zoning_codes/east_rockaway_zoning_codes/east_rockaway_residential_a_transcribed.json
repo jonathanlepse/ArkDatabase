@@ -127,7 +127,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "14",
+            "value": "15",
             "units": "FEET"
           }
         ]
@@ -166,15 +166,6 @@
             "units": "FEET"
           }
         ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§288-13",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
       }
     ]
   },
