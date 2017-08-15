@@ -40,20 +40,22 @@
     ]
   },
   {
-    "clauseID": "@§175-9@B",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-    {
     "clauseID": "@§175-9@B@1",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,10000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "36",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },
@@ -61,8 +63,19 @@
     "clauseID": "@§175-9@B@2",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "10000,16000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "33",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },
@@ -70,17 +83,19 @@
     "clauseID": "@§175-9@B@3",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§175-9@C",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "16000,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "31",
+            "units": "PERCENTAGE"
+          }
+        ]
       }
     ]
   },
