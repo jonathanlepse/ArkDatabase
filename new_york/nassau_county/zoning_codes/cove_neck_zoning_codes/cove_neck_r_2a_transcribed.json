@@ -200,6 +200,31 @@
     ]
   },
   {
+    "clauseID": "@§175-18@9@b",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "22",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§175-18@9@c",
     "rules": [
       {
@@ -239,6 +264,7 @@
       }
     ]
   },
+  
   {
     "clauseID": "@§175-18@10@a@3",
     "rules": [
