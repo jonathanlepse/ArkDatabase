@@ -1,40 +1,5 @@
 [
   {
-    "clauseID": "@§250-31",
-    "rules": [
-      {
-        "rule": "FLOOR_AREA",
-        "args": [
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
-            "value": "80",
-            "units": "FEET_SQUARE"
-          }
-        ]
-      },
-      {
-        "rule": "HEIGHT",
-        "args": [
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
-            "value": "8",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§250-35@A",
     "rules": [
       {
