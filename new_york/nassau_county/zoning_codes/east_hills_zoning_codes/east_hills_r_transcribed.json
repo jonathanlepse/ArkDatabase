@@ -22,8 +22,8 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "true",
-            "units": "TRUE/FALSE"
+            "value": "TRUE",
+            "units": "FLAG"
           },
           {
             "key": "MAX",
@@ -126,6 +126,11 @@
         "rule": "STREET_LINE_SETBACK",
         "args": [
           {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "45",
             "units": "FEET"
@@ -171,14 +176,14 @@
         "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "15",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       },
@@ -186,14 +191,14 @@
         "rule": "REAR_YARD_SETBACK",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "10",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       },
@@ -201,14 +206,14 @@
         "rule": "SIDE_YARD_SETBACK",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "15",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       }

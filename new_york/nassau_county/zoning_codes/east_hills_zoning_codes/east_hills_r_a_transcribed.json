@@ -21,14 +21,14 @@
         "rule": "HEIGHT",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MAX",
             "value": "20",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       }
@@ -156,14 +156,14 @@
         "rule": "REAR_YARD_COVERAGE",
         "args": [
           {
+            "key": "MIN",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MAX",
             "value": "10",
             "units": "PERCENTAGE"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       }
@@ -176,14 +176,14 @@
         "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "15",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       },
@@ -191,14 +191,14 @@
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
         "args": [
           {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "15",
             "units": "FEET"
-          },
-          {
-            "key": "ACCESSORY_BUILDING",
-            "value": "1",
-            "units": "TRUE/FALSE"
           }
         ]
       }
