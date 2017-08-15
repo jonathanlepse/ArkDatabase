@@ -313,5 +313,145 @@
         ]
       }
     ]
+  },
+  {
+    "clauseID": "@§600-214@A",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,4000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": ".47",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,4000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1880",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§600-214@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "4001,6000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": ".45",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "4001,6000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "2700",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§600-214@C",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "6001,10000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": ".40",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "6001,10000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3200",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§600-214@D",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "10001,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": ".35",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "10001,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "3500",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
   }
 ]

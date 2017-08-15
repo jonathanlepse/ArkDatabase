@@ -267,6 +267,42 @@
 			"content": [
 				{
 					"text": "In the residential zones of the Village, the\nfloor area ratio (FAR) requirements applicable to a particular building\nplot or parcel shall be as set forth and prescribed under the following\nschedule; provided, however, that in no case shall the FAR be interpreted\nand applied so as to require a dwelling to be constructed with less\ngross floor area than the maximum gross floor area permitted on any\nsmaller lot under such schedule:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Area(square feet): Up to 4,000: Maximum FAR: 0.47  Maximum Square Feet: 1880"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Area(square feet): 4,001 to 6,000: Maximum FAR: 0.45  Maximum Square Feet: 2700"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot Area(square feet): 6,001 to 10,000: Maximum FAR: 0.40  Maximum Square Feet: 3200"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Area(square feet): 10,001 and above: Maximum FAR: 0.35  Maximum Square Feet: 3500"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
