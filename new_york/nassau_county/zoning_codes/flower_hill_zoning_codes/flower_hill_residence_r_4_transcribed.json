@@ -26,6 +26,16 @@
             "units": "PERCENTAGE"
           }
         ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.28",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },

@@ -26,6 +26,16 @@
             "units": "PERCENTAGE"
           }
         ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.165",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },
@@ -83,7 +93,7 @@
         ]
       },
       {
-        "rule": "SIDE_YARD_SETBACK",
+        "rule": "SIDE_YARD_SETBACK_EXTERIOR_SIDE",
         "args": [
           {
             "key": "CORNER_LOT",
