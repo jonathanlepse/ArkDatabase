@@ -131,6 +131,16 @@
             "units": "FEET_SQUARE"
           }
         ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": ".40",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },
@@ -143,6 +153,31 @@
           {
             "key": "MIN",
             "value": "1000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "TWO_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "THREE_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "800",
             "units": "FEET_SQUARE"
           }
         ]

@@ -131,6 +131,16 @@
             "units": "FEET_SQUARE"
           }
         ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": ".50",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },
