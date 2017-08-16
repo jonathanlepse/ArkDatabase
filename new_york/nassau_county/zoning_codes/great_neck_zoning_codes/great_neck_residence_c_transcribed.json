@@ -71,10 +71,6 @@
             "units": "FEET_SQUARE"
           }
         ]
-      },
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
       }
     ]
   },
@@ -99,7 +95,7 @@
     ]
   },
   {
-    "clauseID": "@§575-81@A@1",
+    "clauseID": "@§575-80@A@1",
     "rules": [
       {
         "rule": "CODE_CANNOT_BE_TRANSCRIBED",
@@ -108,11 +104,90 @@
     ]
   },
   {
-    "clauseID": "@§575-81@B@1",
+    "clauseID": "@§575-80@A@2",
     "rules": [
       {
         "rule": "CODE_CANNOT_BE_TRANSCRIBED",
         "args": []
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-80@B",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-81@A@1",
+    "rules": [
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "50",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-81@A@2",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "100",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-81@B@1",
+    "rules": [
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "55",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-81@B@2",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "100",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -150,8 +225,19 @@
     "clauseID": "@§575-85@A",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -159,8 +245,69 @@
     "clauseID": "@§575-85@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_SETBACK_INTERIOR_SIDE",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "8",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-85@C",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK_INTERIOR_SIDE",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MULTI_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§575-85@D",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MULTI_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -168,8 +315,14 @@
     "clauseID": "@§575-86",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
