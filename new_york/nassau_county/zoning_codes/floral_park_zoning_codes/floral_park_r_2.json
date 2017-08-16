@@ -2,36 +2,19 @@
 	"url": "http://ecode360.com/9461818",
 	"paras": [
 		{
-			"paragraph": "§ 99-8",
-			"title": "R-2 District (two-family residential).",
+			"paragraph": "§ 099b",
+			"title": "Schedule of Regulations",
 			"content": [
+				{
+					"text": "The following regulations shall apply in an R-2 district:"
+				},
 				{
 					"content": [
 						{
 							"number": "A. ",
 							"content": [
 								{
-									"text": "Permitted uses. The following uses are permitted in\nthe R-2 District:"
-								},
-								{
-									"content": [
-										{
-											"number": "(1) ",
-											"content": [
-												{
-													"text": "A single-family detached dwelling and accessory structures and uses as provided in Article V of this chapter."
-												}
-											]
-										},
-										{
-											"number": "(2) ",
-											"content": [
-												{
-													"text": "A two-family detached dwelling and accessory structures and uses as provided in Article V of this chapter."
-												}
-											]
-										}
-									]
+									"text": "Minimum Lot Area(square feet): Single-Family: 4000   Two-Family: 6000"
 								}
 							]
 						},
@@ -39,35 +22,63 @@
 							"number": "B. ",
 							"content": [
 								{
-									"text": "Special uses. A building may be erected, altered or\nused for any purpose set forth in this subsection only when authorized\nby the Board of Trustees as a special use after a public hearing conducted\nby the Board of Trustees and for no other:"
-								},
+									"text": "Minimum Frontage(feet):  Single-Family: 40   Two-Family:  60"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
 								{
-									"content": [
-										{
-											"number": "(1) ",
-											"content": [
-												{
-													"text": "Church or other place of worship."
-												}
-											]
-										},
-										{
-											"number": "(2) ",
-											"content": [
-												{
-													"text": "Parish house, rectory or Sunday school."
-												}
-											]
-										},
-										{
-											"number": "(3) ",
-											"content": [
-												{
-													"text": "Public library, fire station, park or playground,\npublic or private school."
-												}
-											]
-										}
-									]
+									"text": "Minimum Depth(feet):  Single-Family: 100   Two-Family:  100"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Building Height(feet/stories):  Single-Family: 35/2.5   Two-Family: 35/2.5"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage(%):  Single-Family: 30   Two-Family:  30"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Front Yard Setback(feet):  Single-Family: 20   Two-Family: 20"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Side Yard Setback(feet):  Single-Family: Aggregate 15, with no less than 5 on any side   Two-Family:  Aggregate 15, with no less than 5 on any side"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback(feet):  Single-Family: 25   Two-Family: 25"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Minimum Habitable Floor Area(square feet):  Single-Family: 1200   Two-Family: 1000"
 								}
 							]
 						}

@@ -2,16 +2,19 @@
 	"url": "http://ecode360.com/9461818",
 	"paras": [
 		{
-			"paragraph": "§ 99-7",
-			"title": "R-1 Districts (one-family residential).",
+			"paragraph": "§ 099a",
+			"title": "Schedule of Regulations",
 			"content": [
+				{
+					"text": "The following regulations shall apply in an R-1 district:"
+				},
 				{
 					"content": [
 						{
 							"number": "A. ",
 							"content": [
 								{
-									"text": "Permitted use. The following use is permitted in the R-1 District: a single-family detached dwelling and accessory structures and uses as provided in Article V of this chapter."
+									"text": "Minimum Lot Area(square feet): 4000"
 								}
 							]
 						},
@@ -19,35 +22,63 @@
 							"number": "B. ",
 							"content": [
 								{
-									"text": "Special uses. A building may be erected, altered or\nused for any purpose set forth in this subsection only when authorized\nby the Board of Trustees as a special use after a public hearing conducted\nby the Board of Trustees and for no other:"
-								},
+									"text": "Minimum Frontage(feet): 40"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
 								{
-									"content": [
-										{
-											"number": "(1) ",
-											"content": [
-												{
-													"text": "Church or other place of worship."
-												}
-											]
-										},
-										{
-											"number": "(2) ",
-											"content": [
-												{
-													"text": "Parish house, rectory or Sunday school."
-												}
-											]
-										},
-										{
-											"number": "(3) ",
-											"content": [
-												{
-													"text": "Public library, fire station, park or playground,\npublic or private school."
-												}
-											]
-										}
-									]
+									"text": "Minimum Depth(feet): 100"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Maximum Building Height(feet/stories): 35/2.5"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Maximum Building Coverage(%): 30"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Front Yard Setback(feet): 20"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Side Yard Setback(feet): Aggregate 15, with no less than 5 on any side"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Rear Yard Setback(feet): 25"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Minimum Habitable Floor Area(square feet): 1200"
 								}
 							]
 						}
