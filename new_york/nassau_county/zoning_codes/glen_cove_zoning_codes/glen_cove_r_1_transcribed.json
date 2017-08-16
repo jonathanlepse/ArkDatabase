@@ -101,6 +101,21 @@
             "units": "FEET_SQUARE"
           }
         ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "960",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },

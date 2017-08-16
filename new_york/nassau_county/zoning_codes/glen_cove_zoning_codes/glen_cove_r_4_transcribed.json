@@ -161,6 +161,26 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "576",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
             "key": "TWO_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
