@@ -188,7 +188,7 @@
           {
             "key": "IF_LOT_WIDTH_IS",
             "value": "140,inf",
-            "units": "FLAG"
+            "units": "FEET"
           },
           {
             "key": "SECOND_STORY",
@@ -213,7 +213,7 @@
           {
             "key": "IF_LOT_WIDTH_IS",
             "value": "100,140",
-            "units": "FLAG"
+            "units": "FEET"
           },
           {
             "key": "SECOND_STORY",
@@ -238,7 +238,7 @@
           {
             "key": "IF_LOT_WIDTH_IS",
             "value": "90,99",
-            "units": "FLAG"
+            "units": "FEET"
           },
           {
             "key": "SECOND_STORY",
