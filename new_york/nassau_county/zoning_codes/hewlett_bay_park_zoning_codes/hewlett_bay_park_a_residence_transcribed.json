@@ -101,7 +101,7 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "TWO_STORY",
+            "key": "TWO_AND_ONE_HALF_STORY",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -113,6 +113,31 @@
           {
             "key": "MIN",
             "value": "1750",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§146-15@C",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "TWO_AND_ONE_HALF_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "875",
             "units": "FEET_SQUARE"
           }
         ]
