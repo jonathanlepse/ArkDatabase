@@ -70,8 +70,12 @@
 									"text": "Lot width and street frontage. Lot width and public\nstreet frontage shall not be less than 150 feet in length.[Added 9-6-2005 by L.L. No. 3-2005]"
 								}
 							]
-						},
-						{
+						}
+					]
+				}
+			]
+		},
+		{
 							"paragraph": "§ 195-14",
 							"title": "Accessory buildings and uses.",
 							"content": [
@@ -1614,9 +1618,5 @@
 								}
 							]
 						}
-					]
-				}
-			]
-		}
 	]
 }

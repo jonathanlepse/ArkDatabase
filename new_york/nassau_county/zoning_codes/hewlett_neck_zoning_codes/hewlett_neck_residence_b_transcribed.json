@@ -105,6 +105,15 @@
     ]
   },
   {
+    "clauseID": "@§195-11@G",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
     "clauseID": "@§195-11@H",
     "rules": [
       {
