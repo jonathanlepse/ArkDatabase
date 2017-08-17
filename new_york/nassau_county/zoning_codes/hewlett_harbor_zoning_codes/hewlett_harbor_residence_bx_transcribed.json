@@ -6,6 +6,11 @@
         "rule": "HEIGHT",
         "args": [
           {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,21780",
+            "units": "FLAG"
+          },
+          {
             "key": "PITCHED_ROOF",
             "value": "TRUE",
             "units": "FLAG"
@@ -25,6 +30,11 @@
       {
         "rule": "HEIGHT",
         "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,21780",
+            "units": "FLAG"
+          },
           {
             "key": "FLAT_ROOF",
             "value": "TRUE",
@@ -46,6 +56,11 @@
         "rule": "STORIES",
         "args": [
           {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,21780",
+            "units": "FLAG"
+          },
+          {
             "key": "ACCESSORY_BUILDING",
             "value": "TRUE",
             "units": "FLAG"
@@ -60,6 +75,201 @@
       {
         "rule": "HEIGHT",
         "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,21780",
+            "units": "FLAG"
+          },
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "18",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@B@1",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21780,43560",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@B@2",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21780,43560",
+            "units": "FLAG"
+          },
+          {
+            "key": "FLAT_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "32",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@B@4",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21780,43560",
+            "units": "FLAG"
+          },
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1.5",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21780,43560",
+            "units": "FLAG"
+          },
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "18",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@C@1",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "43560,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "PITCHED_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@C@2",
+    "rules": [
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "43560,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "FLAT_ROOF",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§145-10@C@4",
+    "rules": [
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "43560,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1.5",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "43560,inf",
+            "units": "FLAG"
+          },
           {
             "key": "ACCESSORY_BUILDING",
             "value": "TRUE",
@@ -226,7 +436,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "2700",
             "units": "FEET_SQUARE"
           }
@@ -271,7 +481,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "2400",
             "units": "FEET_SQUARE"
           }
