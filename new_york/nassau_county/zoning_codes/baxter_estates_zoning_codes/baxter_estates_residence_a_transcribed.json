@@ -48,7 +48,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "0,10000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -68,7 +68,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "10000,16000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -88,7 +88,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "16000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
