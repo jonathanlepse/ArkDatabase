@@ -65,6 +65,51 @@
     ]
   },
   {
+    "clauseID": "@§210-31@B@1",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "REAR",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1.0",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§210-31@B@2",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "SIDE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1.5",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§210-32",
     "rules": [
       {
