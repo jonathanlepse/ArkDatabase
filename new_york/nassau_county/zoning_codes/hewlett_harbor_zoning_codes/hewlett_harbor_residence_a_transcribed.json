@@ -285,6 +285,26 @@
     ]
   },
   {
+    "clauseID": "@§145-101@A",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_PLANE_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "38",
+            "units": "DEGREES"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§145-19@C",
     "rules": [
       {
