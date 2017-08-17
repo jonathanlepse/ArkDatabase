@@ -118,8 +118,34 @@
         ]
       },
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,14000",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "5000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "14000,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "5500",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
