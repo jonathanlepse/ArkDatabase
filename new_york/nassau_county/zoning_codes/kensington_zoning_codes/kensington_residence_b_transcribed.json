@@ -115,6 +115,36 @@
     ]
   },
   {
+    "clauseID": "@§151-10@J",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.4",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§151-10@K",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "8000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§151-10@M",
     "rules": [
       {
@@ -143,6 +173,81 @@
           {
             "key": "MAX",
             "value": "16",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§151-132@B@1@b",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "140,inf",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "21",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§151-132@B@2@b",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "100,140",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "18",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§151-132@B@3@b",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "90,99",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "18",
             "units": "FEET"
           }
         ]
