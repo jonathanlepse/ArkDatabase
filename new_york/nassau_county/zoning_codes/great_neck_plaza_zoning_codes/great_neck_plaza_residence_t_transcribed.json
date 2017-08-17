@@ -148,41 +148,5 @@
         ]
       }
     ]
-  },
-  {
-    "clauseID": "@§225-502@A",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§225-502@A@1",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§225-502@A@2",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§225-502@A@3",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
   }
 ]

@@ -120,38 +120,37 @@
     ]
   },
   {
-    "clauseID": "@§225-59@B@2",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§225-59@B@2@a",
-    "rules": [
-      {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
     "clauseID": "@§225-59@B@2@b",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
-      }
-    ]
-  },
-  {
-    "clauseID": "@§225-59@B@3",
-    "rules": [
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "THROUGH_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "40",
+            "units": "FEET"
+          }
+        ]
+      },
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "THROUGH_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
