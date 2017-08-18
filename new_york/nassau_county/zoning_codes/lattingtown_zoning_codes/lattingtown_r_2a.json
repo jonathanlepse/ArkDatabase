@@ -958,6 +958,14 @@
 									"text": "Maximum total building area (includes principal and accessory buildings, and all improved surfaces including but not limited to driveways): 25%"
 								}
 							]
+						},
+						{
+							"number": "M. ",
+							"content": [
+								{
+									"text": "Height Setback Ratios: Front: 0.32  Side: 0.48  Rear: 0.48"
+								}
+							]
 						}
 					]
 				},
