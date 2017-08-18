@@ -97,7 +97,7 @@
           },
           {
             "key": "MIN",
-            "value": "900",
+            "value": "950",
             "units": "FEET_SQUARE"
           }
         ]
@@ -311,12 +311,17 @@
             "units": "PERCENTAGE"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§345-32@D",
+    "rules": [
       {
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
         "args": [
           {
-            "key": "ACCESSORY_BUILDING",
+            "key": "DETACHED",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -327,7 +332,7 @@
           },
           {
             "key": "MIN",
-            "value": "1",
+            "value": "2",
             "units": "FEET"
           }
         ]
