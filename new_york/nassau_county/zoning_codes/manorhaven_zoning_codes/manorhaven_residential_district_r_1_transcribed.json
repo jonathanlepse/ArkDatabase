@@ -30,6 +30,21 @@
     ]
   },
   {
+    "clauseID": "@§155-131@C",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "100",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§155-131@D",
     "rules": [
       {
@@ -123,6 +138,21 @@
             "key": "MAX",
             "value": "26",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§155-131@H",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "750",
+            "units": "FEET_SQUARE"
           }
         ]
       }
