@@ -446,6 +446,42 @@
 							"content": [
 								{
 									"text": "The following height/setback standards shall\npertain to the respective districts and yards shown in the table below:"
+								},
+								{
+									"content": [
+										{
+											"number": "A. ",
+											"content": [
+												{
+													"text": "Residence A: Front Yard: 1.2, Side Yard: 2.0, Rear Yard: 1.2"
+												}
+											]
+										},
+										{
+											"number": "B. ",
+											"content": [
+												{
+													"text": "Residence B: Front Yard: 0.6, Side Yard: 1.0, Rear Yard: 1.0"
+												}
+											]
+										},
+										{
+											"number": "C. ",
+											"content": [
+												{
+													"text": "Residence C: Front Yard: 0.6, Side Yard: 1.0, Rear Yard: 0.6"
+												}
+											]
+										},
+										{
+											"number": "D. ",
+											"content": [
+												{
+													"text": "Residence D: Front Yard: 0.6, Side Yard: 1.0, Rear Yard: 0.6"
+												}
+											]
+										}
+									]
 								}
 							]
 						},
