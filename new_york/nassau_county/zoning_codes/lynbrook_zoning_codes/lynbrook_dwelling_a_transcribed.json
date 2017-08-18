@@ -61,7 +61,7 @@
         "rule": "LOT_COVERAGE",
         "args": [
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "35",
             "units": "PERCENTAGE"
           }
