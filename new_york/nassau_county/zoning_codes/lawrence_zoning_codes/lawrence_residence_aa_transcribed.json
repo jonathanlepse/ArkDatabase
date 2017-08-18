@@ -1,80 +1,5 @@
 [
   {
-    "clauseID": "@§212-121@A",
-    "rules": [
-      {
-        "rule": "LOT_COVERAGE",
-        "args": [
-          {
-            "key": "MAX",
-            "value": "5",
-            "units": "PERCENTAGE"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@B",
-    "rules": [
-      {
-        "rule": "FRONT_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "50",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@C",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "30",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@D",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "70",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@E",
-    "rules": [
-      {
-        "rule": "REAR_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "60",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§212-13@B",
     "rules": [
       {
@@ -93,7 +18,7 @@
     "clauseID": "@§212-13@C",
     "rules": [
       {
-        "rule": "LOT_COVERAGE",
+        "rule": "LOT_AREA",
         "args": [
           {
             "key": "MIN",
@@ -109,6 +34,111 @@
             "key": "MIN",
             "value": "150",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-13@D@1",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "50",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "60",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "70",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-13@D@2@a",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "0.44",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-13@D@2@b",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "REAR",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "0.37",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-13@D@2@c",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "SIDE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "0.74",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
           }
         ]
       }
@@ -155,6 +185,86 @@
     ]
   },
   {
+    "clauseID": "@§212-35@E",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "10",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§212-39@A",
     "rules": [
       {
@@ -166,7 +276,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "25",
             "units": "FEET"
           }
@@ -186,7 +296,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "30",
             "units": "FEET"
           }

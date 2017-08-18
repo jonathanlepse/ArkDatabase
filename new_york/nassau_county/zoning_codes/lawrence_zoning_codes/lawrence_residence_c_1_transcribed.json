@@ -1,80 +1,5 @@
 [
   {
-    "clauseID": "@§212-121@A",
-    "rules": [
-      {
-        "rule": "LOT_COVERAGE",
-        "args": [
-          {
-            "key": "MAX",
-            "value": "10",
-            "units": "PERCENTAGE"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@B",
-    "rules": [
-      {
-        "rule": "FRONT_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "25",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@C",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "15",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@D",
-    "rules": [
-      {
-        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "30",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§212-121@E",
-    "rules": [
-      {
-        "rule": "REAR_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "30",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "clauseID": "@§212-17@B",
     "rules": [
       {
@@ -115,6 +40,111 @@
     ]
   },
   {
+    "clauseID": "@§212-17@D@1",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "10",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-17@D@2@a",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "0.88",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-17@D@2@b",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "REAR",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "0.74",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-17@D@2@c",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "SIDE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "2.2",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§212-24@C",
     "rules": [
       {
@@ -148,6 +178,86 @@
           {
             "key": "MIN",
             "value": "4",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§212-35@E",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "REAR_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SECOND_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "10",
             "units": "FEET"
           }
         ]
