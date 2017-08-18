@@ -141,7 +141,7 @@
             "units": "FLAG"
           },
           {
-            "key": "NO_KEY",
+            "key": "MIN",
             "value": "5000",
             "units": "FEET_SQUARE"
           }
