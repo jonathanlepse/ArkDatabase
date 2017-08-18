@@ -171,7 +171,12 @@
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
         "args": [
           {
-            "key": "ACCESSORY_BUILDING",
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },
