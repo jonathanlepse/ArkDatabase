@@ -151,7 +151,7 @@
             "units": "FLAG"
           },
           {
-            "key": "MIN",
+            "key": "MAX",
             "value": "25",
             "units": "FEET"
           }
