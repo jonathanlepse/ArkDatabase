@@ -2,6 +2,59 @@
 	"url": "http://ecode360.com/5188802",
 	"paras": [
 		{
+			"paragraph": "§ 195a",
+			"title": "Schedule Limiting Height and Bulk of Buildings",
+			"content": [
+				{
+					"text": "The following regulations shall apply in the Residence District:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Maximum stories/height: 2.5/30"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Minimum/Maximum depth front yard(feet): 15/25"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Minimum Side Yards(feet): one side yard of not less than 10 feet, the other side yard to be not less than five feet"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Minimum Rear Yards(feet): 25"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Lot Area per family(square feet): 4000"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 195-4",
 			"title": "Permitted uses.",
 			"content": [
@@ -448,6 +501,34 @@
 							"content": [
 								{
 									"text": "In the R Zones (Residential Districts) of the Village,\nthe floor area ratio (F.A.R.) requirements applicable to a particular\nbuilding plot or parcel shall be as set forth and prescribed under\nthe following schedule; provided, however, that in no case shall the\nF.A.R. be interpreted and applied so as to require a dwelling to be\nconstructed with less gross floor area than the maximum gross floor\narea permitted on any smaller lot under such schedule:"
+								},
+								{
+									"content": [
+										{
+											"number": "1. ",
+											"content": [
+												{
+													"text": "Lot Area: Up to 3,999:  FAR: .47   Maximum Gross Floor Area Permitted(square feet): 1880"
+												}
+											]
+										},
+										{
+											"number": "2. ",
+											"content": [
+												{
+													"text": "Lot Area: 4,000 to 5,999:  FAR: .45   Maximum Gross Floor Area Permitted(square feet): 2700"
+												}
+											]
+										},
+										{
+											"number": "3. ",
+											"content": [
+												{
+													"text": "Lot Area: 6,000 and above:  FAR: .40   Maximum Gross Floor Area Permitted(square feet): 3200"
+												}
+											]
+										}
+									]
 								}
 							]
 						}
