@@ -91,7 +91,7 @@
             "units": "FLAG"
           },
           {
-            "key": "SINGLE_FAMILY",
+            "key": "ONE_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -258,6 +258,21 @@
           {
             "key": "MIN",
             "value": "2",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "25",
             "units": "FEET"
           }
         ]
