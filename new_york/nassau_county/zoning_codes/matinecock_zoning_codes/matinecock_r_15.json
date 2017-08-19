@@ -163,7 +163,7 @@
 															"number": "(1) ",
 															"content": [
 																{
-																	"text": "Minimum: 900 square feet"
+																	"text": "Minimum: 2500 square feet"
 																}
 															]
 														},
@@ -171,7 +171,7 @@
 															"number": "(2) ",
 															"content": [
 																{
-																	"text": "Maximum: 2500 square feet"
+																	"text": "Maximum: --"
 																}
 															]
 														}
@@ -191,7 +191,7 @@
 															"number": "(1) ",
 															"content": [
 																{
-																	"text": "Minimum: 1200 square feet"
+																	"text": "Minimum: --"
 																}
 															]
 														},
@@ -219,7 +219,7 @@
 															"number": "(1) ",
 															"content": [
 																{
-																	"text": "Minimum: 1500 square feet"
+																	"text": "Minimum: --"
 																}
 															]
 														},
