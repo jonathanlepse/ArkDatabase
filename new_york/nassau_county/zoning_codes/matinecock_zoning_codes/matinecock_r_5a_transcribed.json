@@ -202,26 +202,6 @@
           },
           {
             "key": "MIN",
-            "value": "1400",
-            "units": "FEET_SQUARE"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§195-14@10@a@2",
-    "rules": [
-      {
-        "rule": "FLOOR_AREA",
-        "args": [
-          {
-            "key": "ONE_STORY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MAX",
             "value": "7000",
             "units": "FEET_SQUARE"
           }
@@ -230,19 +210,19 @@
     ]
   },
   {
-    "clauseID": "@§195-14@10@a@1",
+    "clauseID": "@§195-14@10@b@2",
     "rules": [
       {
         "rule": "FLOOR_AREA",
         "args": [
           {
-            "key": "TWO_STORY",
+            "key": "ONE_AND_ONE_HALF_STORY",
             "value": "TRUE",
             "units": "FLAG"
           },
           {
-            "key": "MIN",
-            "value": "2200",
+            "key": "MAX",
+            "value": "8000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -250,7 +230,7 @@
     ]
   },
   {
-    "clauseID": "@§195-14@10@a@2",
+    "clauseID": "@§195-14@10@c@2",
     "rules": [
       {
         "rule": "FLOOR_AREA",
