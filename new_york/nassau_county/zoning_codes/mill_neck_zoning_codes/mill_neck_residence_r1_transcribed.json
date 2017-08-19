@@ -171,8 +171,38 @@
             "units": "FLAG"
           },
           {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "1000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§129-48@A@2",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_AND_ONE_HALF_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "1200",
             "units": "FEET_SQUARE"
           }
         ]
@@ -187,6 +217,11 @@
         "args": [
           {
             "key": "TWO_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -216,6 +251,11 @@
             "units": "FLAG"
           },
           {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "700",
             "units": "FEET_SQUARE"
@@ -237,6 +277,11 @@
           },
           {
             "key": "TWO_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -294,6 +339,26 @@
             "key": "MAX",
             "value": "12",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§129-57@B",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "500",
+            "units": "FEET_SQUARE"
           }
         ]
       }
