@@ -195,7 +195,7 @@
 		]
 	},
 	{
-		"clauseID": "@§195-231@1",
+		"clauseID": "@§195-231@B@1",
 		"rules": [
 			{
 				"rule": "FLOOR_AREA_RATIO",
@@ -230,7 +230,7 @@
 		]
 	},
 	{
-		"clauseID": "@§195-231@2",
+		"clauseID": "@§195-231@B@2",
 		"rules": [
 			{
 				"rule": "FLOOR_AREA_RATIO",
@@ -265,7 +265,7 @@
 		]
 	},
 	{
-		"clauseID": "@§195-231@3",
+		"clauseID": "@§195-231@B@3",
 		"rules": [
 			{
 				"rule": "FLOOR_AREA_RATIO",
