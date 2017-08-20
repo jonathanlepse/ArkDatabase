@@ -6,11 +6,6 @@
         "rule": "FRONTAGE",
         "args": [
           {
-            "key": "MULTI_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "50",
             "units": "FEET"
@@ -21,7 +16,12 @@
         "rule": "LOT_AREA",
         "args": [
           {
-            "key": "MULTI_FAMILY",
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
           },

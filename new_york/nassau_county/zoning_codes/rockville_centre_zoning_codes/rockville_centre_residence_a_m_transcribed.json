@@ -11,7 +11,7 @@
             "units": "PERCENTAGE"
           }
         ]
-      },    
+      },
       {
         "rule": "LOT_AREA",
         "args": [
@@ -28,16 +28,6 @@
           {
             "key": "MIN",
             "value": "25",
-            "units": "FEET"
-          }
-        ]
-      },
-      {
-        "rule": "SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "MIN",
-            "value": "10",
             "units": "FEET"
           }
         ]
@@ -73,6 +63,36 @@
           {
             "key": "MAX",
             "value": "32",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,80",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "8",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "80,inf",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "10",
             "units": "FEET"
           }
         ]

@@ -41,9 +41,69 @@
         "rule": "LOT_COVERAGE",
         "args": [
           {
+            "key": "IF_LOT_AREA_IS",
+            "value": "8000,inf",
+            "units": "FEET_SQUARE"
+          },
+          {
             "key": "MAX",
             "value": "30",
             "units": "PERCENTAGE"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,8000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "30",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§340-6@B@1",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,7200",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".50",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§340-6@B@2",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "7200,inf",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".42",
+            "units": "NO_UNITS"
           }
         ]
       }
@@ -80,11 +140,36 @@
     ]
   },
   {
+    "clauseID": "@§340-9@A@1",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,80",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "8",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§340-9@A@2",
     "rules": [
       {
         "rule": "SIDE_YARD_SETBACK",
         "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "80,inf",
+            "units": "FEET"
+          },
           {
             "key": "MIN",
             "value": "10",
@@ -123,7 +208,7 @@
           {
             "key": "MIN",
             "value": "25",
-            "units": "PERCENTAGE"
+            "units": "FEET"
           }
         ]
       }
