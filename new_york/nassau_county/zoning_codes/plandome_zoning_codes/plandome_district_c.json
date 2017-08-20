@@ -264,7 +264,127 @@
 							"number": "A. ",
 							"content": [
 								{
-									"text": "The following are the requirements and standards for\nall lots, structures and buildings unless otherwise indicated for\nthe several districts referred to in this chapter. Dimensions are\nin feet, unless otherwise indicated. Minimum lot area (square feet) 12,000, Maximum building area of lot 30%, Maximum building height Principal Peaked roof 30 Flat roof 25 Accessory Peaked Roof 12.5 Flat Roof 11, Minimum yards of principal buildings Front yard 30, Rear yard 20, Side yard 20, Minimum street frontage 100, Minimum livable floor area (square feet) Total 1,600 Ground story 1,000, Lot size(square feet) Up to 12,000  Maximum FAR .34 Maximum GFA(squarefeet) 4,080, More than 12,000 and less than 23,999 Use formula 4,560 - .04(L)/11,999=X, FAR CalculationFormula(L=lot size in square feet; X=maximumFAR), Lot size(square feet) 23,999 and up Maximum FAR .30, Maximum GFA(squarefeet) 7,200"
+									"text": "The following are the requirements and standards for\nall lots, structures and buildings unless otherwise indicated for\nthe several districts referred to in this chapter. Dimensions are\nin feet, unless otherwise indicated."
+								},
+								{
+									"content": [
+										{
+											"number": "1. ",
+											"content": [
+												{
+													"text": "Minimum lot area(square feet): 12,000"
+												}
+											]
+										},
+										{
+											"number": "2. ",
+											"content": [
+												{
+													"text": "Maximum building area of lot(%): 30"
+												}
+											]
+										},
+										{
+											"number": "3. ",
+											"content": [
+												{
+													"text": "Maximum building height(feet): Peaked roof: 30   Flat roof: 25"
+												}
+											]
+										},
+										{
+											"number": "4. ",
+											"content": [
+												{
+													"text": "Maximum building height(feet): Accessory Peaked Roof: 12.5   Accessory Flat Roof: 11"
+												}
+											]
+										},
+										{
+											"number": "5. ",
+											"content": [
+												{
+													"text": "Minimum yards of principal buildings(feet) Front: 30"
+												}
+											]
+										},
+										{
+											"number": "6. ",
+											"content": [
+												{
+													"text": "Minimum yards of principal buildings(feet) Rear: 20"
+												}
+											]
+										},
+										{
+											"number": "7. ",
+											"content": [
+												{
+													"text": "Minimum yards of principal buildings(feet) Side: 20"
+												}
+											]
+										},
+										{
+											"number": "8. ",
+											"content": [
+												{
+													"text": "Minimum street frontage(feet): 100"
+												}
+											]
+										},
+										{
+											"number": "9. ",
+											"content": [
+												{
+													"text": "Minimum livable floor area (square feet): Total: 1,600   Ground story: 1,000"
+												}
+											]
+										},
+										{
+											"number": "10. ",
+											"content": [
+												{
+													"text": "Floor Area Ratio/Maximum Gross Floor Area(square feet): "
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Lot Size of Up to 12,000: Maximum FAR .34  Maximum GFA(squarefeet) 4,080"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Lot Size of More than 12,000 and less than 23,999: Use FAR CalculationFormula(L=lot size in square feet; X=maximumFAR): 4,560 - .04(L)/11,999=X"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Lot size of 23,999 and up: Maximum FAR .30, Maximum GFA(squarefeet) 7,200"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"number": "11. ",
+											"content": [
+												{
+													"text": "Height Setback Ratio: Front: 0.8 to 1   Side: 1.2 to 1    Rear: 1.0 to 1"
+												}
+											]
+										}
+									]
 								},
 								{
 									"footnote": "[1]\nEditor's Note: Appendix No. 1 is included\nat the end of this chapter.\n[2]\nEditor's Note: Appendix No. 2 is included\nat the end of this chapter.\n"
