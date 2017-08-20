@@ -110,6 +110,15 @@
     ]
   },
   {
+    "clauseID": "@§176-13",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
     "clauseID": "@§176-14",
     "rules": [
       {
