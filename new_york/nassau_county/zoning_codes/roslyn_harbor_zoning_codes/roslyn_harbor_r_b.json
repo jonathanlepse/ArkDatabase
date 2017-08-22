@@ -191,6 +191,171 @@
 			]
 		},
 		{
+			"paragraph": "§ 275a",
+			"title": "Illustrative Table of Maximum Permitted Residential Gross Floor Areas(in square feet)",
+			"content": [
+				{
+					"text": "The following regulations represent the maximum permitted gross floor area of a building based on lot size:"
+				},
+				{
+					"content": [
+						{
+							"number": "A. ",
+							"content": [
+								{
+									"text": "Lot Size: 8,000    Maximum Gross Floor Area(square feet): 2,800"
+								}
+							]
+						},
+						{
+							"number": "B. ",
+							"content": [
+								{
+									"text": "Lot Size: 10,000    Maximum Gross Floor Area(square feet): 3,000"
+								}
+							]
+						},
+						{
+							"number": "C. ",
+							"content": [
+								{
+									"text": "Lot Size: 15,000    Maximum Gross Floor Area(square feet): 3,500"
+								}
+							]
+						},
+						{
+							"number": "D. ",
+							"content": [
+								{
+									"text": "Lot Size: 20,000    Maximum Gross Floor Area(square feet): 4,000"
+								}
+							]
+						},
+						{
+							"number": "E. ",
+							"content": [
+								{
+									"text": "Lot Size: 25,000    Maximum Gross Floor Area(square feet): 4,687.50"
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Lot Size: 30,000    Maximum Gross Floor Area(square feet): 5,250"
+								}
+							]
+						},
+						{
+							"number": "G. ",
+							"content": [
+								{
+									"text": "Lot Size: 40,000    Maximum Gross Floor Area(square feet): 6,000"
+								}
+							]
+						},
+						{
+							"number": "H. ",
+							"content": [
+								{
+									"text": "Lot Size: 50,000    Maximum Gross Floor Area(square feet): 6,875"
+								}
+							]
+						},
+						{
+							"number": "I. ",
+							"content": [
+								{
+									"text": "Lot Size: 60,000    Maximum Gross Floor Area(square feet): 7,500"
+								}
+							]
+						},
+						{
+							"number": "J. ",
+							"content": [
+								{
+									"text": "Lot Size: 70,000    Maximum Gross Floor Area(square feet): 7,875"
+								}
+							]
+						},
+						{
+							"number": "K. ",
+							"content": [
+								{
+									"text": "Lot Size: 80,000    Maximum Gross Floor Area(square feet): 8,000"
+								}
+							]
+						},
+						{
+							"number": "L. ",
+							"content": [
+								{
+									"text": "Lot Size: 100,000    Maximum Gross Floor Area(square feet): 9,000"
+								}
+							]
+						},
+						{
+							"number": "M. ",
+							"content": [
+								{
+									"text": "Lot Size: 120,000    Maximum Gross Floor Area(square feet): 9,600"
+								}
+							]
+						},
+						{
+							"number": "N. ",
+							"content": [
+								{
+									"text": "Lot Size: 140,000    Maximum Gross Floor Area(square feet): 10,400"
+								}
+							]
+						},
+						{
+							"number": "O. ",
+							"content": [
+								{
+									"text": "Lot Size: 160,000    Maximum Gross Floor Area(square feet): 11,200"
+								}
+							]
+						},
+						{
+							"number": "P. ",
+							"content": [
+								{
+									"text": "Lot Size: 180,000    Maximum Gross Floor Area(square feet): 12,000"
+								}
+							]
+						},
+						{
+							"number": "Q. ",
+							"content": [
+								{
+									"text": "Lot Size: 200,000    Maximum Gross Floor Area(square feet): 12,800"
+								}
+							]
+						},
+						{
+							"number": "R. ",
+							"content": [
+								{
+									"text": "Lot Size: 220,000    Maximum Gross Floor Area(square feet): 13,600"
+								}
+							]
+						},
+						{
+							"number": "S. ",
+							"content": [
+								{
+									"text": "Lot Size: 240,000    Maximum Gross Floor Area(square feet): 14,400"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"paragraph": "§ 275-10",
 			"title": "Tables.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t[1]",
 			"content": [
