@@ -30,7 +30,71 @@
 							"number": "D. ",
 							"content": [
 								{
-									"text": "Floor Area Ratio: (See original code text for details)"
+									"text": "Floor Area; Floor Area Ratio"
+								},
+								{
+									"content": [
+										{
+											"number": "(1) ",
+											"content": [
+												{
+													"text": "Minimum First Floor Area: 1800 square feet"
+												}
+											]
+										},
+										{
+											"number": "(2) ",
+											"content": [
+												{
+													"text": "Maximum ratio of building area floor area to lot area"
+												},
+												{
+													"content": [
+														{
+															"number": "(a) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): less than 14,520  FAR: 0.42"
+																}
+															]
+														},
+														{
+															"number": "(b) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): between 14,520 & 21,780  FAR: 0.42 for first 14,520 square feet, additional FAR of 0.13 permitted for lot area in excess of 14,520, but not more than 21,780"
+																}
+															]
+														},
+														{
+															"number": "(c) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): between 21,780 & 32,670  FAR: based on calculation for first 21,780 square feet, additional FAR of 0.10 permitted for lot area in excess of 21,780, but not more than 32,670"
+																}
+															]
+														},
+														{
+															"number": "(d) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): between 32,670 & 43,560  FAR: based on calculation for first 32,670 square feet, additional FAR of 0.06 permitted for lot area in excess of 32,670, but not more than 43,560"
+																}
+															]
+														},
+														{
+															"number": "(e) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): greater than 43,560  FAR: based on calculation for first 43,560 square feet, additional FAR of 0.03 permitted for lot area in excess of 43,560"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
 								}
 							]
 						},
