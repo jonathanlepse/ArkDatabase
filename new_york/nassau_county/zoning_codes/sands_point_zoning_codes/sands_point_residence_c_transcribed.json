@@ -2,13 +2,153 @@
   {
     "clauseID": "@§176-334",
     "rules": [
+       {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "3",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
       {
         "rule": "HEIGHT",
         "args": [
           {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,130680",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "130680,inf",
+            "units": "FEET_SQUARE"
+          },
+          {
             "key": "MAX",
             "value": "40",
             "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "STORIES",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§176-336",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "217800",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§176-337",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,43560",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "0.12",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "43560,87120",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "0.06",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "87120,inf",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "0.04",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "20",
+            "units": "PERCENTAGE"
           }
         ]
       }
@@ -59,6 +199,51 @@
             "key": "MIN",
             "value": "50",
             "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "0.33",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "SIDE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "0.50",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "REAR",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "0.40",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
           }
         ]
       }
