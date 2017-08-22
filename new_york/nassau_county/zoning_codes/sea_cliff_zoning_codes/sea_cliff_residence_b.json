@@ -180,7 +180,7 @@
 											"number": "(1) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): Up to 2,400		Maximum FAR: 0.50"
+													"text": "Lot Area(square feet): Up to 2,400 Maximum FAR: 0.50"
 												}
 											]
 										},
@@ -188,7 +188,7 @@
 											"number": "(2) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 2,401 to 3,600		Maximum FAR: 0.44"
+													"text": "Lot Area(square feet): 2,401 to 3,600 Maximum FAR: 0.44"
 												}
 											]
 										},
@@ -196,7 +196,7 @@
 											"number": "(3) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 3,601 to 4,800 		Maximum FAR: 0.38"
+													"text": "Lot Area(square feet): 3,601 to 4,800 Maximum FAR: 0.38"
 												}
 											]
 										},
@@ -204,7 +204,7 @@
 											"number": "(4) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 4,801 to 7,200		Maximum FAR: 0.33"
+													"text": "Lot Area(square feet): 4,801 to 7,200 Maximum FAR: 0.33"
 												}
 											]
 										},
@@ -212,7 +212,7 @@
 											"number": "(5) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 7,201 to 9,600		Maximum FAR: 0.31"
+													"text": "Lot Area(square feet): 7,201 to 9,600 Maximum FAR: 0.31"
 												}
 											]
 										},
@@ -220,7 +220,7 @@
 											"number": "(6) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 9,601 to 12,500		Maximum FAR: 0.27"
+													"text": "Lot Area(square feet): 9,601 to 12,500 Maximum FAR: 0.27"
 												}
 											]
 										},
@@ -228,7 +228,7 @@
 											"number": "(7) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 12,501 to 15,000		Maximum FAR: 0.25"
+													"text": "Lot Area(square feet): 12,501 to 15,000 Maximum FAR: 0.25"
 												}
 											]
 										},
@@ -236,7 +236,7 @@
 											"number": "(8) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 15,001 to 17,500		Maximum FAR: 0.23"
+													"text": "Lot Area(square feet): 15,001 to 17,500 Maximum FAR: 0.23"
 												}
 											]
 										},
@@ -244,7 +244,7 @@
 											"number": "(9) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 17,501 to 20,000		Maximum FAR: 0.21"
+													"text": "Lot Area(square feet): 17,501 to 20,000 Maximum FAR: 0.21"
 												}
 											]
 										},
@@ -252,7 +252,7 @@
 											"number": "(10) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 20,001 to 25,000		Maximum FAR: 0.19"
+													"text": "Lot Area(square feet): 20,001 to 25,000 Maximum FAR: 0.19"
 												}
 											]
 										},
@@ -260,7 +260,7 @@
 											"number": "(11) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 25,001 to 30,000		Maximum FAR: 0.17"
+													"text": "Lot Area(square feet): 25,001 to 30,000 Maximum FAR: 0.17"
 												}
 											]
 										},
@@ -268,7 +268,7 @@
 											"number": "(12) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 30,001 to 40,000		Maximum FAR: 0.15"
+													"text": "Lot Area(square feet): 30,001 to 40,000 Maximum FAR: 0.15"
 												}
 											]
 										},
@@ -276,7 +276,7 @@
 											"number": "(13) ",
 											"content": [
 												{
-													"text": "Area of Lot(square feet): 40,001 upward		Maximum FAR: 0.13"
+													"text": "Lot Area(square feet): 40,001 and upward Maximum FAR: 0.13"
 												}
 											]
 										}
