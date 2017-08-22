@@ -37,7 +37,7 @@
         "args": [
           {
             "key": "MAX",
-            "value": "50",
+            "value": "30",
             "units": "PERCENTAGE"
           }
         ]
@@ -75,6 +75,21 @@
     ]
   },
   {
+    "clauseID": "@§470a@F",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.40",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§470-11@B@1@d",
     "rules": [
       {
@@ -95,19 +110,39 @@
     ]
   },
   {
-    "clauseID": "@§470-23@D",
+    "clauseID": "@§470-25@A",
     "rules": [
       {
-        "rule": "HEIGHT",
+        "rule": "REAR_YARD_COVERAGE",
         "args": [
           {
-            "key": "GARAGE",
+            "key": "ACCESSORY_BUILDING",
             "value": "TRUE",
             "units": "FLAG"
           },
           {
             "key": "MAX",
-            "value": "17",
+            "value": "30",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§470-25@A@1",
+    "rules": [
+      {
+        "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "8",
             "units": "FEET"
           }
         ]
@@ -115,19 +150,74 @@
     ]
   },
   {
-    "clauseID": "@§470-23@E",
+    "clauseID": "@§470-25@A@2",
     "rules": [
       {
         "rule": "REAR_AND_SIDE_YARD_SETBACK",
         "args": [
           {
-            "key": "GARAGE",
+            "key": "ACCESSORY_BUILDING",
             "value": "TRUE",
             "units": "FLAG"
           },
           {
             "key": "MIN",
-            "value": "3",
+            "value": "1",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§470-25@A@3",
+    "rules": [
+      {
+        "rule": "DISTANCE_FROM_FRONT_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "45",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§470-25@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "100",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "10",
             "units": "FEET"
           }
         ]

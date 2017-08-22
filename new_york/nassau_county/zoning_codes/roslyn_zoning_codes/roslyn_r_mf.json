@@ -106,7 +106,7 @@
 							"number": "D. ",
 							"content": [
 								{
-									"text": "Lot Coverage: 60%"
+									"text": "Building Area Coverage: 25%"
 								}
 							]
 						},
@@ -135,6 +135,14 @@
 											]
 										}
 									]
+								}
+							]
+						},
+						{
+							"number": "F. ",
+							"content": [
+								{
+									"text": "Floor Area Ratio: 0.40"
 								}
 							]
 						}

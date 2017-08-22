@@ -97,7 +97,7 @@
         "args": [
           {
             "key": "MIN",
-            "value": "60",
+            "value": "25",
             "units": "PERCENTAGE"
           }
         ]
@@ -135,40 +135,15 @@
     ]
   },
   {
-    "clauseID": "@§470-23@D",
+    "clauseID": "@§470a@F",
     "rules": [
       {
-        "rule": "HEIGHT",
+        "rule": "FLOOR_AREA_RATIO",
         "args": [
-          {
-            "key": "GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
           {
             "key": "MAX",
-            "value": "17",
-            "units": "FEET"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "clauseID": "@§470-23@E",
-    "rules": [
-      {
-        "rule": "REAR_AND_SIDE_YARD_SETBACK",
-        "args": [
-          {
-            "key": "GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "MIN",
-            "value": "3",
-            "units": "FEET"
+            "value": "0.40",
+            "units": "NO_UNITS"
           }
         ]
       }
