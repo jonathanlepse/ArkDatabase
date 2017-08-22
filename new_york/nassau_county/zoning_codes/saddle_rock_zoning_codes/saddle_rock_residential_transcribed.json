@@ -40,6 +40,82 @@
     ]
   },
   {
+    "clauseID": "@§150-5@D@1",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "1800",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§150-5@D@2@a",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,14520",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "0.42",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§150-5@D@2@b",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
+    "clauseID": "@§150-5@D@2@c",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
+    "clauseID": "@§150-5@D@2@d",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
+    "clauseID": "@§150-5@D@2@e",
+    "rules": [
+      {
+        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
+        "args": []
+      }
+    ]
+  },
+  {
     "clauseID": "@§150-5@E",
     "rules": [
       {
