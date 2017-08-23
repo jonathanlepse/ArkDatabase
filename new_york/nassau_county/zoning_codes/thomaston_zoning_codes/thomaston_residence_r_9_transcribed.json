@@ -55,6 +55,21 @@
     ]
   },
   {
+    "clauseID": "@§203-18@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.40",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§203-19@A@1",
     "rules": [
       {
@@ -127,6 +142,26 @@
         "args": [
           {
             "key": "MAX",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§203-21",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
             "value": "30",
             "units": "FEET"
           }
