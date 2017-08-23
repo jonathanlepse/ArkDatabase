@@ -240,6 +240,26 @@
     ]
   },
   {
+    "clauseID": "@§205-10@E@10@b",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_AND_ONE_HALF_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "1900",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§205-10@E@10@c",
     "rules": [
       {
