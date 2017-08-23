@@ -110,11 +110,57 @@
     ]
   },
   {
+    "clauseID": "@§70-29@B",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "36",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§70-29@C",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,14000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "4000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§70-29@C@1",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "14000,inf",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "5200",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
@@ -137,8 +183,19 @@
     "clauseID": "@§70-30@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "35",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -217,6 +274,41 @@
             "key": "MIN",
             "value": "15",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§70-323@A",
+    "rules": [
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "FRONT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "2",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      },
+      {
+        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "args": [
+          {
+            "key": "SIDE",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "2",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
           }
         ]
       }

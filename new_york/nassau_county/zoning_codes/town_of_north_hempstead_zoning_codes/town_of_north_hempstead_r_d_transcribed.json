@@ -97,7 +97,7 @@
           },
           {
             "key": "MIN",
-            "value": "3000",
+            "value": "1500",
             "units": "FEET_SQUARE"
           }
         ]
@@ -110,6 +110,26 @@
       {
         "rule": "FRONT_YARD_SETBACK",
         "args": [
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§70-61@B",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
           {
             "key": "MIN",
             "value": "25",

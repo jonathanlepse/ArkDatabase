@@ -51,6 +51,16 @@
             "units": "PERCENTAGE"
           }
         ]
+      },
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "1000",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
@@ -73,8 +83,19 @@
     "clauseID": "@§70-75@B",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FRONT_YARD_SETBACK",
+        "args": [
+          {
+            "key": "CORNER_LOT",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "25",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },

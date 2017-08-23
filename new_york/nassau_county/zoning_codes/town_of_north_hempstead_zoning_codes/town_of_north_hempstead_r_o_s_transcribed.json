@@ -71,6 +71,11 @@
         "rule": "FLOOR_AREA",
         "args": [
           {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "2000",
             "units": "FEET_SQUARE"
@@ -168,6 +173,21 @@
           {
             "key": "MIN",
             "value": "50",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§70-311",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "250",
             "units": "FEET"
           }
         ]
