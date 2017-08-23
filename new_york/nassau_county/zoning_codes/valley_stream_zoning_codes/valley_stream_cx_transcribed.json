@@ -246,6 +246,11 @@
             "units": "FLAG"
           },
           {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "5",
             "units": "FEET"
@@ -306,6 +311,11 @@
             "units": "FLAG"
           },
           {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "MIN",
             "value": "10",
             "units": "FEET"
@@ -322,6 +332,11 @@
         "args": [
           {
             "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -347,6 +362,11 @@
         "args": [
           {
             "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
           },

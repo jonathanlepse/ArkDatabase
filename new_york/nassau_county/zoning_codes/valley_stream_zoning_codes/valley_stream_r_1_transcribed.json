@@ -15,6 +15,41 @@
     ]
   },
   {
+    "clauseID": "@§99-902@A@3",
+    "rules": [
+      {
+        "rule": "REAR_YARD_COVERAGE",
+        "args": [
+          {
+            "key": "ACCESSORY_BUILDING",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "30",
+            "units": "PERCENTAGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§99-902@A@4",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.5",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§99-902@B@1",
     "rules": [
       {
