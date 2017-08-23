@@ -218,7 +218,7 @@
     "clauseID": "@§150-39@F@2",
     "rules": [
       {
-        "rule": "FLOOR_AREA",
+        "rule": "LOT_COVERAGE",
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
