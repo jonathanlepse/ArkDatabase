@@ -161,11 +161,6 @@
             "units": "FLAG"
           },
           {
-            "key": "ACCESSORY_GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "45",
             "units": "FEET"
@@ -177,11 +172,6 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ACCESSORY_GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },

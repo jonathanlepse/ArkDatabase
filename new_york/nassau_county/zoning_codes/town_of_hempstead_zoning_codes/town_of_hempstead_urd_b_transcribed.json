@@ -131,6 +131,11 @@
         "rule": "SIDE_YARD_SETBACK",
         "args": [
           {
+            "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
             "key": "SINGLE_FAMILY",
             "value": "TRUE",
             "units": "FLAG"
@@ -163,8 +168,79 @@
     "clauseID": "@§290@I@1",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "4000",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "40",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "80",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -181,8 +257,119 @@
     "clauseID": "@§290@I@3",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "2400",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_WIDTH",
+        "args": [
+          {
+            "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "30",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "80",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§290@J@1",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "0.8",
+            "units": "NO_UNITS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§290@J@2",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "ATTACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "SINGLE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MAX",
+            "value": "1.0",
+            "units": "NO_UNITS"
+          }
+        ]
       }
     ]
   },

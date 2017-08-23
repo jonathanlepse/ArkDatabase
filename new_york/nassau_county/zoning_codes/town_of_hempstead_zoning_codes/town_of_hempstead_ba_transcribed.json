@@ -161,11 +161,6 @@
             "units": "FLAG"
           },
           {
-            "key": "ACCESSORY_GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "45",
             "units": "FEET"
@@ -177,11 +172,6 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ACCESSORY_GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -229,6 +219,26 @@
             "key": "MIN",
             "value": "5",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§78@B",
+    "rules": [
+      {
+        "rule": "LOT_AREA",
+        "args": [
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "6000",
+            "units": "FEET_SQUARE"
           }
         ]
       }

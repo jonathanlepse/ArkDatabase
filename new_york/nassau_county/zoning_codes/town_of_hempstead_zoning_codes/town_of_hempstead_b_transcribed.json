@@ -103,8 +103,19 @@
     "clauseID": "@§71@A@1",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,50",
+            "units": "FEET"
+          },
+          {
+            "key": "MAX",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -112,8 +123,19 @@
     "clauseID": "@§71@A@2",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "50,60",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -121,8 +143,19 @@
     "clauseID": "@§71@A@3",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "60,80",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -130,8 +163,19 @@
     "clauseID": "@§71@A@4",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "80,90",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "24",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -139,8 +183,19 @@
     "clauseID": "@§71@A@5",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "90,inf",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "31.5",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -251,11 +306,6 @@
             "units": "FLAG"
           },
           {
-            "key": "ACCESSORY_GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "45",
             "units": "FEET"
@@ -267,11 +317,6 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ACCESSORY_GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },

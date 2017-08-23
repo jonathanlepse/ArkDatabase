@@ -231,11 +231,6 @@
             "units": "FLAG"
           },
           {
-            "key": "ACCESSORY_GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "3",
             "units": "FEET"
@@ -323,6 +318,21 @@
           {
             "key": "MIN",
             "value": "60",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§45",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "100",
             "units": "FEET"
           }
         ]

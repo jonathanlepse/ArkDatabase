@@ -330,6 +330,21 @@
     ]
   },
   {
+    "clauseID": "@§61",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "150",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§299",
     "rules": [
       {

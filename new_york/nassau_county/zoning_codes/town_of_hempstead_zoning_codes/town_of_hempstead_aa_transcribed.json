@@ -88,8 +88,79 @@
     "clauseID": "@§2911",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,50",
+            "units": "FEET"
+          },
+          {
+            "key": "MAX",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "50,60",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "60,80",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "15",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "80,90",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "24",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "90,inf",
+            "units": "FEET"
+          },
+          {
+            "key": "MIN",
+            "value": "31.5",
+            "units": "FEET"
+          }
+        ]
       }
     ]
   },
@@ -206,11 +277,6 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ACCESSORY_GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },

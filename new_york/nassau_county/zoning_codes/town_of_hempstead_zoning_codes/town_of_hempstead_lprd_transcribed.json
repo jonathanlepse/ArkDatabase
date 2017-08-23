@@ -50,6 +50,61 @@
     ]
   },
   {
+    "clauseID": "@§186",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "750",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "ONE_AND_ONE_HALF_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_AND_ONE_HALF_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "FIRST_STORY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "550",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§187@A",
     "rules": [
       {
@@ -241,11 +296,6 @@
             "units": "FLAG"
           },
           {
-            "key": "ACCESSORY_GARAGE",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "45",
             "units": "FEET"
@@ -257,11 +307,6 @@
         "args": [
           {
             "key": "ACCESSORY_BUILDING",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ACCESSORY_GARAGE",
             "value": "TRUE",
             "units": "FLAG"
           },
@@ -333,6 +378,21 @@
           {
             "key": "MIN",
             "value": "60",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§193@C",
+    "rules": [
+      {
+        "rule": "LOT_DEPTH",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "100",
             "units": "FEET"
           }
         ]
