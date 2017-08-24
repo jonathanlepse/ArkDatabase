@@ -820,74 +820,562 @@
 												{
 													"content": [
 														{
-															"number": "(a) ",
+															"number": "(1) ",
 															"content": [
 																{
-																	"text": "For corner lots, the minimum front setback shall be provided\nfrom every street line."
+																	"text": "Lot Area(square feet): 40,000      Maximum Permitted Floor Area(square feet): 4,800  Minimum Setback(feet) Front/Side/Rear:  50/30/50"
 																}
 															]
 														},
 														{
-															"number": "(b) ",
+															"number": "(2) ",
 															"content": [
 																{
-																	"text": "No principal building shall be erected on any lot in any residence\ndistrict with a floor area of less than 2,500 square feet."
+																	"text": "Lot Area(square feet): 50,000      Maximum Permitted Floor Area(square feet): 5,700 Minimum Setback(feet) Front/Side/Rear:  56/34/56"
+																}
+															]
+														},
+														{
+															"number": "(3) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 60,000      Maximum Permitted Floor Area(square feet): 6,050  Minimum Setback(feet) Front/Side/Rear:  61/37/61"
+																}
+															]
+														},
+														{
+															"number": "(4) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 70,000      Maximum Permitted Floor Area(square feet): 6,400  Minimum Setback(feet) Front/Side/Rear:  66/40/66"
+																}
+															]
+														},
+														{
+															"number": "(5) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 80,000      Maximum Permitted Floor Area(square feet): 6,750  Minimum Setback(feet) Front/Side/Rear:  71/48/71"
+																}
+															]
+														},
+														{
+															"number": "(6) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 90,000      Maximum Permitted Floor Area(square feet): 7,100  Minimum Setback(feet) Front/Side/Rear:  75/51/75"
+																}
+															]
+														},
+														{
+															"number": "(7) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 100,000     Maximum Permitted Floor Area(square feet): 7,450  Minimum Setback(feet) Front/Side/Rear:  79/54/79"
+																}
+															]
+														},
+														{
+															"number": "(8) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 110,000     Maximum Permitted Floor Area(square feet): 7,800  Minimum Setback(feet) Front/Side/Rear: 83/56/83"
+																}
+															]
+														},
+														{
+															"number": "(9) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 120,000     Maximum Permitted Floor Area(square feet): 8,150  Minimum Setback(feet) Front/Side/Rear:  87/59/87"
+																}
+															]
+														},
+														{
+															"number": "(10) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 130,000     Maximum Permitted Floor Area(square feet): 8,500  Minimum Setback(feet) Front/Side/Rear:  90/72/90"
+																}
+															]
+														},
+														{
+															"number": "(11) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 140,000     Maximum Permitted Floor Area(square feet): 8,850  Minimum Setback(feet) Front/Side/Rear:  105/75/105"
+																}
+															]
+														},
+														{
+															"number": "(12) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 150,000     Maximum Permitted Floor Area(square feet): 9,200  Minimum Setback(feet) Front/Side/Rear:  108/77/108"
+																}
+															]
+														},
+														{
+															"number": "(13) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 160,000     Maximum Permitted Floor Area(square feet): 9,550  Minimum Setback(feet) Front/Side/Rear:  112/80/112"
+																}
+															]
+														},
+														{
+															"number": "(14) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 170,000     Maximum Permitted Floor Area(square feet): 9,900  Minimum Setback(feet) Front/Side/Rear:  115/82/115"
+																}
+															]
+														},
+														{
+															"number": "(15) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 180,000    Maximum Permitted Floor Area(square feet): 10,250  Minimum Setback(feet) Front/Side/Rear:  119/85/119"
+																}
+															]
+														},
+														{
+															"number": "(16) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 190,000    Maximum Permitted Floor Area(square feet): 10,600  Minimum Setback(feet) Front/Side/Rear:  122/87/122"
+																}
+															]
+														},
+														{
+															"number": "(17) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 200,000    Maximum Permitted Floor Area(square feet): 10,950  Minimum Setback(feet) Front/Side/Rear:  125/89/125"
+																}
+															]
+														},
+														{
+															"number": "(18) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 250,000    Maximum Permitted Floor Area(square feet): 12,050  Minimum Setback(feet) Front/Side/Rear:  140/100/140"
+																}
+															]
+														},
+														{
+															"number": "(19) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 300,000    Maximum Permitted Floor Area(square feet): 13,150 Minimum Setback(feet) Front/Side/Rear:  153/110/153"
+																}
+															]
+														},
+														{
+															"number": "(20) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 350,000    Maximum Permitted Floor Area(square feet): 14,250  Minimum Setback(feet) Front/Side/Rear:  166/118/166"
+																}
+															]
+														},
+														{
+															"number": "(21) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 400,000    Maximum Permitted Floor Area(square feet): 15,350  Minimum Setback(feet) Front/Side/Rear:  177/126/177"
+																}
+															]
+														},
+														{
+															"number": "(22) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 500,000    Maximum Permitted Floor Area(square feet): 17,550  Minimum Setback(feet) Front/Side/Rear:  198/141/198"
+																}
+															]
+														},
+														{
+															"number": "(23) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 600,000    Maximum Permitted Floor Area(square feet): 19,750  Minimum Setback(feet) Front/Side/Rear:  217/155/217"
+																}
+															]
+														},
+														{
+															"number": "(24) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 700,000    Maximum Permitted Floor Area(square feet): 21,950  Minimum Setback(feet) Front/Side/Rear:  234/167/234"
+																}
+															]
+														},
+														{
+															"number": "(25) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 800,000    Maximum Permitted Floor Area(square feet): 24,150  Minimum Setback(feet) Front/Side/Rear:  250/179/250"
+																}
+															]
+														},
+														{
+															"number": "(26) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,000,000  Maximum Permitted Floor Area(square feet): 28,550  Minimum Setback(feet) Front/Side/Rear:  280/200/280"
+																}
+															]
+														},
+														{
+															"number": "(26) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,200,000  Maximum Permitted Floor Area(square feet): 32,950  Minimum Setback(feet) Front/Side/Rear:  307/219/307"
+																}
+															]
+														},
+														{
+															"number": "(28) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,400,000  Maximum Permitted Floor Area(square feet): 37,350  Minimum Setback(feet) Front/Side/Rear:  311/237/311"
+																}
+															]
+														},
+														{
+															"number": "(29) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,600,000  Maximum Permitted Floor Area(square feet): 41,750  Minimum Setback(feet) Front/Side/Rear:  354/253/354"
+																}
+															]
+														},
+														{
+															"number": "(30) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 2,000,000  Maximum Permitted Floor Area(square feet): 50,550  Minimum Setback(feet) Front/Side/Rear:  396/283/396"
+																}
+															]
+														},
+														{
+															"content": [
+																{
+																	"number": "(a) ",
+																	"content": [
+																		{
+																			"text": "For corner lots, the minimum front setback shall be provided\nfrom every street line."
+																		}
+																	]
+																},
+																{
+																	"number": "(b) ",
+																	"content": [
+																		{
+																			"text": "No principal building shall be erected on any lot in any residence\ndistrict with a floor area of less than 2,500 square feet."
+																		}
+																	]
 																}
 															]
 														}
 													]
-												}
-											]
-										},
-										{
-											"number": "(5) ",
-											"content": [
-												{
-													"text": "Accessory buildings and lot coverage. No accessory building shall\nhereafter be erected on any lot in any residence district and no lot\nshall have a lot coverage except in compliance with the following\ntable:"
 												},
 												{
+													"number": "(5) ",
 													"content": [
 														{
-															"number": "(a) ",
+															"text": "Accessory buildings and lot coverage. No accessory building shall\nhereafter be erected on any lot in any residence district and no lot\nshall have a lot coverage except in compliance with the following\ntable:"
+														},
+														{
+													"content": [
+														{
+															"number": "(1) ",
 															"content": [
 																{
-																	"text": "Notwithstanding the minimum front setbacks as set forth in the\nforegoing table, no accessory building shall be located between the\nfront wall of the principal building and the front lot line. The total\naggregate lot coverage of all accessory buildings shall not exceed\n150% of the maximum floor area permitted for an accessory building\nas set forth in the foregoing table."
+																	"text": "Lot Area(square feet): 40,000      Maximum Permitted Floor Area(square feet): 960  Minimum Setback(feet) Front/Side/Rear:  50/20/20"
 																}
 															]
 														},
 														{
-															"number": "(b) ",
+															"number": "(2) ",
 															"content": [
 																{
-																	"text": "For corner lots, the minimum front setback for principal buildings\nshall be provided from every street line for accessory buildings."
+																	"text": "Lot Area(square feet): 50,000      Maximum Permitted Floor Area(square feet): 1,140 Minimum Setback(feet) Front/Side/Rear:  56/22/22"
+																}
+															]
+														},
+														{
+															"number": "(3) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 60,000      Maximum Permitted Floor Area(square feet): 1,210  Minimum Setback(feet) Front/Side/Rear:  61/24/24"
+																}
+															]
+														},
+														{
+															"number": "(4) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 70,000      Maximum Permitted Floor Area(square feet): 1,280  Minimum Setback(feet) Front/Side/Rear:  66/26/26"
+																}
+															]
+														},
+														{
+															"number": "(5) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 80,000      Maximum Permitted Floor Area(square feet): 1,350  Minimum Setback(feet) Front/Side/Rear:  71/28/28"
+																}
+															]
+														},
+														{
+															"number": "(6) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 90,000      Maximum Permitted Floor Area(square feet): 1,420  Minimum Setback(feet) Front/Side/Rear:  75/30/30"
+																}
+															]
+														},
+														{
+															"number": "(7) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 100,000     Maximum Permitted Floor Area(square feet): 1,490  Minimum Setback(feet) Front/Side/Rear:  79/32/32"
+																}
+															]
+														},
+														{
+															"number": "(8) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 110,000     Maximum Permitted Floor Area(square feet): 1,560  Minimum Setback(feet) Front/Side/Rear: 83/33/33"
+																}
+															]
+														},
+														{
+															"number": "(9) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 120,000     Maximum Permitted Floor Area(square feet): 1,630  Minimum Setback(feet) Front/Side/Rear:  87/35/35"
+																}
+															]
+														},
+														{
+															"number": "(10) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 130,000     Maximum Permitted Floor Area(square feet): 1,700  Minimum Setback(feet) Front/Side/Rear:  90/36/36"
+																}
+															]
+														},
+														{
+															"number": "(11) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 140,000     Maximum Permitted Floor Area(square feet): 1,770  Minimum Setback(feet) Front/Side/Rear:  105/42/42"
+																}
+															]
+														},
+														{
+															"number": "(12) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 150,000     Maximum Permitted Floor Area(square feet): 1,840  Minimum Setback(feet) Front/Side/Rear:  108/43/43"
+																}
+															]
+														},
+														{
+															"number": "(13) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 160,000     Maximum Permitted Floor Area(square feet): 1,910  Minimum Setback(feet) Front/Side/Rear:  112/45/45"
+																}
+															]
+														},
+														{
+															"number": "(14) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 170,000     Maximum Permitted Floor Area(square feet): 1,980  Minimum Setback(feet) Front/Side/Rear:  115/46/56"
+																}
+															]
+														},
+														{
+															"number": "(15) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 180,000    Maximum Permitted Floor Area(square feet):  2,050  Minimum Setback(feet) Front/Side/Rear:  119/48/48"
+																}
+															]
+														},
+														{
+															"number": "(16) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 190,000    Maximum Permitted Floor Area(square feet):  2,120  Minimum Setback(feet) Front/Side/Rear:  122/49/49"
+																}
+															]
+														},
+														{
+															"number": "(17) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 200,000    Maximum Permitted Floor Area(square feet):  2,190  Minimum Setback(feet) Front/Side/Rear:  125/50/50"
+																}
+															]
+														},
+														{
+															"number": "(18) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 250,000    Maximum Permitted Floor Area(square feet):  2,410  Minimum Setback(feet) Front/Side/Rear:  140/56/56"
+																}
+															]
+														},
+														{
+															"number": "(19) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 300,000    Maximum Permitted Floor Area(square feet):  2,630 Minimum Setback(feet) Front/Side/Rear:  153/61/61"
+																}
+															]
+														},
+														{
+															"number": "(20) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 350,000    Maximum Permitted Floor Area(square feet):  2,850  Minimum Setback(feet) Front/Side/Rear:  166/66/66"
+																}
+															]
+														},
+														{
+															"number": "(21) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 400,000    Maximum Permitted Floor Area(square feet):  3,070  Minimum Setback(feet) Front/Side/Rear:  177/71/71"
+																}
+															]
+														},
+														{
+															"number": "(22) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 500,000    Maximum Permitted Floor Area(square feet):  3,510  Minimum Setback(feet) Front/Side/Rear:  198/79/79"
+																}
+															]
+														},
+														{
+															"number": "(23) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 600,000    Maximum Permitted Floor Area(square feet):  3,950  Minimum Setback(feet) Front/Side/Rear:  217/87/87"
+																}
+															]
+														},
+														{
+															"number": "(24) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 700,000    Maximum Permitted Floor Area(square feet):  4,390  Minimum Setback(feet) Front/Side/Rear:  234/94/94"
+																}
+															]
+														},
+														{
+															"number": "(25) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 800,000    Maximum Permitted Floor Area(square feet):  4,830  Minimum Setback(feet) Front/Side/Rear:  250/100/100"
+																}
+															]
+														},
+														{
+															"number": "(26) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,000,000  Maximum Permitted Floor Area(square feet):  5,710  Minimum Setback(feet) Front/Side/Rear:  280/112/112"
+																}
+															]
+														},
+														{
+															"number": "(26) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,200,000  Maximum Permitted Floor Area(square feet):  6,590  Minimum Setback(feet) Front/Side/Rear:  307/123/123"
+																}
+															]
+														},
+														{
+															"number": "(28) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,400,000  Maximum Permitted Floor Area(square feet):  7,470  Minimum Setback(feet) Front/Side/Rear:  311/133/133"
+																}
+															]
+														},
+														{
+															"number": "(29) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 1,600,000  Maximum Permitted Floor Area(square feet):  8,350  Minimum Setback(feet) Front/Side/Rear:  354/142/142"
+																}
+															]
+														},
+														{
+															"number": "(30) ",
+															"content": [
+																{
+																	"text": "Lot Area(square feet): 2,000,000  Maximum Permitted Floor Area(square feet): 10,110  Minimum Setback(feet) Front/Side/Rear:  396/158/158"
 																}
 															]
 														}
 													]
-												}
-											]
-										},
-										{
-											"number": "(6) ",
-											"content": [
-												{
-													"text": "Governing limits and dimensions."
 												},
-												{
-													"content": [
 														{
-															"number": "(a) ",
 															"content": [
 																{
-																	"text": "Wherever the limitations set forth in this § 300-7D are more restrictive than the regulations of any other section of Article III of the Zoning Code of Old Brookville, the limitations set forth in this § 300-7D shall govern and control."
+																	"number": "(a) ",
+																	"content": [
+																		{
+																			"text": "Notwithstanding the minimum front setbacks as set forth in the\nforegoing table, no accessory building shall be located between the\nfront wall of the principal building and the front lot line. The total\naggregate lot coverage of all accessory buildings shall not exceed\n150% of the maximum floor area permitted for an accessory building\nas set forth in the foregoing table."
+																		}
+																	]
+																},
+																{
+																	"number": "(b) ",
+																	"content": [
+																		{
+																			"text": "For corner lots, the minimum front setback for principal buildings\nshall be provided from every street line for accessory buildings."
+																		}
+																	]
 																}
 															]
+														}
+													]
+												},
+												{
+													"number": "(6) ",
+													"content": [
+														{
+															"text": "Governing limits and dimensions."
 														},
 														{
-															"number": "(b) ",
 															"content": [
 																{
-																	"text": "Any building legally existing on the effective date of this\nsection with respect to the setbacks of such building may be altered\nor enlarged in such a manner that does not increase the nonconforming\nsetback subject to compliance with the other provisions of this chapter."
+																	"number": "(a) ",
+																	"content": [
+																		{
+																			"text": "Wherever the limitations set forth in this § 300-7D are more restrictive than the regulations of any other section of Article III of the Zoning Code of Old Brookville, the limitations set forth in this § 300-7D shall govern and control."
+																		}
+																	]
+																},
+																{
+																	"number": "(b) ",
+																	"content": [
+																		{
+																			"text": "Any building legally existing on the effective date of this\nsection with respect to the setbacks of such building may be altered\nor enlarged in such a manner that does not increase the nonconforming\nsetback subject to compliance with the other provisions of this chapter."
+																		}
+																	]
 																}
 															]
 														}
