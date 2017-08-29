@@ -108,7 +108,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "3000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -128,7 +128,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "4000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -148,7 +148,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "5000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -168,7 +168,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "6000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -188,7 +188,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "7000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -208,7 +208,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "8000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -228,7 +228,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "9000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -248,7 +248,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "10000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -268,7 +268,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "11000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -288,7 +288,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "12000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -308,7 +308,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "13000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -328,7 +328,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "14000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -348,7 +348,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "15000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -368,7 +368,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "16000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -388,7 +388,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "17000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -408,7 +408,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "18000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -428,7 +428,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "19000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -448,7 +448,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "20000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -468,7 +468,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "21000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -488,7 +488,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "22000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -508,7 +508,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "23000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -528,7 +528,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "24000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -548,7 +548,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "25000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -568,7 +568,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "26000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -588,7 +588,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "27000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -608,7 +608,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "28000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -628,7 +628,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "29000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -648,7 +648,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "30000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -668,7 +668,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "31000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -688,7 +688,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "32000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -708,7 +708,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "33000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -728,7 +728,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "34000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -748,7 +748,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "35000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -768,7 +768,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "36000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -788,7 +788,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "37000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -808,7 +808,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "38000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -828,7 +828,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "39000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -848,7 +848,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "40000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -868,7 +868,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "41000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -888,7 +888,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "42000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -908,7 +908,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "43000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -928,7 +928,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "44000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -948,7 +948,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "45000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -968,7 +968,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "46000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -988,7 +988,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "47000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1008,7 +1008,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "48000,48000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1028,7 +1028,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "49000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1048,7 +1048,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "50000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1068,7 +1068,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "51000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1088,7 +1088,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "52000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1108,7 +1108,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "53000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1128,7 +1128,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "54000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1148,7 +1148,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "55000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1168,7 +1168,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "56000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1188,7 +1188,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "57000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1208,7 +1208,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "58000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1228,7 +1228,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "59000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1248,7 +1248,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "60000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1268,7 +1268,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "61000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1288,7 +1288,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "62000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1308,7 +1308,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "63000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1328,7 +1328,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "64000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1348,7 +1348,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "65000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1368,7 +1368,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "66000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1388,7 +1388,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "67000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1408,7 +1408,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "68000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1428,7 +1428,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "69000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1448,7 +1448,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "70000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1468,7 +1468,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "71000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1488,7 +1488,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "72000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1508,7 +1508,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "73000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1528,7 +1528,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "74000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1548,7 +1548,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "75000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1568,7 +1568,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "76000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1588,7 +1588,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "77000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1608,7 +1608,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "78000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1628,7 +1628,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "79000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -1648,7 +1648,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
