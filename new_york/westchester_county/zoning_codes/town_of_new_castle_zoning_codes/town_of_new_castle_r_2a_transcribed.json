@@ -173,7 +173,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "87120,98010",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -193,7 +193,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "98010,108900",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -213,7 +213,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "108900,113256",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
@@ -233,7 +233,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "113256,196020",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
