@@ -223,7 +223,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
@@ -243,7 +243,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
@@ -268,7 +268,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
@@ -293,7 +293,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
@@ -318,7 +318,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
@@ -343,7 +343,7 @@
           {
             "key": "IF_LOT_AREA_IS",
             "value": "80000,inf",
-            "units": "FLAG"
+            "units": "FEET_SQUARE"
           },
           {
             "key": "ONE_FAMILY",
