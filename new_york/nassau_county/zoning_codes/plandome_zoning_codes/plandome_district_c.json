@@ -361,7 +361,95 @@
 															"content": [
 																{
 																	"text": "Lot Size of More than 12,000 and less than 23,999: Use FAR CalculationFormula(L=lot size in square feet; X=maximumFAR): 4,560 - .04(L)/11,999=X"
-																}
+																},
+																{
+																			"number": "(1) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 13,000(square feet): Maximum FAR .344   Maximum GFA(squarefeet) 4472"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(2) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 14,000(square feet): Maximum FAR .340   Maximum GFA(squarefeet) 4760"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(3) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 15,000(square feet): Maximum FAR .337  Maximum GFA(squarefeet) 5055"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(4) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 16,000(square feet): Maximum FAR .334  Maximum GFA(squarefeet) 5344"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(5) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 17,000(square feet): Maximum FAR .330  Maximum GFA(squarefeet) 5610"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(6) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 18,000(square feet): Maximum FAR .327  Maximum GFA(squarefeet) 5886"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(7) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 19,000(square feet): Maximum FAR .324  Maximum GFA(squarefeet) 6156"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(8) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 20,000(square feet): Maximum FAR .320  Maximum GFA(squarefeet) 6400"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(9) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 21,000(square feet): Maximum FAR .317  Maximum GFA(squarefeet) 7275"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(10) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 22,000(square feet): Maximum FAR .314  Maximum GFA(squarefeet) 6657"
+																				}
+																			]
+																		},
+																		{
+																			"number": "(11) ",
+																			"content": [
+																				{
+																					"text": "Lot Size: 23,000(square feet): Maximum FAR .310  Maximum GFA(squarefeet) 7130"
+																				}
+																			]
+																		}
 															]
 														},
 														{
