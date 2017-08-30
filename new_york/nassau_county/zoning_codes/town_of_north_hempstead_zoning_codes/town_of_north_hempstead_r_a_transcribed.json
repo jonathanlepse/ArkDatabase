@@ -283,7 +283,7 @@
     "clauseID": "@§70-323@A",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "FRONT",
@@ -298,7 +298,7 @@
         ]
       },
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "SIDE",
