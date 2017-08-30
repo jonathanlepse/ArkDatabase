@@ -48,7 +48,7 @@
     "clauseID": "@§146-12@A",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "FRONT",
@@ -68,7 +68,7 @@
     "clauseID": "@§146-12@B",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "SIDE",
@@ -88,7 +88,7 @@
     "clauseID": "@§146-12@C",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "REAR",
