@@ -88,7 +88,7 @@
     "clauseID": "@§140-4@C@a",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_RATIO_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_RATIO",
         "args": [
           {
             "key": "SIDE",
