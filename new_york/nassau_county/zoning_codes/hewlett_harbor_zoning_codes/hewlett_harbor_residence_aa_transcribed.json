@@ -288,7 +288,7 @@
     "clauseID": "@§145-101@A",
     "rules": [
       {
-        "rule": "HEIGHT_SETBACK_PLANE_FROM_PROPERTY_LINE",
+        "rule": "HEIGHT_SETBACK_PLANE",
         "args": [
           {
             "key": "FRONT",
