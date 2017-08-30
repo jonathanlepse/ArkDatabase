@@ -235,11 +235,667 @@
     ]
   },
   {
-    "clauseID": "@§175-15@A@10@b",
+    "clauseID": "@§175-15@A@10@b@1",
     "rules": [
       {
-        "rule": "CODE_CANNOT_BE_TRANSCRIBED",
-        "args": []
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".307",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "21000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "6447",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@2",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "22000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".304",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "22000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "6688",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@3",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "23000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".301",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "23000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "6923",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@4",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "24000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".298",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "24000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "7152",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@5",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "25000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".295",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "25000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "7375",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@6",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "26000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".292",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "26000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "7592",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@7",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "27000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".289",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "27000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "7803",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@8",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "28000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".286",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "28000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8008",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@9",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "29000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".283",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "29000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8207",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@10",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "30000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".280",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "30000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8400",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@11",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "31000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".277",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "31000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8587",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@12",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "32000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".274",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "32000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8768",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@13",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "33000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".271",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "33000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "8943",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@14",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "34000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".268",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "34000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9112",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@15",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "35000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".265",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "35000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9275",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@16",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "36000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".262",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "36000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9432",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@17",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "37000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".259",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "37000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9583",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@18",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "38000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".256",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "38000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9728",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§175-15@A@10@b@19",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "39000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": ".253",
+            "units": "NO_UNITS"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "39000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "9867",
+            "units": "FEET_SQUARE"
+          }
+        ]
       }
     ]
   },
