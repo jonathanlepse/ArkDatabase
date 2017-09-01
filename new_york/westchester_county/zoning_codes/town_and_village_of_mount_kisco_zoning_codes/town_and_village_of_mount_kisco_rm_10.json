@@ -2140,6 +2140,34 @@
 															"content": [
 																{
 																	"text": "Minimum building setback: Side One-Family Dwellings: 6 feet for one side yard, with a total of 16 feet for both side yards"
+																},
+																{
+																	"content": [
+																		{
+																			"number": "[a] ",
+																			"content": [
+																				{
+																					"text": "For lots 70 feet or greater in\nwidth: 10 feet."
+																				}
+																			]
+																		},
+																		{
+																			"number": "[b] ",
+																			"content": [
+																				{
+																					"text": "For lots with a width greater than\n60 feet but less than 70 feet: eight feet for one side yard, with\na total of 18 feet for both side yards."
+																				}
+																			]
+																		},
+																		{
+																			"number": "[c] ",
+																			"content": [
+																				{
+																					"text": "For lots with a width of less than\n60 feet: six feet for one side yard, with a total of 16 feet for both\nside yards."
+																				}
+																			]
+																		}
+																	]
 																}
 															]
 														},
