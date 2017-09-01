@@ -2131,7 +2131,7 @@
 															"number": "E. ",
 															"content": [
 																{
-																	"text": "Minimum building setback: Front: One-Family Dwellings: 25ft"
+																	"text": "Minimum building setback: Front: One-Family & Two_Family Dwellings: 25ft"
 																}
 															]
 														},
@@ -2139,7 +2139,7 @@
 															"number": "F. ",
 															"content": [
 																{
-																	"text": "Minimum building setback: Side One-Family Dwellings: 6 feet for one side yard, with a total of 16 feet for both side yards"
+																	"text": "Minimum building setback: One Family & Two_Family Dwellings:"
 																},
 																{
 																	"content": [
@@ -2175,7 +2175,7 @@
 															"number": "G. ",
 															"content": [
 																{
-																	"text": "Minimum building setback: Rear One-Family Dwellings: 30 feet for lots with a depth of 125 feet or greater; for lots with a depth of less than 125 feet, 30 feet minus one foot for every 2 1/2 feet that the lot depth is less than 125 feet, but in no case less than 20 feet"
+																	"text": "Minimum building setback: Rear One-Family & Two_Family Dwellings: 30 feet for lots with a depth of 125 feet or greater; for lots with a depth of less than 125 feet, 30 feet minus one foot for every 2 1/2 feet that the lot depth is less than 125 feet, but in no case less than 20 feet"
 																}
 															]
 														},
@@ -2183,7 +2183,7 @@
 															"number": "H. ",
 															"content": [
 																{
-																	"text": "Maximum height of principal structure: One-Family Dwellings: 2 1/2 stories or 35 feet, whichever is less"
+																	"text": "Maximum height of principal structure: One-Family & Two_Family Dwellings: 2 1/2 stories or 35 feet, whichever is less"
 																}
 															]
 														}

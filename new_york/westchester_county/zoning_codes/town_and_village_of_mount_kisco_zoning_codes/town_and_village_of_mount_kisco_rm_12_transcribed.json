@@ -521,21 +521,6 @@
             "units": "FEET"
           },
           {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "10",
             "units": "FEET"
@@ -556,21 +541,6 @@
             "units": "FEET"
           },
           {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "8",
             "units": "FEET"
@@ -584,21 +554,6 @@
             "key": "IF_LOT_WIDTH_IS",
             "value": "60,70",
             "units": "FEET"
-          },
-          {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
           },
           {
             "key": "MIN",
@@ -621,21 +576,6 @@
             "units": "FEET"
           },
           {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
             "key": "MIN",
             "value": "6",
             "units": "FEET"
@@ -649,21 +589,6 @@
             "key": "IF_LOT_WIDTH_IS",
             "value": "0,60",
             "units": "FEET"
-          },
-          {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
           },
           {
             "key": "MIN",
