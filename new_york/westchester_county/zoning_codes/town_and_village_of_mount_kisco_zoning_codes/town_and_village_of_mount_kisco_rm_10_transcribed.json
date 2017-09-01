@@ -45,45 +45,360 @@
     ]
   },
   {
-    "clauseID": "@§110-12@C@1@B",
+    "clauseID": "@§110-12@C@1@B@1",
     "rules": [
       {
         "rule": "LOT_COVERAGE",
         "args": [
           {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "ONE_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
+            "key": "IF_LOT_AREA_IS",
+            "value": "0,4999",
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
-            "value": "40",
+            "value": "25",
             "units": "PERCENTAGE"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@2",
+    "rules": [
       {
         "rule": "LOT_COVERAGE",
         "args": [
           {
-            "key": "DETACHED",
-            "value": "TRUE",
-            "units": "FLAG"
-          },
-          {
-            "key": "TWO_FAMILY",
-            "value": "TRUE",
-            "units": "FLAG"
+            "key": "IF_LOT_AREA_IS",
+            "value": "5000",
+            "units": "FEET_SQUARE"
           },
           {
             "key": "MAX",
-            "value": "50",
-            "units": "PERCENTAGE"
+            "value": "1250",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@3",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "5500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1370",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@4",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "6000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1490",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@5",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "6500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1605",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@6",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "7000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1720",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@7",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "7500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1830",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@8",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "8000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "1940",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@9",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "8500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2045",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@10",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "9000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2150",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@11",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "9500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2250",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@12",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "10000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2350",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@13",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "10500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2450",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@14",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "11000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2250",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@15",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "11500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2650",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@16",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "12000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2750",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@17",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "12500",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2850",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-12@C@1@B@18",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "IF_LOT_AREA_IS",
+            "value": "13000",
+            "units": "FEET_SQUARE"
+          },
+          {
+            "key": "MAX",
+            "value": "2950",
+            "units": "FEET_SQUARE"
           }
         ]
       }

@@ -180,11 +180,116 @@
     ]
   },
   {
+    "clauseID": "@§110-14@C@1@g@[3]@[a]",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "70,inf",
+            "units": "FEET"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "10",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§110-14@C@1@g@[3]@[b]",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "60,70",
+            "units": "FEET"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "8",
+            "units": "FEET"
+          }
+        ]
+      },
+      {
+        "rule": "SIDE_YARD_AGGREGATE_SETBACK",
+        "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "60,70",
+            "units": "FEET"
+          },
+          {
+            "key": "DETACHED",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "ONE_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "TWO_FAMILY",
+            "value": "TRUE",
+            "units": "FLAG"
+          },
+          {
+            "key": "MIN",
+            "value": "18",
+            "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "clauseID": "@§110-14@C@1@g@[3]@[c]",
     "rules": [
       {
         "rule": "SIDE_YARD_SETBACK",
         "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,60",
+            "units": "FEET"
+          },
           {
             "key": "DETACHED",
             "value": "TRUE",
@@ -210,6 +315,11 @@
       {
         "rule": "SIDE_YARD_AGGREGATE_SETBACK",
         "args": [
+          {
+            "key": "IF_LOT_WIDTH_IS",
+            "value": "0,60",
+            "units": "FEET"
+          },
           {
             "key": "DETACHED",
             "value": "TRUE",
