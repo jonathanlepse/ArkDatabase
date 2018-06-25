@@ -600,6 +600,42 @@
           ]
         }
       ]
+    },
+    {
+      "paragraph": "§ 271-232",
+      "title": "Front yard limitations.",
+      "content": [
+        {
+          "text": "The limitations for the front yard are as follows: Height/Setback Ratio: 0.5"
+        }
+      ]
+    },
+    {
+      "paragraph": "§ 271-233",
+      "title": "Side yard limitations.",
+      "content": [
+        {
+          "text": "The limitations for the side yard are as follows: Height/Setback Ratio: 1.1"
+        }
+      ]
+    },
+    {
+      "paragraph": "§ 271-234",
+      "title": "Rear yard limitations.",
+      "content": [
+        {
+          "text": "The limitations for rear yard are as follows: Height/Setback Ratio: 0.75"
+        }
+      ]
+    },
+    {
+      "paragraph": "§ 271-235",
+      "title": "Floor area ratios and maximums.",
+      "content": [
+        {
+          "text": "The maximum floor area ratios and allowable floor areas shall not exceed the following limits: Floor Area Ratio (F.A.R.): 0.15. Maximum Allowable Floor Area (square feet): 7,000"
+        }
+      ]
     }
   ]
 }

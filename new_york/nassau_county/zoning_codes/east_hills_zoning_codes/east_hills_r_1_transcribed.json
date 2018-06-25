@@ -150,7 +150,7 @@
     ]
   },
   {
-    "clauseID": "§271-36",
+    "clauseID": "@§271-36",
     "rules": [
       {
         "rule": "REAR_YARD_COVERAGE",
@@ -161,12 +161,7 @@
             "units": "PERCENTAGE"
           }
         ]
-      }
-    ]
-  },
-  {
-    "clauseID": "§271-36",
-    "rules": [
+      },
       {
         "rule": "DISTANCE_FROM_MAIN_STRUCTURE",
         "args": [
@@ -209,6 +204,76 @@
             "key": "MIN",
             "value": "15",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-232",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.6",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-233",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "1.2",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-234",
+    "rules": [
+      {
+        "rule": "REAR_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.75",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-235",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "36",
+            "units": "PERCENTAGE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "6100",
+            "units": "FEET_SQUARE"
           }
         ]
       }

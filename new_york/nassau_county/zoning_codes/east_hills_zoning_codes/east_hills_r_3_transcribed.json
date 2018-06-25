@@ -223,5 +223,75 @@
         ]
       }
     ]
+  },
+  {
+    "clauseID": "@§271-232",
+    "rules": [
+      {
+        "rule": "FRONT_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.7",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-233",
+    "rules": [
+      {
+        "rule": "SIDE_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "1.8",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-234",
+    "rules": [
+      {
+        "rule": "REAR_YARD_HEIGHT_SETBACK_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "0.85",
+            "units": "VERTICAL_UNIT(S)_TO_ONE_HORIZONTAL_UNIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§271-235",
+    "rules": [
+      {
+        "rule": "FLOOR_AREA_RATIO",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "40",
+            "units": "PERCENTAGE"
+          }
+        ]
+      },
+      {
+        "rule": "FLOOR_AREA",
+        "args": [
+          {
+            "key": "MAX",
+            "value": "3600",
+            "units": "FEET_SQUARE"
+          }
+        ]
+      }
+    ]
   }
 ]
