@@ -2,47 +2,542 @@
   "url": "http://www.lawrencetwp.com/documents/luo/LUO_Current_2014.pdf",
   "paras": [
     {
-      "paragraph": "§ 407",
-      "title": "Residential 4 (R-4) District.",
-      "content":
-      [
+      "paragraph": "§-406",
+      "title": "Residential 3 (R-3) District.",
+      "content": [
         {
-          "number": "E_1_a",
+          "number": "A",
           "content": [
             {
-              "text": " Minimum lot area: 7,500 feet"
+              "text": "Purpose. The Residential 3 district is intended primarily for singe family detached dwellings on lots of 9,000 square feet or larger. [Ord. 1922-07] "
             }
           ]
         },
         {
-          "number": "E_1_b",
+          "number": "B",
           "content": [
             {
-              "text": " Minimum lot frontage: 60 feet"
+              "text": "Permitted Uses. In the Residential 3 zone, no lot shall be used and no structure shall be erected, altered or occupied for any purpose except the following:"
+            },
+            {
+              "number": "1",
+              "content": [
+                {
+                  "text": "Single family detached dwelling."
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": [
+                {
+                  "text": "Semi-detached dwelling in existence or approved as of March 20, 2007. [Ord. 1922-07]"
+                }
+              ]
+            },
+            {
+              "number": "3",
+              "content": [
+                {
+                  "text": "Public parks and recreation."
+                }
+              ]
+            },
+            {
+              "number": "4",
+              "content": [
+                {
+                  "text": "Conservation."
+                }
+              ]
+            },
+            {
+              "number": "5",
+              "content": [
+                {
+                  "text": "Municipal use."
+                }
+              ]
             }
           ]
         },
         {
-          "number": "E_1_c",
+          "number": "C",
           "content": [
             {
-              "text": " Minimum front yard: 30 feet"
+              "text": "Accessory Uses Permitted. Any of the following uses may be permitted when used in conjunction with a principal use and conforming to the applicable subsection in §428:"
+            },
+            {
+              "number": "1",
+              "content": [
+                {
+                  "text": "Private residential swimming pool and cabana."
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": [
+                {
+                  "text": "Private residential tool shed."
+                }
+              ]
+            },
+            {
+              "number": "3",
+              "content": [
+                {
+                  "text": "Recreational vehicle storage."
+                }
+              ]
+            },
+            {
+              "number": "4",
+              "content": [
+                {
+                  "text": "Outdoor recreational facilities, including tennis or other court sports."
+                }
+              ]
+            },
+            {
+              "number": "5",
+              "content": [
+                {
+                  "text": "Off-street parking and private garage."
+                }
+              ]
+            },
+            {
+              "number": "6",
+              "content": [
+                {
+                  "text": "Fences and walls."
+                }
+              ]
+            },
+            {
+              "number": "7",
+              "content": [
+                {
+                  "text": "Deck/patio. [Ord. 1585-99, 9/7/1999]"
+                }
+              ]
+            },
+            {
+              "number": "8",
+              "content": [
+                {
+                  "text": "Signs."
+                }
+              ]
+            },
+            {
+              "number": "9",
+              "content": [
+                {
+                  "text": "Home occupation."
+                }
+              ]
+            },
+            {
+              "number": "10",
+              "content": [
+                {
+                  "text": "Accessory apartment pursuant to §428.A. [Ord. 1585-99, 9/7/1999]"
+                }
+              ]
+            },
+            {
+              "number": "11",
+              "content": [
+                {
+                  "text": "Satellite dish and television antennae."
+                }
+              ]
+            },
+            {
+              "number": "12",
+              "content": [
+                {
+                  "text": "Accessory uses customarily incidental to a principal use."
+                }
+              ]
             }
           ]
         },
         {
-          "number": "E_1_d",
+          "number": "D",
           "content": [
             {
-              "text": " Minimum side yard: 10 feet"
+              "text": "Conditional Uses Permitted. The following uses may be permitted when authorized as a conditional use by the Planning Board in accordance with §429 and §705:"
+            },
+            {
+              "number": "1",
+              "content": [
+                {
+                  "text": "Public and private day school."
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": [
+                {
+                  "text": "House of worship."
+                }
+              ]
+            },
+            {
+              "number": "3",
+              "content": [
+                {
+                  "text": "Day care center. [Ord. 1585-99, 9/7/1999]"
+                }
+              ]
             }
           ]
         },
         {
-          "number": "E_1_e",
+          "number": "E",
           "content": [
             {
-              "text": " Minimum rear yard: 35 feet"
+              "text": "Area, Yard, Height and Building Coverage. Except as otherwise modified, the following bulk standards shall apply to all buildings [Ord.1920-07, 2/26/2007]:"
+            },
+            {
+              "number": "1",
+              "content": [
+                {
+                  "text": "Single family detached residential uses:"
+                },
+                {
+                  "number": "a",
+                  "content": [
+                    {
+                      "text": "Minimum lot area: 9,000 sf"
+                    }
+                  ]
+                },
+                {
+                  "number": "b",
+                  "content": [
+                    {
+                      "text": "Minimum lot frontage: 75 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "c",
+                  "content": [
+                    {
+                      "text": "Minimum front yard: 35 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "d",
+                  "content": [
+                    {
+                      "text": "Minimum side yard: 10 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "e",
+                  "content": [
+                    {
+                      "text": "Minimum rear yard: 35 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "f",
+                  "content": [
+                    {
+                      "text": "Maximum impervious surface ratio: .50"
+                    }
+                  ]
+                },
+                {
+                  "number": "g",
+                  "content": [
+                    {
+                      "text": "Minimum useable yard area: 20% of each yard"
+                    }
+                  ]
+                },
+                {
+                  "number": "h",
+                  "content": [
+                    {
+                      "text": "Neighborhood context distance: 500 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "i",
+                  "content": [
+                    {
+                      "text": "Maximum square footage of living area (SFLA): 2.0 times the average SFLA of the Neighborhood Context"
+                    }
+                  ]
+                },
+                {
+                  "number": "j",
+                  "content": [
+                    {
+                      "text": "Maximum ratio of SFLA to lot area: 2.0 times the average ratio of SFLA to lot area for the Neighborhood Context"
+                    }
+                  ]
+                },
+                {
+                  "number": "k",
+                  "content": [
+                    {
+                      "text": "The requirements of subparagraphs -(i) and -(j) above are not applicable to renovation or rehabilitation of existing residential buildings provided that the improvements do not create additional SFLA which exceeds the lesser of 40% of the pre-existing SFLA of the property or 750 SFLA."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": [
+                {
+                  "text": "Semi-detached residential uses:"
+                },
+                {
+                  "number": "a",
+                  "content": [
+                    {
+                      "text": "Minimum lot area: 15,000 sf total, 7,500 sf each unit"
+                    }
+                  ]
+                },
+                {
+                  "number": "b",
+                  "content": [
+                    {
+                      "text": "Minimum lot frontage: 50 feet, each unit"
+                    }
+                  ]
+                },
+                {
+                  "number": "c",
+                  "content": [
+                    {
+                      "text": "Minimum front yard: 35 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "d",
+                  "content": [
+                    {
+                      "text": "Minimum side yard: 15 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "e",
+                  "content": [
+                    {
+                      "text": "Minimum rear yard: 35 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "f",
+                  "content": [
+                    {
+                      "text": "Maximum impervious surface ratio: .50"
+                    }
+                  ]
+                },
+                {
+                  "number": "g",
+                  "content": [
+                    {
+                      "text": "Minimum useable yard area: 20% of each yard"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "3",
+              "content": [
+                {
+                  "text": "Semi-detached residential uses:"
+                },
+                {
+                  "number": "a",
+                  "content": [
+                    {
+                      "text": "Minimum lot area: 60,000 sf"
+                    }
+                  ]
+                },
+                {
+                  "number": "b",
+                  "content": [
+                    {
+                      "text": "Minimum lot frontage: 150 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "c",
+                  "content": [
+                    {
+                      "text": "Minimum front yard: 50 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "d",
+                  "content": [
+                    {
+                      "text": "Minimum side yard: 40 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "e",
+                  "content": [
+                    {
+                      "text": "Minimum rear yard: 50 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "f",
+                  "content": [
+                    {
+                      "text": "Minimum useable yard area: 20% of each yard"
+                    }
+                  ]
+                },
+                {
+                  "number": "g",
+                  "content": [
+                    {
+                      "text": "Maximum impervious surface ratio: .50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "4",
+              "content": [
+                {
+                  "text": "Maximum Building Height: [Ord. 1585-99, 9/7/1999]"
+                },
+                {
+                  "number": "a",
+                  "content": [
+                    {
+                      "text": "Principal use, excepting religious use: 35 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "b",
+                  "content": [
+                    {
+                      "text": "House of Worship:"
+                    },
+                    {
+                      "number": "(1)",
+                      "content": [
+                        {
+                          "text": "Principal building 45 feet"
+                        }
+                      ]
+                    },
+                    {
+                      "number": "(2)",
+                      "content": [
+                        {
+                          "text": "Structure above principal roof 80 feet"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "number": "c",
+                  "content": [
+                    {
+                      "text": "Garage: 20 feet"
+                    }
+                  ]
+                },
+                {
+                  "number": "d",
+                  "content": [
+                    {
+                      "text": "Other accessory buildings: 15 feet"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "5",
+              "content": [
+                {
+                  "text": "Accessory Buildings and Uses. The following regulations shall apply to accessory buildings and uses:"
+                },
+                {
+                  "number": "a",
+                  "content": [
+                    {
+                      "text": "No accessory building or use shall be located in a front yard."
+                    }
+                  ]
+                },
+                {
+                  "number": "b",
+                  "content": [
+                    {
+                      "text": "Accessory building property line setbacks:"
+                    },
+                    {
+                      "number": "(1)",
+                      "content": [
+                        {
+                          "text": "Lots one acre or larger: A distance > to the structure's height, but not less than 15 feet"
+                        }
+                      ]
+                    },
+                    {
+                      "number": "(2)",
+                      "content": [
+                        {
+                          "text": "Lots of 15,000 square feet to < one acre: 15 feet"
+                        }
+                      ]
+                    },
+                    {
+                      "number": "(3)",
+                      "content": [
+                        {
+                          "text": "Lots < 15,000 square feet: 5 feet"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "number": "c",
+                  "content": [
+                    {
+                      "text": "Other accessory uses shall conform to the yard requirements for the principal building, except as otherwise modified by this Ordinance."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
