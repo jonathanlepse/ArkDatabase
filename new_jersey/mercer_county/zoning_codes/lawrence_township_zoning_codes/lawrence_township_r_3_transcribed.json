@@ -1,13 +1,13 @@
 [
   {
-    "clauseID": "@§407@E_1_a",
+    "clauseID": "@§-406@E@1@a",
     "rules": [
       {
         "rule": "LOT_AREA",
         "args": [
           {
             "key": "MIN",
-            "value": "7500",
+            "value": "9000",
             "units": "FEET_SQUARE"
           }
         ]
@@ -15,14 +15,14 @@
     ]
   },
   {
-    "clauseID": "@§407@E_1_b",
+    "clauseID": "@§-406@E@1@b",
     "rules": [
       {
-        "rule": "FRONTAGE",
+        "rule": "LOT_WIDTH",
         "args": [
           {
             "key": "MIN",
-            "value": "60",
+            "value": "75",
             "units": "FEET"
           }
         ]
@@ -30,14 +30,14 @@
     ]
   },
   {
-    "clauseID": "@§407@E_1_c",
+    "clauseID": "@§-406@E@1@c",
     "rules": [
       {
         "rule": "FRONT_YARD_SETBACK",
         "args": [
           {
             "key": "MIN",
-            "value": "30",
+            "value": "35",
             "units": "FEET"
           }
         ]
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "clauseID": "@§407@E_1_d",
+    "clauseID": "@§-406@E@1@d",
     "rules": [
       {
         "rule": "SIDE_YARD_SETBACK",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "clauseID": "@§407@E_1_e",
+    "clauseID": "@§-406@E@1@e",
     "rules": [
       {
         "rule": "REAR_YARD_SETBACK",
@@ -69,6 +69,21 @@
             "key": "MIN",
             "value": "35",
             "units": "FEET"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clauseID": "@§-406@E@1@g",
+    "rules": [
+      {
+        "rule": "LOT_COVERAGE",
+        "args": [
+          {
+            "key": "MIN",
+            "value": "20",
+            "units": "PERCENTAGE"
           }
         ]
       }
