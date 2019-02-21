@@ -1,0 +1,124 @@
+{
+  "url": "http://clerkshq.com/default.ashx?clientsite=princeton-nj",
+  "paras": [
+    {
+      "paragraph": "Sec. 10B-244. R-5",
+      "title": "Residence District No. 5",
+      "content":
+      [
+        {
+          "number": "1",
+          "content": [
+            {
+              "text": " Required Lot Area (Min. Acre) 1/2 (Min. Sq. Ft.) 21,780"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "content": [
+            {
+              "text": " Required Lot Width (Min. Ft.) 100"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "content": [
+            {
+              "text": " Required Lot Depth: (Min. Ft.) 100"
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "content": [
+            {
+              "text": " Required Lot Frontage: (Min. Ft.) 100"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "content": [
+            {
+              "text": " Required Bldg. Setback Front (Min. Ft.) 25 (t)"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "content": [
+            {
+              "text": " Required Bldg. Setback Side (Min. Ft.) 15"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "content": [
+            {
+              "text": " Required Bldg. Setback Combined Side (Min. Ft.) (na)"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "content": [
+            {
+              "text": " Required Bldg. Setback Combined Rear (Min. Ft.) 15"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "content": [
+            {
+              "text": " Permitted Bldg. Height (Max. Ft.) (na)"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "content": [
+            {
+              "text": " Bldg. Setback-Height Ratio 1:1"
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "content": [
+            {
+              "text": " Permitted Building. F.A.R. (Max. %) 20"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "content": [
+            {
+              "text": " Required Parking Setback Front (Min.Ft.) 25(b) 25(c)"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "content": [
+            {
+              "text": " Required Parking Setback Side (Min.Ft.) 15(b) 8(c)"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "content": [
+            {
+              "text": " Required Parking Setback Rear (Min.Ft.) 15(b) 8(c)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
